@@ -16,7 +16,7 @@
             <Dependency>binutils</Dependency>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
-            <Dependency>kodi</Dependency>
+            <Dependency>kcalc</Dependency>
         </BuildDependencies>
     </Source>
 
