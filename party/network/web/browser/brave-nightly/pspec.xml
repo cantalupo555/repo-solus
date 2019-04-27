@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>brave-nightly</Name>
+        <Homepage>https://brave.com</Homepage>
+        <Packager>
+            <Name>Italo Cantalupo</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <Summary>Brave Nightly Web Browser</Summary>
+        <Description>Brave Nightly Web Browser</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="1a2a8e91d104943a387ae2c7fa37086c8dea5e2a" type="binary">http://192.168.27.122/brave-browser-nightly_0.66.30_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>kodi</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>brave-nightly</Name>
+        <Icon>brave-nightly</Icon>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>26-04-2019</Date>
+            <Version>0.66.30</Version>
+            <Comment>Add Brave Nightly</Comment>
+            <Name>Italo Cantalupo</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>
