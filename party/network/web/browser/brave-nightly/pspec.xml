@@ -10,12 +10,10 @@
         </Packager>
         <Summary>Brave Nightly Web Browser</Summary>
         <Description>Brave Nightly Web Browser</Description>
-        <License>Proprietary</License>
+        <License>https://github.com/brave/brave-browser/blob/master/LICENSE</License>
         <Archive sha1sum="1a2a8e91d104943a387ae2c7fa37086c8dea5e2a" type="binary">http://192.168.27.122/brave-browser-nightly_0.66.30_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
-            <Dependency>libxscrnsaver</Dependency>
-            <Dependency>gconf</Dependency>
         </BuildDependencies>
     </Source>
 
@@ -28,7 +26,6 @@
         <RuntimeDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
-            <Dependency>kcalc</Dependency>
         </RuntimeDependencies>
     </Package>
 
