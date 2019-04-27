@@ -16,7 +16,6 @@
             <Dependency>binutils</Dependency>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
-            <Dependency>kcalc</Dependency>
         </BuildDependencies>
     </Source>
 
