@@ -29,6 +29,7 @@
         <RuntimeDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
+            <Dependency>kcalc</Dependency>
         </RuntimeDependencies>
     </Package>
 
