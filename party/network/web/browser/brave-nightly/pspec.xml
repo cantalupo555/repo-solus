@@ -26,15 +26,14 @@
         <Icon>brave-browser-nightly</Icon>
         <PartOf>network.web.browser</PartOf>
         <Files>
-            <!-- <Path fileType="*">/</Path> -->
             <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/opt/brave.com</Path>
             <Path fileType="data">/usr/share/appdata</Path>
             <Path fileType="data">/usr/share/applications</Path>
             <Path fileType="data">/usr/share/brave</Path>
             <Path fileType="data">/usr/share/menu</Path>
             <Path fileType="data">/usr/share/pixmaps</Path>
             <Path fileType="data">/usr/share/gnome-control-center</Path>
-            <Path fileType="data">/opt/brave.com/brave-nightly</Path>
             <Path fileType="config">/etc/cron.daily</Path>
             <Path fileType="doc">/usr/share/doc</Path>
             <Path fileType="man">/usr/share/man</Path>

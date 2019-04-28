@@ -2,7 +2,7 @@
 <!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>brave-beta</Name>
+        <Name>brave-browser-beta</Name>
         <Homepage>https://brave.com</Homepage>
         <Packager>
             <Name>Italo Cantalupo</Name>
@@ -22,19 +22,21 @@
     </Source>
 
     <Package>
-        <Name>brave-beta</Name>
-        <Icon>brave-beta</Icon>
+        <Name>brave-browser-beta</Name>
+        <Icon>brave-browser-beta</Icon>
         <PartOf>network.web.browser</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin/brave-browser-beta</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/opt/brave.com</Path>
             <Path fileType="data">/usr/share/appdata</Path>
             <Path fileType="data">/usr/share/applications</Path>
-            <Path fileType="data">/usr/share/brave*</Path>
+            <Path fileType="data">/usr/share/brave</Path>
             <Path fileType="data">/usr/share/menu</Path>
             <Path fileType="data">/usr/share/pixmaps</Path>
-            <Path fileType="data">/usr/share/gnome-control-center/default-apps</Path>
-            <Path fileType="doc">/usr/share/doc/brave-browser-beta</Path>
-            <Path fileType="man">/usr/share/man/man1/brave-browser-beta.1.gz</Path>
+            <Path fileType="data">/usr/share/gnome-control-center</Path>
+            <Path fileType="config">/etc/cron.daily</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="man">/usr/share/man</Path>
         </Files>
         <RuntimeDependencies>
             <Dependency>libxscrnsaver</Dependency>
