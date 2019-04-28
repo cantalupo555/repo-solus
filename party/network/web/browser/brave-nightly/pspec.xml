@@ -34,8 +34,9 @@
             <Path fileType="data">/usr/share/menu</Path>
             <Path fileType="data">/usr/share/pixmaps</Path>
             <Path fileType="data">/usr/share/gnome-control-center</Path>
+            <Path fileType="data">/opt/brave.com/brave-nightly</Path>
             <Path fileType="doc">/usr/share/doc</Path>
-            <Path fileType="man">/usr/share/man</Path>           
+            <Path fileType="man">/usr/share/man</Path>
         </Files>
         <RuntimeDependencies>
             <Dependency>libxscrnsaver</Dependency>
