@@ -31,7 +31,7 @@
         </Files>
         <RuntimeDependencies>
             <Dependency>gconf</Dependency>
-            <Dependency>libnotify4</Dependency>
+            <Dependency>libnotify</Dependency>
             <Dependency>libappindicator</Dependency>
             <Dependency>libxtst</Dependency>
             <Dependency>libnss</Dependency>

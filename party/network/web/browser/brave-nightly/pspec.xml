@@ -8,8 +8,8 @@
             <Name>Italo Cantalupo</Name>
             <Email>cantalupo@protonmail.com</Email>
         </Packager>
-        <Summary>Brave Nightly Web Browser.</Summary>
-        <Description>Browse faster by blocking ads and trackers that violate your privacy and cost you time and money.</Description>
+        <Summary>Brave Nightly Web Browser</Summary>
+        <Description>Browse faster by blocking ads and trackers that violate your privacy and cost you time and money</Description>
         <License>MPL-2.0</License>
         <License>GPL-3.0-or-later</License>
         <License>GPL-2.0-or-later</License>
