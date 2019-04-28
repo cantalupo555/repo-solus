@@ -1,6 +1,6 @@
 # repo-solus
 
-## Packages list
+## Packages List
 
 | Package Name | Version | Last Change | Download |
 | --- | --- | --- | --- |
@@ -10,12 +10,12 @@
 | xmind-zen | 201807162014 | 28/04/2019 | [DOWNLOAD](https://github.com/cantalupo555/repo-solus/raw/master/packages/xmind-zen-201807162014-1-1-x86_64.eopkg)
 | master-pdf-editor | 5.4.04 | 28/04/2019 | [DOWNLOAD](https://github.com/cantalupo555/repo-solus/raw/master/packages/master-pdf-editor-5.4.04-1-1-x86_64.eopkg)
 
-## How Install
+## Install
 
 ```bash
 sudo eopkg it FILE
 ```
 
-## A problem ?
+## A problem?
 
 Please fill a report [here](https://github.com/cantalupo555/repo-solus/issues/new)
