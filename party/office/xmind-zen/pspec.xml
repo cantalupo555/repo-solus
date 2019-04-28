@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>xmind-zen</Name>
+        <Homepage>https://www.xmind.net</Homepage>
+        <Packager>
+            <Name>Italo Cantalupo</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <Summary>XMind ZEN.</Summary>
+        <Description>The Most Popular Mind Mapping Software on The Planet.</Description>
+        <License>Proprietary</License>
+        <License>https://www.xmind.net/license/xpla/</License>
+        <PartOf>office</PartOf>
+        <Archive sha1sum="2bee4b959431b78a6122d913f28424fa8044cbfb" type="binary">https://www.xmind.net/xmind/downloads/XMind-ZEN-for-Linux-64bit.deb</Archive>
+        <BuildDependencies>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>xmind-zen</Name>
+        <Icon>xmind-zen</Icon>
+        <PartOf>office</PartOf>
+        <Files>
+            <Path fileType="executable">/opt</Path>
+            <Path fileType="data">/usr/share/icons</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>gconf</Dependency>
+            <Dependency>libnotify4</Dependency>
+            <Dependency>libappindicator</Dependency>
+            <Dependency>libxtst</Dependency>
+            <Dependency>libnss</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>28-04-2019</Date>
+            <Version>0.66.30</Version>
+            <Comment>Add XMind ZEN</Comment>
+            <Name>Italo Cantalupo</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>
