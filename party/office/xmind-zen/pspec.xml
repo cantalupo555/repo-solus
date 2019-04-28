@@ -8,8 +8,8 @@
             <Name>Italo Cantalupo</Name>
             <Email>cantalupo@protonmail.com</Email>
         </Packager>
-        <Summary>XMind ZEN.</Summary>
-        <Description>The Most Popular Mind Mapping Software on The Planet.</Description>
+        <Summary>XMind ZEN</Summary>
+        <Description>The Most Popular Mind Mapping Software on The Planet</Description>
         <License>Proprietary</License>
         <License>https://www.xmind.net/license/xpla/</License>
         <PartOf>office</PartOf>

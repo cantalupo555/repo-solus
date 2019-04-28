@@ -13,5 +13,5 @@ def setup():
 	shelltools.system("tar xf data.tar.xz")
 
 def install():
-	pisitools.insinto("/", "etc")
 	pisitools.insinto("/", "opt")
+	pisitools.insinto("/", "usr")
