@@ -35,6 +35,7 @@
             <Path fileType="data">/usr/share/pixmaps</Path>
             <Path fileType="data">/usr/share/gnome-control-center</Path>
             <Path fileType="data">/opt/brave.com/brave-nightly</Path>
+            <Path fileType="config">/etc/cron.daily</Path>
             <Path fileType="doc">/usr/share/doc</Path>
             <Path fileType="man">/usr/share/man</Path>
         </Files>
