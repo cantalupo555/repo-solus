@@ -2,24 +2,24 @@
 <!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>brave-nightly</Name>
+        <Name>brave-dev</Name>
         <Homepage>https://brave.com</Homepage>
         <Packager>
             <Name>Italo Cantalupo</Name>
             <Email>cantalupo@protonmail.com</Email>
         </Packager>
-        <Summary>Brave Nightly Web Browser.</Summary>
+        <Summary>Brave Dev Web Browser.</Summary>
         <Description>Browse faster by blocking ads and trackers that violate your privacy and cost you time and money.</Description>
         <License>https://github.com/brave/brave-browser/blob/master/LICENSE</License>
-        <Archive sha1sum="1a2a8e91d104943a387ae2c7fa37086c8dea5e2a" type="binary">https://github.com/brave/brave-browser/releases/download/v0.66.30/brave-browser-nightly_0.66.30_amd64.deb</Archive>
+        <Archive sha1sum="19cbdaea9674f0d119d6e02e2d24675057a1acf3" type="binary">https://github.com/brave/brave-browser/releases/download/v0.65.78/brave-browser-dev_0.65.78_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>binutils</Dependency>
         </BuildDependencies>
     </Source>
 
     <Package>
-        <Name>brave-nightly</Name>
-        <Icon>brave-nightly</Icon>
+        <Name>brave-dev</Name>
+        <Icon>brave-dev</Icon>
         <Files>
             <Path fileType="*">/</Path>
         </Files>
@@ -33,7 +33,7 @@
         <Update release="1">
             <Date>27-04-2019</Date>
             <Version>0.66.30</Version>
-            <Comment>Add Brave Nightly</Comment>
+            <Comment>Add Brave Dev</Comment>
             <Name>Italo Cantalupo</Name>
             <Email>cantalupo@protonmail.com</Email>
         </Update>
