@@ -2,7 +2,7 @@
 <!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>brave-nightly</Name>
+        <Name>brave-browser-nightly</Name>
         <Homepage>https://brave.com</Homepage>
         <Packager>
             <Name>Italo Cantalupo</Name>
@@ -22,10 +22,11 @@
     </Source>
 
     <Package>
-        <Name>brave-nightly</Name>
-        <Icon>brave-nightly</Icon>
+        <Name>brave-browser-nightly</Name>
+        <Icon>brave-browser-nightly</Icon>
         <PartOf>network.web.browser</PartOf>
         <Files>
+            <Path fileType="*">/</Path>
             <Path fileType="executable">/usr/bin/brave-browser-nightly</Path>
             <Path fileType="data">/usr/share/appdata</Path>
             <Path fileType="data">/usr/share/applications</Path>
