@@ -1,6 +1,6 @@
 # repo-solus
 
-## Adding the repo
+## Adding the Repository
 
 `sudo eopkg add-repo Cantalupo https://solus.cantalupo.com.br/eopkg-index.xml.xz`
  
