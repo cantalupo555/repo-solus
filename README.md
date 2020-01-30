@@ -1,5 +1,21 @@
 # repo-solus
 
+## Adding the repo
+
+`sudo eopkg add-repo SolusBR https://github.com/cantalupo555/teste-repo/raw/master/packages/eopkg-index.xml.xz`
+ 
+## Enabling the Repository
+
+`sudo eopkg enable-repo SolusBR`
+
+## Removing the Repository
+
+`sudo eopkg remove-repo SolusBR`
+
+## Disabling the Repository
+
+`sudo eopkg disable-repo SolusBR`
+
 ## Packages List
 
 | Package Name | Version | Last Change | Download |
