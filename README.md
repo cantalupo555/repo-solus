@@ -2,11 +2,11 @@
 
 ## Adding the repo
 
-`sudo eopkg add-repo SolusCantalupo https://solus.cantalupo.com.br/eopkg-index.xml.xz`
+`sudo eopkg add-repo Cantalupo https://solus.cantalupo.com.br/eopkg-index.xml.xz`
  
 ## Enabling the Repository
 
-`sudo eopkg enable-repo SolusCantalupo`
+`sudo eopkg enable-repo Cantalupo`
 
 ## Install
 
@@ -27,11 +27,11 @@ sudo eopkg it package
 
 ## Disabling the Repository
 
-`sudo eopkg disable-repo SolusCantalupo`
+`sudo eopkg disable-repo Cantalupo`
 
 ## Removing the Repository
 
-`sudo eopkg remove-repo SolusCantalupo`
+`sudo eopkg remove-repo Cantalupo`
 
 ## A problem?
 
