@@ -21,15 +21,6 @@ sudo eopkg it package
 | master-pdf-editor | compiling | wait |
 | master-pdf-editor-v4 | compiling | wait |
 
-
-## Disabling the Repository
-
-`sudo eopkg disable-repo Cantalupo`
-
-## Removing the Repository
-
-`sudo eopkg remove-repo Cantalupo`
-
 ## Donation
 
 | Cryptocurrency | Address |
@@ -38,8 +29,14 @@ sudo eopkg it package
 | Litecoin (LTC) | LevgQFrBgcix8XfkQDrEdZo1v2yMfr8rYb |
 | Ethereum (ETH) | 0xe6a2ed71d1fbebef74b7388cf716c4d38cd432f7 |
 | Basic Attention Token (BAT) | 0xe6a2ed71d1fbebef74b7388cf716c4d38cd432f7 |
-| Monero (XMR) | 84q9gdRQmsi592ndvUyv5c9ePTcwmkCXRHURQ7F7wAeeBmjJ7c7B78zbRDeHsSbSmC7gXETPSMLkkdZKEEKDxbyV8svYxgq |
+| Monero (XMR) | 84q9gdRQmsi592ndvUyv5c9ePTcwmkCXRHURQ7F7wAeeBmjJ7c7B78zbRDeHsSbSmC7gXETPSMLkkdZKEEKDxbyV8svYxgq 
 
+### Others
+Disabling the Repository
+`sudo eopkg disable-repo Cantalupo`
+
+Removing the Repository
+`sudo eopkg remove-repo Cantalupo`
 
 ## A problem?
 
