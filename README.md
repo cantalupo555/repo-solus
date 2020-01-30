@@ -19,7 +19,7 @@
 ## Install
 
 ```bash
-sudo eopkg it FILE
+sudo eopkg it package
 ```
 
 ## Packages List
