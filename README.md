@@ -33,9 +33,11 @@ sudo eopkg it package
 
 ### Others
 Disabling the Repository
+
 `sudo eopkg disable-repo Cantalupo`
 
 Removing the Repository
+
 `sudo eopkg remove-repo Cantalupo`
 
 ## A problem?
