@@ -11,7 +11,7 @@
 ## Install
 
 ```bash
-sudo eopkg it package
+sudo eopkg install package
 ```
 
 ## Packages List
