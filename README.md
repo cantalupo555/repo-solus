@@ -32,7 +32,7 @@ sudo eopkg it package
 
 ### Donation
 
-| Coin | Address |
+| Cryptocurrency | Address |
 | --- | --- |
 | Bitcoin (BTC) | 1dMVGi7KzGDtN11vNzjd2uCbmHzcjHwUC |
 | Litecoin (LTC) | LevgQFrBgcix8XfkQDrEdZo1v2yMfr8rYb |
