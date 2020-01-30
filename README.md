@@ -30,6 +30,17 @@ sudo eopkg it package
 
 `sudo eopkg remove-repo Cantalupo`
 
+### Donation
+
+| Coin | Address |
+| --- | --- |
+| Bitcoin (BTC) | 1dMVGi7KzGDtN11vNzjd2uCbmHzcjHwUC |
+| Litecoin (LTC) | LevgQFrBgcix8XfkQDrEdZo1v2yMfr8rYb |
+| Ethereum (ETH) | 0xe6a2ed71d1fbebef74b7388cf716c4d38cd432f7 |
+| Basic Attention Token (BAT) | 0xe6a2ed71d1fbebef74b7388cf716c4d38cd432f7 |
+| Monero (XMR) | 84q9gdRQmsi592ndvUyv5c9ePTcwmkCXRHURQ7F7wAeeBmjJ7c7B78zbRDeHsSbSmC7gXETPSMLkkdZKEEKDxbyV8svYxgq |
+
+
 ## A problem?
 
 Please fill a report [here](https://github.com/cantalupo555/repo-solus/issues/new)
