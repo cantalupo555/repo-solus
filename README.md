@@ -30,7 +30,7 @@ sudo eopkg it package
 
 `sudo eopkg remove-repo Cantalupo`
 
-### Donation
+## Donation
 
 | Cryptocurrency | Address |
 | --- | --- |
