@@ -2,19 +2,11 @@
 
 ## Adding the repo
 
-`sudo eopkg add-repo SolusBR https://github.com/cantalupo555/teste-repo/raw/master/packages/eopkg-index.xml.xz`
+`sudo eopkg add-repo SolusCantalupo https://solus.cantalupo.com.br/eopkg-index.xml.xz`
  
 ## Enabling the Repository
 
-`sudo eopkg enable-repo SolusBR`
-
-## Removing the Repository
-
-`sudo eopkg remove-repo SolusBR`
-
-## Disabling the Repository
-
-`sudo eopkg disable-repo SolusBR`
+`sudo eopkg enable-repo SolusCantalupo`
 
 ## Install
 
@@ -32,6 +24,14 @@ sudo eopkg it package
 | xmind-zen | 201807162014 | 28/04/2019 |
 | master-pdf-editor | 5.4.04 | 28/04/2019 |
 | rambox | 0.6.7 | 20/05/2019 |
+
+## Disabling the Repository
+
+`sudo eopkg disable-repo SolusCantalupo`
+
+## Removing the Repository
+
+`sudo eopkg remove-repo SolusCantalupo`
 
 ## A problem?
 
