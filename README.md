@@ -31,9 +31,6 @@ sudo eopkg install package
 | Monero (XMR) | 84q9gdRQmsi592ndvUyv5c9ePTcwmkCXRHURQ7F7wAeeBmjJ7c7B78zbRDeHsSbSmC7gXETPSMLkkdZKEEKDxbyV8svYxgq 
 
 ### Others
-Disabling the Repository
-
-`sudo eopkg disable-repo Cantalupo`
 
 Removing the Repository
 
