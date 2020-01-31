@@ -1,5 +1,45 @@
 <PISI>
     <Package>
+        <Name>master-pdf-editor-v4</Name>
+        <Summary xml:lang="en">Master PDF Editor v4</Summary>
+        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files</Description>
+        <PartOf>office.viewers</PartOf>
+        <License>Proprietary</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="47">qt5-base</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="17">qt5-svg</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-31</Date>
+                <Version>4.3.89</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>45614191</InstalledSize>
+        <PackageSize>11891571</PackageSize>
+        <PackageHash>353f186ebe68955ba236f126fe18f8d4e701f2c4</PackageHash>
+        <PackageURI>master-pdf-editor-v4-4.3.89-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>master-pdf-editor-v4</Name>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>master-pdf-editor</Name>
         <Summary xml:lang="en">Master PDF Editor</Summary>
         <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files</Description>
@@ -44,8 +84,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>103997752</InstalledSize>
-        <PackageSize>29720547</PackageSize>
-        <PackageHash>4ef89ec9dd092cec6a5cea96b027390aff1f1f76</PackageHash>
+        <PackageSize>29720571</PackageSize>
+        <PackageHash>299089922fd66eef55b171b16f76e97f5c727f50</PackageHash>
         <PackageURI>master-pdf-editor-5.4.38-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
