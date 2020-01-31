@@ -18,8 +18,10 @@ sudo eopkg install package
 
 | Package Name | Version | Last Change |
 | --- | --- | --- |
-| master-pdf-editor | compiling | wait |
-| master-pdf-editor-v4 | compiling | wait |
+| master-pdf-editor | 5.4.38 | 31/01/2020 |
+| master-pdf-editor-v4 | 4.3.89 | 31/01/2020 |
+| free-office | compiling | wait |
+| xmacro | compiling | wait |
 
 ## Donation
 
