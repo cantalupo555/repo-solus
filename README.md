@@ -17,7 +17,8 @@ sudo eopkg install package
 | --- | --- | --- |
 | master-pdf-editor | 5.4.38 | 31/01/2020 |
 | master-pdf-editor-v4 | 4.3.89 | 31/01/2020 |
-| free-office | 973 | 31/01/2020 |
+| free-office-2018 | 973 | 31/01/2020 |
+| [office-2018](https://shop.softmaker.com/shop/shop.php?go&products) | 972 | 31/01/2020 |
 | xmacro | 0.3 | 31/01/2020 |
 | google-chrome-stable | compiling | wait |
 | teamviewer | compiling | wait |
