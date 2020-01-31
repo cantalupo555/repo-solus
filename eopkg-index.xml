@@ -1,8 +1,8 @@
 <PISI>
     <Package>
-        <Name>free-office-2018</Name>
-        <Summary xml:lang="en">FreeOffice-2018</Summary>
-        <Description xml:lang="en">SoftMaker FreeOffice is a complete office suite</Description>
+        <Name>office-2018</Name>
+        <Summary xml:lang="en">Office-2018</Summary>
+        <Description xml:lang="en">SoftMaker Office is a complete office suite</Description>
         <PartOf>office</PartOf>
         <License>GPL-2.0-or-later</License>
         <RuntimeDependencies>
@@ -20,7 +20,7 @@
         <History>
             <Update release="1">
                 <Date>2020-01-31</Date>
-                <Version>973</Version>
+                <Version>972</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -30,13 +30,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>213380710</InstalledSize>
-        <PackageSize>134714599</PackageSize>
-        <PackageHash>5371673d6fefb1c7e37fe466df6fe7a016123dc7</PackageHash>
-        <PackageURI>free-office-2018-973-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>638323202</InstalledSize>
+        <PackageSize>346898008</PackageSize>
+        <PackageHash>3d5efe78c093a675bbf2de481aab574226a8fd17</PackageHash>
+        <PackageURI>office-2018-972-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>free-office-2018</Name>
+            <Name>office-2018</Name>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -44,23 +44,44 @@
         </Source>
     </Package>
     <Package>
-        <Name>master-pdf-editor-v4</Name>
-        <Summary xml:lang="en">Master PDF Editor v4</Summary>
-        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files</Description>
-        <PartOf>office.viewers</PartOf>
-        <License>Proprietary</License>
+        <Name>google-chrome-stable</Name>
+        <Summary xml:lang="en">Google Chrome</Summary>
+        <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier</Description>
+        <PartOf>network.web.browser</PartOf>
+        <License>EULA</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="47">qt5-base</Dependency>
+            <Dependency releaseFrom="15">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="88">libgtk-3</Dependency>
+            <Dependency releaseFrom="38">libnss</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
-            <Dependency releaseFrom="17">qt5-svg</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="22">at-spi2</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
                 <Date>2020-01-31</Date>
-                <Version>4.3.89</Version>
+                <Version>79.0.3945.130</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -70,13 +91,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>45614191</InstalledSize>
-        <PackageSize>11891571</PackageSize>
-        <PackageHash>353f186ebe68955ba236f126fe18f8d4e701f2c4</PackageHash>
-        <PackageURI>master-pdf-editor-v4-4.3.89-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>220691829</InstalledSize>
+        <PackageSize>73071920</PackageSize>
+        <PackageHash>6f808f3d9d413353e5f89f270691572040f86543</PackageHash>
+        <PackageURI>google-chrome-stable-79.0.3945.130-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>master-pdf-editor-v4</Name>
+            <Name>google-chrome-stable</Name>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -179,9 +200,9 @@
         </Source>
     </Package>
     <Package>
-        <Name>office-2018</Name>
-        <Summary xml:lang="en">Office-2018</Summary>
-        <Description xml:lang="en">SoftMaker Office is a complete office suite</Description>
+        <Name>free-office-2018</Name>
+        <Summary xml:lang="en">FreeOffice-2018</Summary>
+        <Description xml:lang="en">SoftMaker FreeOffice is a complete office suite</Description>
         <PartOf>office</PartOf>
         <License>GPL-2.0-or-later</License>
         <RuntimeDependencies>
@@ -199,7 +220,7 @@
         <History>
             <Update release="1">
                 <Date>2020-01-31</Date>
-                <Version>972</Version>
+                <Version>973</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -209,13 +230,53 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>638323202</InstalledSize>
-        <PackageSize>346898008</PackageSize>
-        <PackageHash>3d5efe78c093a675bbf2de481aab574226a8fd17</PackageHash>
-        <PackageURI>office-2018-972-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>213380710</InstalledSize>
+        <PackageSize>134714599</PackageSize>
+        <PackageHash>5371673d6fefb1c7e37fe466df6fe7a016123dc7</PackageHash>
+        <PackageURI>free-office-2018-973-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>office-2018</Name>
+            <Name>free-office-2018</Name>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>master-pdf-editor-v4</Name>
+        <Summary xml:lang="en">Master PDF Editor v4</Summary>
+        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files</Description>
+        <PartOf>office.viewers</PartOf>
+        <License>Proprietary</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="47">qt5-base</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="17">qt5-svg</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-31</Date>
+                <Version>4.3.89</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>45614191</InstalledSize>
+        <PackageSize>11891571</PackageSize>
+        <PackageHash>353f186ebe68955ba236f126fe18f8d4e701f2c4</PackageHash>
+        <PackageURI>master-pdf-editor-v4-4.3.89-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>master-pdf-editor-v4</Name>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>

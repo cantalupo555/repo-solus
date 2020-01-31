@@ -20,7 +20,7 @@ sudo eopkg install package
 | free-office-2018 | 973 | 31/01/2020 |
 | [office-2018](https://shop.softmaker.com/shop/shop.php?go&products) | 972 | 31/01/2020 |
 | xmacro | 0.3 | 31/01/2020 |
-| google-chrome-stable | compiling | wait |
+| google-chrome-stable | 79.0.3945.130 | 31/01/2020 |
 | teamviewer | compiling | wait |
 | spotify | compiling | wait |
 | android-studio | compiling | wait |
