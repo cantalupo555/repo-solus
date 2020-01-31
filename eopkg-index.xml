@@ -40,6 +40,88 @@
         </Source>
     </Package>
     <Package>
+        <Name>free-office</Name>
+        <Summary xml:lang="en">FreeOffice</Summary>
+        <Description xml:lang="en">SoftMaker FreeOffice is a complete office suite</Description>
+        <PartOf>office</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="8">libxmu</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="55">curl</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-31</Date>
+                <Version>973</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>213380710</InstalledSize>
+        <PackageSize>134714786</PackageSize>
+        <PackageHash>0c7a2bcbfda9df0cbe8f1b545106e1806267b368</PackageHash>
+        <PackageURI>free-office-973-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>free-office</Name>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xmacro</Name>
+        <Summary xml:lang="en">xmacro</Summary>
+        <Description xml:lang="en">Record / Play keystrokes and mouse movements in X displays</Description>
+        <PartOf>system.utils</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-31</Date>
+                <Version>0.3</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>81470</InstalledSize>
+        <PackageSize>21197</PackageSize>
+        <PackageHash>e3686ca8a7abfbb47a6207e0746fe886c845ce7c</PackageHash>
+        <PackageURI>xmacro-0.3-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xmacro</Name>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>master-pdf-editor</Name>
         <Summary xml:lang="en">Master PDF Editor</Summary>
         <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files</Description>
