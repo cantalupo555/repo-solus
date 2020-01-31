@@ -4,9 +4,6 @@
 
 `sudo eopkg add-repo Cantalupo https://solus.cantalupo.com.br/eopkg-index.xml.xz`
  
-## Enabling the Repository
-
-`sudo eopkg enable-repo Cantalupo`
 
 ## Install
 
