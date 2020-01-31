@@ -44,6 +44,48 @@
         </Source>
     </Package>
     <Package>
+        <Name>stremio</Name>
+        <Summary xml:lang="en">Stremio is a one-stop hub for video content aggregation. Discover, organize and watch video from all kind of sources on any device that you own.</Summary>
+        <Description xml:lang="en">Stremio is a one-stop hub for video content aggregation. Discover, organize and watch video from all kind of sources on any device that you own.</Description>
+        <PartOf>desktop.multimedia</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="70">mpv-libs</Dependency>
+            <Dependency releaseFrom="23">qt5-declarative</Dependency>
+            <Dependency releaseFrom="47">qt5-base</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="37">openssl</Dependency>
+            <Dependency releaseFrom="32">qt5-webengine</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-31</Date>
+                <Version>4.4.106</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>9989225</InstalledSize>
+        <PackageSize>2119327</PackageSize>
+        <PackageHash>afbc38818d24a9522075b42d92738a95eec095f9</PackageHash>
+        <PackageURI>stremio-4.4.106-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>stremio</Name>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>google-chrome-stable</Name>
         <Summary xml:lang="en">Google Chrome</Summary>
         <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier</Description>
