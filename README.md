@@ -16,6 +16,7 @@ sudo eopkg install package
 | Package Name | Version | Last Change |
 | --- | --- | --- |
 | stremio | 4.4.106 | 31/01/2020 |
+| [breaktimer](https://github.com/tom-james-watson/breaktimer-app) | 0.6.2 | 01/02/2020 |
 | master-pdf-editor | 5.4.38 | 31/01/2020 |
 | master-pdf-editor-v4 | 4.3.89 | 31/01/2020 |
 | free-office-2018 | 973 | 31/01/2020 |

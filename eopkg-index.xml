@@ -1,5 +1,62 @@
 <PISI>
     <Package>
+        <Name>master-pdf-editor</Name>
+        <Summary xml:lang="en">Master PDF Editor</Summary>
+        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files</Description>
+        <PartOf>office.viewers</PartOf>
+        <License>Proprietary</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="30">libdrm</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="15">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="88">libgtk-3</Dependency>
+            <Dependency releaseFrom="38">libnss</Dependency>
+            <Dependency releaseFrom="47">qt5-base</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="20">zlib</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-01-31</Date>
+                <Version>5.4.38</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>103997752</InstalledSize>
+        <PackageSize>29720571</PackageSize>
+        <PackageHash>299089922fd66eef55b171b16f76e97f5c727f50</PackageHash>
+        <PackageURI>master-pdf-editor-5.4.38-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>master-pdf-editor</Name>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>office-2018</Name>
         <Summary xml:lang="en">Office-2018</Summary>
         <Description xml:lang="en">SoftMaker Office is a complete office suite</Description>
@@ -222,40 +279,44 @@
         </Source>
     </Package>
     <Package>
-        <Name>master-pdf-editor</Name>
-        <Summary xml:lang="en">Master PDF Editor</Summary>
-        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files</Description>
-        <PartOf>office.viewers</PartOf>
-        <License>Proprietary</License>
+        <Name>breaktimer</Name>
+        <Summary xml:lang="en">BreakTimer</Summary>
+        <Description xml:lang="en">Manage periodic breaks</Description>
+        <PartOf>system.utils</PartOf>
+        <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
-            <Dependency releaseFrom="30">libdrm</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="47">libgcc</Dependency>
             <Dependency releaseFrom="15">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="32">pango</Dependency>
             <Dependency releaseFrom="24">cups</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="88">libgtk-3</Dependency>
-            <Dependency releaseFrom="38">libnss</Dependency>
-            <Dependency releaseFrom="47">qt5-base</Dependency>
-            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="20">zlib</Dependency>
-            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
             <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
             <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="22">at-spi2</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-01-31</Date>
-                <Version>5.4.38</Version>
+                <Date>2020-02-01</Date>
+                <Version>0.6.2</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -265,13 +326,13 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>103997752</InstalledSize>
-        <PackageSize>29720571</PackageSize>
-        <PackageHash>299089922fd66eef55b171b16f76e97f5c727f50</PackageHash>
-        <PackageURI>master-pdf-editor-5.4.38-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>240615737</InstalledSize>
+        <PackageSize>64462226</PackageSize>
+        <PackageHash>9d121abec070a1e9f10b62e38cfd5f4db0cd5dd4</PackageHash>
+        <PackageURI>breaktimer-0.6.2-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>master-pdf-editor</Name>
+            <Name>breaktimer</Name>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
