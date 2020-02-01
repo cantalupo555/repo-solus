@@ -26,8 +26,8 @@ sudo eopkg install package
 | anydesk | compiling | wait |
 | spotify-client | 1.1.10.546 | 31/01/2020 |
 | android-studio | compiling | wait |
-| sublime-text | compiling | wait |
-| skype | compiling | wait |
+| sublime-text-3 | 3211 | 31/01/2020 |
+| skype | 8.56.0.103 | 31/01/2020 |
 | emby | compiling | wait |
 | [eradio](https://github.com/DreamDevel/eRadio) | 2.0.4 | 31/01/2020 |
 

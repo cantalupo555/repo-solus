@@ -147,6 +147,43 @@
         </Source>
     </Package>
     <Package>
+        <Name>sublime-text-3</Name>
+        <Summary xml:lang="en">Sublime Text</Summary>
+        <Description xml:lang="en">Sublime Text is a sophisticated text editor for code, markup and prose</Description>
+        <PartOf>programming</PartOf>
+        <License>Proprietary</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-01</Date>
+                <Version>3211</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>34849235</InstalledSize>
+        <PackageSize>12511977</PackageSize>
+        <PackageHash>4941b17c3f6e36a839799b6d4317e6a8169eda75</PackageHash>
+        <PackageURI>sublime-text-3-3211-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>sublime-text-3</Name>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>xmacro</Name>
         <Summary xml:lang="en">xmacro</Summary>
         <Description xml:lang="en">Record / Play keystrokes and mouse movements in X displays</Description>
@@ -235,6 +272,68 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>master-pdf-editor</Name>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>skype</Name>
+        <Summary xml:lang="en">Skype</Summary>
+        <Description xml:lang="en">Skype keeps you together. Call, message and share with others.</Description>
+        <PartOf>network.im</PartOf>
+        <License>Copyright (c) 2019 Skype and/or Microsoft</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="88">libgtk-3</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="15">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libsecret</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="22">at-spi2</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-01</Date>
+                <Version>8.56.0.103</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>279130765</InstalledSize>
+        <PackageSize>88906785</PackageSize>
+        <PackageHash>325de025e03864a5bed25f90f62115e128422679</PackageHash>
+        <PackageURI>skype-8.56.0.103-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>skype</Name>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
