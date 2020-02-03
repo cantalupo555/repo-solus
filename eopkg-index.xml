@@ -50,8 +50,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>285906023</InstalledSize>
-        <PackageSize>94357042</PackageSize>
-        <PackageHash>79c0ff71bb0e8f5b69ad0e852f38f49818a2df49</PackageHash>
+        <PackageSize>94357006</PackageSize>
+        <PackageHash>877055c93c4c4a1728dc09b893d922a8f1f32d7e</PackageHash>
         <PackageURI>spotify-1.1.10.546-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -167,7 +167,7 @@
     <Package>
         <Name>stremio</Name>
         <Summary xml:lang="en">Stremio</Summary>
-        <Description xml:lang="en">Stremio is a one-stop hub for video content aggregation. Discover, organize and watch video from all kind of sources on any device that you own</Description>
+        <Description xml:lang="en">Stremio is a one-stop hub for video content aggregation. Discover, organize and watch video from all kind of sources on any device that you own.</Description>
         <PartOf>desktop.multimedia</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
@@ -210,8 +210,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>9989225</InstalledSize>
-        <PackageSize>2119470</PackageSize>
-        <PackageHash>c2084f47db1adfa70f4c00ec4512bd4562a2c630</PackageHash>
+        <PackageSize>2119471</PackageSize>
+        <PackageHash>3cdaceb14df7fbbe967b55caf7917482090f7636</PackageHash>
         <PackageURI>stremio-4.4.106-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
@@ -362,7 +362,7 @@
     <Package>
         <Name>breaktimer</Name>
         <Summary xml:lang="en">BreakTimer</Summary>
-        <Description xml:lang="en">Manage periodic breaks</Description>
+        <Description xml:lang="en">Manage periodic breaks.</Description>
         <PartOf>system.utils</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
@@ -393,11 +393,15 @@
             <Dependency releaseFrom="12">libxrandr</Dependency>
             <Dependency releaseFrom="20">at-spi2-atk</Dependency>
             <Dependency releaseFrom="22">at-spi2</Dependency>
+            <Dependency>libnotify</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>libappindicator</Dependency>
+            <Dependency>libsecret</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-02-01</Date>
-                <Version>0.6.2</Version>
+            <Update release="2">
+                <Date>2020-02-03</Date>
+                <Version>0.7.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -408,12 +412,13 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>240615737</InstalledSize>
-        <PackageSize>64462226</PackageSize>
-        <PackageHash>9d121abec070a1e9f10b62e38cfd5f4db0cd5dd4</PackageHash>
-        <PackageURI>breaktimer-0.6.2-1-1-x86_64.eopkg</PackageURI>
+        <PackageSize>64462508</PackageSize>
+        <PackageHash>8df1830107b1d62ebf1cf36d0b791f14957fd6d3</PackageHash>
+        <PackageURI>breaktimer-0.7.0-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>breaktimer</Name>
+            <Homepage>https://breaktimer.app/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
