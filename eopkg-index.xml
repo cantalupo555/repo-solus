@@ -102,8 +102,8 @@
     </Package>
     <Package>
         <Name>stremio</Name>
-        <Summary xml:lang="en">Stremio is a one-stop hub for video content aggregation. Discover, organize and watch video from all kind of sources on any device that you own.</Summary>
-        <Description xml:lang="en">Stremio is a one-stop hub for video content aggregation. Discover, organize and watch video from all kind of sources on any device that you own.</Description>
+        <Summary xml:lang="en">Stremio</Summary>
+        <Description xml:lang="en">Stremio is a one-stop hub for video content aggregation. Discover, organize and watch video from all kind of sources on any device that you own</Description>
         <PartOf>desktop.multimedia</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
@@ -115,10 +115,26 @@
             <Dependency releaseFrom="32">qt5-webengine</Dependency>
             <Dependency releaseFrom="47">libstdc++</Dependency>
             <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency>gcc</Dependency>
+            <Dependency>g++</Dependency>
+            <Dependency>glibc-devel</Dependency>
+            <Dependency>binutils</Dependency>
+            <Dependency>libtool-devel</Dependency>
+            <Dependency>linux-headers</Dependency>
+            <Dependency>nodejs</Dependency>
+            <Dependency>wget</Dependency>
+            <Dependency>make</Dependency>
+            <Dependency>zlib-minizip</Dependency>
+            <Dependency>kirigami2</Dependency>
+            <Dependency>qt5-quickcontrols</Dependency>
+            <Dependency>qt5-quickcontrols2</Dependency>
+            <Dependency>qt5-location</Dependency>
+            <Dependency>qt5-webchannel</Dependency>
+            <Dependency>qt5-graphicaleffects</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-01-31</Date>
+            <Update release="3">
+                <Date>2020-02-03</Date>
                 <Version>4.4.106</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -130,12 +146,13 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>9989225</InstalledSize>
-        <PackageSize>2119327</PackageSize>
-        <PackageHash>afbc38818d24a9522075b42d92738a95eec095f9</PackageHash>
-        <PackageURI>stremio-4.4.106-1-1-x86_64.eopkg</PackageURI>
+        <PackageSize>2119470</PackageSize>
+        <PackageHash>c2084f47db1adfa70f4c00ec4512bd4562a2c630</PackageHash>
+        <PackageURI>stremio-4.4.106-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>stremio</Name>
+            <Homepage>https://www.stremio.com</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -525,67 +542,6 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>master-pdf-editor-v4</Name>
-            <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>spotify-client</Name>
-        <Summary xml:lang="en">Spotify Music, Video and Podcast Streaming Client</Summary>
-        <Description xml:lang="en">Spotify is a Swedish commercial music streaming, podcast and video service that provides digital rights management-protected[3] content from record labels and media companies</Description>
-        <PartOf>multimedia.audio</PartOf>
-        <License>Copyright (c) 2006-2010 Spotify Ltd</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="29">dbus</Dependency>
-            <Dependency releaseFrom="12">libxcomposite</Dependency>
-            <Dependency releaseFrom="16">expat</Dependency>
-            <Dependency releaseFrom="14">libxcursor</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="15">libnspr</Dependency>
-            <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="24">libgtk-2</Dependency>
-            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
-            <Dependency releaseFrom="32">pango</Dependency>
-            <Dependency releaseFrom="39">libnss</Dependency>
-            <Dependency releaseFrom="42">libcairo</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="20">zlib</Dependency>
-            <Dependency releaseFrom="33">fontconfig</Dependency>
-            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="22">libatk</Dependency>
-            <Dependency releaseFrom="13">libxdamage</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="12">libxrandr</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-01-31</Date>
-                <Version>1.1.10.546</Version>
-                <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>285906023</InstalledSize>
-        <PackageSize>94356711</PackageSize>
-        <PackageHash>89db5dc87584348d443f9a11db7d21143da0d616</PackageHash>
-        <PackageURI>spotify-client-1.1.10.546-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>spotify-client</Name>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>

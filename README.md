@@ -15,8 +15,8 @@ sudo eopkg install package
 
 | Package Name | Version | Last Change |
 | --- | --- | --- |
-| stremio | 4.4.106 | 31/01/2020 |
-| [breaktimer](https://github.com/tom-james-watson/breaktimer-app) | 0.6.2 | 01/02/2020 |
+| stremio | 4.4.106 | 03/02/2020 |
+| [breaktimer](https://breaktimer.app/) | 0.6.2 | 01/02/2020 |
 | master-pdf-editor | 5.4.38 | 31/01/2020 |
 | master-pdf-editor-v4 | 4.3.89 | 31/01/2020 |
 | free-office-2018 | 973 | 31/01/2020 |
@@ -25,12 +25,14 @@ sudo eopkg install package
 | google-chrome-stable | 79.0.3945.130 | 31/01/2020 |
 | teamviewer | compiling | wait |
 | anydesk | compiling | wait |
-| spotify-client | 1.1.10.546 | 31/01/2020 |
+| spotify | 1.1.10.546 | 31/01/2020 |
 | android-studio | compiling | wait |
 | sublime-text-3 | 3211 | 31/01/2020 |
 | skype | 8.56.0.103 | 31/01/2020 |
 | emby | compiling | wait |
 | [eradio](https://github.com/DreamDevel/eRadio) | 2.0.4 | 31/01/2020 |
+| celluloid | compiling | wait |
+| mailspring | compiling | wait |
 
 ## Donation
 
