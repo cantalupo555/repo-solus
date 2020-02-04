@@ -224,9 +224,9 @@
         </Source>
     </Package>
     <Package>
-        <Name>google-chrome-stable</Name>
-        <Summary xml:lang="en">Google Chrome</Summary>
-        <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier</Description>
+        <Name>google-chrome-beta</Name>
+        <Summary xml:lang="en">Google Chrome Beta</Summary>
+        <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
         <PartOf>network.web.browser</PartOf>
         <License>EULA</License>
         <RuntimeDependencies>
@@ -243,7 +243,7 @@
             <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="59">glib2</Dependency>
             <Dependency releaseFrom="88">libgtk-3</Dependency>
-            <Dependency releaseFrom="38">libnss</Dependency>
+            <Dependency releaseFrom="39">libnss</Dependency>
             <Dependency releaseFrom="42">libcairo</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="56">glibc</Dependency>
@@ -257,10 +257,158 @@
             <Dependency releaseFrom="12">libxrandr</Dependency>
             <Dependency releaseFrom="20">at-spi2-atk</Dependency>
             <Dependency releaseFrom="22">at-spi2</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+            <Dependency>liberation-fonts-ttf</Dependency>
+            <Dependency>libappindicator</Dependency>
+            <Dependency>pycups</Dependency>
+            <Dependency>libdbusmenu</Dependency>
+            <Dependency>wget</Dependency>
+            <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-01-31</Date>
+                <Date>2020-02-04</Date>
+                <Version>80.0.3987.85</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>232784790</InstalledSize>
+        <PackageSize>76637245</PackageSize>
+        <PackageHash>56bb7f6fb29489a1c593894d919d114e80993f70</PackageHash>
+        <PackageURI>google-chrome-beta-80.0.3987.85-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>google-chrome-beta</Name>
+            <Homepage>https://www.google.com/chrome/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>google-chrome-unstable</Name>
+        <Summary xml:lang="en">Google Chrome Unstable</Summary>
+        <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
+        <PartOf>network.web.browser</PartOf>
+        <License>EULA</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="15">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="88">libgtk-3</Dependency>
+            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="22">at-spi2</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+            <Dependency>liberation-fonts-ttf</Dependency>
+            <Dependency>libappindicator</Dependency>
+            <Dependency>pycups</Dependency>
+            <Dependency>libdbusmenu</Dependency>
+            <Dependency>wget</Dependency>
+            <Dependency>xdg-utils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-04</Date>
+                <Version>81.0.4040.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>235714872</InstalledSize>
+        <PackageSize>77627229</PackageSize>
+        <PackageHash>ecc3008b134e1560f8c73c98bc9d6e3473326ee8</PackageHash>
+        <PackageURI>google-chrome-unstable-81.0.4040.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>google-chrome-unstable</Name>
+            <Homepage>https://www.google.com/chrome/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>google-chrome-stable</Name>
+        <Summary xml:lang="en">Google Chrome</Summary>
+        <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
+        <PartOf>network.web.browser</PartOf>
+        <License>EULA</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="15">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="88">libgtk-3</Dependency>
+            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="22">at-spi2</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+            <Dependency>liberation-fonts-ttf</Dependency>
+            <Dependency>libappindicator</Dependency>
+            <Dependency>pycups</Dependency>
+            <Dependency>libdbusmenu</Dependency>
+            <Dependency>wget</Dependency>
+            <Dependency>xdg-utils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2020-02-04</Date>
                 <Version>79.0.3945.130</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -272,12 +420,13 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>220691829</InstalledSize>
-        <PackageSize>73071548</PackageSize>
-        <PackageHash>3dfb8b8adb82e65127db44590bb9beef98159031</PackageHash>
-        <PackageURI>google-chrome-stable-79.0.3945.130-1-1-x86_64.eopkg</PackageURI>
+        <PackageSize>73072038</PackageSize>
+        <PackageHash>465d54c6b54151dc1acabafe32669e7b26d5d464</PackageHash>
+        <PackageURI>google-chrome-stable-79.0.3945.130-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-stable</Name>
+            <Homepage>https://www.google.com/chrome/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -287,17 +436,20 @@
     <Package>
         <Name>sublime-text-3</Name>
         <Summary xml:lang="en">Sublime Text</Summary>
-        <Description xml:lang="en">Sublime Text is a sophisticated text editor for code, markup and prose</Description>
+        <Description xml:lang="en">Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
         <PartOf>programming</PartOf>
         <License>Proprietary</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="56">glibc</Dependency>
             <Dependency releaseFrom="59">glib2</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-02-01</Date>
+            <Update release="2">
+                <Date>2020-02-04</Date>
                 <Version>3211</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -309,12 +461,13 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>34849235</InstalledSize>
-        <PackageSize>12511977</PackageSize>
-        <PackageHash>4941b17c3f6e36a839799b6d4317e6a8169eda75</PackageHash>
-        <PackageURI>sublime-text-3-3211-1-1-x86_64.eopkg</PackageURI>
+        <PackageSize>12512020</PackageSize>
+        <PackageHash>04cba2b86f9c8b99fed043a96d81efbd5ca05d71</PackageHash>
+        <PackageURI>sublime-text-3-3211-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>sublime-text-3</Name>
+            <Homepage>https://www.sublimetext.com/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -366,12 +519,12 @@
         <PartOf>system.utils</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
+            <Dependency releaseFrom="88">libgtk-3</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
             <Dependency releaseFrom="29">dbus</Dependency>
             <Dependency releaseFrom="12">libxcomposite</Dependency>
             <Dependency releaseFrom="16">expat</Dependency>
             <Dependency releaseFrom="14">libxcursor</Dependency>
-            <Dependency releaseFrom="27">util-linux</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="47">libgcc</Dependency>
             <Dependency releaseFrom="15">libnspr</Dependency>
@@ -379,7 +532,7 @@
             <Dependency releaseFrom="32">pango</Dependency>
             <Dependency releaseFrom="24">cups</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="88">libgtk-3</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
             <Dependency releaseFrom="39">libnss</Dependency>
             <Dependency releaseFrom="59">glib2</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
@@ -399,7 +552,7 @@
             <Dependency>libsecret</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
+            <Update release="3">
                 <Date>2020-02-03</Date>
                 <Version>0.7.0</Version>
                 <Comment>Packaging update</Comment>
@@ -411,10 +564,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>240615737</InstalledSize>
-        <PackageSize>64462508</PackageSize>
-        <PackageHash>8df1830107b1d62ebf1cf36d0b791f14957fd6d3</PackageHash>
-        <PackageURI>breaktimer-0.7.0-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>253744093</InstalledSize>
+        <PackageSize>68378312</PackageSize>
+        <PackageHash>5d5c35a218530ca79313013028e8cdc40c851e67</PackageHash>
+        <PackageURI>breaktimer-0.7.0-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>breaktimer</Name>
@@ -460,10 +613,14 @@
             <Dependency releaseFrom="12">libxrandr</Dependency>
             <Dependency releaseFrom="20">at-spi2-atk</Dependency>
             <Dependency releaseFrom="22">at-spi2</Dependency>
+            <Dependency>pycups</Dependency>
+            <Dependency>libstdc++</Dependency>
+            <Dependency>libdbusmenu</Dependency>
+            <Dependency>gnome-keyring</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-02-01</Date>
+            <Update release="2">
+                <Date>2020-02-04</Date>
                 <Version>8.56.0.103</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -475,12 +632,13 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>279130765</InstalledSize>
-        <PackageSize>88906785</PackageSize>
-        <PackageHash>325de025e03864a5bed25f90f62115e128422679</PackageHash>
-        <PackageURI>skype-8.56.0.103-1-1-x86_64.eopkg</PackageURI>
+        <PackageSize>88906873</PackageSize>
+        <PackageHash>42dfaed7953f91837bfe23300cd22df084775e25</PackageHash>
+        <PackageURI>skype-8.56.0.103-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>skype</Name>
+            <Homepage>https://www.skype.com/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
