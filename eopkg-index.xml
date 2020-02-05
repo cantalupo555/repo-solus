@@ -1,45 +1,47 @@
 <PISI>
     <Package>
-        <Name>spotify</Name>
-        <Summary xml:lang="en">Spotify Music, Video and Podcast Streaming Client</Summary>
-        <Description xml:lang="en">Spotify is a Swedish commercial music streaming, podcast and video service that provides digital rights management-protected content from record labels and media companies.</Description>
-        <PartOf>multimedia.audio</PartOf>
-        <License>Copyright (c) 2020 Spotify Ltd</License>
+        <Name>breaktimer</Name>
+        <Summary xml:lang="en">BreakTimer</Summary>
+        <Description xml:lang="en">Manage periodic breaks.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
+            <Dependency releaseFrom="88">libgtk-3</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
             <Dependency releaseFrom="29">dbus</Dependency>
             <Dependency releaseFrom="12">libxcomposite</Dependency>
             <Dependency releaseFrom="16">expat</Dependency>
             <Dependency releaseFrom="14">libxcursor</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="47">libgcc</Dependency>
             <Dependency releaseFrom="15">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="24">libgtk-2</Dependency>
-            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
             <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
             <Dependency releaseFrom="39">libnss</Dependency>
-            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="20">zlib</Dependency>
-            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
             <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
             <Dependency releaseFrom="13">libxrender</Dependency>
             <Dependency releaseFrom="22">libatk</Dependency>
             <Dependency releaseFrom="13">libxdamage</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
             <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency>xdg-utils</Dependency>
+            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="22">at-spi2</Dependency>
             <Dependency>libnotify</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>libappindicator</Dependency>
+            <Dependency>libsecret</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
+            <Update release="3">
                 <Date>2020-02-03</Date>
-                <Version>1.1.10.546</Version>
+                <Version>0.7.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -49,115 +51,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>285906023</InstalledSize>
-        <PackageSize>94357006</PackageSize>
-        <PackageHash>877055c93c4c4a1728dc09b893d922a8f1f32d7e</PackageHash>
-        <PackageURI>spotify-1.1.10.546-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>253744093</InstalledSize>
+        <PackageSize>68378312</PackageSize>
+        <PackageHash>5d5c35a218530ca79313013028e8cdc40c851e67</PackageHash>
+        <PackageURI>breaktimer-0.7.0-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>spotify</Name>
-            <Homepage>https://www.spotify.com</Homepage>
-            <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>master-pdf-editor</Name>
-        <Summary xml:lang="en">Master PDF Editor</Summary>
-        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files</Description>
-        <PartOf>office.viewers</PartOf>
-        <License>Proprietary</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
-            <Dependency releaseFrom="30">libdrm</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="15">libnspr</Dependency>
-            <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="32">pango</Dependency>
-            <Dependency releaseFrom="24">cups</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
-            <Dependency releaseFrom="88">libgtk-3</Dependency>
-            <Dependency releaseFrom="38">libnss</Dependency>
-            <Dependency releaseFrom="47">qt5-base</Dependency>
-            <Dependency releaseFrom="42">libcairo</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="20">zlib</Dependency>
-            <Dependency releaseFrom="33">fontconfig</Dependency>
-            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="22">libatk</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="29">dbus</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-01-31</Date>
-                <Version>5.4.38</Version>
-                <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>103997752</InstalledSize>
-        <PackageSize>29720571</PackageSize>
-        <PackageHash>299089922fd66eef55b171b16f76e97f5c727f50</PackageHash>
-        <PackageURI>master-pdf-editor-5.4.38-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>master-pdf-editor</Name>
-            <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>office-2018</Name>
-        <Summary xml:lang="en">Office-2018</Summary>
-        <Description xml:lang="en">SoftMaker Office is a complete office suite</Description>
-        <PartOf>office</PartOf>
-        <License>GPL-2.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="8">libxmu</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="55">curl</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
-            <Dependency releaseFrom="12">libxrandr</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-01-31</Date>
-                <Version>972</Version>
-                <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>638323202</InstalledSize>
-        <PackageSize>346898008</PackageSize>
-        <PackageHash>3d5efe78c093a675bbf2de481aab574226a8fd17</PackageHash>
-        <PackageURI>office-2018-972-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>office-2018</Name>
+            <Name>breaktimer</Name>
+            <Homepage>https://breaktimer.app/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -217,6 +118,498 @@
         <Source>
             <Name>stremio</Name>
             <Homepage>https://www.stremio.com</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>sublime-text-3</Name>
+        <Summary xml:lang="en">Sublime Text</Summary>
+        <Description xml:lang="en">Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
+        <PartOf>programming</PartOf>
+        <License>Proprietary</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2020-02-04</Date>
+                <Version>3211</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>34849235</InstalledSize>
+        <PackageSize>12512020</PackageSize>
+        <PackageHash>04cba2b86f9c8b99fed043a96d81efbd5ca05d71</PackageHash>
+        <PackageURI>sublime-text-3-3211-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>sublime-text-3</Name>
+            <Homepage>https://www.sublimetext.com/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>skype</Name>
+        <Summary xml:lang="en">Skype</Summary>
+        <Description xml:lang="en">Skype keeps you together. Call, message and share with others.</Description>
+        <PartOf>network.im</PartOf>
+        <License>Copyright (c) 2019 Skype and/or Microsoft</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="88">libgtk-3</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="15">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libsecret</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="22">at-spi2</Dependency>
+            <Dependency>pycups</Dependency>
+            <Dependency>libstdc++</Dependency>
+            <Dependency>libdbusmenu</Dependency>
+            <Dependency>gnome-keyring</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2020-02-04</Date>
+                <Version>8.56.0.103</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>279130765</InstalledSize>
+        <PackageSize>88906873</PackageSize>
+        <PackageHash>42dfaed7953f91837bfe23300cd22df084775e25</PackageHash>
+        <PackageURI>skype-8.56.0.103-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>skype</Name>
+            <Homepage>https://www.skype.com/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>free-office-2018</Name>
+        <Summary xml:lang="en">FreeOffice 2018</Summary>
+        <Description xml:lang="en">SoftMaker FreeOffice is a complete office suite.</Description>
+        <PartOf>office</PartOf>
+        <License>Copyright © 2020 SoftMaker</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="8">libxmu</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="55">curl</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency>libnih</Dependency>
+            <Dependency>python-pycurl</Dependency>
+            <Dependency>libglu</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2020-02-04</Date>
+                <Version>973</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>213380710</InstalledSize>
+        <PackageSize>134714961</PackageSize>
+        <PackageHash>f60282058cc886c9f404ffeec4f1d04d038013cb</PackageHash>
+        <PackageURI>free-office-2018-973-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>free-office-2018</Name>
+            <Homepage>https://www.softmaker.com/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>spotify</Name>
+        <Summary xml:lang="en">Spotify Music, Video and Podcast Streaming Client</Summary>
+        <Description xml:lang="en">Spotify is a Swedish commercial music streaming, podcast and video service that provides digital rights management-protected content from record labels and media companies.</Description>
+        <PartOf>multimedia.audio</PartOf>
+        <License>Copyright (c) 2020 Spotify Ltd</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="15">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="24">libgtk-2</Dependency>
+            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="20">zlib</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>libnotify</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-04</Date>
+                <Version>1.1.10.546</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>285906023</InstalledSize>
+        <PackageSize>94356790</PackageSize>
+        <PackageHash>2e6c07d1f360398ba36332d33b02af949c224f5e</PackageHash>
+        <PackageURI>spotify-1.1.10.546-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>spotify</Name>
+            <Homepage>https://www.spotify.com</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>xmacro</Name>
+        <Summary xml:lang="en">xmacro</Summary>
+        <Description xml:lang="en">Record / Play keystrokes and mouse movements in X displays.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2020-02-04</Date>
+                <Version>0.3</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>81470</InstalledSize>
+        <PackageSize>21235</PackageSize>
+        <PackageHash>df2a06490c7e7bc719b38cdd15960624504d7531</PackageHash>
+        <PackageURI>xmacro-0.3-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>xmacro</Name>
+            <Homepage>https://sourceforge.net/projects/xmacro/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>master-pdf-editor-v4</Name>
+        <Summary xml:lang="en">Master PDF Editor v4</Summary>
+        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files.</Description>
+        <PartOf>office.viewers</PartOf>
+        <License>Copyright © Code Industry Ltd</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="47">qt5-base</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="17">qt5-svg</Dependency>
+            <Dependency>libnss</Dependency>
+            <Dependency>libnspr</Dependency>
+            <Dependency>qt5-networkauth</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2020-02-04</Date>
+                <Version>4.3.89</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>45614191</InstalledSize>
+        <PackageSize>11891631</PackageSize>
+        <PackageHash>1e3c814493b989298d40b28bcfd4fb7be5470047</PackageHash>
+        <PackageURI>master-pdf-editor-v4-4.3.89-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>master-pdf-editor-v4</Name>
+            <Homepage>https://code-industry.net/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>rambox</Name>
+        <Summary xml:lang="en">Rambox</Summary>
+        <Description xml:lang="en">Free and Open Source messaging and emailing app that combines common web applications into one.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>https://rambox.pro/#eula</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="88">libgtk-3</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="15">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="22">at-spi2</Dependency>
+            <Dependency>libnotify</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>libappindicator</Dependency>
+            <Dependency>libsecret</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-05</Date>
+                <Version>0.7.3</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>205138107</InstalledSize>
+        <PackageSize>62220482</PackageSize>
+        <PackageHash>85caf438ed90185fdcf4a106c37b53610a5453e3</PackageHash>
+        <PackageURI>rambox-0.7.3-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>rambox</Name>
+            <Homepage>https://rambox.pro</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>emby-server</Name>
+        <Summary xml:lang="en">Emby Server</Summary>
+        <Description xml:lang="en">Emby Server is a personal media server with apps on just about every device.</Description>
+        <PartOf>multimedia.video</PartOf>
+        <License>© 2019 Emby LLC</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-05</Date>
+                <Version>4.3.1.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>244575096</InstalledSize>
+        <PackageSize>73521587</PackageSize>
+        <PackageHash>70630e1d22e868f40395fdcc4745bf81722df6dc</PackageHash>
+        <PackageURI>emby-server-4.3.1.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>emby-server</Name>
+            <Homepage>https://emby.media</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>plexmediaserver</Name>
+        <Summary xml:lang="en">Plex Media Server</Summary>
+        <Description xml:lang="en">Plex organizes all of your personal media so you can easily access and enjoy it.</Description>
+        <PartOf>multimedia.video</PartOf>
+        <License>https://plex.tv/legal</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-05</Date>
+                <Version>1.18.5.2309</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>220746687</InstalledSize>
+        <PackageSize>86431327</PackageSize>
+        <PackageHash>1f87a7fd2b1598c891802f9031d525ae804ba5fb</PackageHash>
+        <PackageURI>plexmediaserver-1.18.5.2309-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>plexmediaserver</Name>
+            <Homepage>https://plex.tv</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>office-2018</Name>
+        <Summary xml:lang="en">Office 2018</Summary>
+        <Description xml:lang="en">SoftMaker Office is a complete office suite.</Description>
+        <PartOf>office</PartOf>
+        <License>Copyright © 2020 SoftMaker</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="8">libxmu</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="55">curl</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency>libnih</Dependency>
+            <Dependency>python-pycurl</Dependency>
+            <Dependency>libglu</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2020-02-04</Date>
+                <Version>972</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>638323202</InstalledSize>
+        <PackageSize>346897750</PackageSize>
+        <PackageHash>2fbd20deab8e72c320f0726fba8aee1cff8ba671</PackageHash>
+        <PackageURI>office-2018-972-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>office-2018</Name>
+            <Homepage>https://www.softmaker.com/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -286,76 +679,6 @@
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-beta</Name>
-            <Homepage>https://www.google.com/chrome/</Homepage>
-            <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>google-chrome-unstable</Name>
-        <Summary xml:lang="en">Google Chrome Unstable</Summary>
-        <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
-        <PartOf>network.web.browser</PartOf>
-        <License>EULA</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="29">dbus</Dependency>
-            <Dependency releaseFrom="12">libxcomposite</Dependency>
-            <Dependency releaseFrom="16">expat</Dependency>
-            <Dependency releaseFrom="14">libxcursor</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="15">libnspr</Dependency>
-            <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="32">pango</Dependency>
-            <Dependency releaseFrom="24">cups</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
-            <Dependency releaseFrom="88">libgtk-3</Dependency>
-            <Dependency releaseFrom="39">libnss</Dependency>
-            <Dependency releaseFrom="42">libcairo</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
-            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="22">libatk</Dependency>
-            <Dependency releaseFrom="13">libxdamage</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
-            <Dependency releaseFrom="22">at-spi2</Dependency>
-            <Dependency>gconf</Dependency>
-            <Dependency>binutils</Dependency>
-            <Dependency>liberation-fonts-ttf</Dependency>
-            <Dependency>libappindicator</Dependency>
-            <Dependency>pycups</Dependency>
-            <Dependency>libdbusmenu</Dependency>
-            <Dependency>wget</Dependency>
-            <Dependency>xdg-utils</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-02-04</Date>
-                <Version>81.0.4040.5</Version>
-                <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>235714872</InstalledSize>
-        <PackageSize>77627229</PackageSize>
-        <PackageHash>ecc3008b134e1560f8c73c98bc9d6e3473326ee8</PackageHash>
-        <PackageURI>google-chrome-unstable-81.0.4040.5-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>google-chrome-unstable</Name>
             <Homepage>https://www.google.com/chrome/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
@@ -434,194 +757,42 @@
         </Source>
     </Package>
     <Package>
-        <Name>sublime-text-3</Name>
-        <Summary xml:lang="en">Sublime Text</Summary>
-        <Description xml:lang="en">Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
-        <PartOf>programming</PartOf>
-        <License>Proprietary</License>
+        <Name>master-pdf-editor</Name>
+        <Summary xml:lang="en">Master PDF Editor</Summary>
+        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files.</Description>
+        <PartOf>office.viewers</PartOf>
+        <License>Copyright © Code Industry Ltd</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency>libxscrnsaver</Dependency>
-            <Dependency>gconf</Dependency>
-            <Dependency>binutils</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="2">
-                <Date>2020-02-04</Date>
-                <Version>3211</Version>
-                <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>34849235</InstalledSize>
-        <PackageSize>12512020</PackageSize>
-        <PackageHash>04cba2b86f9c8b99fed043a96d81efbd5ca05d71</PackageHash>
-        <PackageURI>sublime-text-3-3211-2-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>sublime-text-3</Name>
-            <Homepage>https://www.sublimetext.com/</Homepage>
-            <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>xmacro</Name>
-        <Summary xml:lang="en">xmacro</Summary>
-        <Description xml:lang="en">Record / Play keystrokes and mouse movements in X displays</Description>
-        <PartOf>system.utils</PartOf>
-        <License>GPL-2.0-or-later</License>
-        <RuntimeDependencies>
             <Dependency releaseFrom="47">libstdc++</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-01-31</Date>
-                <Version>0.3</Version>
-                <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>81470</InstalledSize>
-        <PackageSize>21197</PackageSize>
-        <PackageHash>e3686ca8a7abfbb47a6207e0746fe886c845ce7c</PackageHash>
-        <PackageURI>xmacro-0.3-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>xmacro</Name>
-            <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>breaktimer</Name>
-        <Summary xml:lang="en">BreakTimer</Summary>
-        <Description xml:lang="en">Manage periodic breaks.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>GPL-3.0-or-later</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="88">libgtk-3</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="29">dbus</Dependency>
-            <Dependency releaseFrom="12">libxcomposite</Dependency>
-            <Dependency releaseFrom="16">expat</Dependency>
-            <Dependency releaseFrom="14">libxcursor</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="30">libdrm</Dependency>
             <Dependency releaseFrom="47">libgcc</Dependency>
             <Dependency releaseFrom="15">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="32">pango</Dependency>
             <Dependency releaseFrom="24">cups</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="27">util-linux</Dependency>
-            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
             <Dependency releaseFrom="59">glib2</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="42">libcairo</Dependency>
-            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="22">libatk</Dependency>
-            <Dependency releaseFrom="13">libxdamage</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
-            <Dependency releaseFrom="22">at-spi2</Dependency>
-            <Dependency>libnotify</Dependency>
-            <Dependency>xdg-utils</Dependency>
-            <Dependency>libappindicator</Dependency>
-            <Dependency>libsecret</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="3">
-                <Date>2020-02-03</Date>
-                <Version>0.7.0</Version>
-                <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>253744093</InstalledSize>
-        <PackageSize>68378312</PackageSize>
-        <PackageHash>5d5c35a218530ca79313013028e8cdc40c851e67</PackageHash>
-        <PackageURI>breaktimer-0.7.0-3-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>breaktimer</Name>
-            <Homepage>https://breaktimer.app/</Homepage>
-            <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>skype</Name>
-        <Summary xml:lang="en">Skype</Summary>
-        <Description xml:lang="en">Skype keeps you together. Call, message and share with others.</Description>
-        <PartOf>network.im</PartOf>
-        <License>Copyright (c) 2019 Skype and/or Microsoft</License>
-        <RuntimeDependencies>
             <Dependency releaseFrom="88">libgtk-3</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="29">dbus</Dependency>
-            <Dependency releaseFrom="12">libxcomposite</Dependency>
-            <Dependency releaseFrom="16">expat</Dependency>
-            <Dependency releaseFrom="14">libxcursor</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="15">libnspr</Dependency>
-            <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="32">pango</Dependency>
-            <Dependency releaseFrom="24">cups</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="27">util-linux</Dependency>
             <Dependency releaseFrom="39">libnss</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="47">qt5-base</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="20">zlib</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
             <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="13">libsecret</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
             <Dependency releaseFrom="22">libatk</Dependency>
-            <Dependency releaseFrom="13">libxdamage</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
-            <Dependency releaseFrom="22">at-spi2</Dependency>
-            <Dependency>pycups</Dependency>
-            <Dependency>libstdc++</Dependency>
-            <Dependency>libdbusmenu</Dependency>
-            <Dependency>gnome-keyring</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency>qt5-svg</Dependency>
+            <Dependency>qt5-networkauth</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="2">
                 <Date>2020-02-04</Date>
-                <Version>8.56.0.103</Version>
+                <Version>5.4.38</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -631,14 +802,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>279130765</InstalledSize>
-        <PackageSize>88906873</PackageSize>
-        <PackageHash>42dfaed7953f91837bfe23300cd22df084775e25</PackageHash>
-        <PackageURI>skype-8.56.0.103-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>103997752</InstalledSize>
+        <PackageSize>29720602</PackageSize>
+        <PackageHash>1e149ae5c786087487cae9c26a7a071fbc5325f2</PackageHash>
+        <PackageURI>master-pdf-editor-5.4.38-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>skype</Name>
-            <Homepage>https://www.skype.com/</Homepage>
+            <Name>master-pdf-editor</Name>
+            <Homepage>https://code-industry.net/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -692,27 +863,48 @@
         </Source>
     </Package>
     <Package>
-        <Name>free-office-2018</Name>
-        <Summary xml:lang="en">FreeOffice-2018</Summary>
-        <Description xml:lang="en">SoftMaker FreeOffice is a complete office suite</Description>
-        <PartOf>office</PartOf>
-        <License>GPL-2.0-or-later</License>
+        <Name>teamviewer</Name>
+        <Summary xml:lang="en">Remote control and meeting solution.</Summary>
+        <Description xml:lang="en">TeamViewer provides easy, fast and secure remote access and meeting solutions to Linux, Windows PCs, Apple PCs and various other platforms, including Android and iPhone.</Description>
+        <PartOf>network.remote</PartOf>
+        <License>https://www.teamviewer.com/en/eula/</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="8">libxmu</Dependency>
+            <Dependency releaseFrom="27">qt5-webkit</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="47">qt5-base</Dependency>
             <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="17">qt5-x11extras</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="23">qt5-declarative</Dependency>
             <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="55">curl</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="9">libsm</Dependency>
             <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="13">libxinerama</Dependency>
+            <Dependency>alsa-lib</Dependency>
+            <Dependency>harfbuzz</Dependency>
+            <Dependency>libcap2</Dependency>
+            <Dependency>libgcc</Dependency>
+            <Dependency>libgcrypt</Dependency>
+            <Dependency>libjpeg-turbo</Dependency>
+            <Dependency>libpng12</Dependency>
+            <Dependency>libx11</Dependency>
+            <Dependency>libxau</Dependency>
+            <Dependency>xz</Dependency>
+            <Dependency>zlib</Dependency>
+            <Dependency>qt5-sensors</Dependency>
+            <Dependency>qt5-multimedia</Dependency>
+            <Dependency>qt5-webchannel</Dependency>
+            <Dependency>qt5-quickcontrols</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-01-31</Date>
-                <Version>973</Version>
+                <Date>2020-02-05</Date>
+                <Version>15.2.2756</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -722,13 +914,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>213380710</InstalledSize>
-        <PackageSize>134714599</PackageSize>
-        <PackageHash>5371673d6fefb1c7e37fe466df6fe7a016123dc7</PackageHash>
-        <PackageURI>free-office-2018-973-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>72037984</InstalledSize>
+        <PackageSize>20960098</PackageSize>
+        <PackageHash>a286a9551c931a858338124a3ed3ad3f15ade954</PackageHash>
+        <PackageURI>teamviewer-15.2.2756-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>free-office-2018</Name>
+            <Name>teamviewer</Name>
+            <Homepage>http://www.teamviewer.com</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -736,23 +929,49 @@
         </Source>
     </Package>
     <Package>
-        <Name>master-pdf-editor-v4</Name>
-        <Summary xml:lang="en">Master PDF Editor v4</Summary>
-        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files</Description>
-        <PartOf>office.viewers</PartOf>
-        <License>Proprietary</License>
+        <Name>xmind-zen</Name>
+        <Summary xml:lang="en">XMind</Summary>
+        <Description xml:lang="en">XMind - The most popular mind mapping software.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>© 2020 XMind Ltd.</License>
         <RuntimeDependencies>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
             <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="47">qt5-base</Dependency>
+            <Dependency releaseFrom="15">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="88">libgtk-3</Dependency>
+            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
-            <Dependency releaseFrom="17">qt5-svg</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="22">at-spi2</Dependency>
+            <Dependency>libnotify</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>libappindicator</Dependency>
+            <Dependency>libsecret</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-01-31</Date>
-                <Version>4.3.89</Version>
+                <Date>2020-02-05</Date>
+                <Version>10.0.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -762,13 +981,289 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>45614191</InstalledSize>
-        <PackageSize>11891571</PackageSize>
-        <PackageHash>353f186ebe68955ba236f126fe18f8d4e701f2c4</PackageHash>
-        <PackageURI>master-pdf-editor-v4-4.3.89-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>255883802</InstalledSize>
+        <PackageSize>71598031</PackageSize>
+        <PackageHash>e4842c262c32371b339e1ed49898b85874575b51</PackageHash>
+        <PackageURI>xmind-zen-10.0.0-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>master-pdf-editor-v4</Name>
+            <Name>xmind-zen</Name>
+            <Homepage>https://www.xmind.net</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>anydesk</Name>
+        <Summary xml:lang="en">AnyDesk</Summary>
+        <Description xml:lang="en">AnyDesk is the fastest remote desktop software on the market. It allows for new usage scenarios and applications that have not been possible with current remote desktop software.</Description>
+        <PartOf>network.remote</PartOf>
+        <License>© 2020 AnyDesk Software GmbH</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="8">libxmu</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="21">polkit</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="7">libglu</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="24">libgtk-2</Dependency>
+            <Dependency releaseFrom="12">libxkbfile</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="9">libice</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="3">gtkglext</Dependency>
+            <Dependency releaseFrom="8">libxt</Dependency>
+            <Dependency releaseFrom="1">pangox-compat</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="9">libsm</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>xdg-utils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-05</Date>
+                <Version>5.5.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>12204912</InstalledSize>
+        <PackageSize>3873085</PackageSize>
+        <PackageHash>1c31a7f25fb87cf11b6cc99d634d3af5d5aa917c</PackageHash>
+        <PackageURI>anydesk-5.5.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>anydesk</Name>
+            <Homepage>https://anydesk.com</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>google-chrome-unstable</Name>
+        <Summary xml:lang="en">Google Chrome Unstable</Summary>
+        <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
+        <PartOf>network.web.browser</PartOf>
+        <License>EULA</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="15">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="88">libgtk-3</Dependency>
+            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="22">at-spi2</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+            <Dependency>liberation-fonts-ttf</Dependency>
+            <Dependency>libappindicator</Dependency>
+            <Dependency>pycups</Dependency>
+            <Dependency>libdbusmenu</Dependency>
+            <Dependency>wget</Dependency>
+            <Dependency>xdg-utils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-04</Date>
+                <Version>81.0.4040.5</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>235714872</InstalledSize>
+        <PackageSize>77627229</PackageSize>
+        <PackageHash>ecc3008b134e1560f8c73c98bc9d6e3473326ee8</PackageHash>
+        <PackageURI>google-chrome-unstable-81.0.4040.5-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>google-chrome-unstable</Name>
+            <Homepage>https://www.google.com/chrome/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>wps-office</Name>
+        <Summary xml:lang="en">WPS Office, is an office productivity suite.</Summary>
+        <Description xml:lang="en">WPS Office including Writer, Presentation and Spreadsheets, is a powerful office suite, which is able to process word file, produce wonderful slides, and analyze data as well. It is deeply compatible with all of the latest Microsoft Office file formats. It can easily open and read the documents created with Microsoft Office. This is the Linux version, and it&apos;s now a TESTING package.</Description>
+        <PartOf>office</PartOf>
+        <License>http://wps-community.org/license.md</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="15">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="24">libgtk-2</Dependency>
+            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="9">libice</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="35">sqlite3</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="8">libtool</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="24">xz</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="20">zlib</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="9">libsm</Dependency>
+            <Dependency>pycups</Dependency>
+            <Dependency>libglu</Dependency>
+            <Dependency>libfontenc</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-05</Date>
+                <Version>11.1.0.9080</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>920903381</InstalledSize>
+        <PackageSize>245515676</PackageSize>
+        <PackageHash>a9f9240d2776d99f6bd1585b1152982184beb73a</PackageHash>
+        <PackageURI>wps-office-11.1.0.9080-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>wps-office</Name>
+            <Homepage>https://www.wps.com/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>rambox-pro</Name>
+        <Summary xml:lang="en">Rambox</Summary>
+        <Description xml:lang="en">The all-in-one workspace browser.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>https://rambox.pro/#eula</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="88">libgtk-3</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="15">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
+            <Dependency>libnotify</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>libappindicator</Dependency>
+            <Dependency>libsecret</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-05</Date>
+                <Version>1.2.2</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>417779351</InstalledSize>
+        <PackageSize>122298128</PackageSize>
+        <PackageHash>6fac15281135ecb5e42cff1b68e9f959a245e774</PackageHash>
+        <PackageURI>rambox-pro-1.2.2-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>rambox-pro</Name>
+            <Homepage>https://rambox.pro</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
