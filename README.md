@@ -30,18 +30,16 @@ sudo eopkg install package
 | 13 | teamviewer | 15.2.2756 | 05/02/2020 |
 | 14 | anydesk | 5.5.1 | 05/02/2020 |
 | 15 | spotify | 1.1.10.546 | 03/02/2020 |
-| 16 | android-studio | compiling | wait |
+| 16 | android-studio | 191.6010548 | 06/02/2020 |
 | 17 | sublime-text-3 | 3211 | 31/01/2020 |
 | 18 | skype | 8.56.0.103 | 31/01/2020 |
 | 19 | [eradio](https://github.com/DreamDevel/eRadio) | 2.0.4 | 31/01/2020 |
-| 20 | celluloid | compiling | wait |
-| 21 | mailspring | compiling | wait |
-| 22 | ulauncher | compiling | wait |
-| 23 | xmind-zen | 10.0.0 | 05/02/2020 |
-| 24 | rambox | 0.7.3 | 05/02/2020 |
-| 25 | rambox-pro | 1.2.2 | 05/02/2020 |
-| 26 | wps-office | 11.1.0.9080 | 05/02/2020 |
-| 27 | dkms | compiling | wait |
+| 20 | mailspring | 1.7.2 | 06/02/2020 |
+| 21 | xmind-zen | 10.0.0 | 05/02/2020 |
+| 22 | rambox | 0.7.3 | 05/02/2020 |
+| 23 | rambox-pro | 1.2.2 | 05/02/2020 |
+| 24 | wps-office | 11.1.0.9080 | 05/02/2020 |
+| 25 | dkms | compiling | wait |
 
 
 ## Donation
@@ -52,7 +50,6 @@ sudo eopkg install package
 | Litecoin (LTC) | LevgQFrBgcix8XfkQDrEdZo1v2yMfr8rYb |
 | Ethereum (ETH) | 0xe6a2ed71d1fbebef74b7388cf716c4d38cd432f7 |
 | Basic Attention Token (BAT) | 0xe6a2ed71d1fbebef74b7388cf716c4d38cd432f7 |
-| Monero (XMR) | 84q9gdRQmsi592ndvUyv5c9ePTcwmkCXRHURQ7F7wAeeBmjJ7c7B78zbRDeHsSbSmC7gXETPSMLkkdZKEEKDxbyV8svYxgq 
 
 ### Others
 
