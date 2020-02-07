@@ -289,7 +289,7 @@
         <RuntimeDependencies>
             <Dependency releaseFrom="22">libx11</Dependency>
             <Dependency releaseFrom="29">dbus</Dependency>
-            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="29">curl-gnutls</Dependency>
             <Dependency releaseFrom="16">expat</Dependency>
             <Dependency releaseFrom="14">libxcursor</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
@@ -297,6 +297,7 @@
             <Dependency releaseFrom="47">libgcc</Dependency>
             <Dependency releaseFrom="15">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
             <Dependency releaseFrom="24">libgtk-2</Dependency>
             <Dependency releaseFrom="11">libxscrnsaver</Dependency>
             <Dependency releaseFrom="26">freetype2</Dependency>
@@ -316,10 +317,12 @@
             <Dependency releaseFrom="12">libxrandr</Dependency>
             <Dependency>xdg-utils</Dependency>
             <Dependency>libnotify</Dependency>
+            <Dependency>libgnutls-utils</Dependency>
+            <Dependency>libgnutls</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-02-04</Date>
+            <Update release="2">
+                <Date>2020-02-07</Date>
                 <Version>1.1.10.546</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -331,9 +334,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>285906023</InstalledSize>
-        <PackageSize>94356790</PackageSize>
-        <PackageHash>2e6c07d1f360398ba36332d33b02af949c224f5e</PackageHash>
-        <PackageURI>spotify-1.1.10.546-1-1-x86_64.eopkg</PackageURI>
+        <PackageSize>94356996</PackageSize>
+        <PackageHash>8a34ed14670ca4ea110d0060ed699acf36f2327d</PackageHash>
+        <PackageURI>spotify-1.1.10.546-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>spotify</Name>
