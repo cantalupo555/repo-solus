@@ -39,7 +39,7 @@ sudo eopkg install package
 | 22 | rambox | 0.7.3 | 05/02/2020 | |
 | 23 | rambox-pro | 1.2.2 | 05/02/2020 | |
 | 24 | wps-office | 11.1.0.9080 | 05/02/2020 | |
-| 25 | dkms | 2.2.0.3 | 07/02/2020 | [tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-dmks-on-Solus) |
+| 25 | dkms | 2.2.0.3 | 07/02/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-dkms-on-Solus) |
 
 
 ## Donation
