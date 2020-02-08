@@ -281,6 +281,45 @@
         </Source>
     </Package>
     <Package>
+        <Name>dkms</Name>
+        <Summary xml:lang="en">Dynamic Kernel Module Support Framework</Summary>
+        <Description xml:lang="en">DKMS is a framework designed to allow individual kernel modules to be upgraded without changing the whole kernel. It is also very easy to rebuild modules as you upgrade kernels.</Description>
+        <PartOf>system.base</PartOf>
+        <License>GPL-2.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency>kmod</Dependency>
+            <Dependency>gcc</Dependency>
+            <Dependency>make</Dependency>
+            <Dependency>coreutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-07</Date>
+                <Version>2.2.0.3</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>194143</InstalledSize>
+        <PackageSize>70454</PackageSize>
+        <PackageHash>275de8a04f7489b282643edcb86fabd40b565ec5</PackageHash>
+        <PackageURI>dkms-2.2.0.3-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>dkms</Name>
+            <Homepage>http://linux.dell.com/dkms</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>spotify</Name>
         <Summary xml:lang="en">Spotify Music, Video and Podcast Streaming Client</Summary>
         <Description xml:lang="en">Spotify is a Swedish commercial music streaming, podcast and video service that provides digital rights management-protected content from record labels and media companies.</Description>
