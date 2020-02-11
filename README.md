@@ -18,7 +18,7 @@ sudo eopkg install package
 | 1 | stremio | 4.4.106 | 03/02/2020 | |
 | 2 | plexmediaserver | 1.18.5.2309 | 05/02/2020 | |
 | 3 | emby-server | 4.3.1.0 | 05/02/2020 | |
-| 4 | [breaktimer](https://breaktimer.app/) | 0.7.0 | 03/02/2020 | |
+| 4 | [breaktimer](https://breaktimer.app/) | 0.7.1 | 11/02/2020 | |
 | 5 | master-pdf-editor | 5.4.38 | 31/01/2020 | |
 | 6 | master-pdf-editor-v4 | 4.3.89 | 31/01/2020 | |
 | 7 | free-office-2018 | 973 | 31/01/2020 | |
