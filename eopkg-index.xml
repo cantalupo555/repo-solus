@@ -352,10 +352,11 @@
             <Dependency>libnotify</Dependency>
             <Dependency>libgnutls-utils</Dependency>
             <Dependency>libgnutls</Dependency>
+            <Dependency>gtk2-engine-murrine</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-02-07</Date>
+            <Update release="3">
+                <Date>2020-02-11</Date>
                 <Version>1.1.10.546</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -367,9 +368,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>285906023</InstalledSize>
-        <PackageSize>94356996</PackageSize>
-        <PackageHash>8a34ed14670ca4ea110d0060ed699acf36f2327d</PackageHash>
-        <PackageURI>spotify-1.1.10.546-2-1-x86_64.eopkg</PackageURI>
+        <PackageSize>94356840</PackageSize>
+        <PackageHash>8197e7d3bac07be8afcb9dbbb2eece5cc17b8b58</PackageHash>
+        <PackageURI>spotify-1.1.10.546-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>spotify</Name>
