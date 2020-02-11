@@ -897,9 +897,9 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="3">
-                <Date>2020-02-06</Date>
-                <Version>80.0.3987.87</Version>
+            <Update release="4">
+                <Date>2020-02-11</Date>
+                <Version>80.0.3987.100</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -909,10 +909,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>223697921</InstalledSize>
-        <PackageSize>74224581</PackageSize>
-        <PackageHash>e4f117e22aa55a15d13ef9b34b74161b47bde8d3</PackageHash>
-        <PackageURI>google-chrome-stable-80.0.3987.87-3-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>223701603</InstalledSize>
+        <PackageSize>74228084</PackageSize>
+        <PackageHash>95c52b8fda0747866996b41dc009ddd39cb859ae</PackageHash>
+        <PackageURI>google-chrome-stable-80.0.3987.100-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-stable</Name>
