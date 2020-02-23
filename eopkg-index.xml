@@ -382,60 +382,7 @@
         </Source>
     </Package>
     <Package>
-        <Name>android-studio</Name>
-        <Summary xml:lang="en">Android Studio</Summary>
-        <Description xml:lang="en">Android development environment based on IntelliJ IDEA.</Description>
-        <PartOf>programming</PartOf>
-        <License>Apache-2.0</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="20">zlib</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
-            <Dependency releaseFrom="14">ncurses</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="19">alsa-lib</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency>bzip2-32bit</Dependency>
-            <Dependency>openjdk-8</Dependency>
-            <Dependency>libstdc++-32bit</Dependency>
-            <Dependency>ncurses-32bit</Dependency>
-            <Dependency>zlib-32bit</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-02-06</Date>
-                <Version>191.6010548</Version>
-                <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>1371260638</InstalledSize>
-        <PackageSize>697444040</PackageSize>
-        <PackageHash>52705cabb0eb4b856c4d90031df0788c648f2044</PackageHash>
-        <PackageURI>android-studio-191.6010548-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>android-studio</Name>
-            <Homepage>https://developer.android.com/studio/</Homepage>
-            <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>mailspring</Name>
+        <Name>mailspring-c</Name>
         <Summary xml:lang="en">Mailspring</Summary>
         <Description xml:lang="en">The best email app for people and teams at work.</Description>
         <PartOf>network.mail</PartOf>
@@ -486,7 +433,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-02-06</Date>
+                <Date>2020-02-14</Date>
                 <Version>1.7.2</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -498,13 +445,66 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>331978379</InstalledSize>
-        <PackageSize>95796000</PackageSize>
-        <PackageHash>72c10791c76191d64ee3bdb922a47ec379d99f24</PackageHash>
-        <PackageURI>mailspring-1.7.2-1-1-x86_64.eopkg</PackageURI>
+        <PackageSize>95796042</PackageSize>
+        <PackageHash>b821a5acc6e3edf579bbbc8b7e061565ac24d92c</PackageHash>
+        <PackageURI>mailspring-c-1.7.2-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>mailspring</Name>
+            <Name>mailspring-c</Name>
             <Homepage>https://getmailspring.com</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>android-studio</Name>
+        <Summary xml:lang="en">Android Studio</Summary>
+        <Description xml:lang="en">Android development environment based on IntelliJ IDEA.</Description>
+        <PartOf>programming</PartOf>
+        <License>Apache-2.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="20">zlib</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="14">ncurses</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="19">alsa-lib</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency>bzip2-32bit</Dependency>
+            <Dependency>openjdk-8</Dependency>
+            <Dependency>libstdc++-32bit</Dependency>
+            <Dependency>ncurses-32bit</Dependency>
+            <Dependency>zlib-32bit</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-02-06</Date>
+                <Version>191.6010548</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1371260638</InstalledSize>
+        <PackageSize>697444040</PackageSize>
+        <PackageHash>52705cabb0eb4b856c4d90031df0788c648f2044</PackageHash>
+        <PackageURI>android-studio-191.6010548-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>android-studio</Name>
+            <Homepage>https://developer.android.com/studio/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -866,14 +866,14 @@
             <Dependency releaseFrom="14">libxcursor</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="15">libnspr</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="32">pango</Dependency>
             <Dependency releaseFrom="24">cups</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="59">glib2</Dependency>
-            <Dependency releaseFrom="88">libgtk-3</Dependency>
-            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="89">libgtk-3</Dependency>
+            <Dependency releaseFrom="40">libnss</Dependency>
             <Dependency releaseFrom="42">libcairo</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="56">glibc</Dependency>
@@ -897,9 +897,9 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-02-11</Date>
-                <Version>80.0.3987.100</Version>
+            <Update release="5">
+                <Date>2020-02-23</Date>
+                <Version>80.0.3987.116</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -909,10 +909,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>223701603</InstalledSize>
-        <PackageSize>74228084</PackageSize>
-        <PackageHash>95c52b8fda0747866996b41dc009ddd39cb859ae</PackageHash>
-        <PackageURI>google-chrome-stable-80.0.3987.100-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>223672648</InstalledSize>
+        <PackageSize>74214483</PackageSize>
+        <PackageHash>c70b511f783621744fdd6fef05a09107c88118ef</PackageHash>
+        <PackageURI>google-chrome-stable-80.0.3987.116-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-stable</Name>
