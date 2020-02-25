@@ -42,6 +42,7 @@ sudo eopkg install package
 | 25 | wps-office | 11.1.0.9080 | 24/02/2020 | |
 | 26 | dkms | 2.7.1 | 08/02/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-dkms-on-Solus) |
 | 27 | stacer | 1.1.0 | 11/02/2020 | |
+| 28 | nordvpn | 3.6.1 | compiling | |
 
 
 ## Donation
