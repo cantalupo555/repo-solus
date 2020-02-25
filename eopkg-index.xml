@@ -1494,11 +1494,11 @@
             <Dependency releaseFrom="14">libxcursor</Dependency>
             <Dependency releaseFrom="47">libstdc++</Dependency>
             <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="15">libnspr</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="8">libglvnd</Dependency>
             <Dependency releaseFrom="24">libgtk-2</Dependency>
-            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="40">libnss</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="56">glibc</Dependency>
             <Dependency releaseFrom="33">fontconfig</Dependency>
@@ -1527,8 +1527,8 @@
             <Dependency>libfontenc</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-02-05</Date>
+            <Update release="2">
+                <Date>2020-02-25</Date>
                 <Version>11.1.0.9080</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -1539,10 +1539,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>920903381</InstalledSize>
-        <PackageSize>245515676</PackageSize>
-        <PackageHash>a9f9240d2776d99f6bd1585b1152982184beb73a</PackageHash>
-        <PackageURI>wps-office-11.1.0.9080-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>921307121</InstalledSize>
+        <PackageSize>245722828</PackageSize>
+        <PackageHash>ccca0cf1ad87c9df566dd8ccc0fbeaa2abc984cd</PackageHash>
+        <PackageURI>wps-office-11.1.0.9080-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>wps-office</Name>
