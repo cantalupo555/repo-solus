@@ -25,7 +25,7 @@ sudo eopkg install package
 | 8 | free-office-2018 | 973 | 31/01/2020 | |
 | 9 | [office-2018](http://www.softmaker.com/go/officenxheise) | 972 | 31/01/2020 | |
 | 10 | xmacro | 0.3 | 31/01/2020 | |
-| 11 | google-chrome-stable | 80.0.3987.116 | 22/02/2020 | |
+| 11 | google-chrome-stable | 80.0.3987.122 | 25/02/2020 | |
 | 12 | google-chrome-beta | 81.0.4044.26 | 22/02/2020 | |
 | 13 | google-chrome-unstable | 82.0.4062.3 | 22/02/2020 | |
 | 14 | teamviewer | 15.2.2756 | 05/02/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-TeamViewer-on-Solus) |
