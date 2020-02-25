@@ -515,19 +515,19 @@
         <PartOf>programming</PartOf>
         <License>Apache-2.0</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="20">zlib</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
             <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
             <Dependency releaseFrom="14">ncurses</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="20">zlib</Dependency>
             <Dependency releaseFrom="47">libstdc++</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="47">libgcc</Dependency>
             <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="19">alsa-lib</Dependency>
+            <Dependency releaseFrom="20">alsa-lib</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
             <Dependency>bzip2-32bit</Dependency>
             <Dependency>openjdk-8</Dependency>
             <Dependency>libstdc++-32bit</Dependency>
@@ -535,9 +535,9 @@
             <Dependency>zlib-32bit</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-02-06</Date>
-                <Version>191.6010548</Version>
+            <Update release="2">
+                <Date>2020-02-25</Date>
+                <Version>192.6200805</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -547,10 +547,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1371260638</InstalledSize>
-        <PackageSize>697444040</PackageSize>
-        <PackageHash>52705cabb0eb4b856c4d90031df0788c648f2044</PackageHash>
-        <PackageURI>android-studio-191.6010548-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>1426583825</InstalledSize>
+        <PackageSize>725310408</PackageSize>
+        <PackageHash>0532126b21b4bbab8d2df2889d501c4a5b7d7694</PackageHash>
+        <PackageURI>android-studio-192.6200805-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>android-studio</Name>
