@@ -586,7 +586,7 @@
             <Dependency releaseFrom="40">libnss</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="20">alsa-lib</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="59">glibc</Dependency>
             <Dependency releaseFrom="42">libcairo</Dependency>
             <Dependency releaseFrom="33">fontconfig</Dependency>
             <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
@@ -596,10 +596,13 @@
             <Dependency releaseFrom="13">libxext</Dependency>
             <Dependency releaseFrom="12">libxrandr</Dependency>
             <Dependency>libcanberra</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+            <Dependency>flex</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-02-23</Date>
+            <Update release="2">
+                <Date>2020-02-26</Date>
                 <Version>0.3.10</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -611,9 +614,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>267688859</InstalledSize>
-        <PackageSize>74581201</PackageSize>
-        <PackageHash>86f0d4c0e90efbe20491f4c6b08c001111070a70</PackageHash>
-        <PackageURI>popcorn-time-0.3.10-1-1-x86_64.eopkg</PackageURI>
+        <PackageSize>74579304</PackageSize>
+        <PackageHash>92c7e2fbae91ae2d6aa0567ea5929cbfd5ee8005</PackageHash>
+        <PackageURI>popcorn-time-0.3.10-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>popcorn-time</Name>
