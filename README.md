@@ -35,14 +35,13 @@ sudo eopkg install package
 | 18 | sublime-text-3 | 3211 | 31/01/2020 | |
 | 19 | skype | 8.57.0.116 | 05/03/2020 | |
 | 20 | [eradio](https://github.com/DreamDevel/eRadio) | 2.0.4 | 31/01/2020 | |
-| 21 | mailspring-c | 1.7.2 | 06/02/2020 | |
-| 22 | xmind-zen | 10.0.0 | 05/02/2020 | |
-| 23 | rambox | 0.7.3 | 05/02/2020 | |
-| 24 | rambox-pro | 1.2.2 | 05/02/2020 | |
-| 25 | wps-office | 11.1.0.9080 | 24/02/2020 | |
-| 26 | dkms | 2.7.1 | 08/02/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-dkms-on-Solus) |
-| 27 | stacer | 1.1.0 | 11/02/2020 | |
-| 28 | nordvpn | 3.6.1 | 25/02/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-NordVPN-on-Solus) |
+| 21 | xmind-zen | 10.0.0 | 05/02/2020 | |
+| 22 | rambox | 0.7.3 | 05/02/2020 | |
+| 23 | rambox-pro | 1.2.2 | 05/02/2020 | |
+| 24 | wps-office | 11.1.0.9080 | 24/02/2020 | |
+| 25 | dkms | 2.7.1 | 08/02/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-dkms-on-Solus) |
+| 26 | stacer | 1.1.0 | 11/02/2020 | |
+| 27 | nordvpn | 3.6.1 | 25/02/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-NordVPN-on-Solus) |
 
 
 ## Donation
