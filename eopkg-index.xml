@@ -1042,7 +1042,7 @@
             <Dependency releaseFrom="40">libnss</Dependency>
             <Dependency releaseFrom="42">libcairo</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
             <Dependency releaseFrom="11">libxscrnsaver</Dependency>
             <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
@@ -1063,9 +1063,9 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="6">
-                <Date>2020-02-25</Date>
-                <Version>80.0.3987.122</Version>
+            <Update release="7">
+                <Date>2020-03-05</Date>
+                <Version>80.0.3987.132</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1075,10 +1075,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>223673595</InstalledSize>
-        <PackageSize>74212854</PackageSize>
-        <PackageHash>e04020d289c1ec14dbb66c0547527c3e5bced9ec</PackageHash>
-        <PackageURI>google-chrome-stable-80.0.3987.122-6-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>223673640</InstalledSize>
+        <PackageSize>74215141</PackageSize>
+        <PackageHash>1bd1f031c8bc0b0a1452e9d38ed25ed7eab05946</PackageHash>
+        <PackageURI>google-chrome-stable-80.0.3987.132-7-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-stable</Name>
