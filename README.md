@@ -51,7 +51,6 @@ sudo eopkg install package
 | Bitcoin (BTC) | 1dMVGi7KzGDtN11vNzjd2uCbmHzcjHwUC |
 | Litecoin (LTC) | LevgQFrBgcix8XfkQDrEdZo1v2yMfr8rYb |
 | Ethereum (ETH) | 0xe6a2ed71d1fbebef74b7388cf716c4d38cd432f7 |
-| Basic Attention Token (BAT) | 0xe6a2ed71d1fbebef74b7388cf716c4d38cd432f7 |
 
 ### Others
 
