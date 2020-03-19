@@ -743,14 +743,14 @@
         <PartOf>multimedia.video</PartOf>
         <License>https://plex.tv/legal</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
             <Dependency releaseFrom="47">libgcc</Dependency>
             <Dependency>binutils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-02-25</Date>
-                <Version>1.18.7.2457</Version>
+            <Update release="5">
+                <Date>2020-03-19</Date>
+                <Version>1.18.8.2527</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -760,10 +760,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>227752983</InstalledSize>
-        <PackageSize>88221417</PackageSize>
-        <PackageHash>0b1f768f7765e19a2eb9f65425b0fe19a9edc5b3</PackageHash>
-        <PackageURI>plexmediaserver-1.18.7.2457-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>227839720</InstalledSize>
+        <PackageSize>88248268</PackageSize>
+        <PackageHash>65166e44d578b45df696386577ba2c1a8fece732</PackageHash>
+        <PackageURI>plexmediaserver-1.18.8.2527-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>plexmediaserver</Name>
