@@ -183,19 +183,19 @@
             <Dependency releaseFrom="47">libgcc</Dependency>
             <Dependency releaseFrom="16">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="32">pango</Dependency>
+            <Dependency releaseFrom="34">pango</Dependency>
             <Dependency releaseFrom="24">cups</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="27">util-linux</Dependency>
-            <Dependency releaseFrom="40">libnss</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="41">libnss</Dependency>
+            <Dependency releaseFrom="60">glib2</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="61">glibc</Dependency>
-            <Dependency releaseFrom="42">libcairo</Dependency>
-            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="14">libsecret</Dependency>
+            <Dependency releaseFrom="43">libcairo</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="15">libsecret</Dependency>
             <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="23">libatk</Dependency>
             <Dependency releaseFrom="13">libxdamage</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
             <Dependency releaseFrom="12">libxrandr</Dependency>
@@ -206,9 +206,9 @@
             <Dependency>gnome-keyring</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="3">
-                <Date>2020-03-05</Date>
-                <Version>8.57.0.116</Version>
+            <Update release="4">
+                <Date>2020-03-19</Date>
+                <Version>8.58.0.93</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -218,10 +218,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>279688794</InstalledSize>
-        <PackageSize>89050360</PackageSize>
-        <PackageHash>60c0a6d383c14723795d282ac18a7508fd52e403</PackageHash>
-        <PackageURI>skype-8.57.0.116-3-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>283301533</InstalledSize>
+        <PackageSize>90379005</PackageSize>
+        <PackageHash>3e435fc8615344b2146bb9a43ea9fcc81b32022a</PackageHash>
+        <PackageURI>skype-8.58.0.93-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>skype</Name>
