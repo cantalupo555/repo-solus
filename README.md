@@ -41,8 +41,8 @@ sudo eopkg install package
 | 24 | wps-office | 11.1.0.9080 | 24/02/2020 | |
 | 25 | dkms | 2.7.1 | 08/02/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-dkms-on-Solus) |
 | 26 | stacer | 1.1.0 | 11/02/2020 | |
-| 27 | nordvpn | 3.6.1 | 25/02/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-NordVPN-on-Solus) |
-
+| 27 | nordvpn | 3.6.1 | 25/02/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-NordVPN-on-Solus) | |
+| 28 | ocenaudio | 3.7.12 | 20/03/2020 | |
 
 ## Donation
 
@@ -51,6 +51,7 @@ sudo eopkg install package
 | Bitcoin (BTC) | 1dMVGi7KzGDtN11vNzjd2uCbmHzcjHwUC |
 | Litecoin (LTC) | LevgQFrBgcix8XfkQDrEdZo1v2yMfr8rYb |
 | Ethereum (ETH) | 0xe6a2ed71d1fbebef74b7388cf716c4d38cd432f7 |
+| Basic Attention Token (BAT) | 0xe6a2ed71d1fbebef74b7388cf716c4d38cd432f7 |
 
 ### Others
 
