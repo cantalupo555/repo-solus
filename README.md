@@ -19,7 +19,7 @@ sudo eopkg install package
 | 2 | plexmediaserver | 1.18.8.2527 | 19/03/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-Plex-Media-Server-on-Solus) |
 | 3 | emby-server | 4.3.1.0 | 05/02/2020 | |
 | 4 | popcorn-time | 0.3.10 | 23/02/2020 | |
-| 5 | [breaktimer](https://breaktimer.app/) | 0.7.1 | 11/02/2020 | |
+| 5 | [breaktimer](https://breaktimer.app/) | 0.7.2 | 21/03/2020 | |
 | 6 | master-pdf-editor | 5.4.38 | 31/01/2020 | |
 | 7 | master-pdf-editor-v4 | 4.3.89 | 31/01/2020 | |
 | 8 | free-office-2018 | 973 | 31/01/2020 | |
@@ -51,7 +51,6 @@ sudo eopkg install package
 | Bitcoin (BTC) | 1dMVGi7KzGDtN11vNzjd2uCbmHzcjHwUC |
 | Litecoin (LTC) | LevgQFrBgcix8XfkQDrEdZo1v2yMfr8rYb |
 | Ethereum (ETH) | 0xe6a2ed71d1fbebef74b7388cf716c4d38cd432f7 |
-| Basic Attention Token (BAT) | 0xe6a2ed71d1fbebef74b7388cf716c4d38cd432f7 |
 
 ### Others
 
