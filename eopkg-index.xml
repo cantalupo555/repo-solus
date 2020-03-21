@@ -1361,9 +1361,9 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-03-19</Date>
-                <Version>82.0.4083.0</Version>
+            <Update release="5">
+                <Date>2020-03-21</Date>
+                <Version>82.0.4085.12</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1373,10 +1373,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>236230328</InstalledSize>
-        <PackageSize>79891126</PackageSize>
-        <PackageHash>572ac09d34fd11244c0679703e7c0536b2ab9bf3</PackageHash>
-        <PackageURI>google-chrome-unstable-82.0.4083.0-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>236622009</InstalledSize>
+        <PackageSize>80012198</PackageSize>
+        <PackageHash>6ba38537ccc6f4e930c5f66d8ff1e47573bec904</PackageHash>
+        <PackageURI>google-chrome-unstable-82.0.4085.12-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-unstable</Name>
