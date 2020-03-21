@@ -1,5 +1,60 @@
 <PISI>
     <Package>
+        <Name>gitkraken</Name>
+        <Summary xml:lang="en">The downright luxurious Git client, for Windows, Mac and Linux.</Summary>
+        <Description xml:lang="en">The downright luxurious Git client, for Windows, Mac and Linux.</Description>
+        <PartOf>programming</PartOf>
+        <License>EULA</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="16">kerberos</Dependency>
+            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="60">glib2</Dependency>
+            <Dependency releaseFrom="41">libnss</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="37">openssl</Dependency>
+            <Dependency releaseFrom="19">e2fsprogs</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency>curl-gnutls</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>libgnome-keyring</Dependency>
+            <Dependency>nodejs</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-03-21</Date>
+                <Version>6.5.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>324449832</InstalledSize>
+        <PackageSize>84974423</PackageSize>
+        <PackageHash>657d43c734f88ea3158b308efc50bd2c617297f3</PackageHash>
+        <PackageURI>gitkraken-6.5.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>gitkraken</Name>
+            <Homepage>https://www.gitkraken.com</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>breaktimer</Name>
         <Summary xml:lang="en">BreakTimer</Summary>
         <Description xml:lang="en">Manage periodic breaks.</Description>
