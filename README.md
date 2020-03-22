@@ -44,6 +44,7 @@ sudo eopkg install package
 | 27 | nordvpn | 3.6.1 | 25/02/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-NordVPN-on-Solus) | |
 | 28 | ocenaudio | 3.7.12 | 20/03/2020 | |
 | 29 | gitkraken | 6.5.4 | 21/03/2020 | |
+| 30 | webstorm | 2019.3.4 | 22/03/2020 | |
 
 ## Donation
 

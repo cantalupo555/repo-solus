@@ -1442,6 +1442,55 @@
         </Source>
     </Package>
     <Package>
+        <Name>webstorm</Name>
+        <Summary xml:lang="en">WebStorm - an IDE for the Web</Summary>
+        <Description xml:lang="en">WebStorm - an IDE for the Web</Description>
+        <PartOf>programming</PartOf>
+        <License>GPL-2.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="60">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="61">glibc</Dependency>
+            <Dependency releaseFrom="20">zlib</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-03-22</Date>
+                <Version>2019.3.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>715809377</InstalledSize>
+        <PackageSize>292943792</PackageSize>
+        <PackageHash>866cac835d206e7d3634336aa17b4c5578cf0c5a</PackageHash>
+        <PackageURI>webstorm-2019.3.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>webstorm</Name>
+            <Homepage>https://www.jetbrains.com/webstorm/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>stacer</Name>
         <Summary xml:lang="en">Stacer</Summary>
         <Description xml:lang="en">Linux System Optimizer and Monitoring.</Description>
