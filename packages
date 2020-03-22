@@ -1,1 +1,32 @@
-stremio plexmediaserver emby-server breaktimer master-pdf-editor master-pdf-editor-v4 free-office-2018 office-2018 xmacro google-chrome-stable google-chrome-beta google-chrome-unstable teamviewer anydesk spotify android-studio sublime-text-3 skype eradio mailspring xmind-zen rambox rambox-pro wps-office dkms stacer
+sudo eopkg install stremio plexmediaserver emby-server popcorn-time breaktimer master-pdf-editor master-pdf-editor-v4 free-office-2018 office-2018 xmacro google-chrome-stable google-chrome-beta google-chrome-unstable teamviewer anydesk spotify android-studio sublime-text-3 skype eradio xmind-zen rambox rambox-pro wps-office dkms stacer nordvpn ocenaudio gitkraken webstorm
+
+stremio
+plexmediaserver
+emby-server
+popcorn-time
+breaktimer
+master-pdf-editor
+master-pdf-editor-v4
+free-office-2018
+office-2018
+xmacro
+google-chrome-stable
+google-chrome-beta
+google-chrome-unstable
+teamviewer
+anydesk
+spotify
+android-studio
+sublime-text-3
+skype
+eradio
+xmind-zen
+rambox
+rambox-pro
+wps-office
+dkms
+stacer
+nordvpn
+ocenaudio
+gitkraken
+webstorm
