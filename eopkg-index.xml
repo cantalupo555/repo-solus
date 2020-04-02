@@ -180,6 +180,47 @@
         </Source>
     </Package>
     <Package>
+        <Name>idea</Name>
+        <Summary xml:lang="en">Idea - an IDE for the JVM Languages</Summary>
+        <Description xml:lang="en">Idea - an IDE for the JVM Languages</Description>
+        <PartOf>programming</PartOf>
+        <License>GPL-2.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency>openjdk-8</Dependency>
+            <Dependency>libglvnd</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-02</Date>
+                <Version>2019.3.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1363079900</InstalledSize>
+        <PackageSize>645034102</PackageSize>
+        <PackageHash>fba47f4bcb91fd8b33da258e1901c5a8c5e68029</PackageHash>
+        <PackageURI>idea-2019.3.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>idea</Name>
+            <Homepage>https://www.jetbrains.com/idea/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>sublime-text-3</Name>
         <Summary xml:lang="en">Sublime Text</Summary>
         <Description xml:lang="en">Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
