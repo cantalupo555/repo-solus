@@ -1251,7 +1251,7 @@
             <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="26">freetype2</Dependency>
             <Dependency releaseFrom="47">qt5-base</Dependency>
-            <Dependency releaseFrom="59">glibc</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="29">dbus</Dependency>
             <Dependency releaseFrom="17">qt5-x11extras</Dependency>
             <Dependency releaseFrom="33">fontconfig</Dependency>
@@ -1279,9 +1279,9 @@
             <Dependency>qt5-quickcontrols</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-02-27</Date>
-                <Version>15.3.2682</Version>
+            <Update release="3">
+                <Date>2020-04-02</Date>
+                <Version>15.4.4445</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1291,10 +1291,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>72822101</InstalledSize>
-        <PackageSize>21184801</PackageSize>
-        <PackageHash>31bec459c76851ba18ad543231452475dae8f56a</PackageHash>
-        <PackageURI>teamviewer-15.3.2682-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>72936757</InstalledSize>
+        <PackageSize>21212192</PackageSize>
+        <PackageHash>811e4c34803f54f3055aaa75455f53abc9191ada</PackageHash>
+        <PackageURI>teamviewer-15.4.4445-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>teamviewer</Name>
