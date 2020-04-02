@@ -336,7 +336,7 @@
         <PartOf>network.clients</PartOf>
         <License>Copyright © 2012–2020 NordVPN</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency>procps-ng</Dependency>
             <Dependency>iproute2</Dependency>
             <Dependency>ipset</Dependency>
@@ -344,9 +344,9 @@
             <Dependency>gawk</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-02-25</Date>
-                <Version>3.6.1</Version>
+            <Update release="2">
+                <Date>2020-04-02</Date>
+                <Version>3.7.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -356,10 +356,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>29603149</InstalledSize>
-        <PackageSize>9112635</PackageSize>
-        <PackageHash>42b1e78d1be0a676b7e6f1ba48837bea418fe90e</PackageHash>
-        <PackageURI>nordvpn-3.6.1-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>29874453</InstalledSize>
+        <PackageSize>9171940</PackageSize>
+        <PackageHash>c820f3b4bd9a67277bd2a9d38eeaef6c56689ec3</PackageHash>
+        <PackageURI>nordvpn-3.7.0-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>nordvpn</Name>
