@@ -45,7 +45,8 @@ sudo eopkg install package
 | 28 | ocenaudio | 3.7.12 | 20/03/2020 | |
 | 29 | gitkraken | 6.5.4 | 21/03/2020 | |
 | 30 | webstorm | 2019.3.4 | 22/03/2020 | |
-| 31 | slack-desktop | 4.4.0 | 01/04/2020 | |
+| 31 | phpstorm | 2019.3.4 | 02/04/2020 | |
+| 32 | slack-desktop | 4.4.0 | 01/04/2020 | |
 
 ## Donation
 
