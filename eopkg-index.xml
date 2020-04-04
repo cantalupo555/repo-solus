@@ -967,13 +967,13 @@
         <PartOf>multimedia.video</PartOf>
         <License>© 2019 Emby LLC</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency>binutils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-02-05</Date>
-                <Version>4.3.1.0</Version>
+            <Update release="2">
+                <Date>2020-04-04</Date>
+                <Version>4.4.1.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -983,10 +983,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>244575096</InstalledSize>
-        <PackageSize>73521587</PackageSize>
-        <PackageHash>70630e1d22e868f40395fdcc4745bf81722df6dc</PackageHash>
-        <PackageURI>emby-server-4.3.1.0-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>261233423</InstalledSize>
+        <PackageSize>77863510</PackageSize>
+        <PackageHash>0e45dfc86323891aeb61c74eb39c93f40307934f</PackageHash>
+        <PackageURI>emby-server-4.4.1.0-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>emby-server</Name>

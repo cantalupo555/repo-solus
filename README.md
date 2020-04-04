@@ -17,7 +17,7 @@ sudo eopkg install package
 | --- | --- | --- | --- | --- |
 | 1 | stremio | 4.4.106 | 03/02/2020 | |
 | 2 | plexmediaserver | 1.18.9.2578 | 02/04/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-Plex-Media-Server-on-Solus) |
-| 3 | emby-server | 4.3.1.0 | 05/02/2020 | |
+| 3 | emby-server | 4.4.1.0 | 04/04/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-Emby-Server-on-Solus) |
 | 4 | popcorn-time | 0.4.1 | 22/03/2020 | |
 | 5 | [breaktimer](https://breaktimer.app/) | 0.7.2 | 21/03/2020 | |
 | 6 | master-pdf-editor | 5.4.38 | 31/01/2020 | |
