@@ -1549,7 +1549,7 @@
             <Dependency releaseFrom="24">cups</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="89">libgtk-3</Dependency>
+            <Dependency releaseFrom="91">libgtk-3</Dependency>
             <Dependency releaseFrom="41">libnss</Dependency>
             <Dependency releaseFrom="44">libcairo</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
@@ -1574,8 +1574,8 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="7">
-                <Date>2020-04-02</Date>
+            <Update release="8">
+                <Date>2020-04-04</Date>
                 <Version>83.0.4100.3</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -1586,10 +1586,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>236409633</InstalledSize>
-        <PackageSize>80176082</PackageSize>
-        <PackageHash>c6fd15b3e1f996a09c3f3f1851047778e3181ead</PackageHash>
-        <PackageURI>google-chrome-unstable-83.0.4100.3-7-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>237060941</InstalledSize>
+        <PackageSize>80177342</PackageSize>
+        <PackageHash>10270706029623c88799f12868129674237f467a</PackageHash>
+        <PackageURI>google-chrome-unstable-83.0.4100.3-8-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-unstable</Name>
