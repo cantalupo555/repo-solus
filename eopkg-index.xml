@@ -194,7 +194,7 @@
             <Dependency>libglvnd</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
+            <Update release="3">
                 <Date>2020-04-04</Date>
                 <Version>2019.3.4</Version>
                 <Comment>Packaging update</Comment>
@@ -206,10 +206,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1363079874</InstalledSize>
-        <PackageSize>645033083</PackageSize>
-        <PackageHash>a094815f3d6078242e5271542d34f2f51ab6a969</PackageHash>
-        <PackageURI>idea-2019.3.4-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>1363079870</InstalledSize>
+        <PackageSize>645033361</PackageSize>
+        <PackageHash>965ca693d39a46a44ae67a29265e77b6af699cb6</PackageHash>
+        <PackageURI>idea-2019.3.4-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>idea</Name>
