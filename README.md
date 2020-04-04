@@ -42,12 +42,13 @@ sudo eopkg install package
 | 25 | dkms | 2.7.1 | 08/02/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-dkms-on-Solus) |
 | 26 | stacer | 1.1.0 | 11/02/2020 | |
 | 27 | nordvpn | 3.7.0 | 02/04/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-NordVPN-on-Solus) | |
-| 28 | ocenaudio | 3.7.12 | 20/03/2020 | |
-| 29 | gitkraken | 6.5.4 | 21/03/2020 | |
-| 30 | webstorm | 2019.3.4 | 22/03/2020 | |
-| 31 | phpstorm | 2019.3.4 | 02/04/2020 | |
-| 32 | idea | 2019.3.4 | 04/04/2020 | |
-| 33 | slack-desktop | 4.4.0 | 01/04/2020 | |
+| 28 | windscribe | 1.4 | 04/04/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-windscribe-on-Solus) |
+| 29 | ocenaudio | 3.7.12 | 20/03/2020 | |
+| 30 | gitkraken | 6.5.4 | 21/03/2020 | |
+| 31 | webstorm | 2019.3.4 | 22/03/2020 | |
+| 32 | phpstorm | 2019.3.4 | 02/04/2020 | |
+| 33 | idea | 2019.3.4 | 04/04/2020 | |
+| 34 | slack-desktop | 4.4.0 | 01/04/2020 | |
 
 ## Donation
 

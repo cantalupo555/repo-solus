@@ -221,6 +221,49 @@
         </Source>
     </Package>
     <Package>
+        <Name>windscribe</Name>
+        <Summary xml:lang="en">Windscribe command line interface</Summary>
+        <Description xml:lang="en">Windscribe command line interface</Description>
+        <PartOf>network.clients</PartOf>
+        <License>© 2021 Windscribe Limited</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency>procps-ng</Dependency>
+            <Dependency>iproute2</Dependency>
+            <Dependency>ipset</Dependency>
+            <Dependency>iptables</Dependency>
+            <Dependency>gawk</Dependency>
+            <Dependency>openvpn</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-04</Date>
+                <Version>1.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>9996846</InstalledSize>
+        <PackageSize>9664031</PackageSize>
+        <PackageHash>4cc8d85cbe69178a64641bdc8f52c22646e7d116</PackageHash>
+        <PackageURI>windscribe-1.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>windscribe</Name>
+            <Homepage>https://windscribe.com/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>sublime-text-3</Name>
         <Summary xml:lang="en">Sublime Text</Summary>
         <Description xml:lang="en">Sublime Text is a sophisticated text editor for code, markup and prose.</Description>
