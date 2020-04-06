@@ -2312,6 +2312,55 @@
         </Source>
     </Package>
     <Package>
+        <Name>rider</Name>
+        <Summary xml:lang="en">Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</Summary>
+        <Description xml:lang="en">Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</Description>
+        <PartOf>programming</PartOf>
+        <License>GPL-2.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-06</Date>
+                <Version>2019.3.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1651612071</InstalledSize>
+        <PackageSize>528723007</PackageSize>
+        <PackageHash>617b65b24f901a5d5809f7d4abd03c335c14ae73</PackageHash>
+        <PackageURI>rider-2019.3.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>rider</Name>
+            <Homepage>https://www.jetbrains.com/rider/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>viber</Name>
         <Summary xml:lang="en">An instant messaging and VoIP app for various mobile operating systems.</Summary>
         <Description xml:lang="en">An instant messaging and VoIP app for various mobile operating systems.</Description>

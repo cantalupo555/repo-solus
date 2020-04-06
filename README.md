@@ -57,6 +57,7 @@ sudo eopkg install package
 | 39 | franz | 5.4.1 | 06/04/2020 | |
 | 40 | bitwig-studio | 3.1.3 | 06/04/2020 | |
 | 41 | goland | 2019.3.4 | 06/04/2020 | |
+| 42 | rider | 2019.3.4 | 06/04/2020 | |
 
 ## Donation
 
