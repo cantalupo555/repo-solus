@@ -2304,6 +2304,84 @@
         </Source>
     </Package>
     <Package>
+        <Name>jami</Name>
+        <Summary xml:lang="en">Secure and distributed voice, video and chat platform - all in one package Jami (jami.net) is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.</Summary>
+        <Description xml:lang="en">Secure and distributed voice, video and chat platform - all in one package Jami (jami.net) is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.</Description>
+        <PartOf>network.im</PartOf>
+        <License>Copyright (C) 2016-2020 Savoir-faire Linux Inc.</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="67">libwebkit-gtk</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="4">libspeex</Dependency>
+            <Dependency releaseFrom="20">clutter-gtk</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="5">libnotify</Dependency>
+            <Dependency releaseFrom="34">pango</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="14">libva</Dependency>
+            <Dependency releaseFrom="85">systemd</Dependency>
+            <Dependency releaseFrom="91">libgtk-3</Dependency>
+            <Dependency releaseFrom="47">qt5-base</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="40">pulseaudio</Dependency>
+            <Dependency releaseFrom="54">network-manager</Dependency>
+            <Dependency releaseFrom="10">opus</Dependency>
+            <Dependency releaseFrom="44">libcairo</Dependency>
+            <Dependency releaseFrom="25">clutter</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="16">libcanberra</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="13">libvdpau</Dependency>
+            <Dependency>gnupg</Dependency>
+            <Dependency>gsound</Dependency>
+            <Dependency>libdbusmenu</Dependency>
+            <Dependency>python-pulsectl</Dependency>
+            <Dependency>libnma</Dependency>
+            <Dependency>libgudev</Dependency>
+            <Dependency>qt5-webkit</Dependency>
+            <Dependency>libwebkit-gtk-devel</Dependency>
+            <Dependency>libssl1.1</Dependency>
+            <Dependency>libnatpmp1</Dependency>
+            <Dependency>libqrencode3</Dependency>
+            <Dependency>libjsoncpp1</Dependency>
+            <Dependency>libayatana-indicator3-7</Dependency>
+            <Dependency>libayatana-ido3-0.4</Dependency>
+            <Dependency>libayatana-appindicator3-1</Dependency>
+            <Dependency>libargon2-0</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-06</Date>
+                <Version>20200401.1.6</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>26987048</InstalledSize>
+        <PackageSize>10388018</PackageSize>
+        <PackageHash>c7c366caf61a48657a37ff5dbb134b0b24d41afc</PackageHash>
+        <PackageURI>jami-20200401.1.6-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>jami</Name>
+            <Homepage>https://jami.net/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>wps-office</Name>
         <Summary xml:lang="en">WPS Office, is an office productivity suite.</Summary>
         <Description xml:lang="en">WPS Office including Writer, Presentation and Spreadsheets, is a powerful office suite, which is able to process word file, produce wonderful slides, and analyze data as well. It is deeply compatible with all of the latest Microsoft Office file formats. It can easily open and read the documents created with Microsoft Office. This is the Linux version, and it&apos;s now a TESTING package.</Description>
