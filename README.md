@@ -55,6 +55,7 @@ sudo eopkg install package
 | 37 | jami | 20200401.1.6 | 06/04/2020 | |
 | 38 | viber | 12.0.0 | 06/04/2020 | |
 | 39 | franz | 5.4.1 | 06/04/2020 | |
+| 40 | bitwig-studio | 3.1.3 | 06/04/2020 | |
 
 ## Donation
 

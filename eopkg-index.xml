@@ -1198,6 +1198,62 @@
         </Source>
     </Package>
     <Package>
+        <Name>bitwig-studio</Name>
+        <Summary xml:lang="en">Music production system for production, remixing and performance.</Summary>
+        <Description xml:lang="en">Music production system for production, remixing and performance.</Description>
+        <PartOf>multimedia.audio</PartOf>
+        <License>© Bitwig GmbH 2018. All rights reserved.</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="91">libgtk-3</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="9">jack-audio-connection-kit</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="10">pixman</Dependency>
+            <Dependency>libbsd</Dependency>
+            <Dependency>openjdk-8</Dependency>
+            <Dependency>xcb-util-wm</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>zenity</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-06</Date>
+                <Version>3.1.3</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>392153333</InstalledSize>
+        <PackageSize>201284238</PackageSize>
+        <PackageHash>a1963621e02265edb5b4e1fa0fdc1f509fc44ab3</PackageHash>
+        <PackageURI>bitwig-studio-3.1.3-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>bitwig-studio</Name>
+            <Homepage>https://bitwig.com</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>popcorn-time</Name>
         <Summary xml:lang="en">Popcorn Time</Summary>
         <Description xml:lang="en">Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player.</Description>
