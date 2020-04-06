@@ -50,6 +50,7 @@ sudo eopkg install package
 | 33 | idea | 2019.3.4 | 04/04/2020 | |
 | 34 | slack-desktop | 4.4.0 | 01/04/2020 | |
 | 35 | enpass | 6.4.0.631 | 06/04/2020 | |
+| 36 | onlyoffice-desktopeditors | 5.4.2 | 06/04/2020 | |
 
 ## Donation
 
