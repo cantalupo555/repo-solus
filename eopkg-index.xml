@@ -2194,6 +2194,60 @@
         </Source>
     </Package>
     <Package>
+        <Name>viber</Name>
+        <Summary xml:lang="en">An instant messaging and VoIP app for various mobile operating systems.</Summary>
+        <Description xml:lang="en">An instant messaging and VoIP app for various mobile operating systems.</Description>
+        <PartOf>network.im</PartOf>
+        <License>Custom</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="22">libxml2</Dependency>
+            <Dependency releaseFrom="17">expat</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="11">libxslt</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="85">systemd</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="41">libnss</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-06</Date>
+                <Version>12.0.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>337887304</InstalledSize>
+        <PackageSize>107775687</PackageSize>
+        <PackageHash>dc9b7b4b02de07bb650c1ccc36fc80d885f7b10f</PackageHash>
+        <PackageURI>viber-12.0.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>viber</Name>
+            <Homepage>https://www.viber.com</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>stacer</Name>
         <Summary xml:lang="en">Stacer</Summary>
         <Description xml:lang="en">Linux System Optimizer and Monitoring.</Description>
