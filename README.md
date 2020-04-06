@@ -58,6 +58,7 @@ sudo eopkg install package
 | 40 | bitwig-studio | 3.1.3 | 06/04/2020 | |
 | 41 | goland | 2019.3.4 | 06/04/2020 | |
 | 42 | rider | 2019.3.4 | 06/04/2020 | |
+| 43 | rubymine | 2019.3.4 | 06/04/2020 | | 
 
 ## Donation
 

@@ -2193,6 +2193,55 @@
         </Source>
     </Package>
     <Package>
+        <Name>rubymine</Name>
+        <Summary xml:lang="en">RubyMine - an IDE for the Ruby Language</Summary>
+        <Description xml:lang="en">RubyMine - an IDE for the Ruby Language</Description>
+        <PartOf>programming</PartOf>
+        <License>GPL-2.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-06</Date>
+                <Version>2019.3.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>847815361</InstalledSize>
+        <PackageSize>325490510</PackageSize>
+        <PackageHash>b5a5ab5be19e8ac22b624fdf3b9e7be5d6d0a4d2</PackageHash>
+        <PackageURI>rubymine-2019.3.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>rubymine</Name>
+            <Homepage>https://www.jetbrains.com/rubymine/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>google-chrome-unstable</Name>
         <Summary xml:lang="en">Google Chrome Unstable</Summary>
         <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
