@@ -2476,6 +2476,55 @@
         </Source>
     </Package>
     <Package>
+        <Name>goland</Name>
+        <Summary xml:lang="en">Goland - an IDE for the Go Language</Summary>
+        <Description xml:lang="en">Goland - an IDE for the Go Language</Description>
+        <PartOf>programming</PartOf>
+        <License>GPL-2.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-06</Date>
+                <Version>2019.3.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>815497545</InstalledSize>
+        <PackageSize>322399348</PackageSize>
+        <PackageHash>77d85f66c9ce92471169318a05068023315293a2</PackageHash>
+        <PackageURI>goland-2019.3.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>goland</Name>
+            <Homepage>https://www.jetbrains.com/go/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>jami</Name>
         <Summary xml:lang="en">Secure and distributed voice, video and chat platform - all in one package Jami (jami.net) is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.</Summary>
         <Description xml:lang="en">Secure and distributed voice, video and chat platform - all in one package Jami (jami.net) is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.</Description>
