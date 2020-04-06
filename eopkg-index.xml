@@ -1,5 +1,80 @@
 <PISI>
     <Package>
+        <Name>libayatana-ido3-0.4</Name>
+        <Summary xml:lang="en">Widgets and other objects used for Ayatana Indicators Shared library providing extra gtk menu items for display in system Ayatana Indicators.</Summary>
+        <Description xml:lang="en">Widgets and other objects used for Ayatana Indicators Shared library providing extra gtk menu items for display in system Ayatana Indicators.</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>GPL-3.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-05</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>315232</InstalledSize>
+        <PackageSize>50126</PackageSize>
+        <PackageHash>5be28f82999406ddb1b878391d3d36d228b83c5c</PackageHash>
+        <PackageURI>lib/libayatana-ido3-0.4-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libayatana-ido3-0.4</Name>
+            <Homepage>https://github.com/AyatanaIndicators/ayatana-ido</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libargon2-0</Name>
+        <Summary xml:lang="en">Argon2 is a password-hashing function that can be used to hash passwords for credential storage, key derivation, or other applications.</Summary>
+        <Description xml:lang="en">Argon2 is a password-hashing function that can be used to hash passwords for credential storage, key derivation, or other applications.</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>GPL-3.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-05</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>39056</InstalledSize>
+        <PackageSize>16403</PackageSize>
+        <PackageHash>747c78021f7941f9a04fa011aa1de20d0ff75708</PackageHash>
+        <PackageURI>lib/libargon2-0-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libargon2-0</Name>
+            <Homepage>https://github.com/P-H-C/phc-winner-argon2</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>gitkraken</Name>
         <Summary xml:lang="en">The downright luxurious Git client, for Windows, Mac and Linux.</Summary>
         <Description xml:lang="en">The downright luxurious Git client, for Windows, Mac and Linux.</Description>
@@ -173,6 +248,44 @@
         <Source>
             <Name>stremio</Name>
             <Homepage>https://www.stremio.com</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libayatana-appindicator3-1</Name>
+        <Summary xml:lang="en">Ayatana Application Indicators (GTK-3+ version) A library and indicator to take menus from applications and place them in the panel.</Summary>
+        <Description xml:lang="en">Ayatana Application Indicators (GTK-3+ version) A library and indicator to take menus from applications and place them in the panel.</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>GPL-3.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-05</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>118640</InstalledSize>
+        <PackageSize>18488</PackageSize>
+        <PackageHash>5c8d05096e39e44416386c49306a1ce9c4bf264e</PackageHash>
+        <PackageURI>lib/libayatana-appindicator3-1-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libayatana-appindicator3-1</Name>
+            <Homepage>https://github.com/AyatanaIndicators/libayatana-appindicator</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -469,6 +582,43 @@
         </Source>
     </Package>
     <Package>
+        <Name>libnatpmp1</Name>
+        <Summary xml:lang="en">Portable and fully compliant implementation of NAT-PMP NAT-PMP is the direct concurrent to the UPnP IGD specification.</Summary>
+        <Description xml:lang="en">Portable and fully compliant implementation of NAT-PMP NAT-PMP is the direct concurrent to the UPnP IGD specification.</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>GPL-3.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-05</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>10376</InstalledSize>
+        <PackageSize>4875</PackageSize>
+        <PackageHash>8cc45f6e677032cfb667fc6a2bc96b99dcfc7822</PackageHash>
+        <PackageURI>lib/libnatpmp1-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libnatpmp1</Name>
+            <Homepage>http://miniupnp.free.fr/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>nordvpn</Name>
         <Summary xml:lang="en">NordVPN</Summary>
         <Description xml:lang="en">Protect your privacy online and access media content with no regional restrictions. Strong encryption and no-log policy with 3000+ servers in 60+ countries.</Description>
@@ -542,6 +692,45 @@
         <Source>
             <Name>dkms</Name>
             <Homepage>http://linux.dell.com/dkms</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libjsoncpp1</Name>
+        <Summary xml:lang="en">Library for reading and writing JSON for C++ jsoncpp is an implementation of a JSON reader and writer in C++. JSON (JavaScript Object Notation) is a lightweight data-interchange format that it is easy to parse and redeable for human. It is useful for building config files, network communications protocols, etc.</Summary>
+        <Description xml:lang="en">Library for reading and writing JSON for C++ jsoncpp is an implementation of a JSON reader and writer in C++. JSON (JavaScript Object Notation) is a lightweight data-interchange format that it is easy to parse and redeable for human. It is useful for building config files, network communications protocols, etc.</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>GPL-3.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-05</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>443808</InstalledSize>
+        <PackageSize>69654</PackageSize>
+        <PackageHash>ce14c0a795deb64fbff828f6764d9b7672d1a49b</PackageHash>
+        <PackageURI>lib/libjsoncpp1-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libjsoncpp1</Name>
+            <Homepage>https://github.com/open-source-parsers/jsoncpp</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -682,6 +871,88 @@
         <Source>
             <Name>slack-desktop</Name>
             <Homepage>https://slack.com</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>enpass</Name>
+        <Summary xml:lang="en">A multiplatform password manager</Summary>
+        <Description xml:lang="en">A multiplatform password manager</Description>
+        <PartOf>security</PartOf>
+        <License>Custom</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="57">curl</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency>lsof</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-06</Date>
+                <Version>6.4.0.631</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>68540771</InstalledSize>
+        <PackageSize>30296370</PackageSize>
+        <PackageHash>979596c19835e48d5ea4765a5ddc578e6eb5c771</PackageHash>
+        <PackageURI>enpass-6.4.0.631-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>enpass</Name>
+            <Homepage>https://enpass.io</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>mscorefonts</Name>
+        <Summary xml:lang="en">Microsoft Core Fonts</Summary>
+        <Description xml:lang="en">Microsoft Core Fonts</Description>
+        <PartOf>desktop.font</PartOf>
+        <License>Custom</License>
+        <RuntimeDependencies>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-06</Date>
+                <Version>1.3</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>5759176</InstalledSize>
+        <PackageSize>2703572</PackageSize>
+        <PackageHash>66b776210e6e4e5a6b255f147273dc1f6edddd64</PackageHash>
+        <PackageURI>lib/mscorefonts-1.3-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>mscorefonts</Name>
+            <Homepage>https://sourceforge.net/projects/corefonts/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -887,6 +1158,43 @@
         <Source>
             <Name>xmacro</Name>
             <Homepage>https://sourceforge.net/projects/xmacro/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libssl1.1</Name>
+        <Summary xml:lang="en">Secure Sockets Layer toolkit - shared libraries This package is part of the OpenSSL project&apos;s implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.</Summary>
+        <Description xml:lang="en">Secure Sockets Layer toolkit - shared libraries This package is part of the OpenSSL project&apos;s implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>GPL-3.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-05</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>3638048</InstalledSize>
+        <PackageSize>1366414</PackageSize>
+        <PackageHash>05d334d380471500778a42916bf6b95b23b22a2d</PackageHash>
+        <PackageURI>lib/libssl1.1-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libssl1.1</Name>
+            <Homepage>https://www.openssl.org/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1197,6 +1505,43 @@
         </Source>
     </Package>
     <Package>
+        <Name>libqrencode3</Name>
+        <Summary xml:lang="en">QR Code encoding library Libqrencode is a library for encoding data in a QR Code symbol, a kind of 2D symbology that can be scanned by handy terminals such as a mobile phone with CCD. The capacity of QR Code is up to 7000 digits or 4000 characters, and has high robustness.</Summary>
+        <Description xml:lang="en">QR Code encoding library Libqrencode is a library for encoding data in a QR Code symbol, a kind of 2D symbology that can be scanned by handy terminals such as a mobile phone with CCD. The capacity of QR Code is up to 7000 digits or 4000 characters, and has high robustness.</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>GPL-3.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-05</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>103728</InstalledSize>
+        <PackageSize>21977</PackageSize>
+        <PackageHash>45ed9f5cc5133c07ffe503b3464a16cc01c4ccff</PackageHash>
+        <PackageURI>lib/libqrencode3-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libqrencode3</Name>
+            <Homepage>http://megaui.net/fukuchi/works/qrencode/index.en.html</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>google-chrome-stable</Name>
         <Summary xml:lang="en">Google Chrome</Summary>
         <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
@@ -1432,6 +1777,44 @@
         <Source>
             <Name>teamviewer</Name>
             <Homepage>http://www.teamviewer.com</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libayatana-indicator3-7</Name>
+        <Summary xml:lang="en">Panel indicator applet - shared library (GTK-3+ variant) The Ayatana Indicators library contains information to build indicators to go into modern desktops&apos; indicator applets.</Summary>
+        <Description xml:lang="en">Panel indicator applet - shared library (GTK-3+ variant) The Ayatana Indicators library contains information to build indicators to go into modern desktops&apos; indicator applets.</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>GPL-3.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-05</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>143408</InstalledSize>
+        <PackageSize>24104</PackageSize>
+        <PackageHash>378942fdf4dbc5bbc3bf5252245a3c9c36e91c54</PackageHash>
+        <PackageURI>lib/libayatana-indicator3-7-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libayatana-indicator3-7</Name>
+            <Homepage>https://github.com/AyatanaIndicators/libayatana-indicator</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
