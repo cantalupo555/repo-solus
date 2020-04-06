@@ -1687,6 +1687,49 @@
         </Source>
     </Package>
     <Package>
+        <Name>insync</Name>
+        <Summary xml:lang="en">The most powerful Google Drive client ever built</Summary>
+        <Description xml:lang="en">Insync extends Drive&apos;s web functionality to your desktop by integrating tightly with Windows, Mac and Linux so you can get work done.</Description>
+        <PartOf>network.download</PartOf>
+        <License>Custom</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="20">wayland</Dependency>
+            <Dependency releaseFrom="41">libnss</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency>binutils</Dependency>
+            <Dependency>nautilus-python</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-06</Date>
+                <Version>3.1.0.40756</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>375791441</InstalledSize>
+        <PackageSize>114370887</PackageSize>
+        <PackageHash>7c893963317294b85632e0138732141f183b825a</PackageHash>
+        <PackageURI>insync-3.1.0.40756-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>insync</Name>
+            <Homepage>https://enpass.io</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>master-pdf-editor</Name>
         <Summary xml:lang="en">Master PDF Editor</Summary>
         <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files.</Description>
