@@ -2058,6 +2058,55 @@
         </Source>
     </Package>
     <Package>
+        <Name>datagrip</Name>
+        <Summary xml:lang="en">DataGrip - an IDE for the SQL Language</Summary>
+        <Description xml:lang="en">DataGrip - an IDE for the SQL Language</Description>
+        <PartOf>programming</PartOf>
+        <License>GPL-2.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-07</Date>
+                <Version>2019.3.4</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>690746897</InstalledSize>
+        <PackageSize>341950983</PackageSize>
+        <PackageHash>33baa2bcda90aabf8df6c8c5765ebc2863abc043</PackageHash>
+        <PackageURI>datagrip-2019.3.4-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>datagrip</Name>
+            <Homepage>https://www.jetbrains.com/datagrip/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>xmind-zen</Name>
         <Summary xml:lang="en">XMind</Summary>
         <Description xml:lang="en">XMind - The most popular mind mapping software.</Description>

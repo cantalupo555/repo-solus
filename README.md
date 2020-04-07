@@ -60,6 +60,7 @@ sudo eopkg install package
 | 43 | rider | 2019.3.4 | 06/04/2020 | |
 | 44 | rubymine | 2019.3.4 | 06/04/2020 | |
 | 45 | clion | 2019.3.5 | 06/04/2020 | |
+| 46 | datagrip | 2019.3.4 | 06/04/2020 | |
 
 ## Donation
 
