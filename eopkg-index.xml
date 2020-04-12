@@ -2384,19 +2384,19 @@
     </Package>
     <Package>
         <Name>webstorm</Name>
-        <Summary xml:lang="en">WebStorm - an IDE for the Web</Summary>
+        <Summary xml:lang="en">WebStorm</Summary>
         <Description xml:lang="en">WebStorm - an IDE for the Web</Description>
         <PartOf>programming</PartOf>
         <License>GPL-2.0</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="60">glib2</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
             <Dependency releaseFrom="26">freetype2</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="61">glibc</Dependency>
-            <Dependency releaseFrom="20">zlib</Dependency>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
             <Dependency releaseFrom="13">libxrender</Dependency>
             <Dependency releaseFrom="21">alsa-lib</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
@@ -2405,9 +2405,9 @@
             <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-03-22</Date>
-                <Version>2019.3.4</Version>
+            <Update release="2">
+                <Date>2020-04-12</Date>
+                <Version>2020.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2417,10 +2417,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>715809377</InstalledSize>
-        <PackageSize>292943792</PackageSize>
-        <PackageHash>866cac835d206e7d3634336aa17b4c5578cf0c5a</PackageHash>
-        <PackageURI>webstorm-2019.3.4-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>758830761</InstalledSize>
+        <PackageSize>304279660</PackageSize>
+        <PackageHash>44a4859e13456ce66a8e09c60a603a62e8ee4981</PackageHash>
+        <PackageURI>webstorm-2020.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>webstorm</Name>
