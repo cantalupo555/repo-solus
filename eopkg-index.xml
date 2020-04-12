@@ -130,57 +130,31 @@
         </Source>
     </Package>
     <Package>
-        <Name>onlyoffice-desktopeditors</Name>
-        <Summary xml:lang="en">ONLYOFFICE DesktopEditors installation package</Summary>
-        <Description xml:lang="en">ONLYOFFICE DesktopEditors is an application for editing office documents (text documents, spreadsheets and presentations) from onlyoffice cloud portal on local computer without browser using.</Description>
-        <PartOf>office</PartOf>
-        <License>GPL-3.0</License>
+        <Name>datagrip</Name>
+        <Summary xml:lang="en">DataGrip - an IDE for the SQL Language</Summary>
+        <Description xml:lang="en">DataGrip - an IDE for the SQL Language</Description>
+        <PartOf>programming</PartOf>
+        <License>GPL-2.0</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="17">expat</Dependency>
-            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
             <Dependency releaseFrom="49">libstdc++</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="16">libnspr</Dependency>
-            <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="24">cups</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
-            <Dependency releaseFrom="34">pango</Dependency>
-            <Dependency releaseFrom="41">libnss</Dependency>
-            <Dependency releaseFrom="29">gstreamer-1.0</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="33">fontconfig</Dependency>
-            <Dependency releaseFrom="9">libice</Dependency>
-            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="23">libatk</Dependency>
-            <Dependency releaseFrom="13">libxdamage</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency releaseFrom="10">gconf</Dependency>
-            <Dependency releaseFrom="24">libgtk-2</Dependency>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
-            <Dependency releaseFrom="44">libcairo</Dependency>
-            <Dependency releaseFrom="29">dbus</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="40">pulseaudio</Dependency>
-            <Dependency releaseFrom="12">libxcomposite</Dependency>
             <Dependency releaseFrom="13">libxrender</Dependency>
             <Dependency releaseFrom="21">alsa-lib</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="9">libsm</Dependency>
-            <Dependency>gsound</Dependency>
-            <Dependency>curl</Dependency>
-            <Dependency>wget</Dependency>
-            <Dependency>xdg-utils</Dependency>
-            <Dependency>mscorefonts</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-04-06</Date>
-                <Version>5.4.2</Version>
+                <Date>2020-04-07</Date>
+                <Version>2019.3.4</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -190,14 +164,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>621773058</InstalledSize>
-        <PackageSize>181145832</PackageSize>
-        <PackageHash>fe9e2bbf42421c60580d0591c01f920c3e34aa5f</PackageHash>
-        <PackageURI>onlyoffice-desktopeditors-5.4.2-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>690746897</InstalledSize>
+        <PackageSize>341950983</PackageSize>
+        <PackageHash>33baa2bcda90aabf8df6c8c5765ebc2863abc043</PackageHash>
+        <PackageURI>datagrip-2019.3.4-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>onlyoffice-desktopeditors</Name>
-            <Homepage>https://www.onlyoffice.com</Homepage>
+            <Name>datagrip</Name>
+            <Homepage>https://www.jetbrains.com/datagrip/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2107,55 +2081,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>datagrip</Name>
-        <Summary xml:lang="en">DataGrip - an IDE for the SQL Language</Summary>
-        <Description xml:lang="en">DataGrip - an IDE for the SQL Language</Description>
-        <PartOf>programming</PartOf>
-        <License>GPL-2.0</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="21">zlib</Dependency>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="21">alsa-lib</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency>openjdk-8</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-04-07</Date>
-                <Version>2019.3.4</Version>
-                <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>690746897</InstalledSize>
-        <PackageSize>341950983</PackageSize>
-        <PackageHash>33baa2bcda90aabf8df6c8c5765ebc2863abc043</PackageHash>
-        <PackageURI>datagrip-2019.3.4-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>datagrip</Name>
-            <Homepage>https://www.jetbrains.com/datagrip/</Homepage>
-            <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>xmind-zen</Name>
         <Summary xml:lang="en">XMind</Summary>
         <Description xml:lang="en">XMind - The most popular mind mapping software.</Description>
@@ -2889,6 +2814,83 @@
         <Source>
             <Name>jami</Name>
             <Homepage>https://jami.net/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>onlyoffice-desktopeditors</Name>
+        <Summary xml:lang="en">ONLYOFFICE DesktopEditors</Summary>
+        <Description xml:lang="en">ONLYOFFICE DesktopEditors is an application for editing office documents (text documents, spreadsheets and presentations) from onlyoffice cloud portal on local computer without browser using.</Description>
+        <PartOf>office</PartOf>
+        <License>GPL-3.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="17">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="41">libnss</Dependency>
+            <Dependency releaseFrom="29">gstreamer-1.0</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="9">libice</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="23">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="34">pango</Dependency>
+            <Dependency releaseFrom="91">libgtk-3</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="44">libcairo</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="40">pulseaudio</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="23">at-spi2</Dependency>
+            <Dependency releaseFrom="9">libsm</Dependency>
+            <Dependency releaseFrom="21">at-spi2-atk</Dependency>
+            <Dependency>gsound</Dependency>
+            <Dependency>curl</Dependency>
+            <Dependency>wget</Dependency>
+            <Dependency>libgtk-2</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>mscorefonts</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2020-04-12</Date>
+                <Version>5.5.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>711720525</InstalledSize>
+        <PackageSize>210971947</PackageSize>
+        <PackageHash>de364a0c4d9f3ce6b893c508735a2fec56ebc8ff</PackageHash>
+        <PackageURI>onlyoffice-desktopeditors-5.5.1-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>onlyoffice-desktopeditors</Name>
+            <Homepage>https://www.onlyoffice.com</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
