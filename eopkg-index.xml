@@ -1844,9 +1844,9 @@
             <Dependency>nautilus-python</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-04-06</Date>
-                <Version>3.1.0.40756</Version>
+            <Update release="2">
+                <Date>2020-04-12</Date>
+                <Version>3.1.2.40785</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1856,10 +1856,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>375791441</InstalledSize>
-        <PackageSize>114370887</PackageSize>
-        <PackageHash>7c893963317294b85632e0138732141f183b825a</PackageHash>
-        <PackageURI>insync-3.1.0.40756-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>375821749</InstalledSize>
+        <PackageSize>114381379</PackageSize>
+        <PackageHash>a684e26175291e35c0cc4780384bcc49d4244dbe</PackageHash>
+        <PackageURI>insync-3.1.2.40785-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>insync</Name>
