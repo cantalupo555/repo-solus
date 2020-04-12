@@ -1132,9 +1132,9 @@
             <Dependency>zlib-32bit</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-04-02</Date>
-                <Version>192.6308749</Version>
+            <Update release="5">
+                <Date>2020-04-12</Date>
+                <Version>3.6.2</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1144,10 +1144,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1425613232</InstalledSize>
-        <PackageSize>724510167</PackageSize>
-        <PackageHash>51e2defc898e4e1d3bd372f589694d369bd3ce38</PackageHash>
-        <PackageURI>android-studio-192.6308749-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>1448797316</InstalledSize>
+        <PackageSize>730350838</PackageSize>
+        <PackageHash>0b4180374da02ce9a69afb3979dcb3ab1b53d212</PackageHash>
+        <PackageURI>android-studio-3.6.2-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>android-studio</Name>
