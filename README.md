@@ -48,7 +48,7 @@ sudo eopkg install package
 | 31 | webstorm | 2019.3.4 | 22/03/2020 | |
 | 32 | phpstorm | 2019.3.4 | 02/04/2020 | |
 | 33 | idea | 2019.3.4 | 04/04/2020 | |
-| 34 | slack-desktop | 4.4.0 | 01/04/2020 | |
+| 34 | slack-desktop | 4.4.2 | 12/04/2020 | |
 | 35 | enpass | 6.4.0.631 | 06/04/2020 | |
 | 36 | onlyoffice-desktopeditors | 5.5.1 | 12/04/2020 | |
 | 37 | insync | 3.1.0.40756 | 06/04/2020 | |

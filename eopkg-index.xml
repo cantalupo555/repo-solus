@@ -913,7 +913,7 @@
         <PartOf>network.im</PartOf>
         <License>© Copyright 2020 Slack Technologies, Inc.</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="89">libgtk-3</Dependency>
+            <Dependency releaseFrom="91">libgtk-3</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
             <Dependency releaseFrom="29">dbus</Dependency>
             <Dependency releaseFrom="12">libxcomposite</Dependency>
@@ -949,9 +949,9 @@
             <Dependency>libgtk-2</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-04-01</Date>
-                <Version>4.4.0</Version>
+            <Update release="2">
+                <Date>2020-04-12</Date>
+                <Version>4.4.2</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -961,10 +961,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>196446278</InstalledSize>
-        <PackageSize>62065906</PackageSize>
-        <PackageHash>e31da42483940921da6d5d2e13f511bdfb764301</PackageHash>
-        <PackageURI>slack-desktop-4.4.0-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>196488826</InstalledSize>
+        <PackageSize>62044217</PackageSize>
+        <PackageHash>0379d34fef4c4913d5a33eb6f15f49b0096733f6</PackageHash>
+        <PackageURI>slack-desktop-4.4.2-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>slack-desktop</Name>
