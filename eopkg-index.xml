@@ -2580,7 +2580,7 @@
     </Package>
     <Package>
         <Name>pycharm</Name>
-        <Summary xml:lang="en">PyCharm - an IDE for the Python Language</Summary>
+        <Summary xml:lang="en">PyCharm</Summary>
         <Description xml:lang="en">PyCharm - an IDE for the Python Language</Description>
         <PartOf>programming</PartOf>
         <License>GPL-2.0</License>
@@ -2601,9 +2601,9 @@
             <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-04-07</Date>
-                <Version>2019.3.4</Version>
+            <Update release="2">
+                <Date>2020-04-12</Date>
+                <Version>2020.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2613,10 +2613,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1031917620</InstalledSize>
-        <PackageSize>452473656</PackageSize>
-        <PackageHash>7671ccc211fa05a4156a7c5ba147734b0f8432b1</PackageHash>
-        <PackageURI>pycharm-2019.3.4-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>1062264398</InstalledSize>
+        <PackageSize>451646814</PackageSize>
+        <PackageHash>4ce11ca00ee3b2f6e679ed42e23759e27ee7cd0f</PackageHash>
+        <PackageURI>pycharm-2020.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>pycharm</Name>
