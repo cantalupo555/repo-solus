@@ -62,7 +62,7 @@ sudo eopkg install package
 | 45 | clion | 2019.3.5 | 06/04/2020 | |
 | 46 | datagrip | 2019.3.4 | 06/04/2020 | |
 | 47 | pycharm | 2019.3.4 | 06/04/2020 | |
-| 48 | pycharm-c | 2019.3.4 | 06/04/2020 | |
+| 48 | pycharm-c | 2020.1 | 12/04/2020 | |
 
 ## Donation
 
