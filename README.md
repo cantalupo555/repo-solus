@@ -22,7 +22,7 @@ sudo eopkg install package
 | 5 | [breaktimer](https://breaktimer.app/) | 0.7.2 | 21/03/2020 | |
 | 6 | master-pdf-editor | 5.4.38 | 31/01/2020 | |
 | 7 | master-pdf-editor-v4 | 4.3.89 | 31/01/2020 | |
-| 8 | free-office-2018 | 973 | 31/01/2020 | |
+| 8 | free-office-2018 | 976 | 15/04/2020 | |
 | 9 | [office-2018](http://www.softmaker.com/go/officenxheise) | 972 | 31/01/2020 | |
 | 10 | xmacro | 0.3 | 31/01/2020 | |
 | 11 | google-chrome-stable | 81.0.4044.113 | 15/04/2020 | |
