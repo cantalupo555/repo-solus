@@ -1738,12 +1738,12 @@
         <License>Copyright © 2020 SoftMaker</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="8">libxmu</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
             <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="55">curl</Dependency>
+            <Dependency releaseFrom="57">curl</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
             <Dependency releaseFrom="8">libglvnd</Dependency>
             <Dependency releaseFrom="12">libxrandr</Dependency>
@@ -1752,9 +1752,9 @@
             <Dependency>libglu</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-02-04</Date>
-                <Version>972</Version>
+            <Update release="3">
+                <Date>2020-04-15</Date>
+                <Version>976</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1764,10 +1764,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>638323202</InstalledSize>
-        <PackageSize>346897750</PackageSize>
-        <PackageHash>2fbd20deab8e72c320f0726fba8aee1cff8ba671</PackageHash>
-        <PackageURI>office-2018-972-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>653811733</InstalledSize>
+        <PackageSize>350430505</PackageSize>
+        <PackageHash>b709e9ebaaae788fbd75f53a8d49a0a556f6c518</PackageHash>
+        <PackageURI>office-2018-976-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>office-2018</Name>
