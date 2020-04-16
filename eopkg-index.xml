@@ -1886,9 +1886,9 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="11">
-                <Date>2020-04-12</Date>
-                <Version>81.0.4044.92</Version>
+            <Update release="12">
+                <Date>2020-04-16</Date>
+                <Version>81.0.4044.113</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1898,10 +1898,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>235300025</InstalledSize>
-        <PackageSize>77832332</PackageSize>
-        <PackageHash>eaac02baba9b6e2972d6f64835d20d3205fbf88b</PackageHash>
-        <PackageURI>google-chrome-stable-81.0.4044.92-11-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>235302348</InstalledSize>
+        <PackageSize>77832258</PackageSize>
+        <PackageHash>02e2d8230189cfa61a06befd70d2b0ee22a93a4f</PackageHash>
+        <PackageURI>google-chrome-stable-81.0.4044.113-12-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-stable</Name>
