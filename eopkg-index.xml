@@ -1096,9 +1096,9 @@
             <Dependency>lsof</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-04-06</Date>
-                <Version>6.4.0.631</Version>
+            <Update release="2">
+                <Date>2020-04-19</Date>
+                <Version>6.4.1.643</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1108,10 +1108,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>68540771</InstalledSize>
-        <PackageSize>30296370</PackageSize>
-        <PackageHash>979596c19835e48d5ea4765a5ddc578e6eb5c771</PackageHash>
-        <PackageURI>enpass-6.4.0.631-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>68366870</InstalledSize>
+        <PackageSize>30186585</PackageSize>
+        <PackageHash>afab6d641babc2f59b9f5e0bb532083bc60063dc</PackageHash>
+        <PackageURI>enpass-6.4.1.643-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>enpass</Name>
