@@ -50,7 +50,7 @@ sudo eopkg install package
 | 33 | idea | 2020.1 | 12/04/2020 | |
 | 34 | slack-desktop | 4.4.2 | 12/04/2020 | |
 | 35 | enpass | 6.4.0.631 | 06/04/2020 | |
-| 36 | onlyoffice-desktopeditors | 5.5.1 | 12/04/2020 | |
+| 36 | onlyoffice-desktopeditors | 5.5.1 | 19/04/2020 | |
 | 37 | insync | 3.1.3.40790 | 15/04/2020 | |
 | 38 | jami | 20200401.1.6 | 06/04/2020 | |
 | 39 | viber | 12.0.0 | 06/04/2020 | |
@@ -64,6 +64,7 @@ sudo eopkg install package
 | 47 | pycharm | 2020.1 | 12/04/2020 | |
 | 48 | pycharm-c | 2020.1 | 12/04/2020 | |
 | 49 | megasync | 4.3.1 | compiling | |
+| 50 | wireguard | 1.0.20200319 | compiling | |
 
 ## Donation
 
