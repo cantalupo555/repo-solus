@@ -184,42 +184,48 @@
         </Source>
     </Package>
     <Package>
-        <Name>master-pdf-editor</Name>
-        <Summary xml:lang="en">Master PDF Editor</Summary>
-        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files.</Description>
-        <PartOf>office.viewers</PartOf>
-        <License>Copyright © Code Industry Ltd</License>
+        <Name>breaktimer</Name>
+        <Summary xml:lang="en">BreakTimer</Summary>
+        <Description xml:lang="en">Manage periodic breaks.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
+            <Dependency releaseFrom="91">libgtk-3</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
-            <Dependency releaseFrom="30">libdrm</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="15">libnspr</Dependency>
-            <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="32">pango</Dependency>
-            <Dependency releaseFrom="24">cups</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
-            <Dependency releaseFrom="88">libgtk-3</Dependency>
-            <Dependency releaseFrom="39">libnss</Dependency>
-            <Dependency releaseFrom="47">qt5-base</Dependency>
-            <Dependency releaseFrom="42">libcairo</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="20">zlib</Dependency>
-            <Dependency releaseFrom="33">fontconfig</Dependency>
-            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="22">libatk</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
             <Dependency releaseFrom="29">dbus</Dependency>
-            <Dependency>qt5-svg</Dependency>
-            <Dependency>qt5-networkauth</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="17">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="34">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="42">libnss</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="44">libcairo</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="23">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="21">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="23">at-spi2</Dependency>
+            <Dependency>libnotify</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>libappindicator</Dependency>
+            <Dependency>libsecret</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-02-04</Date>
-                <Version>5.4.38</Version>
+            <Update release="6">
+                <Date>2020-04-20</Date>
+                <Version>0.7.3</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -229,14 +235,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>103997752</InstalledSize>
-        <PackageSize>29720602</PackageSize>
-        <PackageHash>1e149ae5c786087487cae9c26a7a071fbc5325f2</PackageHash>
-        <PackageURI>master-pdf-editor-5.4.38-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>259086486</InstalledSize>
+        <PackageSize>69279350</PackageSize>
+        <PackageHash>ec5db83a4962d2dfd3433be0fa72c91ca263997e</PackageHash>
+        <PackageURI>breaktimer-0.7.3-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>master-pdf-editor</Name>
-            <Homepage>https://code-industry.net/</Homepage>
+            <Name>breaktimer</Name>
+            <Homepage>https://breaktimer.app/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1333,38 +1339,21 @@
         </Source>
     </Package>
     <Package>
-        <Name>bitwig-studio</Name>
-        <Summary xml:lang="en">Music production system for production, remixing and performance.</Summary>
-        <Description xml:lang="en">Music production system for production, remixing and performance.</Description>
-        <PartOf>multimedia.audio</PartOf>
-        <License>© Bitwig GmbH 2018. All rights reserved.</License>
+        <Name>xmacro</Name>
+        <Summary xml:lang="en">xmacro</Summary>
+        <Description xml:lang="en">Record / Play keystrokes and mouse movements in X displays.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>GPL-2.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="21">alsa-lib</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="9">jack-audio-connection-kit</Dependency>
-            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="10">pixman</Dependency>
-            <Dependency>libbsd</Dependency>
-            <Dependency>openjdk-8</Dependency>
-            <Dependency>xcb-util-wm</Dependency>
-            <Dependency>xdg-utils</Dependency>
-            <Dependency>zenity</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-04-06</Date>
-                <Version>3.1.3</Version>
+            <Update release="2">
+                <Date>2020-02-04</Date>
+                <Version>0.3</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1374,14 +1363,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>392153333</InstalledSize>
-        <PackageSize>201284238</PackageSize>
-        <PackageHash>a1963621e02265edb5b4e1fa0fdc1f509fc44ab3</PackageHash>
-        <PackageURI>bitwig-studio-3.1.3-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>81470</InstalledSize>
+        <PackageSize>21235</PackageSize>
+        <PackageHash>df2a06490c7e7bc719b38cdd15960624504d7531</PackageHash>
+        <PackageURI>xmacro-0.3-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>bitwig-studio</Name>
-            <Homepage>https://bitwig.com</Homepage>
+            <Name>xmacro</Name>
+            <Homepage>https://sourceforge.net/projects/xmacro/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1438,21 +1427,38 @@
         </Source>
     </Package>
     <Package>
-        <Name>xmacro</Name>
-        <Summary xml:lang="en">xmacro</Summary>
-        <Description xml:lang="en">Record / Play keystrokes and mouse movements in X displays.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>GPL-2.0-or-later</License>
+        <Name>bitwig-studio</Name>
+        <Summary xml:lang="en">Music production system for production, remixing and performance.</Summary>
+        <Description xml:lang="en">Music production system for production, remixing and performance.</Description>
+        <PartOf>multimedia.audio</PartOf>
+        <License>© Bitwig GmbH 2018. All rights reserved.</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="91">libgtk-3</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="9">jack-audio-connection-kit</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="10">pixman</Dependency>
+            <Dependency>libbsd</Dependency>
+            <Dependency>openjdk-8</Dependency>
+            <Dependency>xcb-util-wm</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>zenity</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-02-04</Date>
-                <Version>0.3</Version>
+            <Update release="1">
+                <Date>2020-04-06</Date>
+                <Version>3.1.3</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1462,14 +1468,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>81470</InstalledSize>
-        <PackageSize>21235</PackageSize>
-        <PackageHash>df2a06490c7e7bc719b38cdd15960624504d7531</PackageHash>
-        <PackageURI>xmacro-0.3-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>392153333</InstalledSize>
+        <PackageSize>201284238</PackageSize>
+        <PackageHash>a1963621e02265edb5b4e1fa0fdc1f509fc44ab3</PackageHash>
+        <PackageURI>bitwig-studio-3.1.3-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>xmacro</Name>
-            <Homepage>https://sourceforge.net/projects/xmacro/</Homepage>
+            <Name>bitwig-studio</Name>
+            <Homepage>https://bitwig.com</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1967,48 +1973,42 @@
         </Source>
     </Package>
     <Package>
-        <Name>breaktimer</Name>
-        <Summary xml:lang="en">BreakTimer</Summary>
-        <Description xml:lang="en">Manage periodic breaks.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>GPL-3.0-or-later</License>
+        <Name>master-pdf-editor</Name>
+        <Summary xml:lang="en">Master PDF Editor</Summary>
+        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files.</Description>
+        <PartOf>office.viewers</PartOf>
+        <License>Copyright © Code Industry Ltd</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="89">libgtk-3</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="29">dbus</Dependency>
-            <Dependency releaseFrom="12">libxcomposite</Dependency>
-            <Dependency releaseFrom="16">expat</Dependency>
-            <Dependency releaseFrom="14">libxcursor</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="30">libdrm</Dependency>
             <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="15">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="34">pango</Dependency>
+            <Dependency releaseFrom="32">pango</Dependency>
             <Dependency releaseFrom="24">cups</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="27">util-linux</Dependency>
-            <Dependency releaseFrom="41">libnss</Dependency>
-            <Dependency releaseFrom="60">glib2</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="59">glib2</Dependency>
+            <Dependency releaseFrom="88">libgtk-3</Dependency>
+            <Dependency releaseFrom="39">libnss</Dependency>
+            <Dependency releaseFrom="47">qt5-base</Dependency>
+            <Dependency releaseFrom="42">libcairo</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="61">glibc</Dependency>
-            <Dependency releaseFrom="43">libcairo</Dependency>
-            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="23">libatk</Dependency>
-            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="20">zlib</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="22">libatk</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency releaseFrom="20">at-spi2-atk</Dependency>
-            <Dependency releaseFrom="22">at-spi2</Dependency>
-            <Dependency>libnotify</Dependency>
-            <Dependency>xdg-utils</Dependency>
-            <Dependency>libappindicator</Dependency>
-            <Dependency>libsecret</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency>qt5-svg</Dependency>
+            <Dependency>qt5-networkauth</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-03-21</Date>
-                <Version>0.7.2</Version>
+            <Update release="2">
+                <Date>2020-02-04</Date>
+                <Version>5.4.38</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2018,14 +2018,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>253746769</InstalledSize>
-        <PackageSize>68379350</PackageSize>
-        <PackageHash>894c130eaaffa88e1770d90d38291914889e9ba5</PackageHash>
-        <PackageURI>breaktimer-0.7.2-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>103997752</InstalledSize>
+        <PackageSize>29720602</PackageSize>
+        <PackageHash>1e149ae5c786087487cae9c26a7a071fbc5325f2</PackageHash>
+        <PackageURI>master-pdf-editor-5.4.38-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>breaktimer</Name>
-            <Homepage>https://breaktimer.app/</Homepage>
+            <Name>master-pdf-editor</Name>
+            <Homepage>https://code-industry.net/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
