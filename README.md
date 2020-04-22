@@ -65,6 +65,7 @@ sudo eopkg install package
 | 48 | pycharm-c | 2020.1 | 12/04/2020 | |
 | 49 | megasync | 4.3.1 | compiling | |
 | 50 | wireguard | 1.0.20200319 | compiling | |
+| 51 | speedtest | 1.0.0 | compiling | |
 
 ## Donation
 
