@@ -1823,6 +1823,42 @@
         </Source>
     </Package>
     <Package>
+        <Name>speedtest</Name>
+        <Summary xml:lang="en">Speedtest</Summary>
+        <Description xml:lang="en">Official Ookla Speedtest CLI for personal, non-commercial use.</Description>
+        <PartOf>network.util</PartOf>
+        <License>https://www.speedtest.net/about/eula</License>
+        <RuntimeDependencies>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-26</Date>
+                <Version>1.0.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>2257218</InstalledSize>
+        <PackageSize>798465</PackageSize>
+        <PackageHash>c40e529d5fc8a362197825b45d479957618df67d</PackageHash>
+        <PackageURI>speedtest-1.0.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>speedtest</Name>
+            <Homepage>https://www.speedtest.net/apps/cli</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>libqrencode3</Name>
         <Summary xml:lang="en">QR Code encoding library Libqrencode is a library for encoding data in a QR Code symbol, a kind of 2D symbology that can be scanned by handy terminals such as a mobile phone with CCD. The capacity of QR Code is up to 7000 digits or 4000 characters, and has high robustness.</Summary>
         <Description xml:lang="en">QR Code encoding library Libqrencode is a library for encoding data in a QR Code symbol, a kind of 2D symbology that can be scanned by handy terminals such as a mobile phone with CCD. The capacity of QR Code is up to 7000 digits or 4000 characters, and has high robustness.</Description>
