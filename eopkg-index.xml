@@ -370,31 +370,19 @@
         </Source>
     </Package>
     <Package>
-        <Name>phpstorm</Name>
-        <Summary xml:lang="en">PHPStorm</Summary>
-        <Description xml:lang="en">PHPStorm - an IDE for the PHP Language</Description>
-        <PartOf>programming</PartOf>
-        <License>GPL-2.0</License>
+        <Name>libc-ares2</Name>
+        <Summary xml:lang="en">c-ares</Summary>
+        <Description xml:lang="en">c-ares is a C library that performs DNS requests and name resolution asynchronously.</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>MIT</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="21">zlib</Dependency>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="21">alsa-lib</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency>openjdk-8</Dependency>
+            <Dependency>binutils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-04-19</Date>
-                <Version>2020.1</Version>
+            <Update release="1">
+                <Date>2020-04-16</Date>
+                <Version>1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -404,14 +392,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>888546749</InstalledSize>
-        <PackageSize>341800071</PackageSize>
-        <PackageHash>94c1a6ad417a513965609b94f7851ac7f04d1d4f</PackageHash>
-        <PackageURI>phpstorm-2020.1-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>144912</InstalledSize>
+        <PackageSize>33918</PackageSize>
+        <PackageHash>9223689e4459dc91c1ec1848648d34b130c15968</PackageHash>
+        <PackageURI>lib/libc-ares2-1-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>phpstorm</Name>
-            <Homepage>https://www.jetbrains.com/phpstorm/</Homepage>
+            <Name>libc-ares2</Name>
+            <Homepage>http://c-ares.haxx.se/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -552,9 +540,9 @@
         </Source>
     </Package>
     <Package>
-        <Name>goland</Name>
-        <Summary xml:lang="en">Goland</Summary>
-        <Description xml:lang="en">Goland - an IDE for the Go Language</Description>
+        <Name>phpstorm</Name>
+        <Summary xml:lang="en">PHPStorm</Summary>
+        <Description xml:lang="en">PHPStorm - an IDE for the PHP Language</Description>
         <PartOf>programming</PartOf>
         <License>GPL-2.0</License>
         <RuntimeDependencies>
@@ -575,7 +563,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="2">
-                <Date>2020-04-12</Date>
+                <Date>2020-04-19</Date>
                 <Version>2020.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -586,14 +574,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>864321226</InstalledSize>
-        <PackageSize>334893000</PackageSize>
-        <PackageHash>9b809bfd6e6092431933cc686ab1062de5db580c</PackageHash>
-        <PackageURI>goland-2020.1-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>888546749</InstalledSize>
+        <PackageSize>341800071</PackageSize>
+        <PackageHash>94c1a6ad417a513965609b94f7851ac7f04d1d4f</PackageHash>
+        <PackageURI>phpstorm-2020.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>goland</Name>
-            <Homepage>https://www.jetbrains.com/go/</Homepage>
+            <Name>phpstorm</Name>
+            <Homepage>https://www.jetbrains.com/phpstorm/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1630,6 +1618,55 @@
         <Source>
             <Name>rambox</Name>
             <Homepage>https://rambox.pro</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>goland</Name>
+        <Summary xml:lang="en">Goland</Summary>
+        <Description xml:lang="en">Goland - an IDE for the Go Language</Description>
+        <PartOf>programming</PartOf>
+        <License>GPL-2.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency>openjdk-8</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="3">
+                <Date>2020-04-27</Date>
+                <Version>2020.1.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>864377808</InstalledSize>
+        <PackageSize>333074553</PackageSize>
+        <PackageHash>1498762a2c4c68fab46e234a7ebf4ae3b7a8e22d</PackageHash>
+        <PackageURI>goland-2020.1.1-3-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>goland</Name>
+            <Homepage>https://www.jetbrains.com/go/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2739,43 +2776,6 @@
         <Source>
             <Name>rider</Name>
             <Homepage>https://www.jetbrains.com/rider/</Homepage>
-            <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>libc-ares2</Name>
-        <Summary xml:lang="en">c-ares</Summary>
-        <Description xml:lang="en">c-ares is a C library that performs DNS requests and name resolution asynchronously.</Description>
-        <PartOf>xorg.library</PartOf>
-        <License>MIT</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency>binutils</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-04-16</Date>
-                <Version>1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>144912</InstalledSize>
-        <PackageSize>33918</PackageSize>
-        <PackageHash>9223689e4459dc91c1ec1848648d34b130c15968</PackageHash>
-        <PackageURI>lib/libc-ares2-1-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>libc-ares2</Name>
-            <Homepage>http://c-ares.haxx.se/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
