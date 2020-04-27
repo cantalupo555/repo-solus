@@ -1796,9 +1796,9 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="7">
-                <Date>2020-04-19</Date>
-                <Version>83.0.4103.14</Version>
+            <Update release="8">
+                <Date>2020-04-27</Date>
+                <Version>83.0.4103.23</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1808,10 +1808,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>235703691</InstalledSize>
-        <PackageSize>79804335</PackageSize>
-        <PackageHash>705aa2d2f3737e6cdb9e71bf1570327e76ce581f</PackageHash>
-        <PackageURI>google-chrome-beta-83.0.4103.14-7-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>235735395</InstalledSize>
+        <PackageSize>79809778</PackageSize>
+        <PackageHash>d7cebdd19195bac8d3c6dd56ad1bb46ef4cb031e</PackageHash>
+        <PackageURI>google-chrome-beta-83.0.4103.23-8-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-beta</Name>
