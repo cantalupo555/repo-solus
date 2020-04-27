@@ -76,22 +76,22 @@
     </Package>
     <Package>
         <Name>gitkraken</Name>
-        <Summary xml:lang="en">The downright luxurious Git client, for Windows, Mac and Linux.</Summary>
+        <Summary xml:lang="en">GitKraken</Summary>
         <Description xml:lang="en">The downright luxurious Git client, for Windows, Mac and Linux.</Description>
         <PartOf>programming</PartOf>
         <License>EULA</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="16">kerberos</Dependency>
-            <Dependency releaseFrom="16">expat</Dependency>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="17">expat</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
             <Dependency releaseFrom="16">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="27">util-linux</Dependency>
             <Dependency releaseFrom="11">libxscrnsaver</Dependency>
-            <Dependency releaseFrom="60">glib2</Dependency>
-            <Dependency releaseFrom="41">libnss</Dependency>
-            <Dependency releaseFrom="61">glibc</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="42">libnss</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
             <Dependency releaseFrom="37">openssl</Dependency>
             <Dependency releaseFrom="19">e2fsprogs</Dependency>
@@ -103,9 +103,9 @@
             <Dependency>nodejs</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-03-21</Date>
-                <Version>6.5.4</Version>
+            <Update release="2">
+                <Date>2020-04-27</Date>
+                <Version>6.6.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -115,10 +115,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>324449832</InstalledSize>
-        <PackageSize>84974423</PackageSize>
-        <PackageHash>657d43c734f88ea3158b308efc50bd2c617297f3</PackageHash>
-        <PackageURI>gitkraken-6.5.4-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>333742557</InstalledSize>
+        <PackageSize>86638803</PackageSize>
+        <PackageHash>6516b9a816f53a1e8c4433d6f95860dfd4cc210e</PackageHash>
+        <PackageURI>gitkraken-6.6.0-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>gitkraken</Name>
