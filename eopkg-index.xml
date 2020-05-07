@@ -1584,7 +1584,7 @@
             <Dependency>zenity</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
+            <Update release="2">
                 <Date>2020-05-07</Date>
                 <Version>1.14.1</Version>
                 <Comment>Packaging update</Comment>
@@ -1597,13 +1597,13 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>29076067</InstalledSize>
-        <PackageSize>9622317</PackageSize>
-        <PackageHash>65ec910bad1ade7fb36cee70e5349cecb3dfd833</PackageHash>
-        <PackageURI>warsaw-1.14.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageSize>9622308</PackageSize>
+        <PackageHash>d5860f1f74bae3e9b1d0b138ffde0a30a46c9e2d</PackageHash>
+        <PackageURI>warsaw-1.14.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>warsaw</Name>
-            <Homepage>https://diagnostico.gasantifraud.com/</Homepage>
+            <Homepage>https://www.dieboldnixdorf.com.br</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>

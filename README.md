@@ -66,7 +66,7 @@ sudo eopkg install package
 | 49 | megasync | 4.3.1 | 26/04/2020 | |
 | 50 | wireguard | 1.0.20200319 | compiling | |
 | 51 | speedtest | 1.0.0 | 26/04/2020 | |
-| 52 | warsaw | 1.14.1 | 06/05/2020 | [Brazil](https://www.edivaldobrito.com.br/warsaw-para-usar-internet-banking-no-linux/) - [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-warsaw-on-Solus-%5BBrazil%5D) |
+| 52 | warsaw | 1.14.1 | 06/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-warsaw-on-Solus-%5BBrazil%5D) - [Brazil](https://www.dieboldnixdorf.com.br/warsaw) |
 
 ## Donation
 
