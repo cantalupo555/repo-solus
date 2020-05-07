@@ -1559,6 +1559,58 @@
         </Source>
     </Package>
     <Package>
+        <Name>warsaw</Name>
+        <Summary xml:lang="en">warsaw</Summary>
+        <Description xml:lang="en">Package warsaw provides the needed software to use some banking services. The package warsaw will easily add the required software to let you use some of the internet banking services of popular financial organizations in South America. If you are unsure if you need this package please call your service desk and ask them for instructions.</Description>
+        <PartOf>security</PartOf>
+        <License>EULA</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="42">libnss</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="34">pango</Dependency>
+            <Dependency releaseFrom="23">at-spi2</Dependency>
+            <Dependency releaseFrom="24">libgtk-2</Dependency>
+            <Dependency>libdbusmenu</Dependency>
+            <Dependency>libdbusmenu-qt</Dependency>
+            <Dependency>procps-ng</Dependency>
+            <Dependency>zenity</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-05-07</Date>
+                <Version>1.14.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>29076067</InstalledSize>
+        <PackageSize>9622317</PackageSize>
+        <PackageHash>65ec910bad1ade7fb36cee70e5349cecb3dfd833</PackageHash>
+        <PackageURI>warsaw-1.14.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>warsaw</Name>
+            <Homepage>https://diagnostico.gasantifraud.com/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>rambox</Name>
         <Summary xml:lang="en">Rambox</Summary>
         <Description xml:lang="en">Free and Open Source messaging and emailing app that combines common web applications into one.</Description>
