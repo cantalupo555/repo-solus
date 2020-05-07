@@ -28,7 +28,7 @@ sudo eopkg install package
 | 11 | google-chrome-stable | 81.0.4044.122 | 26/04/2020 | |
 | 12 | google-chrome-beta | 83.0.4103.23 | 26/04/2020 | |
 | 13 | google-chrome-unstable | 84.0.4122.7 | 26/04/2020 | |
-| 14 | teamviewer | 15.4.4445 | 02/04/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-TeamViewer-on-Solus) |
+| 14 | teamviewer | 15.5.3 | 06/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-TeamViewer-on-Solus) |
 | 15 | anydesk | 5.5.5 | 26/04/2020 | |
 | 16 | spotify | 1.1.26.501 | 22/02/2020 | |
 | 17 | android-studio | 3.6.3 | 19/04/2020 | |
@@ -66,7 +66,7 @@ sudo eopkg install package
 | 49 | megasync | 4.3.1 | 26/04/2020 | |
 | 50 | wireguard | 1.0.20200319 | compiling | |
 | 51 | speedtest | 1.0.0 | 26/04/2020 | |
-| 52 | warsaw | 1.14.1 | compiling | |
+| 52 | warsaw | 1.14.1 | compiling | [Brazil](https://www.edivaldobrito.com.br/warsaw-para-usar-internet-banking-no-linux/) |
 
 ## Donation
 
