@@ -1584,8 +1584,8 @@
             <Dependency>zenity</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-05-07</Date>
+            <Update release="3">
+                <Date>2020-05-08</Date>
                 <Version>1.14.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -1596,10 +1596,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>29076067</InstalledSize>
-        <PackageSize>9622308</PackageSize>
-        <PackageHash>d5860f1f74bae3e9b1d0b138ffde0a30a46c9e2d</PackageHash>
-        <PackageURI>warsaw-1.14.1-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>29076115</InstalledSize>
+        <PackageSize>9622342</PackageSize>
+        <PackageHash>27e652f3a865415d2189896a75c4c80d71ecb146</PackageHash>
+        <PackageURI>warsaw-1.14.1-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>warsaw</Name>
