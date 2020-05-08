@@ -696,52 +696,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>eradio</Name>
-        <Summary xml:lang="en">A minimalist and powerful radio player</Summary>
-        <Description xml:lang="en">A minimalist and powerful radio player.</Description>
-        <PartOf>multimedia.audio</PartOf>
-        <License>GPL-3.0</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="81">libgtk-3</Dependency>
-            <Dependency releaseFrom="23">gstreamer-1.0</Dependency>
-            <Dependency releaseFrom="21">libxml2</Dependency>
-            <Dependency releaseFrom="54">glibc</Dependency>
-            <Dependency releaseFrom="40">libcairo</Dependency>
-            <Dependency releaseFrom="11">libgee</Dependency>
-            <Dependency releaseFrom="2">sqlheavy</Dependency>
-            <Dependency releaseFrom="14">libjson-glib</Dependency>
-            <Dependency releaseFrom="13">granite</Dependency>
-            <Dependency releaseFrom="5">libnotify</Dependency>
-            <Dependency releaseFrom="48">glib2</Dependency>
-            <Dependency releaseFrom="22">libsoup</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2019-03-24</Date>
-                <Version>2.0.4</Version>
-                <Comment>Packaging update</Comment>
-                <Name>Christophe Silva</Name>
-                <Email>Christophesilva@tutamail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>388094</InstalledSize>
-        <PackageSize>126887</PackageSize>
-        <PackageHash>1e489dca9d9e491a52a9e3bf1c4a73d6a31651b8</PackageHash>
-        <PackageURI>eradio-2.0.4-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>eradio</Name>
-            <Packager>
-                <Name>Christophe Silva</Name>
-                <Email>Christophesilva@tutamail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>free-office-2018</Name>
         <Summary xml:lang="en">FreeOffice 2018</Summary>
         <Description xml:lang="en">SoftMaker FreeOffice is a complete office suite.</Description>
@@ -1327,6 +1281,67 @@
         <Source>
             <Name>android-studio</Name>
             <Homepage>https://developer.android.com/studio/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>franz</Name>
+        <Summary xml:lang="en">A free messaging app that combines chat and messaging services into one application</Summary>
+        <Description xml:lang="en">Franz is a free messaging app / former Emperor of Austria and combines chat and messaging services into one application. Franz currently supports Slack, WhatsApp, WeChat, HipChat, Facebook Messenger, Telegram, Google Hangouts, GroupMe, Skype and many more.</Description>
+        <PartOf>network.im</PartOf>
+        <License>Custom</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="17">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="34">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="43">libnss</Dependency>
+            <Dependency releaseFrom="44">libcairo</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="23">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+            <Dependency>libgtk-2</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="2">
+                <Date>2020-05-08</Date>
+                <Version>5.5.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>398703533</InstalledSize>
+        <PackageSize>98300077</PackageSize>
+        <PackageHash>390a6ccaea4d0380e87890ab24a97031073b5d1f</PackageHash>
+        <PackageURI>franz-5.5.0-2-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>franz</Name>
+            <Homepage>https://meetfranz.com</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2165,64 +2180,48 @@
         </Source>
     </Package>
     <Package>
-        <Name>franz</Name>
-        <Summary xml:lang="en">A free messaging app that combines chat and messaging services into one application</Summary>
-        <Description xml:lang="en">Franz is a free messaging app / former Emperor of Austria and combines chat and messaging services into one application. Franz currently supports Slack, WhatsApp, WeChat, HipChat, Facebook Messenger, Telegram, Google Hangouts, GroupMe, Skype and many more.</Description>
-        <PartOf>network.im</PartOf>
-        <License>Custom</License>
+        <Name>eradio</Name>
+        <Summary xml:lang="en">A minimalist and powerful radio player</Summary>
+        <Description xml:lang="en">A minimalist and powerful radio player.</Description>
+        <PartOf>multimedia.audio</PartOf>
+        <License>GPL-3.0</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="29">dbus</Dependency>
-            <Dependency releaseFrom="12">libxcomposite</Dependency>
-            <Dependency releaseFrom="17">expat</Dependency>
-            <Dependency releaseFrom="14">libxcursor</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="16">libnspr</Dependency>
-            <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="34">pango</Dependency>
-            <Dependency releaseFrom="24">cups</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="27">util-linux</Dependency>
-            <Dependency releaseFrom="41">libnss</Dependency>
-            <Dependency releaseFrom="44">libcairo</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="11">libxscrnsaver</Dependency>
-            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="23">libatk</Dependency>
-            <Dependency releaseFrom="13">libxdamage</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency>gconf</Dependency>
-            <Dependency>binutils</Dependency>
-            <Dependency>libgtk-2</Dependency>
+            <Dependency releaseFrom="81">libgtk-3</Dependency>
+            <Dependency releaseFrom="23">gstreamer-1.0</Dependency>
+            <Dependency releaseFrom="21">libxml2</Dependency>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="40">libcairo</Dependency>
+            <Dependency releaseFrom="11">libgee</Dependency>
+            <Dependency releaseFrom="2">sqlheavy</Dependency>
+            <Dependency releaseFrom="14">libjson-glib</Dependency>
+            <Dependency releaseFrom="13">granite</Dependency>
+            <Dependency releaseFrom="5">libnotify</Dependency>
+            <Dependency releaseFrom="48">glib2</Dependency>
+            <Dependency releaseFrom="22">libsoup</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-04-06</Date>
-                <Version>5.4.1</Version>
+                <Date>2019-03-24</Date>
+                <Version>2.0.4</Version>
                 <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>Christophe Silva</Name>
+                <Email>Christophesilva@tutamail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>368897409</InstalledSize>
-        <PackageSize>90665257</PackageSize>
-        <PackageHash>a2d19823961267cefef7d835e342f67a82993fbb</PackageHash>
-        <PackageURI>franz-5.4.1-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>388094</InstalledSize>
+        <PackageSize>126887</PackageSize>
+        <PackageHash>1e489dca9d9e491a52a9e3bf1c4a73d6a31651b8</PackageHash>
+        <PackageURI>eradio-2.0.4-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>franz</Name>
-            <Homepage>https://meetfranz.com</Homepage>
+            <Name>eradio</Name>
             <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>Christophe Silva</Name>
+                <Email>Christophesilva@tutamail.com</Email>
             </Packager>
         </Source>
     </Package>
