@@ -1188,29 +1188,29 @@
     </Package>
     <Package>
         <Name>ocenaudio</Name>
-        <Summary xml:lang="en">Ocenaudio is a fast, cross-platform audio editor.</Summary>
+        <Summary xml:lang="en">Ocenaudio</Summary>
         <Description xml:lang="en">Ocenaudio is a fast, cross-platform audio editor.</Description>
         <PartOf>network.clients</PartOf>
         <License>Copyright © 2015 ocenaudio</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
             <Dependency releaseFrom="13">bzip2</Dependency>
-            <Dependency releaseFrom="20">zlib</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
             <Dependency releaseFrom="21">alsa-lib</Dependency>
-            <Dependency releaseFrom="61">glibc</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="9">jack-audio-connection-kit</Dependency>
             <Dependency releaseFrom="37">openssl</Dependency>
-            <Dependency releaseFrom="24">xz</Dependency>
+            <Dependency releaseFrom="25">xz</Dependency>
             <Dependency releaseFrom="85">systemd</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
             <Dependency releaseFrom="22">libxml2</Dependency>
             <Dependency releaseFrom="27">util-linux</Dependency>
             <Dependency>gconf</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-03-20</Date>
-                <Version>3.7.12</Version>
+            <Update release="2">
+                <Date>2020-05-08</Date>
+                <Version>3.7.14</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1220,10 +1220,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>42131001</InstalledSize>
-        <PackageSize>15803465</PackageSize>
-        <PackageHash>7faa80e4e1a2f88211c53432b228994dcfe8b97f</PackageHash>
-        <PackageURI>ocenaudio-3.7.12-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>45469561</InstalledSize>
+        <PackageSize>16525117</PackageSize>
+        <PackageHash>1bcb4699d4b1a1bee9240c1c977a1af532bd2e33</PackageHash>
+        <PackageURI>ocenaudio-3.7.14-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ocenaudio</Name>
