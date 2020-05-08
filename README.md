@@ -67,6 +67,7 @@ sudo eopkg install package
 | 50 | wireguard | 1.0.20200319 | compiling | |
 | 51 | speedtest | 1.0.0 | 26/04/2020 | |
 | 52 | warsaw | 1.14.1 | 06/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-warsaw-on-Solus-%5BBrazil%5D) - [Brazil](https://www.dieboldnixdorf.com.br/warsaw) |
+| 53 | xdm | 7.2.10 (2020) | compiling | |
 
 ## Donation
 
