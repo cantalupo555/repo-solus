@@ -41,7 +41,7 @@ sudo eopkg install package
 | 24 | wps-office | 11.1.0.9505 | 15/04/2020 | |
 | 25 | dkms | 2.8.1 | 09/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-dkms-on-Solus) |
 | 26 | stacer | 1.1.0 | 11/02/2020 | |
-| 27 | nordvpn | 3.7.1 | 20/04/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-NordVPN-on-Solus) | |
+| 27 | nordvpn | 3.7.2 | 09/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-NordVPN-on-Solus) | |
 | 28 | windscribe | 1.4 | 04/04/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-windscribe-on-Solus) |
 | 29 | ocenaudio | 3.7.14 | 08/05/2020 | |
 | 30 | gitkraken | 6.6.0 | 27/04/2020 | |
