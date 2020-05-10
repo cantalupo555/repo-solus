@@ -766,9 +766,9 @@
             <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-04-12</Date>
-                <Version>2020.1</Version>
+            <Update release="3">
+                <Date>2020-05-10</Date>
+                <Version>2020.1.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -778,10 +778,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>736944706</InstalledSize>
-        <PackageSize>342009792</PackageSize>
-        <PackageHash>0a881729c382071ce1e6142d67df710b7a6e6c79</PackageHash>
-        <PackageURI>pycharm-c-2020.1-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>737933670</InstalledSize>
+        <PackageSize>342817377</PackageSize>
+        <PackageHash>58f2017998b3ecf470610b9aa4caa9cc0ae8290f</PackageHash>
+        <PackageURI>pycharm-c-2020.1.1-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>pycharm-c</Name>

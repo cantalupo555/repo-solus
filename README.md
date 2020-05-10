@@ -62,7 +62,7 @@ sudo eopkg install package
 | 45 | clion | 2020.1 | 19/04/2020 | |
 | 46 | datagrip | 2020.1.2 | 27/04/2020 | |
 | 47 | pycharm | 2020.1.1 | 10/05/2020 | |
-| 48 | pycharm-c | 2020.1 | 12/04/2020 | |
+| 48 | pycharm-c | 2020.1.1 | 10/05/2020 | |
 | 49 | megasync | 4.3.1 | 26/04/2020 | |
 | 50 | wireguard | 1.0.20200319 | compiling | |
 | 51 | speedtest | 1.0.0 | 26/04/2020 | |
