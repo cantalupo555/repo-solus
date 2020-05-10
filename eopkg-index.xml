@@ -2800,16 +2800,16 @@
             <Dependency releaseFrom="49">libgcc</Dependency>
             <Dependency releaseFrom="13">libxrender</Dependency>
             <Dependency releaseFrom="21">alsa-lib</Dependency>
-            <Dependency releaseFrom="57">curl</Dependency>
+            <Dependency releaseFrom="58">curl</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
             <Dependency releaseFrom="8">libglvnd</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
             <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-04-19</Date>
-                <Version>2020.1</Version>
+            <Update release="3">
+                <Date>2020-05-10</Date>
+                <Version>2020.1.2</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2819,10 +2819,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>2130034244</InstalledSize>
-        <PackageSize>674829749</PackageSize>
-        <PackageHash>c6acba9af56ed7a4522de25b25740ab9a6b79668</PackageHash>
-        <PackageURI>rider-2020.1-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>2135043303</InstalledSize>
+        <PackageSize>672897568</PackageSize>
+        <PackageHash>765763adaf58730c6244e5625cd0ab4e75f6911c</PackageHash>
+        <PackageURI>rider-2020.1.2-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>rider</Name>
