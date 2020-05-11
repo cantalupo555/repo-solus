@@ -3068,9 +3068,9 @@
             <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-04-19</Date>
-                <Version>2020.1</Version>
+            <Update release="3">
+                <Date>2020-05-11</Date>
+                <Version>2020.1.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -3080,10 +3080,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1232078928</InstalledSize>
-        <PackageSize>446589536</PackageSize>
-        <PackageHash>c973eb760236ecd6920c34b9074bf20929bc2203</PackageHash>
-        <PackageURI>clion-2020.1-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>1233559616</InstalledSize>
+        <PackageSize>446294345</PackageSize>
+        <PackageHash>530a53a4471fd51030f0cde013e5c6e78b04b7f2</PackageHash>
+        <PackageURI>clion-2020.1.1-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>clion</Name>
