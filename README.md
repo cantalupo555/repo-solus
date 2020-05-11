@@ -45,7 +45,7 @@ sudo eopkg install package
 | 28 | windscribe | 1.4 | 04/04/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-windscribe-on-Solus) |
 | 29 | ocenaudio | 3.7.14 | 08/05/2020 | |
 | 30 | gitkraken | 6.6.0 | 27/04/2020 | |
-| 31 | webstorm | 2020.1 | 12/04/2020 | |
+| 31 | webstorm | 2020.1.1 | 11/05/2020 | |
 | 32 | phpstorm | 2020.1 | 19/04/2020 | |
 | 33 | idea | 2020.1 | 12/04/2020 | |
 | 34 | slack-desktop | 4.4.2 | 12/04/2020 | |
