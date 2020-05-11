@@ -441,9 +441,9 @@
             <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-04-12</Date>
-                <Version>2020.1</Version>
+            <Update release="5">
+                <Date>2020-05-11</Date>
+                <Version>2020.1.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -453,10 +453,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1534643353</InstalledSize>
-        <PackageSize>711276860</PackageSize>
-        <PackageHash>b55f0e58d1a7de3deeb8ed3d716e27bc04aeb005</PackageHash>
-        <PackageURI>idea-2020.1-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>1542400458</InstalledSize>
+        <PackageSize>716362912</PackageSize>
+        <PackageHash>2d875a2aa142bb023387c8df04c7b0f68a41d10e</PackageHash>
+        <PackageURI>idea-2020.1.1-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>idea</Name>
