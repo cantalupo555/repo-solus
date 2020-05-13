@@ -70,6 +70,7 @@ sudo eopkg install package
 | 53 | xdm | 7.2.10 (2020) | compiling | |
 | 54 | genymotion | 3.1.0 | compiling | |
 | 55 | mscorefonts | 1.3 | 06/04/2020 | |
+| 56 | zoom | 5.0.403652.0509 | compiling | |
 
 ## Donation
 
