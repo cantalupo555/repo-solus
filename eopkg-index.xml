@@ -1752,8 +1752,8 @@
             <Dependency>binutils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="11">
-                <Date>2020-05-14</Date>
+            <Update release="12">
+                <Date>2020-05-15</Date>
                 <Version>1.19.3.2764</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -1765,9 +1765,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>300534426</InstalledSize>
-        <PackageSize>104208454</PackageSize>
-        <PackageHash>48d179f07bf4a57b0aaecd2f6cf20759f614f1d9</PackageHash>
-        <PackageURI>plexmediaserver-1.19.3.2764-11-1-x86_64.eopkg</PackageURI>
+        <PackageSize>104209930</PackageSize>
+        <PackageHash>61f04ac066dffdd612cf371375e0c19961b5411e</PackageHash>
+        <PackageURI>plexmediaserver-1.19.3.2764-12-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>plexmediaserver</Name>
