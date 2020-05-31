@@ -332,20 +332,25 @@
         </Source>
     </Package>
     <Package>
-        <Name>libayatana-appindicator3-1</Name>
-        <Summary xml:lang="en">Ayatana Application Indicators (GTK-3+ version) A library and indicator to take menus from applications and place them in the panel.</Summary>
-        <Description xml:lang="en">Ayatana Application Indicators (GTK-3+ version) A library and indicator to take menus from applications and place them in the panel.</Description>
-        <PartOf>xorg.library</PartOf>
-        <License>GPL-3.0</License>
+        <Name>filebot</Name>
+        <Summary xml:lang="en">FileBot</Summary>
+        <Description xml:lang="en">FileBot is the ultimate tool for organizing and renaming your Movies, TV Shows and Anime as well as fetching subtitles and artwork. It&apos;s smart and just works.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>EULA</License>
         <RuntimeDependencies>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="64">glib2</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
             <Dependency>binutils</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-04-05</Date>
-                <Version>1</Version>
+                <Date>2020-05-30</Date>
+                <Version>4.9.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -355,14 +360,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>118640</InstalledSize>
-        <PackageSize>18488</PackageSize>
-        <PackageHash>5c8d05096e39e44416386c49306a1ce9c4bf264e</PackageHash>
-        <PackageURI>lib/libayatana-appindicator3-1-1-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>345079333</InstalledSize>
+        <PackageSize>95212648</PackageSize>
+        <PackageHash>adfad844ea4ea2fbfd4165bffa08816353c2f377</PackageHash>
+        <PackageURI>filebot-4.9.1-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>libayatana-appindicator3-1</Name>
-            <Homepage>https://github.com/AyatanaIndicators/libayatana-appindicator</Homepage>
+            <Name>filebot</Name>
+            <Homepage>https://www.filebot.net</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1926,6 +1931,44 @@
         <Source>
             <Name>speedtest</Name>
             <Homepage>https://www.speedtest.net/apps/cli</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libayatana-appindicator3-1</Name>
+        <Summary xml:lang="en">Ayatana Application Indicators (GTK-3+ version) A library and indicator to take menus from applications and place them in the panel.</Summary>
+        <Description xml:lang="en">Ayatana Application Indicators (GTK-3+ version) A library and indicator to take menus from applications and place them in the panel.</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>GPL-3.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-05</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>118640</InstalledSize>
+        <PackageSize>18488</PackageSize>
+        <PackageHash>5c8d05096e39e44416386c49306a1ce9c4bf264e</PackageHash>
+        <PackageURI>lib/libayatana-appindicator3-1-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libayatana-appindicator3-1</Name>
+            <Homepage>https://github.com/AyatanaIndicators/libayatana-appindicator</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
