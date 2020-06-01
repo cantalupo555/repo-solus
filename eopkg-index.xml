@@ -2271,9 +2271,9 @@
             <Dependency>qt5-quickcontrols</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-05-07</Date>
-                <Version>15.5.3</Version>
+            <Update release="5">
+                <Date>2020-06-01</Date>
+                <Version>15.6.7</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2283,10 +2283,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>72179186</InstalledSize>
-        <PackageSize>21127204</PackageSize>
-        <PackageHash>4a05792d06cb95387e41e931b4867894e8ab82e7</PackageHash>
-        <PackageURI>teamviewer-15.5.3-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>71146866</InstalledSize>
+        <PackageSize>20946287</PackageSize>
+        <PackageHash>a78b4279cb2cc181ce8d722eb5672279adbf3813</PackageHash>
+        <PackageURI>teamviewer-15.6.7-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>teamviewer</Name>
