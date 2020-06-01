@@ -1255,7 +1255,7 @@
         <PartOf>programming</PartOf>
         <License>Apache-2.0</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="64">glib2</Dependency>
             <Dependency releaseFrom="26">freetype2</Dependency>
             <Dependency releaseFrom="14">ncurses</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
@@ -1275,9 +1275,9 @@
             <Dependency>zlib-32bit</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="6">
-                <Date>2020-04-19</Date>
-                <Version>3.6.3</Version>
+            <Update release="7">
+                <Date>2020-06-01</Date>
+                <Version>4.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1287,10 +1287,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1456484853</InstalledSize>
-        <PackageSize>737156857</PackageSize>
-        <PackageHash>10d367eaf41770fdf826531b2ce7ab04ca45ef0c</PackageHash>
-        <PackageURI>android-studio-3.6.3-6-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>1678056576</InstalledSize>
+        <PackageSize>821395761</PackageSize>
+        <PackageHash>066b9e8ba17426c4234fe7a358be34b9a63b7285</PackageHash>
+        <PackageURI>android-studio-4.0-7-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>android-studio</Name>
