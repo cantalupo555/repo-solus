@@ -57,21 +57,20 @@ sudo eopkg install package
 | 40 | franz | 5.5.0 | 08/05/2020 | |
 | 41 | bitwig-studio | 3.1.3 | 06/04/2020 | |
 | 42 | goland | 2020.1.2 | 10/05/2020 | |
-| 43 | rider | 2020.1.2 | 10/05/2020 | |
+| 43 | rider | 2020.1.3 | 02/06/2020 | |
 | 44 | rubymine | 2020.1.1 | 11/05/2020 | |
 | 45 | clion | 2020.1.1 | 11/05/2020 | |
 | 46 | datagrip | 2020.1.3 | 11/05/2020 | |
 | 47 | pycharm | 2020.1.1 | 10/05/2020 | |
 | 48 | pycharm-c | 2020.1.1 | 10/05/2020 | |
 | 49 | megasync | 4.3.1 | 26/04/2020 | |
-| 50 | wireguard | 1.0.20200319 | compiling | |
-| 51 | speedtest | 1.0.0 | 26/04/2020 | |
-| 52 | warsaw | 1.14.1 | 06/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-warsaw-on-Solus-%5BBrazil%5D) - [Brazil](https://www.dieboldnixdorf.com.br/warsaw) |
-| 53 | xdm | 7.2.10 (2020) | compiling | |
-| 54 | genymotion | 3.1.0 | compiling | |
-| 55 | mscorefonts | 1.3 | 06/04/2020 | |
-| 56 | zoom | 5.0.403652.0509 | compiling | |
-| 57 | filebot | 4.9.1 | 30/05/2020 | |
+| 50 | speedtest | 1.0.0 | 26/04/2020 | |
+| 51 | warsaw | 1.14.1 | 06/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-warsaw-on-Solus-%5BBrazil%5D) - [Brazil](https://www.dieboldnixdorf.com.br/warsaw) |
+| 52 | xdm | 7.2.10 (2020) | compiling | |
+| 53 | genymotion | 3.1.0 | compiling | |
+| 54 | mscorefonts | 1.3 | 06/04/2020 | |
+| 55 | zoom | 5.0.403652.0509 | compiling | |
+| 56 | filebot | 4.9.1 | 30/05/2020 | |
 
 ## Donation
 
