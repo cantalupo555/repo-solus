@@ -1271,9 +1271,9 @@
             <Dependency>gconf</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="3">
-                <Date>2020-06-01</Date>
-                <Version>3.7.16</Version>
+            <Update release="4">
+                <Date>2020-06-02</Date>
+                <Version>3.7.17</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1283,10 +1283,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>45489433</InstalledSize>
-        <PackageSize>16533658</PackageSize>
-        <PackageHash>5eb9a0ace82bb0cd2baebfc8100408d3ebc60014</PackageHash>
-        <PackageURI>ocenaudio-3.7.16-3-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>45499057</InstalledSize>
+        <PackageSize>16534754</PackageSize>
+        <PackageHash>400adf3e7e0a869b2ff82c60d846a23a75179677</PackageHash>
+        <PackageURI>ocenaudio-3.7.17-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ocenaudio</Name>
