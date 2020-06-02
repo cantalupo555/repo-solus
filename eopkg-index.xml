@@ -2139,7 +2139,7 @@
         <License>Custom</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="20">wayland</Dependency>
-            <Dependency releaseFrom="43">libnss</Dependency>
+            <Dependency releaseFrom="44">libnss</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="8">libglvnd</Dependency>
@@ -2148,9 +2148,9 @@
             <Dependency>nautilus-python</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-05-08</Date>
-                <Version>3.1.6.40808</Version>
+            <Update release="6">
+                <Date>2020-06-02</Date>
+                <Version>3.1.8.40816</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2160,10 +2160,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>375841323</InstalledSize>
-        <PackageSize>114388660</PackageSize>
-        <PackageHash>a53865c4e9992471373ff7cda33d0eb096be2508</PackageHash>
-        <PackageURI>insync-3.1.6.40808-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>375840895</InstalledSize>
+        <PackageSize>114389210</PackageSize>
+        <PackageHash>2ea3859c0d97f2a312a161f6a07dc7b07e2059fd</PackageHash>
+        <PackageURI>insync-3.1.8.40816-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>insync</Name>
