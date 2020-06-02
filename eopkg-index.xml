@@ -2398,9 +2398,10 @@
             <Dependency releaseFrom="49">libgcc</Dependency>
             <Dependency releaseFrom="16">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
             <Dependency releaseFrom="26">freetype2</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="43">libnss</Dependency>
+            <Dependency releaseFrom="64">glib2</Dependency>
+            <Dependency releaseFrom="44">libnss</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
@@ -2409,12 +2410,11 @@
             <Dependency releaseFrom="13">libxext</Dependency>
             <Dependency releaseFrom="29">dbus</Dependency>
             <Dependency>openjdk-8</Dependency>
-            <Dependency>libglvnd</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-05-11</Date>
-                <Version>2020.1.3</Version>
+            <Update release="5">
+                <Date>2020-06-02</Date>
+                <Version>2020.1.4</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2424,10 +2424,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>767587593</InstalledSize>
-        <PackageSize>314101242</PackageSize>
-        <PackageHash>72a3095ca3cdcf8c0f2834b98cfff21e7fa2a357</PackageHash>
-        <PackageURI>datagrip-2020.1.3-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>874064958</InstalledSize>
+        <PackageSize>357414953</PackageSize>
+        <PackageHash>1a6b41d3724a5467abb71762ae833a319df87d27</PackageHash>
+        <PackageURI>datagrip-2020.1.4-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>datagrip</Name>
