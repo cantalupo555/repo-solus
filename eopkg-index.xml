@@ -1564,7 +1564,7 @@
             <Dependency releaseFrom="64">glib2</Dependency>
             <Dependency releaseFrom="92">libgtk-3</Dependency>
             <Dependency releaseFrom="44">libnss</Dependency>
-            <Dependency releaseFrom="44">libcairo</Dependency>
+            <Dependency releaseFrom="45">libcairo</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
@@ -1587,9 +1587,9 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="10">
-                <Date>2020-06-01</Date>
-                <Version>84.0.4147.30</Version>
+            <Update release="11">
+                <Date>2020-06-26</Date>
+                <Version>84.0.4147.68</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1599,10 +1599,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>234576398</InstalledSize>
-        <PackageSize>80553583</PackageSize>
-        <PackageHash>060453fd6d8ee9cedf5f3b53c25e438d53cd5a8c</PackageHash>
-        <PackageURI>google-chrome-beta-84.0.4147.30-10-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>234671466</InstalledSize>
+        <PackageSize>80565760</PackageSize>
+        <PackageHash>a80deddf35e7c1f17240cd00ccf65430eef40715</PackageHash>
+        <PackageURI>google-chrome-beta-84.0.4147.68-11-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-beta</Name>
