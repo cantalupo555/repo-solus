@@ -1469,9 +1469,9 @@
             <Dependency>binutils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="12">
-                <Date>2020-05-15</Date>
-                <Version>1.19.3.2764</Version>
+            <Update release="13">
+                <Date>2020-06-27</Date>
+                <Version>1.19.4.2902</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1481,10 +1481,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>300534426</InstalledSize>
-        <PackageSize>104209930</PackageSize>
-        <PackageHash>61f04ac066dffdd612cf371375e0c19961b5411e</PackageHash>
-        <PackageURI>plexmediaserver-1.19.3.2764-12-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>300381366</InstalledSize>
+        <PackageSize>104165028</PackageSize>
+        <PackageHash>87b1fd136ad4a2cd715f96e04af45cdfa9c5cb65</PackageHash>
+        <PackageURI>plexmediaserver-1.19.4.2902-13-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>plexmediaserver</Name>
