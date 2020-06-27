@@ -24,6 +24,7 @@ sudo eopkg install package
 | 7 | master-pdf-editor-v4 | 4.3.89 | 31/01/2020 | |
 | 8 | free-office-2018 | 976 | 15/04/2020 | |
 | 9 | [office-2018](http://www.softmaker.com/go/officenxheise) | 976 | 15/04/2020 | |
+| 10 | [office-2021](https://www.softmaker.com/en/softmaker-office-download) | compiling | compiling |
 | 10 | xmacro | 0.3 | 31/01/2020 | |
 | 11 | google-chrome-stable | 83.0.4103.116 | 26/06/2020 | |
 | 12 | google-chrome-beta | 84.0.4147.68 | 26/06/2020 | |
