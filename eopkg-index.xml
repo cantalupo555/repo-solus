@@ -1458,6 +1458,54 @@
         </Source>
     </Package>
     <Package>
+        <Name>softmaker-office-2021</Name>
+        <Summary xml:lang="en">SoftMaker Office is a complete office suite.</Summary>
+        <Description xml:lang="en">SoftMaker Office is powerful and fast, and reads and writes Microsoft Office documents flawlessly. It comes with the TextMaker word processor, the spreadsheet program PlanMaker and the presentations software Presentations.</Description>
+        <PartOf>office</PartOf>
+        <License>Copyright © 2020 SoftMaker</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="8">libxmu</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="59">curl</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="9">libglvnd</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency>libnih</Dependency>
+            <Dependency>python-pycurl</Dependency>
+            <Dependency>libglu</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-06-28</Date>
+                <Version>1016</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>862460881</InstalledSize>
+        <PackageSize>572918425</PackageSize>
+        <PackageHash>cc50d631ef03de67c05643297d6e11073e252f70</PackageHash>
+        <PackageURI>softmaker-office-2021-1016-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>softmaker-office-2021</Name>
+            <Homepage>https://www.softmaker.com/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>plexmediaserver</Name>
         <Summary xml:lang="en">Plex Media Server</Summary>
         <Description xml:lang="en">Plex organizes all of your personal media so you can easily access and enjoy it.</Description>
