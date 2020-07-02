@@ -72,6 +72,7 @@ sudo eopkg install package
 | 55 | mscorefonts | 1.3 | 06/04/2020 | |
 | 56 | zoom | 5.0.403652.0509 | compiling | |
 | 57 | filebot | 4.9.1 | 30/05/2020 | |
+| 58 | rar | compiling | compiling | |
 
 ## Donation
 
