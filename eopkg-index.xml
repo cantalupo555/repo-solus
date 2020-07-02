@@ -595,9 +595,9 @@
         </Source>
     </Package>
     <Package>
-        <Name>goland</Name>
-        <Summary xml:lang="en">Goland</Summary>
-        <Description xml:lang="en">Goland - an IDE for the Go Language</Description>
+        <Name>phpstorm</Name>
+        <Summary xml:lang="en">PHPStorm</Summary>
+        <Description xml:lang="en">PHPStorm - an IDE for the PHP Language</Description>
         <PartOf>programming</PartOf>
         <License>GPL-2.0</License>
         <RuntimeDependencies>
@@ -617,9 +617,9 @@
             <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-05-10</Date>
-                <Version>2020.1.2</Version>
+            <Update release="3">
+                <Date>2020-05-11</Date>
+                <Version>2020.1.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -629,14 +629,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>865724395</InstalledSize>
-        <PackageSize>333691353</PackageSize>
-        <PackageHash>5028b7cf286ca1d149ec1ea25922e54c79c55434</PackageHash>
-        <PackageURI>goland-2020.1.2-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>889103997</InstalledSize>
+        <PackageSize>339793966</PackageSize>
+        <PackageHash>d790622ae350bbe7c30716737c3eda3f76b3baa5</PackageHash>
+        <PackageURI>phpstorm-2020.1.1-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>goland</Name>
-            <Homepage>https://www.jetbrains.com/go/</Homepage>
+            <Name>phpstorm</Name>
+            <Homepage>https://www.jetbrains.com/phpstorm/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1760,9 +1760,9 @@
             <Dependency>binutils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="3">
-                <Date>2020-04-15</Date>
-                <Version>4.4.2.0</Version>
+            <Update release="4">
+                <Date>2020-07-02</Date>
+                <Version>4.4.3.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1772,10 +1772,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>264304600</InstalledSize>
-        <PackageSize>78584338</PackageSize>
-        <PackageHash>9b36550bc48f4aee52de61f6657f442681f7dfd4</PackageHash>
-        <PackageURI>emby-server-4.4.2.0-3-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>267890341</InstalledSize>
+        <PackageSize>79228582</PackageSize>
+        <PackageHash>5bfbd181b681af5619ae828cc38f2a388607a099</PackageHash>
+        <PackageURI>emby-server-4.4.3.0-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>emby-server</Name>
@@ -2931,9 +2931,9 @@
         </Source>
     </Package>
     <Package>
-        <Name>phpstorm</Name>
-        <Summary xml:lang="en">PHPStorm</Summary>
-        <Description xml:lang="en">PHPStorm - an IDE for the PHP Language</Description>
+        <Name>goland</Name>
+        <Summary xml:lang="en">Goland</Summary>
+        <Description xml:lang="en">Goland - an IDE for the Go Language</Description>
         <PartOf>programming</PartOf>
         <License>GPL-2.0</License>
         <RuntimeDependencies>
@@ -2953,9 +2953,9 @@
             <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="3">
-                <Date>2020-05-11</Date>
-                <Version>2020.1.1</Version>
+            <Update release="4">
+                <Date>2020-05-10</Date>
+                <Version>2020.1.2</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2965,14 +2965,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>889103997</InstalledSize>
-        <PackageSize>339793966</PackageSize>
-        <PackageHash>d790622ae350bbe7c30716737c3eda3f76b3baa5</PackageHash>
-        <PackageURI>phpstorm-2020.1.1-3-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>865724395</InstalledSize>
+        <PackageSize>333691353</PackageSize>
+        <PackageHash>5028b7cf286ca1d149ec1ea25922e54c79c55434</PackageHash>
+        <PackageURI>goland-2020.1.2-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>phpstorm</Name>
-            <Homepage>https://www.jetbrains.com/phpstorm/</Homepage>
+            <Name>goland</Name>
+            <Homepage>https://www.jetbrains.com/go/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
