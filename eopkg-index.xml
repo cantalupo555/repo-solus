@@ -3117,12 +3117,13 @@
         <License>Copyright (C) 2016-2020 Savoir-faire Linux Inc.</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="69">libwebkit-gtk</Dependency>
+            <Dependency releaseFrom="92">libgtk-3</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
             <Dependency releaseFrom="4">libspeex</Dependency>
             <Dependency releaseFrom="17">expat</Dependency>
             <Dependency releaseFrom="20">clutter-gtk</Dependency>
             <Dependency releaseFrom="50">libstdc++</Dependency>
-            <Dependency releaseFrom="1">openssl-11</Dependency>
+            <Dependency releaseFrom="5">qrencode</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="5">libnotify</Dependency>
@@ -3130,14 +3131,14 @@
             <Dependency releaseFrom="27">util-linux</Dependency>
             <Dependency releaseFrom="15">libva</Dependency>
             <Dependency releaseFrom="86">systemd</Dependency>
-            <Dependency releaseFrom="92">libgtk-3</Dependency>
-            <Dependency releaseFrom="49">qt5-base</Dependency>
+            <Dependency releaseFrom="1">openssl-11</Dependency>
+            <Dependency releaseFrom="50">qt5-base</Dependency>
             <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
             <Dependency releaseFrom="21">alsa-lib</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="21">zlib</Dependency>
-            <Dependency releaseFrom="42">pulseaudio</Dependency>
-            <Dependency releaseFrom="56">network-manager</Dependency>
+            <Dependency releaseFrom="43">pulseaudio</Dependency>
+            <Dependency releaseFrom="57">network-manager</Dependency>
             <Dependency releaseFrom="10">opus</Dependency>
             <Dependency releaseFrom="45">libcairo</Dependency>
             <Dependency releaseFrom="25">clutter</Dependency>
@@ -3161,10 +3162,11 @@
             <Dependency>libayatana-ido3-0.4</Dependency>
             <Dependency>libayatana-appindicator3-1</Dependency>
             <Dependency>libargon2-0</Dependency>
+            <Dependency>qrencode-devel</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-07-05</Date>
+            <Update release="3">
+                <Date>2020-07-13</Date>
                 <Version>20200630.1.5</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -3176,9 +3178,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>27452619</InstalledSize>
-        <PackageSize>10409197</PackageSize>
-        <PackageHash>af52b82f84eb29a34df5e38e3c30b822f0d05ad4</PackageHash>
-        <PackageURI>jami-20200630.1.5-2-1-x86_64.eopkg</PackageURI>
+        <PackageSize>10409209</PackageSize>
+        <PackageHash>23c7a762afda19242affb0151863646cf9fb855f</PackageHash>
+        <PackageURI>jami-20200630.1.5-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>jami</Name>
