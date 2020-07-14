@@ -1142,6 +1142,62 @@
         </Source>
     </Package>
     <Package>
+        <Name>genymotion</Name>
+        <Summary xml:lang="en">Genymotion Android Emulator</Summary>
+        <Description xml:lang="en">Genymotion Android Emulator</Description>
+        <PartOf>virt</PartOf>
+        <License>https://www.genymotion.com/legal-notices/</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="27">freetype2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="64">glib2</Dependency>
+            <Dependency releaseFrom="8">libxmu</Dependency>
+            <Dependency releaseFrom="9">libglvnd</Dependency>
+            <Dependency>binutils</Dependency>
+            <Dependency>virtualbox-current</Dependency>
+            <Dependency>virtualbox-guest-common</Dependency>
+            <Dependency>virtualbox-common</Dependency>
+            <Dependency>linux-current-headers</Dependency>
+            <Dependency>gcc</Dependency>
+            <Dependency>make</Dependency>
+            <Dependency>autoconf</Dependency>
+            <Dependency>xorg-server-devel</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-07-14</Date>
+                <Version>3.1.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>139966770</InstalledSize>
+        <PackageSize>37519470</PackageSize>
+        <PackageHash>07174c2935f6d5589633f28c055f74b838fe4d4e</PackageHash>
+        <PackageURI>genymotion-3.1.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>genymotion</Name>
+            <Homepage>https://www.genymotion.com/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>enpass</Name>
         <Summary xml:lang="en">A multiplatform password manager</Summary>
         <Description xml:lang="en">A multiplatform password manager</Description>

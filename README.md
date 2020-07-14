@@ -68,11 +68,12 @@ sudo eopkg install package
 | 51 | speedtest | 1.0.0 | 26/04/2020 | |
 | 52 | warsaw | 1.14.1 | 06/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-warsaw-on-Solus-%5BBrazil%5D) - [Brazil](https://www.dieboldnixdorf.com.br/warsaw) |
 | 53 | xdm | 7.2.10 (2020) | compiling | |
-| 54 | genymotion | 3.1.0 | compiling | |
+| 54 | genymotion | 3.1.0 | 14/07/2020 | - Only .current kernel |
 | 55 | mscorefonts | 1.3 | 06/04/2020 | |
 | 56 | zoom | 5.0.403652.0509 | compiling | |
 | 57 | filebot | 4.9.1 | 30/05/2020 | |
 | 58 | rar | compiling | compiling | |
+| 59 | rescuetime | compiling | compiling | |
 
 ## Donation
 
