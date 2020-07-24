@@ -75,7 +75,7 @@ sudo eopkg install package
 | 58 | rar | 5.91 | 24/07/2020 | |
 | 59 | rescuetime | 2.16.0.1 | 24/07/2020 | |
 | 60 | jellyfin | compiling | compiling | |
-| 61 | ibus-avro | 1.1 | 24/04/2020 | |
+| 61 | ibus-avro | 1.1 | 24/07/2020 | |
 
 ## Lib List
 
