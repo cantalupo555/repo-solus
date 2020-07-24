@@ -2018,22 +2018,25 @@
         </Source>
     </Package>
     <Package>
-        <Name>libraw16</Name>
-        <Summary xml:lang="en">LibRaw</Summary>
-        <Description xml:lang="en">LibRaw is a library for reading RAW files obtained from digital photo cameras</Description>
-        <PartOf>xorg.library</PartOf>
-        <License>LGPL 2.1 and CDDL 1.0</License>
+        <Name>rescuetime</Name>
+        <Summary xml:lang="en">RescueTime for Linux</Summary>
+        <Description xml:lang="en">A service that provides the user with the knowledge of how they spend their time while on the computer.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>EULA</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="49">libgomp</Dependency>
-            <Dependency>binutils</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency>sqlite3</Dependency>
+            <Dependency>libstdc++</Dependency>
+            <Dependency>gdk-pixbuf</Dependency>
+            <Dependency>xprop</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-04-16</Date>
-                <Version>1</Version>
+                <Date>2020-07-24</Date>
+                <Version>2.16.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2043,14 +2046,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1730864</InstalledSize>
-        <PackageSize>247989</PackageSize>
-        <PackageHash>eb6ecde9a07a3bbfbfc7cfc2b1df95a0b2eb0d0a</PackageHash>
-        <PackageURI>lib/libraw16-1-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>10033507</InstalledSize>
+        <PackageSize>3386170</PackageSize>
+        <PackageHash>9afce353a279cb96679c857975c267d36d8cf9dc</PackageHash>
+        <PackageURI>rescuetime-2.16.0.1-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>libraw16</Name>
-            <Homepage>http://www.libraw.org/</Homepage>
+            <Name>rescuetime</Name>
+            <Homepage>https://www.rescuetime.com</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2624,6 +2627,46 @@
         <Source>
             <Name>xmind-zen</Name>
             <Homepage>https://www.xmind.net</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libraw16</Name>
+        <Summary xml:lang="en">LibRaw</Summary>
+        <Description xml:lang="en">LibRaw is a library for reading RAW files obtained from digital photo cameras</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>LGPL 2.1 and CDDL 1.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="49">libgomp</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-16</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1730864</InstalledSize>
+        <PackageSize>247989</PackageSize>
+        <PackageHash>eb6ecde9a07a3bbfbfc7cfc2b1df95a0b2eb0d0a</PackageHash>
+        <PackageURI>lib/libraw16-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libraw16</Name>
+            <Homepage>http://www.libraw.org/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>

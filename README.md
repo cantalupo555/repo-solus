@@ -73,8 +73,9 @@ sudo eopkg install package
 | 56 | zoom | compiling | compiling | |
 | 57 | filebot | 4.9.1 | 30/05/2020 | |
 | 58 | rar | 5.91 | 24/07/2020 | |
-| 59 | rescuetime | compiling | compiling | |
+| 59 | rescuetime | 2.16.0.1 | 24/07/2020 | |
 | 60 | jellyfin | compiling | compiling | |
+| 61 | ibus-avro | compiling | compiling | |
 
 ## Lib List
 
