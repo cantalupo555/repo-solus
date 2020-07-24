@@ -2992,6 +2992,44 @@
         </Source>
     </Package>
     <Package>
+        <Name>ibus-avro</Name>
+        <Summary xml:lang="en">Avro phonetic implementation for Linux in IBus.</Summary>
+        <Description xml:lang="en">IBus engine for Avro Phonetic ibus-avro is a port of the popular Avro Phonetic Bangla typing method to Linux. This software works as an Engine (plugin) of IBus and lets users type in English and on-the-fly transliterate them phonetically to Bangla.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>MPL-1.1</License>
+        <RuntimeDependencies>
+            <Dependency>dconf</Dependency>
+            <Dependency>gjs</Dependency>
+            <Dependency>ibus</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-07-24</Date>
+                <Version>1.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>7973653</InstalledSize>
+        <PackageSize>694328</PackageSize>
+        <PackageHash>b899fa3baacafa0275635579388102f6f0ab076f</PackageHash>
+        <PackageURI>ibus-avro-1.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>ibus-avro</Name>
+            <Homepage>https://github.com/sarim/ibus-avro</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>goland</Name>
         <Summary xml:lang="en">Goland</Summary>
         <Description xml:lang="en">Goland - an IDE for the Go Language</Description>
