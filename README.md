@@ -64,17 +64,21 @@ sudo eopkg install package
 | 47 | datagrip | 2020.1.4 | 02/06/2020 | |
 | 48 | pycharm | 2020.1.1 | 10/05/2020 | |
 | 49 | pycharm-c | 2020.1.1 | 10/05/2020 | |
-| 20 | megasync | 4.3.1 | 26/04/2020 | |
+| 50 | megasync | 4.3.1 | 26/04/2020 | |
 | 51 | speedtest | 1.0.0 | 26/04/2020 | |
 | 52 | warsaw | 1.14.1 | 06/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-warsaw-on-Solus-%5BBrazil%5D) - [Brazil](https://www.dieboldnixdorf.com.br/warsaw) |
-| 53 | xdm | 7.2.10 (2020) | compiling | |
+| 53 | xdm | compiling | compiling | |
 | 54 | genymotion | 3.1.0 | 14/07/2020 | Only .current kernel |
 | 55 | mscorefonts | 1.3 | 06/04/2020 | |
-| 56 | zoom | 5.0.403652.0509 | compiling | |
+| 56 | zoom | compiling | compiling | |
 | 57 | filebot | 4.9.1 | 30/05/2020 | |
-| 58 | rar | compiling | compiling | |
+| 58 | rar | 5.91 | 24/07/2020 | |
 | 59 | rescuetime | compiling | compiling | |
 | 60 | jellyfin | compiling | compiling | |
+
+## Lib List
+
+| |
 
 ## Donation
 

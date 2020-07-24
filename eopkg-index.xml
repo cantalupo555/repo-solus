@@ -644,22 +644,21 @@
         </Source>
     </Package>
     <Package>
-        <Name>libraw16</Name>
-        <Summary xml:lang="en">LibRaw</Summary>
-        <Description xml:lang="en">LibRaw is a library for reading RAW files obtained from digital photo cameras</Description>
-        <PartOf>xorg.library</PartOf>
-        <License>LGPL 2.1 and CDDL 1.0</License>
+        <Name>rar</Name>
+        <Summary xml:lang="en">RAR</Summary>
+        <Description xml:lang="en">This is the RAR archiver from Eugene Roshal. It supports multiple volume archives and damage protection. It can also create SFX-archives. There are versions which run on DOS, Windows (3.1x,95,NT), FreeBSD, BSDI. *This program is shareware and you must register it after 40 days of use.*</Description>
+        <PartOf>system.utils</PartOf>
+        <License>Copyright (c) 1993-2006 Alexander Roshal</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="49">libgomp</Dependency>
-            <Dependency>binutils</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
+            <Dependency>libnih</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-04-16</Date>
-                <Version>1</Version>
+                <Date>2020-07-24</Date>
+                <Version>5.91</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -669,14 +668,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1730864</InstalledSize>
-        <PackageSize>247989</PackageSize>
-        <PackageHash>eb6ecde9a07a3bbfbfc7cfc2b1df95a0b2eb0d0a</PackageHash>
-        <PackageURI>lib/libraw16-1-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>831241</InstalledSize>
+        <PackageSize>296818</PackageSize>
+        <PackageHash>4a40bb63d00cbc8f9158c616f96773dbe09b38a5</PackageHash>
+        <PackageURI>rar-5.91-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>libraw16</Name>
-            <Homepage>http://www.libraw.org/</Homepage>
+            <Name>rar</Name>
+            <Homepage>https://www.win-rar.com</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2012,6 +2011,46 @@
         <Source>
             <Name>google-chrome-beta</Name>
             <Homepage>https://www.google.com/chrome/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libraw16</Name>
+        <Summary xml:lang="en">LibRaw</Summary>
+        <Description xml:lang="en">LibRaw is a library for reading RAW files obtained from digital photo cameras</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>LGPL 2.1 and CDDL 1.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="49">libgomp</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-16</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>1730864</InstalledSize>
+        <PackageSize>247989</PackageSize>
+        <PackageHash>eb6ecde9a07a3bbfbfc7cfc2b1df95a0b2eb0d0a</PackageHash>
+        <PackageURI>lib/libraw16-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libraw16</Name>
+            <Homepage>http://www.libraw.org/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
