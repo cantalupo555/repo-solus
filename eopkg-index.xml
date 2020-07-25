@@ -2840,9 +2840,9 @@
             <Dependency releaseFrom="34">pango</Dependency>
             <Dependency releaseFrom="24">cups</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="92">libgtk-3</Dependency>
+            <Dependency releaseFrom="93">libgtk-3</Dependency>
             <Dependency releaseFrom="45">libnss</Dependency>
-            <Dependency releaseFrom="64">glib2</Dependency>
+            <Dependency releaseFrom="65">glib2</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="45">libcairo</Dependency>
@@ -2865,9 +2865,9 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="19">
-                <Date>2020-07-14</Date>
-                <Version>85.0.4183.15</Version>
+            <Update release="20">
+                <Date>2020-07-25</Date>
+                <Version>85.0.4183.26</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2877,10 +2877,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>236214642</InstalledSize>
-        <PackageSize>81290055</PackageSize>
-        <PackageHash>4cd6979bc9df69534a5669f40cbe1486b8752ef1</PackageHash>
-        <PackageURI>google-chrome-unstable-85.0.4183.15-19-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>236262510</InstalledSize>
+        <PackageSize>81301417</PackageSize>
+        <PackageHash>f7c9387ef18597f94d8b9c5d00074e58bbc8c4bc</PackageHash>
+        <PackageURI>google-chrome-unstable-85.0.4183.26-20-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-unstable</Name>

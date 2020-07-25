@@ -28,7 +28,7 @@ sudo eopkg install package
 | 11 | xmacro | 0.3 | 31/01/2020 | |
 | 12 | google-chrome-stable | 83.0.4103.116 | 26/06/2020 | |
 | 13 | google-chrome-beta | 84.0.4147.89 | 14/07/2020 | |
-| 14 | google-chrome-unstable | 85.0.4183.15 | 14/07/2020 | |
+| 14 | google-chrome-unstable | 85.0.4183.26 | 25/07/2020 | |
 | 15 | teamviewer | 15.7.6 | 02/07/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-TeamViewer-on-Solus) |
 | 16 | anydesk | 5.5.5 | 26/04/2020 | |
 | 17 | spotify | 1.1.26.501 | 22/02/2020 | |
