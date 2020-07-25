@@ -1,0 +1,31 @@
+name       : android-studio
+version    : 4.0.1
+release    : 8
+source     :
+    - https://dl.google.com/dl/android/studio/ide-zips/4.0.1.0/android-studio-ide-193.6626763-linux.tar.gz : f2f82744e735eae43fa018a77254c398a3bab5371f09973a37483014b73b7597
+homepage   : https://developer.android.com/studio/
+license    : Apache-2.0
+strip      : no
+component  : programming
+summary    : Android Studio
+description: |
+    Android development environment based on IntelliJ IDEA.
+builddeps  :
+  - bzip2-32bit
+  - openjdk-8
+  - libstdc++-32bit
+  - ncurses-32bit
+  - zlib-32bit
+rundeps    :
+  - bzip2-32bit
+  - openjdk-8
+  - libstdc++-32bit
+  - ncurses-32bit
+  - zlib-32bit
+setup      : |
+    tar xf $sources/android-studio-ide*
+install    : |
+    mkdir -p $installdir/usr/share/applications/
+    mkdir -p $installdir/opt/android-studio
+    echo -e '[Desktop Entry]\nVersion=1.0\nType=Application\nName=Android Studio\nIcon=/opt/android-studio/bin/studio.png\nExec=sh /opt/android-studio/bin/studio.sh\nComment=IDE for Android Development\nCategories=Development;IDE;\nTerminal=false\nStartupWMClass=jetbrains-studio' | tee $installdir/usr/share/applications/android-studio.desktop
+    cp -R android-studio/* $installdir/opt/android-studio

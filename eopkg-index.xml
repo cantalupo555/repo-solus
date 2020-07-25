@@ -1304,17 +1304,17 @@
         <PartOf>programming</PartOf>
         <License>Apache-2.0</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="64">glib2</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="65">glib2</Dependency>
+            <Dependency releaseFrom="27">freetype2</Dependency>
             <Dependency releaseFrom="14">ncurses</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="21">zlib</Dependency>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
             <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="22">alsa-lib</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
             <Dependency>bzip2-32bit</Dependency>
@@ -1324,9 +1324,9 @@
             <Dependency>zlib-32bit</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="7">
-                <Date>2020-06-01</Date>
-                <Version>4.0</Version>
+            <Update release="8">
+                <Date>2020-07-25</Date>
+                <Version>4.0.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1336,10 +1336,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1678056576</InstalledSize>
-        <PackageSize>821395761</PackageSize>
-        <PackageHash>066b9e8ba17426c4234fe7a358be34b9a63b7285</PackageHash>
-        <PackageURI>android-studio-4.0-7-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>1678072420</InstalledSize>
+        <PackageSize>821413771</PackageSize>
+        <PackageHash>27ff3915ca08a8213987824933fec246f7a75878</PackageHash>
+        <PackageURI>android-studio-4.0.1-8-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>android-studio</Name>
@@ -1682,48 +1682,33 @@
         </Source>
     </Package>
     <Package>
-        <Name>rambox</Name>
-        <Summary xml:lang="en">Rambox</Summary>
-        <Description xml:lang="en">Free and Open Source messaging and emailing app that combines common web applications into one.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>https://rambox.pro/#eula</License>
+        <Name>rider</Name>
+        <Summary xml:lang="en">Rider</Summary>
+        <Description xml:lang="en">Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</Description>
+        <PartOf>programming</PartOf>
+        <License>GPL-2.0</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="89">libgtk-3</Dependency>
-            <Dependency releaseFrom="29">dbus</Dependency>
-            <Dependency releaseFrom="12">libxcomposite</Dependency>
-            <Dependency releaseFrom="17">expat</Dependency>
-            <Dependency releaseFrom="14">libxcursor</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="16">libnspr</Dependency>
-            <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="34">pango</Dependency>
-            <Dependency releaseFrom="24">cups</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="27">util-linux</Dependency>
-            <Dependency releaseFrom="41">libnss</Dependency>
-            <Dependency releaseFrom="44">libcairo</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="64">glib2</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="16">kerberos</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
             <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="23">libatk</Dependency>
-            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="58">curl</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency releaseFrom="21">at-spi2-atk</Dependency>
-            <Dependency releaseFrom="23">at-spi2</Dependency>
-            <Dependency>libnotify</Dependency>
-            <Dependency>xdg-utils</Dependency>
-            <Dependency>libappindicator</Dependency>
-            <Dependency>libsecret</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-04-02</Date>
-                <Version>0.7.5</Version>
+            <Update release="4">
+                <Date>2020-06-02</Date>
+                <Version>2020.1.3</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1733,14 +1718,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>205233672</InstalledSize>
-        <PackageSize>62252185</PackageSize>
-        <PackageHash>43b327b83dea404ebccfa2d37f910e9840877f86</PackageHash>
-        <PackageURI>rambox-0.7.5-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>2131128532</InstalledSize>
+        <PackageSize>673959369</PackageSize>
+        <PackageHash>63dfd419c90e9f9bee93d5737d572180444ae48f</PackageHash>
+        <PackageURI>rider-2020.1.3-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>rambox</Name>
-            <Homepage>https://rambox.pro</Homepage>
+            <Name>rider</Name>
+            <Homepage>https://www.jetbrains.com/rider/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2979,33 +2964,48 @@
         </Source>
     </Package>
     <Package>
-        <Name>rider</Name>
-        <Summary xml:lang="en">Rider</Summary>
-        <Description xml:lang="en">Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper</Description>
-        <PartOf>programming</PartOf>
-        <License>GPL-2.0</License>
+        <Name>rambox</Name>
+        <Summary xml:lang="en">Rambox</Summary>
+        <Description xml:lang="en">Free and Open Source messaging and emailing app that combines common web applications into one.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>https://rambox.pro/#eula</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="21">zlib</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
-            <Dependency releaseFrom="64">glib2</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="16">kerberos</Dependency>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="89">libgtk-3</Dependency>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="17">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="21">alsa-lib</Dependency>
-            <Dependency releaseFrom="58">curl</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="34">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="41">libnss</Dependency>
+            <Dependency releaseFrom="44">libcairo</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency>openjdk-8</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="23">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="21">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="23">at-spi2</Dependency>
+            <Dependency>libnotify</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>libappindicator</Dependency>
+            <Dependency>libsecret</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-06-02</Date>
-                <Version>2020.1.3</Version>
+            <Update release="2">
+                <Date>2020-04-02</Date>
+                <Version>0.7.5</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -3015,14 +3015,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>2131128532</InstalledSize>
-        <PackageSize>673959369</PackageSize>
-        <PackageHash>63dfd419c90e9f9bee93d5737d572180444ae48f</PackageHash>
-        <PackageURI>rider-2020.1.3-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>205233672</InstalledSize>
+        <PackageSize>62252185</PackageSize>
+        <PackageHash>43b327b83dea404ebccfa2d37f910e9840877f86</PackageHash>
+        <PackageURI>rambox-0.7.5-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>rider</Name>
-            <Homepage>https://www.jetbrains.com/rider/</Homepage>
+            <Name>rambox</Name>
+            <Homepage>https://rambox.pro</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>

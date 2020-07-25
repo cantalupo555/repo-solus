@@ -32,7 +32,7 @@ sudo eopkg install package
 | 15 | teamviewer | 15.7.6 | 02/07/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-TeamViewer-on-Solus) |
 | 16 | anydesk | 5.5.5 | 26/04/2020 | |
 | 17 | spotify | 1.1.26.501 | 22/02/2020 | |
-| 18 | android-studio | 4.0 | 01/06/2020 | |
+| 18 | android-studio | 4.0.1 | 25/07/2020 | |
 | 19 | sublime-text-3 | 3211 | 31/01/2020 | |
 | 20 | skype | 8.62.0.85 | 25/07/2020 | |
 | 21 | [eradio](https://github.com/DreamDevel/eRadio) | 2.0.4 | 31/01/2020 | |
