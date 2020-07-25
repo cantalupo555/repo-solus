@@ -1862,20 +1862,20 @@
         </Source>
     </Package>
     <Package>
-        <Name>plexmediaserver</Name>
-        <Summary xml:lang="en">Plex Media Server</Summary>
-        <Description xml:lang="en">Plex organizes all of your personal media so you can easily access and enjoy it.</Description>
-        <PartOf>multimedia.video</PartOf>
-        <License>https://plex.tv/legal</License>
+        <Name>ibus-avro</Name>
+        <Summary xml:lang="en">Avro phonetic implementation for Linux in IBus.</Summary>
+        <Description xml:lang="en">IBus engine for Avro Phonetic ibus-avro is a port of the popular Avro Phonetic Bangla typing method to Linux. This software works as an Engine (plugin) of IBus and lets users type in English and on-the-fly transliterate them phonetically to Bangla.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>MPL-1.1</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency>binutils</Dependency>
+            <Dependency>dconf</Dependency>
+            <Dependency>gjs</Dependency>
+            <Dependency>ibus</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="14">
-                <Date>2020-07-02</Date>
-                <Version>1.19.4.2935</Version>
+            <Update release="1">
+                <Date>2020-07-24</Date>
+                <Version>1.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1885,14 +1885,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>300381366</InstalledSize>
-        <PackageSize>104166151</PackageSize>
-        <PackageHash>e2760b4576b294b124f7e6916393726c36d02dc7</PackageHash>
-        <PackageURI>plexmediaserver-1.19.4.2935-14-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>7973653</InstalledSize>
+        <PackageSize>694328</PackageSize>
+        <PackageHash>b899fa3baacafa0275635579388102f6f0ab076f</PackageHash>
+        <PackageURI>ibus-avro-1.1-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>plexmediaserver</Name>
-            <Homepage>https://plex.tv</Homepage>
+            <Name>ibus-avro</Name>
+            <Homepage>https://github.com/sarim/ibus-avro</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2822,6 +2822,44 @@
         </Source>
     </Package>
     <Package>
+        <Name>plexmediaserver</Name>
+        <Summary xml:lang="en">Plex Media Server</Summary>
+        <Description xml:lang="en">Plex organizes all of your personal media so you can easily access and enjoy it.</Description>
+        <PartOf>multimedia.video</PartOf>
+        <License>https://plex.tv/legal</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="15">
+                <Date>2020-07-25</Date>
+                <Version>1.19.5.3112</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>238074358</InstalledSize>
+        <PackageSize>90350849</PackageSize>
+        <PackageHash>377dbecacb7b07b2443328cb809b72a19784a553</PackageHash>
+        <PackageURI>plexmediaserver-1.19.5.3112-15-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>plexmediaserver</Name>
+            <Homepage>https://plex.tv</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>google-chrome-unstable</Name>
         <Summary xml:lang="en">Google Chrome Unstable</Summary>
         <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</Description>
@@ -2985,44 +3023,6 @@
         <Source>
             <Name>rider</Name>
             <Homepage>https://www.jetbrains.com/rider/</Homepage>
-            <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>ibus-avro</Name>
-        <Summary xml:lang="en">Avro phonetic implementation for Linux in IBus.</Summary>
-        <Description xml:lang="en">IBus engine for Avro Phonetic ibus-avro is a port of the popular Avro Phonetic Bangla typing method to Linux. This software works as an Engine (plugin) of IBus and lets users type in English and on-the-fly transliterate them phonetically to Bangla.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>MPL-1.1</License>
-        <RuntimeDependencies>
-            <Dependency>dconf</Dependency>
-            <Dependency>gjs</Dependency>
-            <Dependency>ibus</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="1">
-                <Date>2020-07-24</Date>
-                <Version>1.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>7973653</InstalledSize>
-        <PackageSize>694328</PackageSize>
-        <PackageHash>b899fa3baacafa0275635579388102f6f0ab076f</PackageHash>
-        <PackageURI>ibus-avro-1.1-1-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>ibus-avro</Name>
-            <Homepage>https://github.com/sarim/ibus-avro</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
