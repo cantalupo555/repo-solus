@@ -1,0 +1,79 @@
+name       : google-chrome-beta
+version    : 84.0.4147.89
+release    : 12
+source     :
+    - https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-beta/google-chrome-beta_84.0.4147.89-1_amd64.deb : a0c9ebf3e59eea89b1e6265f9fc1bc0bf1f8b0331dd8681efd4f387254eaf104
+homepage   : https://www.google.com/chrome/
+license    : EULA
+strip      : no
+component  : network.web.browser
+summary    : Google Chrome Beta
+description: |
+    Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
+builddeps  :
+    - libxscrnsaver
+    - gconf
+    - binutils
+    - liberation-fonts-ttf
+    - libappindicator
+    - libatk
+    - libgcc
+    - libcairo
+    - pycups
+    - libdbusmenu
+    - libgtk-3
+    - libnspr
+    - libnss
+    - libx11
+    - libxcb
+    - libxcomposite
+    - libxcursor
+    - libxdamage
+    - libxext
+    - libxfixes
+    - libxi
+    - libxrandr
+    - libxrender
+    - libxtst
+    - wget
+    - xdg-utils
+rundeps    :
+    - libxscrnsaver
+    - gconf
+    - binutils
+    - liberation-fonts-ttf
+    - libappindicator
+    - libatk
+    - libgcc
+    - libcairo
+    - pycups
+    - libdbusmenu
+    - libgtk-3
+    - libnspr
+    - libnss
+    - libx11
+    - libxcb
+    - libxcomposite
+    - libxcursor
+    - libxdamage
+    - libxext
+    - libxfixes
+    - libxi
+    - libxrandr
+    - libxrender
+    - libxtst
+    - wget
+    - xdg-utils
+setup      : |
+    ar xf $sources/google-chrome-beta_${version}-1_amd64.deb
+    tar xf data.tar.xz
+build      : |
+    chown root:root opt/google/chrome-beta/chrome-sandbox
+    chmod 4755 opt/google/chrome-beta/chrome-sandbox
+install    : |
+    mkdir -p $installdir
+    install -D -d -m 00755 $installdir/usr/bin
+    install -D -d -m 00644 $installdir/usr/share
+    mkdir -p $installdir/usr
+    cp -R opt $installdir/
+    cp -R usr/{bin,share} $installdir/usr/

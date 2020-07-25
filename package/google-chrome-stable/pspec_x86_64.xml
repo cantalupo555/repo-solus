@@ -1,0 +1,133 @@
+<PISI>
+    <Source>
+        <Name>google-chrome-stable</Name>
+        <Homepage>https://www.google.com/chrome/</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>EULA</License>
+        <PartOf>network.web.browser</PartOf>
+        <Summary xml:lang="en">Google Chrome</Summary>
+        <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>google-chrome-stable</Name>
+        <Summary xml:lang="en">Google Chrome</Summary>
+        <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
+</Description>
+        <PartOf>network.web.browser</PartOf>
+        <Files>
+            <Path fileType="data">/opt/google/chrome/MEIPreload/manifest.json</Path>
+            <Path fileType="data">/opt/google/chrome/MEIPreload/preloaded_data.pb</Path>
+            <Path fileType="data">/opt/google/chrome/WidevineCdm/LICENSE</Path>
+            <Path fileType="data">/opt/google/chrome/WidevineCdm/_platform_specific/linux_x64/libwidevinecdm.so</Path>
+            <Path fileType="data">/opt/google/chrome/WidevineCdm/manifest.json</Path>
+            <Path fileType="data">/opt/google/chrome/chrome</Path>
+            <Path fileType="data">/opt/google/chrome/chrome-sandbox</Path>
+            <Path fileType="data">/opt/google/chrome/chrome_100_percent.pak</Path>
+            <Path fileType="data">/opt/google/chrome/chrome_200_percent.pak</Path>
+            <Path fileType="data">/opt/google/chrome/crashpad_handler</Path>
+            <Path fileType="data">/opt/google/chrome/cron/google-chrome</Path>
+            <Path fileType="data">/opt/google/chrome/default-app-block</Path>
+            <Path fileType="data">/opt/google/chrome/default_apps/docs.crx</Path>
+            <Path fileType="data">/opt/google/chrome/default_apps/drive.crx</Path>
+            <Path fileType="data">/opt/google/chrome/default_apps/external_extensions.json</Path>
+            <Path fileType="data">/opt/google/chrome/default_apps/gmail.crx</Path>
+            <Path fileType="data">/opt/google/chrome/default_apps/youtube.crx</Path>
+            <Path fileType="data">/opt/google/chrome/google-chrome</Path>
+            <Path fileType="data">/opt/google/chrome/icudtl.dat</Path>
+            <Path fileType="data">/opt/google/chrome/libEGL.so</Path>
+            <Path fileType="data">/opt/google/chrome/libGLESv2.so</Path>
+            <Path fileType="data">/opt/google/chrome/locales/am.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/ar.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/bg.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/bn.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/ca.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/cs.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/da.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/de.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/el.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/en-GB.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/en-US.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/es-419.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/es.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/et.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/fa.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/fi.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/fil.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/fr.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/gu.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/he.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/hi.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/hr.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/hu.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/id.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/it.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/ja.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/kn.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/ko.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/lt.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/lv.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/ml.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/mr.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/ms.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/nb.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/nl.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/pl.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/pt-BR.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/pt-PT.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/ro.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/ru.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/sk.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/sl.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/sr.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/sv.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/sw.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/ta.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/te.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/th.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/tr.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/uk.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/vi.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/zh-CN.pak</Path>
+            <Path fileType="data">/opt/google/chrome/locales/zh-TW.pak</Path>
+            <Path fileType="data">/opt/google/chrome/nacl_helper</Path>
+            <Path fileType="data">/opt/google/chrome/nacl_helper_bootstrap</Path>
+            <Path fileType="data">/opt/google/chrome/nacl_irt_x86_64.nexe</Path>
+            <Path fileType="data">/opt/google/chrome/product_logo_128.png</Path>
+            <Path fileType="data">/opt/google/chrome/product_logo_16.png</Path>
+            <Path fileType="data">/opt/google/chrome/product_logo_24.png</Path>
+            <Path fileType="data">/opt/google/chrome/product_logo_256.png</Path>
+            <Path fileType="data">/opt/google/chrome/product_logo_32.png</Path>
+            <Path fileType="data">/opt/google/chrome/product_logo_32.xpm</Path>
+            <Path fileType="data">/opt/google/chrome/product_logo_48.png</Path>
+            <Path fileType="data">/opt/google/chrome/product_logo_64.png</Path>
+            <Path fileType="data">/opt/google/chrome/resources.pak</Path>
+            <Path fileType="data">/opt/google/chrome/swiftshader/libEGL.so</Path>
+            <Path fileType="data">/opt/google/chrome/swiftshader/libGLESv2.so</Path>
+            <Path fileType="data">/opt/google/chrome/v8_context_snapshot.bin</Path>
+            <Path fileType="data">/opt/google/chrome/xdg-mime</Path>
+            <Path fileType="data">/opt/google/chrome/xdg-settings</Path>
+            <Path fileType="executable">/usr/bin/google-chrome-stable</Path>
+            <Path fileType="data">/usr/share/appdata/google-chrome.appdata.xml</Path>
+            <Path fileType="data">/usr/share/applications/google-chrome.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/google-chrome-stable/changelog.gz</Path>
+            <Path fileType="data">/usr/share/gnome-control-center/default-apps/google-chrome.xml</Path>
+            <Path fileType="man">/usr/share/man/man1/google-chrome-stable.1.gz</Path>
+            <Path fileType="man">/usr/share/man/man1/google-chrome.1.gz</Path>
+            <Path fileType="data">/usr/share/menu/google-chrome.menu</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="16">
+            <Date>2020-06-26</Date>
+            <Version>83.0.4103.116</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

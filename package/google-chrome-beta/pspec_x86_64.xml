@@ -1,0 +1,133 @@
+<PISI>
+    <Source>
+        <Name>google-chrome-beta</Name>
+        <Homepage>https://www.google.com/chrome/</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>EULA</License>
+        <PartOf>network.web.browser</PartOf>
+        <Summary xml:lang="en">Google Chrome Beta</Summary>
+        <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>google-chrome-beta</Name>
+        <Summary xml:lang="en">Google Chrome Beta</Summary>
+        <Description xml:lang="en">Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
+</Description>
+        <PartOf>network.web.browser</PartOf>
+        <Files>
+            <Path fileType="data">/opt/google/chrome-beta/MEIPreload/manifest.json</Path>
+            <Path fileType="data">/opt/google/chrome-beta/MEIPreload/preloaded_data.pb</Path>
+            <Path fileType="data">/opt/google/chrome-beta/WidevineCdm/LICENSE</Path>
+            <Path fileType="data">/opt/google/chrome-beta/WidevineCdm/_platform_specific/linux_x64/libwidevinecdm.so</Path>
+            <Path fileType="data">/opt/google/chrome-beta/WidevineCdm/manifest.json</Path>
+            <Path fileType="data">/opt/google/chrome-beta/chrome</Path>
+            <Path fileType="data">/opt/google/chrome-beta/chrome-sandbox</Path>
+            <Path fileType="data">/opt/google/chrome-beta/chrome_100_percent.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/chrome_200_percent.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/crashpad_handler</Path>
+            <Path fileType="data">/opt/google/chrome-beta/cron/google-chrome-beta</Path>
+            <Path fileType="data">/opt/google/chrome-beta/default-app-block</Path>
+            <Path fileType="data">/opt/google/chrome-beta/default_apps/docs.crx</Path>
+            <Path fileType="data">/opt/google/chrome-beta/default_apps/drive.crx</Path>
+            <Path fileType="data">/opt/google/chrome-beta/default_apps/external_extensions.json</Path>
+            <Path fileType="data">/opt/google/chrome-beta/default_apps/gmail.crx</Path>
+            <Path fileType="data">/opt/google/chrome-beta/default_apps/youtube.crx</Path>
+            <Path fileType="data">/opt/google/chrome-beta/google-chrome</Path>
+            <Path fileType="data">/opt/google/chrome-beta/google-chrome-beta</Path>
+            <Path fileType="data">/opt/google/chrome-beta/icudtl.dat</Path>
+            <Path fileType="data">/opt/google/chrome-beta/libEGL.so</Path>
+            <Path fileType="data">/opt/google/chrome-beta/libGLESv2.so</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/am.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/ar.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/bg.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/bn.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/ca.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/cs.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/da.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/de.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/el.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/en-GB.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/en-US.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/es-419.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/es.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/et.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/fa.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/fi.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/fil.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/fr.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/gu.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/he.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/hi.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/hr.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/hu.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/id.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/it.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/ja.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/kn.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/ko.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/lt.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/lv.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/ml.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/mr.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/ms.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/nb.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/nl.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/pl.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/pt-BR.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/pt-PT.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/ro.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/ru.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/sk.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/sl.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/sr.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/sv.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/sw.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/ta.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/te.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/th.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/tr.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/uk.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/vi.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/zh-CN.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/locales/zh-TW.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/nacl_helper</Path>
+            <Path fileType="data">/opt/google/chrome-beta/nacl_helper_bootstrap</Path>
+            <Path fileType="data">/opt/google/chrome-beta/nacl_irt_x86_64.nexe</Path>
+            <Path fileType="data">/opt/google/chrome-beta/product_logo_128_beta.png</Path>
+            <Path fileType="data">/opt/google/chrome-beta/product_logo_16_beta.png</Path>
+            <Path fileType="data">/opt/google/chrome-beta/product_logo_24_beta.png</Path>
+            <Path fileType="data">/opt/google/chrome-beta/product_logo_256_beta.png</Path>
+            <Path fileType="data">/opt/google/chrome-beta/product_logo_32_beta.png</Path>
+            <Path fileType="data">/opt/google/chrome-beta/product_logo_32_beta.xpm</Path>
+            <Path fileType="data">/opt/google/chrome-beta/product_logo_48_beta.png</Path>
+            <Path fileType="data">/opt/google/chrome-beta/product_logo_64_beta.png</Path>
+            <Path fileType="data">/opt/google/chrome-beta/resources.pak</Path>
+            <Path fileType="data">/opt/google/chrome-beta/swiftshader/libEGL.so</Path>
+            <Path fileType="data">/opt/google/chrome-beta/swiftshader/libGLESv2.so</Path>
+            <Path fileType="data">/opt/google/chrome-beta/v8_context_snapshot.bin</Path>
+            <Path fileType="data">/opt/google/chrome-beta/xdg-mime</Path>
+            <Path fileType="data">/opt/google/chrome-beta/xdg-settings</Path>
+            <Path fileType="executable">/usr/bin/google-chrome-beta</Path>
+            <Path fileType="data">/usr/share/appdata/google-chrome-beta.appdata.xml</Path>
+            <Path fileType="data">/usr/share/applications/google-chrome-beta.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/google-chrome-beta/changelog.gz</Path>
+            <Path fileType="data">/usr/share/gnome-control-center/default-apps/google-chrome-beta.xml</Path>
+            <Path fileType="man">/usr/share/man/man1/google-chrome-beta.1.gz</Path>
+            <Path fileType="data">/usr/share/menu/google-chrome-beta.menu</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="12">
+            <Date>2020-07-14</Date>
+            <Version>84.0.4147.89</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

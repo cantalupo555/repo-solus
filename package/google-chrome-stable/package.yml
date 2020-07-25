@@ -1,0 +1,79 @@
+name       : google-chrome-stable
+version    : 83.0.4103.116
+release    : 16
+source     :
+    - https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_83.0.4103.116-1_amd64.deb : 861cc9c0ca8471f875e3413a8255c277c074d1a28064002fb694695096d8febd
+homepage   : https://www.google.com/chrome/
+license    : EULA
+strip      : no
+component  : network.web.browser
+summary    : Google Chrome
+description: |
+    Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
+builddeps  :
+    - libxscrnsaver
+    - gconf
+    - binutils
+    - liberation-fonts-ttf
+    - libappindicator
+    - libatk
+    - libgcc
+    - libcairo
+    - pycups
+    - libdbusmenu
+    - libgtk-3
+    - libnspr
+    - libnss
+    - libx11
+    - libxcb
+    - libxcomposite
+    - libxcursor
+    - libxdamage
+    - libxext
+    - libxfixes
+    - libxi
+    - libxrandr
+    - libxrender
+    - libxtst
+    - wget
+    - xdg-utils
+rundeps    :
+    - libxscrnsaver
+    - gconf
+    - binutils
+    - liberation-fonts-ttf
+    - libappindicator
+    - libatk
+    - libgcc
+    - libcairo
+    - pycups
+    - libdbusmenu
+    - libgtk-3
+    - libnspr
+    - libnss
+    - libx11
+    - libxcb
+    - libxcomposite
+    - libxcursor
+    - libxdamage
+    - libxext
+    - libxfixes
+    - libxi
+    - libxrandr
+    - libxrender
+    - libxtst
+    - wget
+    - xdg-utils
+setup      : |
+    ar xf $sources/google-chrome-stable_${version}*
+    tar xf data.tar*
+build      : |
+    chown root:root opt/google/chrome/chrome-sandbox
+    chmod 4755 opt/google/chrome/chrome-sandbox
+install    : |
+    mkdir -p $installdir
+    install -D -d -m 00755 $installdir/usr/bin
+    install -D -d -m 00644 $installdir/usr/share
+    mkdir -p $installdir/usr
+    cp -R opt $installdir/
+    cp -R usr/{bin,share} $installdir/usr/

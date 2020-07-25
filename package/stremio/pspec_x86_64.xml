@@ -1,0 +1,65 @@
+<PISI>
+    <Source>
+        <Name>stremio</Name>
+        <Homepage>https://www.stremio.com</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>desktop.multimedia</PartOf>
+        <Summary xml:lang="en">Stremio</Summary>
+        <Description xml:lang="en">Stremio is a one-stop hub for video content aggregation. Discover, organize and watch video from all kind of sources on any device that you own.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>stremio</Name>
+        <Summary xml:lang="en">Stremio</Summary>
+        <Description xml:lang="en">Stremio is a one-stop hub for video content aggregation. Discover, organize and watch video from all kind of sources on any device that you own.
+</Description>
+        <PartOf>desktop.multimedia</PartOf>
+        <Files>
+            <Path fileType="data">/opt/stremio/icons/smartcode-stremio-tray_128.png</Path>
+            <Path fileType="data">/opt/stremio/icons/smartcode-stremio-tray_16.png</Path>
+            <Path fileType="data">/opt/stremio/icons/smartcode-stremio-tray_22.png</Path>
+            <Path fileType="data">/opt/stremio/icons/smartcode-stremio-tray_24.png</Path>
+            <Path fileType="data">/opt/stremio/icons/smartcode-stremio-tray_32.png</Path>
+            <Path fileType="data">/opt/stremio/icons/smartcode-stremio-tray_64.png</Path>
+            <Path fileType="data">/opt/stremio/icons/smartcode-stremio_128.png</Path>
+            <Path fileType="data">/opt/stremio/icons/smartcode-stremio_16.png</Path>
+            <Path fileType="data">/opt/stremio/icons/smartcode-stremio_22.png</Path>
+            <Path fileType="data">/opt/stremio/icons/smartcode-stremio_24.png</Path>
+            <Path fileType="data">/opt/stremio/icons/smartcode-stremio_32.png</Path>
+            <Path fileType="data">/opt/stremio/icons/smartcode-stremio_64.png</Path>
+            <Path fileType="data">/opt/stremio/node</Path>
+            <Path fileType="data">/opt/stremio/server.js</Path>
+            <Path fileType="data">/opt/stremio/smartcode-stremio.desktop</Path>
+            <Path fileType="data">/opt/stremio/stremio</Path>
+            <Path fileType="executable">/usr/bin/server.js</Path>
+            <Path fileType="executable">/usr/bin/stremio</Path>
+            <Path fileType="data">/usr/share/applications/smartcode-stremio.desktop</Path>
+            <Path fileType="data">/usr/share/icons/smartcode-stremio-tray_128.png</Path>
+            <Path fileType="data">/usr/share/icons/smartcode-stremio-tray_16.png</Path>
+            <Path fileType="data">/usr/share/icons/smartcode-stremio-tray_22.png</Path>
+            <Path fileType="data">/usr/share/icons/smartcode-stremio-tray_24.png</Path>
+            <Path fileType="data">/usr/share/icons/smartcode-stremio-tray_32.png</Path>
+            <Path fileType="data">/usr/share/icons/smartcode-stremio-tray_64.png</Path>
+            <Path fileType="data">/usr/share/icons/smartcode-stremio_128.png</Path>
+            <Path fileType="data">/usr/share/icons/smartcode-stremio_16.png</Path>
+            <Path fileType="data">/usr/share/icons/smartcode-stremio_22.png</Path>
+            <Path fileType="data">/usr/share/icons/smartcode-stremio_24.png</Path>
+            <Path fileType="data">/usr/share/icons/smartcode-stremio_32.png</Path>
+            <Path fileType="data">/usr/share/icons/smartcode-stremio_64.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="4">
+            <Date>2020-06-25</Date>
+            <Version>4.4.107</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

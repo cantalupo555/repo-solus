@@ -1,0 +1,79 @@
+name       : google-chrome-unstable
+version    : 85.0.4183.26
+release    : 20
+source     :
+    - https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-unstable/google-chrome-unstable_85.0.4183.26-1_amd64.deb : ceb29149d7ac8baabc8c4d32a628a4f8340fa4fb4878403e98ac81ec2aac91f3
+homepage   : https://www.google.com/chrome/
+license    : EULA
+strip      : no
+component  : network.web.browser
+summary    : Google Chrome Unstable
+description: |
+    Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
+builddeps  :
+    - libxscrnsaver
+    - gconf
+    - binutils
+    - liberation-fonts-ttf
+    - libappindicator
+    - libatk
+    - libgcc
+    - libcairo
+    - pycups
+    - libdbusmenu
+    - libgtk-3
+    - libnspr
+    - libnss
+    - libx11
+    - libxcb
+    - libxcomposite
+    - libxcursor
+    - libxdamage
+    - libxext
+    - libxfixes
+    - libxi
+    - libxrandr
+    - libxrender
+    - libxtst
+    - wget
+    - xdg-utils
+rundeps    :
+    - libxscrnsaver
+    - gconf
+    - binutils
+    - liberation-fonts-ttf
+    - libappindicator
+    - libatk
+    - libgcc
+    - libcairo
+    - pycups
+    - libdbusmenu
+    - libgtk-3
+    - libnspr
+    - libnss
+    - libx11
+    - libxcb
+    - libxcomposite
+    - libxcursor
+    - libxdamage
+    - libxext
+    - libxfixes
+    - libxi
+    - libxrandr
+    - libxrender
+    - libxtst
+    - wget
+    - xdg-utils
+setup      : |
+    ar xf $sources/google-chrome-unstable_${version}-1_amd64.deb
+    tar xf data.tar.xz
+build      : |
+    chown root:root opt/google/chrome-unstable/chrome-sandbox
+    chmod 4755 opt/google/chrome-unstable/chrome-sandbox
+install    : |
+    mkdir -p $installdir
+    install -D -d -m 00755 $installdir/usr/bin
+    install -D -d -m 00644 $installdir/usr/share
+    mkdir -p $installdir/usr
+    cp -R opt $installdir/
+    cp -R usr/{bin,share} $installdir/usr/

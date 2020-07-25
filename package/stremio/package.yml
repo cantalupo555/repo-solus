@@ -1,0 +1,78 @@
+name        : stremio
+version     : 4.4.107
+release     : 4
+source      :
+  - git|https://github.com/Stremio/stremio-shell : 4.4.107
+homepage    : https://www.stremio.com
+license     : GPL-3.0-or-later
+component   : desktop.multimedia
+summary     : Stremio
+description : |
+  Stremio is a one-stop hub for video content aggregation. Discover, organize and watch video from all kind of sources on any device that you own.
+networking  : yes
+builddeps   :
+  - pkgconfig(librsvg-2.0)
+  - pkgconfig(openssl)
+  - pkgconfig(Qt5Core)
+  - pkgconfig(Qt5WebEngine)
+  - pkgconfig(mpv)
+  - gcc
+  - g++
+  - glibc-devel
+  - binutils
+  - libtool-devel
+  - linux-headers
+  - nodejs
+  - wget
+  - make
+  - zlib-minizip
+  - kirigami2
+  - qt5-quickcontrols
+  - qt5-quickcontrols2
+  - qt5-declarative 
+  - qt5-location
+  - qt5-webchannel
+  - qt5-webengine
+  - qt5-graphicaleffects
+  - libraw
+rundeps     :
+  - gcc
+  - g++
+  - glibc-devel
+  - binutils
+  - libtool-devel
+  - linux-headers
+  - nodejs
+  - wget
+  - make
+  - zlib-minizip
+  - kirigami2
+  - qt5-quickcontrols
+  - qt5-quickcontrols2
+  - qt5-declarative 
+  - qt5-location
+  - qt5-webchannel
+  - qt5-webengine
+  - qt5-graphicaleffects
+  - libraw
+build         : |
+  %qmake
+  %make -f release.makefile PREFIX=$installdir
+install       : |
+  %make_install -f release.makefile PREFIX=$installdir
+  
+  mkdir -p $installdir/usr/bin
+  cp $installdir/opt/stremio/stremio $installdir/usr/bin/stremio
+  cp $installdir/opt/stremio/server.js $installdir/usr/bin/server.js
+  mkdir -p $installdir/usr/share/applications
+  mkdir -p $installdir/usr/share/icons
+  cp $installdir/opt/stremio/smartcode-stremio.desktop $installdir/usr/share/applications
+  cd $installdir/opt/stremio/icons || exit 1
+  regex="([^_]+)_([0-9]+).png$"
+  for file in *.png
+  do
+    if [[ $file  =~ $regex ]]
+    then
+      cp $file $installdir/usr/share/icons
+    fi
+  done

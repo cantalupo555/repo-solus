@@ -1,0 +1,28 @@
+name       : rar
+version    : 5.91
+release    : 1
+source     :
+    - https://www.win-rar.com/fileadmin/winrar-versions/rarlinux-x64-5.9.1.tar.gz : 4eecb5f5f2cdd6b896bbbf5f98e718a672171f44fa9205f441aa6e6771ef2c06
+homepage   : https://www.win-rar.com
+license    : Copyright (c) 1993-2006 Alexander Roshal
+strip      : no
+component  : system.utils
+summary    : RAR
+description: |
+    This is the RAR archiver from Eugene Roshal. It supports multiple volume archives and damage protection. It can also create SFX-archives. There are versions which run on DOS, Windows (3.1x,95,NT), FreeBSD, BSDI. *This program is shareware and you must register it after 40 days of use.*
+builddeps  :
+    - libstdc++
+    - libgcc
+    - libnih
+rundeps    :
+    - libstdc++
+    - libgcc
+    - libnih
+install    : |
+    mkdir -p $installdir/etc
+    mkdir -p $installdir/usr
+    mkdir -p $installdir/usr/bin
+    mkdir -p $installdir/usr/lib
+    install rarfiles.lst $installdir/etc/
+    install rar $installdir/usr/bin/
+    install default.sfx $installdir/usr/lib/

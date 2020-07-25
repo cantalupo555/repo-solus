@@ -34,7 +34,7 @@ sudo eopkg install package
 | 17 | spotify | 1.1.26.501 | 22/02/2020 | |
 | 18 | android-studio | 4.0 | 01/06/2020 | |
 | 19 | sublime-text-3 | 3211 | 31/01/2020 | |
-| 20 | skype | 8.61.0.95 | 27/06/2020 | |
+| 20 | skype | 8.62.0.85 | 25/07/2020 | |
 | 21 | [eradio](https://github.com/DreamDevel/eRadio) | 2.0.4 | 31/01/2020 | |
 | 22 | xmind-zen | 10.1.2 | 09/05/2020 | |
 | 23 | rambox | 0.7.5 | 02/04/2020 | |

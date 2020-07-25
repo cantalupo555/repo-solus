@@ -1,0 +1,27 @@
+name       : plexmediaserver
+version    : 1.19.5.3112
+release    : 15
+source     :
+    - https://downloads.plex.tv/plex-media-server-new/1.19.5.3112-b23ab3896/debian/plexmediaserver_1.19.5.3112-b23ab3896_amd64.deb : 6e32565ef5f2314f57f13b5ffa1ec0bf59f6777a8c732687468000622ff16213
+homepage   : https://plex.tv
+license    : https://plex.tv/legal
+strip      : no
+component  : multimedia.video
+summary    : Plex Media Server
+description: |
+    Plex organizes all of your personal media so you can easily access and enjoy it.
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/plexmediaserver_${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr
+    mkdir -p $installdir/opt
+    install -Dm00644 $pkgfiles/plexmediaserver.conf $installdir/%libdir%/sysusers.d/plexmediaserver.conf
+    install -Dm00644 $pkgfiles/plexmediaserver.tmpfile $installdir/%libdir%/tmpfiles.d/plexmediaserver.conf
+    install -Dm00644 $pkgfiles/plexmediaserver.service $installdir/%libdir%/systemd/system/plexmediaserver.service
+    cp -R usr/share $installdir/usr/
+    cp -R usr/lib/plexmediaserver $installdir/opt/
