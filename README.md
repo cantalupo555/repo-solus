@@ -19,7 +19,7 @@ sudo eopkg install package
 | 2 | plexmediaserver | 1.19.5.3112 | 25/07/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-Plex-Media-Server-on-Solus) |
 | 3 | emby-server | 4.4.3.0 | 02/07/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-Emby-Server-on-Solus) |
 | 4 | popcorn-time | 0.4.4 | 15/04/2020 | |
-| 5 | [breaktimer](https://breaktimer.app/) | 0.7.5 | 27/07/2020 | |
+| 5 | [breaktimer](https://breaktimer.app/) | 0.7.5 | 30/07/2020 | |
 | 6 | master-pdf-editor | 5.4.38 | 31/01/2020 | |
 | 7 | master-pdf-editor-v4 | 4.3.89 | 31/01/2020 | |
 | 8 | free-office-2018 | 976 | 15/04/2020 | |

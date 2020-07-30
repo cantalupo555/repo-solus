@@ -197,13 +197,13 @@
             <Dependency releaseFrom="14">libxcursor</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
-            <Dependency releaseFrom="17">libnspr</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="34">pango</Dependency>
             <Dependency releaseFrom="24">cups</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="93">libgtk-3</Dependency>
-            <Dependency releaseFrom="46">libnss</Dependency>
+            <Dependency releaseFrom="45">libnss</Dependency>
             <Dependency releaseFrom="65">glib2</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
@@ -223,7 +223,7 @@
         </RuntimeDependencies>
         <History>
             <Update release="8">
-                <Date>2020-07-27</Date>
+                <Date>2020-07-30</Date>
                 <Version>0.7.5</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
@@ -235,8 +235,8 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>263243483</InstalledSize>
-        <PackageSize>72618134</PackageSize>
-        <PackageHash>d07d764fc1d0775d209236019b1a4f60d07bf05f</PackageHash>
+        <PackageSize>72617656</PackageSize>
+        <PackageHash>4b27ebc218f0c840667f6d19f3835352564dd186</PackageHash>
         <PackageURI>breaktimer-0.7.5-8-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
