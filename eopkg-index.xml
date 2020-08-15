@@ -1255,24 +1255,24 @@
         <PartOf>network.clients</PartOf>
         <License>Copyright © 2015 ocenaudio</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
             <Dependency releaseFrom="13">bzip2</Dependency>
             <Dependency releaseFrom="21">zlib</Dependency>
-            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="22">alsa-lib</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="11">jack-audio-connection-kit</Dependency>
-            <Dependency releaseFrom="37">openssl</Dependency>
+            <Dependency releaseFrom="38">openssl</Dependency>
             <Dependency releaseFrom="25">xz</Dependency>
-            <Dependency releaseFrom="85">systemd</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="86">systemd</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
             <Dependency releaseFrom="22">libxml2</Dependency>
             <Dependency releaseFrom="27">util-linux</Dependency>
             <Dependency>gconf</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-07-02</Date>
-                <Version>3.7.19</Version>
+            <Update release="6">
+                <Date>2020-08-15</Date>
+                <Version>3.7.20</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1282,10 +1282,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>45504745</InstalledSize>
-        <PackageSize>16537394</PackageSize>
-        <PackageHash>0dc6bedee03accf7672016574320d477d7d750a8</PackageHash>
-        <PackageURI>ocenaudio-3.7.19-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>45514185</InstalledSize>
+        <PackageSize>16543166</PackageSize>
+        <PackageHash>ad75fcf94db72e51d7afb0238a1a9890650add60</PackageHash>
+        <PackageURI>ocenaudio-3.7.20-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ocenaudio</Name>

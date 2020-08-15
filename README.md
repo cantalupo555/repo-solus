@@ -44,7 +44,7 @@ sudo eopkg install package
 | 27 | stacer | 1.1.0 | 11/02/2020 | |
 | 28 | nordvpn | 3.6.1 | 13/07/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-NordVPN-on-Solus) | |
 | 29 | windscribe | 1.4 | 04/04/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-windscribe-on-Solus) |
-| 30 | ocenaudio | 3.7.19 | 02/07/2020 | |
+| 30 | ocenaudio | 3.7.20 | 15/08/2020 | |
 | 31 | gitkraken | 7.0.1 | 26/06/2020 | |
 | 32 | webstorm | 2020.1.1 | 11/05/2020 | |
 | 33 | phpstorm | 2020.1.1 | 11/05/2020 | |
