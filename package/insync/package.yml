@@ -1,0 +1,32 @@
+name       : insync
+version    : 3.2.5.40859
+release    : 8
+source     :
+    - http://s.insynchq.com/builds/insync_3.2.5.40859-bionic_amd64.deb : 8ab6150e0ab910119c42e762b7850a8ae5362f61830a241be728bfc6488e21ad
+    - http://s.insynchq.com/builds/insync-nautilus_3.1.4.40795_all.deb : 36468827e7b2bdc09d92b28763be275e2d0374d67749333fdaf169b99681ff52
+homepage   : https://enpass.io
+license    : Custom
+strip      : no
+component  : network.download
+summary    : The most powerful Google Drive client ever built
+description: |
+    Insync extends Drive's web functionality to your desktop by integrating tightly with Windows, Mac and Linux so you can get work done.
+builddeps  :
+    - binutils
+    - nautilus-python
+rundeps    :
+    - binutils
+    - nautilus-python
+setup      : |
+    ar xf $sources/insync_${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    rm usr/bin/insync
+    cp -R usr $installdir/usr/
+    install -D -m 00755 $pkgfiles/insync $installdir/usr/bin/insync
+    ar xf $sources/insync-nautilus_*
+    tar xf data.tar*
+    cp -R usr/share/nautilus-python $installdir/usr/share
+    cp -R usr/share/icons/hicolor/64x64/emblems $installdir/usr/share/icons/hicolor/64x64
+    rm -rf $installdir/usr/share/icons/hicolor/16x16/emblems
