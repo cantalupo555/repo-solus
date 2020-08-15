@@ -81,31 +81,32 @@
         <PartOf>programming</PartOf>
         <License>EULA</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="16">kerberos</Dependency>
+            <Dependency releaseFrom="18">kerberos</Dependency>
             <Dependency releaseFrom="17">expat</Dependency>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
+            <Dependency releaseFrom="17">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="27">util-linux</Dependency>
             <Dependency releaseFrom="11">libxscrnsaver</Dependency>
-            <Dependency releaseFrom="64">glib2</Dependency>
-            <Dependency releaseFrom="44">libnss</Dependency>
+            <Dependency releaseFrom="1">openssl-11</Dependency>
+            <Dependency releaseFrom="46">libnss</Dependency>
+            <Dependency releaseFrom="65">glib2</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="37">openssl</Dependency>
-            <Dependency releaseFrom="19">e2fsprogs</Dependency>
+            <Dependency releaseFrom="23">libx11</Dependency>
+            <Dependency releaseFrom="38">openssl</Dependency>
+            <Dependency releaseFrom="20">e2fsprogs</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="30">dbus</Dependency>
             <Dependency>curl-gnutls</Dependency>
             <Dependency>gconf</Dependency>
             <Dependency>libgnome-keyring</Dependency>
             <Dependency>nodejs</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-06-27</Date>
-                <Version>7.0.1</Version>
+            <Update release="5">
+                <Date>2020-08-15</Date>
+                <Version>7.2.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -115,10 +116,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>339993154</InstalledSize>
-        <PackageSize>87574984</PackageSize>
-        <PackageHash>42c2bb7db3934dce543272d99cde87232390e0cf</PackageHash>
-        <PackageURI>gitkraken-7.0.1-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>342748377</InstalledSize>
+        <PackageSize>87923331</PackageSize>
+        <PackageHash>3427b4fc880fc609bcef8883746b277353a58d36</PackageHash>
+        <PackageURI>gitkraken-7.2.0-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>gitkraken</Name>
