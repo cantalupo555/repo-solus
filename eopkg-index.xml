@@ -1356,20 +1356,21 @@
         <PartOf>multimedia.audio</PartOf>
         <License>© Bitwig GmbH 2018. All rights reserved.</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="92">libgtk-3</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="21">alsa-lib</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
-            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="64">glib2</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
+            <Dependency releaseFrom="94">libgtk-3</Dependency>
             <Dependency releaseFrom="9">libglvnd</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="9">libxkbcommon</Dependency>
+            <Dependency releaseFrom="22">alsa-lib</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="23">libx11</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="65">glib2</Dependency>
             <Dependency releaseFrom="10">pixman</Dependency>
             <Dependency>jack-audio-connection-kit</Dependency>
             <Dependency>libbsd</Dependency>
@@ -1379,9 +1380,9 @@
             <Dependency>zenity</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="3">
-                <Date>2020-07-02</Date>
-                <Version>3.2.3</Version>
+            <Update release="4">
+                <Date>2020-08-15</Date>
+                <Version>3.2.5</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1391,10 +1392,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>398597644</InstalledSize>
-        <PackageSize>206054055</PackageSize>
-        <PackageHash>493737572fb1cd2b8be3b084305e1bfd777fcc09</PackageHash>
-        <PackageURI>bitwig-studio-3.2.3-3-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>398915972</InstalledSize>
+        <PackageSize>206202739</PackageSize>
+        <PackageHash>a66009189e1e93449f3175895ee48c59103b4c0a</PackageHash>
+        <PackageURI>bitwig-studio-3.2.5-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>bitwig-studio</Name>
