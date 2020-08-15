@@ -2636,7 +2636,7 @@
         <PartOf>network.im</PartOf>
         <License>Copyright (c) 2019 Skype and/or Microsoft</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="93">libgtk-3</Dependency>
+            <Dependency releaseFrom="94">libgtk-3</Dependency>
             <Dependency releaseFrom="30">dbus</Dependency>
             <Dependency releaseFrom="12">libxcomposite</Dependency>
             <Dependency releaseFrom="17">expat</Dependency>
@@ -2644,18 +2644,18 @@
             <Dependency releaseFrom="50">libstdc++</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
-            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="17">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="34">pango</Dependency>
             <Dependency releaseFrom="24">cups</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="65">glib2</Dependency>
             <Dependency releaseFrom="27">util-linux</Dependency>
-            <Dependency releaseFrom="45">libnss</Dependency>
+            <Dependency releaseFrom="46">libnss</Dependency>
             <Dependency releaseFrom="45">libcairo</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="23">libx11</Dependency>
             <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
             <Dependency releaseFrom="17">libsecret</Dependency>
             <Dependency releaseFrom="13">libxrender</Dependency>
@@ -2670,9 +2670,9 @@
             <Dependency>gnome-keyring</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="8">
-                <Date>2020-07-25</Date>
-                <Version>8.62.0.85</Version>
+            <Update release="9">
+                <Date>2020-08-15</Date>
+                <Version>8.63.0.76</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2682,10 +2682,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>297237442</InstalledSize>
-        <PackageSize>94085585</PackageSize>
-        <PackageHash>4acf9c0eb73b374e620f9b75d96aa78231a4afea</PackageHash>
-        <PackageURI>skype-8.62.0.85-8-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>297868834</InstalledSize>
+        <PackageSize>94301938</PackageSize>
+        <PackageHash>390654ee28b10a34d90ab7b5151677b8dcb9d5bc</PackageHash>
+        <PackageURI>skype-8.63.0.76-9-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>skype</Name>
