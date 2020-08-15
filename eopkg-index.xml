@@ -1380,9 +1380,9 @@
             <Dependency>zenity</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
+            <Update release="5">
                 <Date>2020-08-15</Date>
-                <Version>3.2.5</Version>
+                <Version>3.2.7</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1392,10 +1392,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>398915972</InstalledSize>
-        <PackageSize>206202739</PackageSize>
-        <PackageHash>a66009189e1e93449f3175895ee48c59103b4c0a</PackageHash>
-        <PackageURI>bitwig-studio-3.2.5-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>398941578</InstalledSize>
+        <PackageSize>206224090</PackageSize>
+        <PackageHash>844bd0527a7a51f25367adeb949a57fbfcffeaa0</PackageHash>
+        <PackageURI>bitwig-studio-3.2.7-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>bitwig-studio</Name>
