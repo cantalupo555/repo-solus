@@ -27,7 +27,7 @@ sudo eopkg install package
 | 10 | [softmaker-office-2021](http://www.softmaker.com/go/officenxheise) | 1016 | 28/06/2020 |
 | 11 | xmacro | 0.3 | 31/01/2020 | |
 | 12 | google-chrome-stable | 85.0.4183.83 | 27/08/2020 | |
-| 13 | google-chrome-beta | 85.0.4183.69 | 15/08/2020 | |
+| 13 | google-chrome-beta | 85.0.4183.83 | 27/08/2020 | |
 | 14 | google-chrome-unstable | 86.0.4229.0 | 15/08/2020 | |
 | 15 | teamviewer | 15.7.6 | 02/07/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-TeamViewer-on-Solus) |
 | 16 | anydesk | 5.5.5 | 26/04/2020 | |
