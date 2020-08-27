@@ -1,8 +1,8 @@
 name       : google-chrome-unstable
-version    : 86.0.4229.0
-release    : 21
+version    : 86.0.4238.0
+release    : 22
 source     :
-    - https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-unstable/google-chrome-unstable_86.0.4229.0-1_amd64.deb : e079505fa2a6e76c6bc9fbecc0b1071a1232e925a134202b5d72358ed31fe952
+    - https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-unstable/google-chrome-unstable_86.0.4238.0-1_amd64.deb : a19d3131c6e43b5c3dd4b0e1e9934759d19d14d9a274b74914b218db1ceb0145
 homepage   : https://www.google.com/chrome/
 license    : EULA
 strip      : no
