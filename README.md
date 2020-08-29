@@ -39,7 +39,7 @@ sudo eopkg install package
 | 22 | xmind-zen | 10.1.2 | 09/05/2020 | |
 | 23 | rambox | 0.7.5 | 02/04/2020 | |
 | 24 | rambox-pro | 1.3.2 | 27/06/2020 | |
-| 25 | wps-office | 11.1.0.9505 | 15/04/2020 | |
+| 25 | wps-office | 11.1.0.9615 | 29/08/2020 | |
 | 26 | dkms | 2.8.1 | 09/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-dkms-on-Solus) |
 | 27 | stacer | 1.1.0 | 11/02/2020 | |
 | 28 | nordvpn | 3.6.1 | 13/07/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-NordVPN-on-Solus) | |

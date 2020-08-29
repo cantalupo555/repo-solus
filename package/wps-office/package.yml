@@ -1,0 +1,45 @@
+name       : wps-office
+version    : 11.1.0.9615
+release    : 5
+source     :
+    - http://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/9615/wps-office_11.1.0.9615.XA_amd64.deb : 1ca1a02d98fa39095b7d65260973194973c7fc8d4fe1a12fa594fd78a525ed36
+    - https://github.com/IamDH4/ttf-wps-fonts/archive/master.zip : 6ad69800de95ea7f59129c233a80fda529e6a1b705e5f83330dd7ff96028dcb7
+homepage   : https://www.wps.com/
+license    : http://wps-community.org/license.md
+strip      : no
+component  : office
+summary    : WPS Office, is an office productivity suite.
+description: |
+    WPS Office including Writer, Presentation and Spreadsheets, is a powerful office suite, which is able to process word file, produce wonderful slides, and analyze data as well. It is deeply compatible with all of the latest Microsoft Office file formats. It can easily open and read the documents created with Microsoft Office. This is the Linux version, and it's now a TESTING package.
+builddeps  :
+  - glibc
+  - pycups
+  - libglu
+  - libsm
+  - libxrender
+  - libfontenc
+  - libxext
+  - libxcb
+  - libgtk-2
+  - unzip
+rundeps    :
+  - glibc
+  - pycups
+  - libglu
+  - libsm
+  - libxrender
+  - libfontenc
+  - libxext
+  - libxcb
+  - libgtk-2
+setup      : |
+    ar xf $sources/wps-office_${version}*
+    tar xf data.tar*
+    unzip $sources/master.zip
+install    : |
+    mkdir -p $installdir/usr
+    mkdir -p $installdir/usr/share/fonts
+    cp -R opt $installdir/opt/
+    cp -R usr/{bin,share} $installdir/usr/
+    cp -R ttf-wps-fonts-master/*.ttf $installdir/usr/share/fonts
+    cp -R ttf-wps-fonts-master/*.TTF $installdir/usr/share/fonts
