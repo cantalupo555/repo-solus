@@ -45,7 +45,7 @@ sudo eopkg install package
 | 28 | nordvpn | 3.6.1 | 13/07/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-NordVPN-on-Solus) | |
 | 29 | windscribe | 1.4 | 04/04/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-windscribe-on-Solus) |
 | 30 | ocenaudio | 3.8.1 | 29/08/2020 | |
-| 31 | gitkraken | 7.2.0 | 15/08/2020 | |
+| 31 | gitkraken | 7.3.0 | 29/08/2020 | |
 | 32 | webstorm | 2020.1.1 | 11/05/2020 | |
 | 33 | phpstorm | 2020.1.1 | 11/05/2020 | |
 | 34 | idea | 2020.1.1 | 11/05/2020 | |

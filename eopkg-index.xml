@@ -87,13 +87,12 @@
             <Dependency releaseFrom="50">libgcc</Dependency>
             <Dependency releaseFrom="17">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="27">util-linux</Dependency>
             <Dependency releaseFrom="11">libxscrnsaver</Dependency>
             <Dependency releaseFrom="1">openssl-11</Dependency>
             <Dependency releaseFrom="46">libnss</Dependency>
             <Dependency releaseFrom="65">glib2</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="23">libx11</Dependency>
+            <Dependency releaseFrom="24">libx11</Dependency>
             <Dependency releaseFrom="38">openssl</Dependency>
             <Dependency releaseFrom="20">e2fsprogs</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
@@ -104,9 +103,9 @@
             <Dependency>nodejs</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-08-15</Date>
-                <Version>7.2.0</Version>
+            <Update release="6">
+                <Date>2020-08-29</Date>
+                <Version>7.3.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -116,10 +115,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>342748377</InstalledSize>
-        <PackageSize>87923331</PackageSize>
-        <PackageHash>3427b4fc880fc609bcef8883746b277353a58d36</PackageHash>
-        <PackageURI>gitkraken-7.2.0-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>309560484</InstalledSize>
+        <PackageSize>92210559</PackageSize>
+        <PackageHash>59100ae0c7930b478d4b9b769fe300ce05257664</PackageHash>
+        <PackageURI>gitkraken-7.3.0-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>gitkraken</Name>
