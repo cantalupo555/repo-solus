@@ -1117,7 +1117,7 @@
         <PartOf>virt</PartOf>
         <License>https://www.genymotion.com/legal-notices/</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="24">libx11</Dependency>
             <Dependency releaseFrom="27">freetype2</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
@@ -1126,7 +1126,7 @@
             <Dependency releaseFrom="50">libstdc++</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="64">glib2</Dependency>
+            <Dependency releaseFrom="65">glib2</Dependency>
             <Dependency releaseFrom="8">libxmu</Dependency>
             <Dependency releaseFrom="9">libglvnd</Dependency>
             <Dependency>binutils</Dependency>
@@ -1140,9 +1140,9 @@
             <Dependency>xorg-server-devel</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-07-14</Date>
-                <Version>3.1.0</Version>
+            <Update release="2">
+                <Date>2020-09-02</Date>
+                <Version>3.1.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1152,10 +1152,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>139966770</InstalledSize>
-        <PackageSize>37519470</PackageSize>
-        <PackageHash>07174c2935f6d5589633f28c055f74b838fe4d4e</PackageHash>
-        <PackageURI>genymotion-3.1.0-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>140041606</InstalledSize>
+        <PackageSize>37532093</PackageSize>
+        <PackageHash>32513168c92f5daabf059a2716f83c2601d912ac</PackageHash>
+        <PackageURI>genymotion-3.1.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>genymotion</Name>
