@@ -2259,9 +2259,9 @@
             <Dependency>nautilus-python</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="8">
-                <Date>2020-08-15</Date>
-                <Version>3.2.5.40859</Version>
+            <Update release="9">
+                <Date>2020-09-24</Date>
+                <Version>3.2.7.40868</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2271,10 +2271,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>377821570</InstalledSize>
-        <PackageSize>114901994</PackageSize>
-        <PackageHash>f6977d79fdb7d0a822544023a0ca21536018286c</PackageHash>
-        <PackageURI>insync-3.2.5.40859-8-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>379565938</InstalledSize>
+        <PackageSize>115145003</PackageSize>
+        <PackageHash>66467149812e377053dcc86ff795650de053686c</PackageHash>
+        <PackageURI>insync-3.2.7.40868-9-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>insync</Name>
