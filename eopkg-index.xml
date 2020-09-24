@@ -2896,7 +2896,6 @@
         <PartOf>network.web.browser</PartOf>
         <License>EULA</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="24">libx11</Dependency>
             <Dependency releaseFrom="30">dbus</Dependency>
             <Dependency releaseFrom="12">libxcomposite</Dependency>
             <Dependency releaseFrom="17">expat</Dependency>
@@ -2906,18 +2905,21 @@
             <Dependency releaseFrom="34">pango</Dependency>
             <Dependency releaseFrom="24">cups</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="23">at-spi2</Dependency>
+            <Dependency releaseFrom="65">glib2</Dependency>
             <Dependency releaseFrom="94">libgtk-3</Dependency>
             <Dependency releaseFrom="46">libnss</Dependency>
-            <Dependency releaseFrom="65">glib2</Dependency>
+            <Dependency releaseFrom="21">wayland</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="45">libcairo</Dependency>
+            <Dependency releaseFrom="24">libx11</Dependency>
             <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="45">libcairo</Dependency>
             <Dependency releaseFrom="24">libatk</Dependency>
             <Dependency releaseFrom="13">libxdamage</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
             <Dependency releaseFrom="12">libxrandr</Dependency>
             <Dependency releaseFrom="21">at-spi2-atk</Dependency>
-            <Dependency releaseFrom="23">at-spi2</Dependency>
+            <Dependency releaseFrom="9">libxkbcommon</Dependency>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
             <Dependency>binutils</Dependency>
@@ -2933,9 +2935,9 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="23">
-                <Date>2020-08-29</Date>
-                <Version>86.0.4240.8</Version>
+            <Update release="24">
+                <Date>2020-09-24</Date>
+                <Version>87.0.4270.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2945,10 +2947,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>238707935</InstalledSize>
-        <PackageSize>82405612</PackageSize>
-        <PackageHash>0081ef36c8d49a007c411600aa5ca0019f78a315</PackageHash>
-        <PackageURI>google-chrome-unstable-86.0.4240.8-23-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>240843203</InstalledSize>
+        <PackageSize>83348364</PackageSize>
+        <PackageHash>9b225548ac1a965f3a384374280aabbf7e27e9bf</PackageHash>
+        <PackageURI>google-chrome-unstable-87.0.4270.0-24-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-unstable</Name>
