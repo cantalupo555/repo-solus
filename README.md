@@ -36,7 +36,7 @@ sudo eopkg install package
 | 19 | sublime-text-3 | 3211 | 31/01/2020 | |
 | 20 | skype | 8.63.0.76 | 15/08/2020 | |
 | 21 | [eradio](https://github.com/DreamDevel/eRadio) | 2.0.4 | 31/01/2020 | |
-| 22 | xmind-zen | 10.1.2 | 09/05/2020 | |
+| 22 | xmind-zen | 10.2.1 | 24/09/2020 | |
 | 23 | rambox | 0.7.5 | 02/04/2020 | |
 | 24 | rambox-pro | 1.3.2 | 27/06/2020 | |
 | 25 | wps-office | 11.1.0.9615 | 29/08/2020 | |
