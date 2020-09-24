@@ -1,0 +1,175 @@
+<PISI>
+    <Source>
+        <Name>spotify</Name>
+        <Homepage>https://www.spotify.com</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>Copyright (c) 2020 Spotify Ltd</License>
+        <PartOf>multimedia.audio</PartOf>
+        <Summary xml:lang="en">Spotify Music, Video and Podcast Streaming Client</Summary>
+        <Description xml:lang="en">Spotify is a Swedish commercial music streaming, podcast and video service that provides digital rights management-protected content from record labels and media companies.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>spotify</Name>
+        <Summary xml:lang="en">Spotify Music, Video and Podcast Streaming Client</Summary>
+        <Description xml:lang="en">Spotify is a Swedish commercial music streaming, podcast and video service that provides digital rights management-protected content from record labels and media companies.
+</Description>
+        <PartOf>multimedia.audio</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/spotify</Path>
+            <Path fileType="data">/usr/share/applications/spotify.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/spotify-client/changelog.gz</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/about.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/artist.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/browse.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/buddy-list.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/chart.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/collection-album.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/collection-artist.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/collection-songs.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/collection.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/concert.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/concerts.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/error.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/findfriends.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/full-screen-modal.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/genre.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/glue-resources.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/hub.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/legacy-lyrics.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/licenses.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/login.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/lyrics.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/playlist-folder.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/playlist.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/profile.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/queue.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/search.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/settings.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/show.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/station.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/stations.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/xpui.spa</Path>
+            <Path fileType="data">/usr/share/spotify/Apps/zlink.spa</Path>
+            <Path fileType="data">/usr/share/spotify/apt-keys/spotify-2019-07-15-4773BD5E130D1D45.gpg</Path>
+            <Path fileType="data">/usr/share/spotify/apt-keys/spotify-2020-09-08-D1742AD60D811D58.gpg</Path>
+            <Path fileType="data">/usr/share/spotify/cef.pak</Path>
+            <Path fileType="data">/usr/share/spotify/cef_100_percent.pak</Path>
+            <Path fileType="data">/usr/share/spotify/cef_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/spotify/cef_extensions.pak</Path>
+            <Path fileType="data">/usr/share/spotify/devtools_resources.pak</Path>
+            <Path fileType="data">/usr/share/spotify/icons/spotify-linux-128.png</Path>
+            <Path fileType="data">/usr/share/spotify/icons/spotify-linux-16.png</Path>
+            <Path fileType="data">/usr/share/spotify/icons/spotify-linux-22.png</Path>
+            <Path fileType="data">/usr/share/spotify/icons/spotify-linux-24.png</Path>
+            <Path fileType="data">/usr/share/spotify/icons/spotify-linux-256.png</Path>
+            <Path fileType="data">/usr/share/spotify/icons/spotify-linux-32.png</Path>
+            <Path fileType="data">/usr/share/spotify/icons/spotify-linux-48.png</Path>
+            <Path fileType="data">/usr/share/spotify/icons/spotify-linux-512.png</Path>
+            <Path fileType="data">/usr/share/spotify/icons/spotify-linux-64.png</Path>
+            <Path fileType="data">/usr/share/spotify/icons/spotify_icon.ico</Path>
+            <Path fileType="data">/usr/share/spotify/icudtl.dat</Path>
+            <Path fileType="data">/usr/share/spotify/libEGL.so</Path>
+            <Path fileType="data">/usr/share/spotify/libGLESv2.so</Path>
+            <Path fileType="data">/usr/share/spotify/libcef.so</Path>
+            <Path fileType="data">/usr/share/spotify/locales/am.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/ar.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/ar.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/bg.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/bn.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/ca.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/cs.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/cs.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/da.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/de.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/de.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/el.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/el.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/en-GB.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/en-US.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/en.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/es-419.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/es-419.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/es.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/es.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/et.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/fa.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/fi.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/fi.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/fil.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/fr-CA.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/fr.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/fr.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/gu.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/he.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/he.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/hi.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/hr.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/hu.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/hu.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/id.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/id.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/it.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/it.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/ja.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/ja.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/kn.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/ko.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/ko.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/lt.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/lv.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/ml.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/mr.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/ms.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/ms.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/nb.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/nl.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/nl.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/pl.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/pl.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/pt-BR.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/pt-BR.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/pt-PT.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/ro.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/ru.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/ru.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/sk.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/sl.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/sr.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/sv.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/sv.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/sw.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/ta.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/te.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/th.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/th.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/tr.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/tr.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/uk.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/vi.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/vi.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/zh-CN.pak</Path>
+            <Path fileType="data">/usr/share/spotify/locales/zh-Hant.mo</Path>
+            <Path fileType="data">/usr/share/spotify/locales/zh-TW.pak</Path>
+            <Path fileType="data">/usr/share/spotify/snapshot_blob.bin</Path>
+            <Path fileType="data">/usr/share/spotify/spotify</Path>
+            <Path fileType="data">/usr/share/spotify/spotify.desktop</Path>
+            <Path fileType="data">/usr/share/spotify/swiftshader/libEGL.so</Path>
+            <Path fileType="data">/usr/share/spotify/swiftshader/libGLESv2.so</Path>
+            <Path fileType="data">/usr/share/spotify/v8_context_snapshot.bin</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="5">
+            <Date>2020-09-24</Date>
+            <Version>1.1.42.622</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

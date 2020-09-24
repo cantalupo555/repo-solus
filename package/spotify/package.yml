@@ -1,0 +1,44 @@
+name       : spotify
+version    : 1.1.42.622
+release    : 5
+source     :
+    - http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.1.42.622.gbd112320-37_amd64.deb : 101a3699197659b8bc60a4fd8b579e63cc494e7abd089c45306559329af4a868
+homepage   : https://www.spotify.com
+license    : Copyright (c) 2020 Spotify Ltd
+strip      : no
+component  : multimedia.audio
+summary    : Spotify Music, Video and Podcast Streaming Client
+description: |
+    Spotify is a Swedish commercial music streaming, podcast and video service that provides digital rights management-protected content from record labels and media companies.
+builddeps  :
+    - libatk
+    - libgtk-2
+    - libnss
+    - libxtst
+    - xdg-utils
+    - libnotify
+    - libxscrnsaver
+    - libgnutls-utils
+    - curl-gnutls
+    - libgnutls
+    - gtk2-engine-murrine
+rundeps    :
+    - libatk
+    - libgtk-2
+    - libnss
+    - libxtst
+    - xdg-utils
+    - libnotify
+    - libxscrnsaver
+    - libgnutls-utils
+    - curl-gnutls
+    - libgnutls
+    - gtk2-engine-murrine
+setup      : |
+    ar xf $sources/spotify-client_${version}*
+    tar xf data.tar.gz
+install    : |
+    mkdir -p $installdir/usr
+    mkdir -p $installdir/usr/share/applications/
+    cp usr/share/spotify/spotify.desktop $installdir/usr/share/applications/
+    cp -R usr/{bin,share} $installdir/usr/

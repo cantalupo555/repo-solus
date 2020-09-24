@@ -977,33 +977,33 @@
         <PartOf>multimedia.audio</PartOf>
         <License>Copyright (c) 2020 Spotify Ltd</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="29">dbus</Dependency>
-            <Dependency releaseFrom="29">curl-gnutls</Dependency>
-            <Dependency releaseFrom="16">expat</Dependency>
+            <Dependency releaseFrom="24">libx11</Dependency>
+            <Dependency releaseFrom="30">dbus</Dependency>
+            <Dependency releaseFrom="36">curl-gnutls</Dependency>
+            <Dependency releaseFrom="17">expat</Dependency>
             <Dependency releaseFrom="14">libxcursor</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="47">libgcc</Dependency>
-            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
+            <Dependency releaseFrom="17">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="12">libxcomposite</Dependency>
             <Dependency releaseFrom="24">libgtk-2</Dependency>
             <Dependency releaseFrom="24">cups</Dependency>
-            <Dependency releaseFrom="32">pango</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
-            <Dependency releaseFrom="59">glib2</Dependency>
-            <Dependency releaseFrom="40">libnss</Dependency>
-            <Dependency releaseFrom="42">libcairo</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
-            <Dependency releaseFrom="20">zlib</Dependency>
             <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="27">freetype2</Dependency>
+            <Dependency releaseFrom="65">glib2</Dependency>
             <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="34">pango</Dependency>
+            <Dependency releaseFrom="46">libnss</Dependency>
+            <Dependency releaseFrom="45">libcairo</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="9">libice</Dependency>
-            <Dependency releaseFrom="39">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
             <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="22">libatk</Dependency>
+            <Dependency releaseFrom="24">libatk</Dependency>
             <Dependency releaseFrom="13">libxdamage</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
             <Dependency releaseFrom="9">libsm</Dependency>
@@ -1015,9 +1015,9 @@
             <Dependency>gtk2-engine-murrine</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-02-23</Date>
-                <Version>1.1.26.501</Version>
+            <Update release="5">
+                <Date>2020-09-24</Date>
+                <Version>1.1.42.622</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1027,10 +1027,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>283158177</InstalledSize>
-        <PackageSize>101921763</PackageSize>
-        <PackageHash>937e9d767a0ec8fd2bbc4f5ebbde1b621c4640cb</PackageHash>
-        <PackageURI>spotify-1.1.26.501-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>290771732</InstalledSize>
+        <PackageSize>107391066</PackageSize>
+        <PackageHash>b5d256180832dad3cc3941a50ee752f36d413291</PackageHash>
+        <PackageURI>spotify-1.1.42.622-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>spotify</Name>
