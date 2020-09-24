@@ -2179,7 +2179,7 @@
         <PartOf>network.web.browser</PartOf>
         <License>EULA</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="23">libx11</Dependency>
+            <Dependency releaseFrom="24">libx11</Dependency>
             <Dependency releaseFrom="30">dbus</Dependency>
             <Dependency releaseFrom="12">libxcomposite</Dependency>
             <Dependency releaseFrom="17">expat</Dependency>
@@ -2216,9 +2216,9 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="18">
-                <Date>2020-08-27</Date>
-                <Version>85.0.4183.83</Version>
+            <Update release="19">
+                <Date>2020-09-24</Date>
+                <Version>85.0.4183.121</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2228,10 +2228,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>236348400</InstalledSize>
-        <PackageSize>81301779</PackageSize>
-        <PackageHash>ea4e6a12cf68c14b6bdd9aa63bc80fdaeb10e64b</PackageHash>
-        <PackageURI>google-chrome-stable-85.0.4183.83-18-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>236358302</InstalledSize>
+        <PackageSize>81306262</PackageSize>
+        <PackageHash>099d2137b94c5799834178f898ad0c658c1fd1fd</PackageHash>
+        <PackageURI>google-chrome-stable-85.0.4183.121-19-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-stable</Name>
