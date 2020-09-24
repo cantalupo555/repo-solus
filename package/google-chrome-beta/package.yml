@@ -1,8 +1,8 @@
 name       : google-chrome-beta
-version    : 85.0.4183.83
-release    : 14
+version    : 86.0.4240.53
+release    : 15
 source     :
-    - https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-beta/google-chrome-beta_85.0.4183.83-1_amd64.deb : a6d250cde2391abca6749417ed6d6308022d1f779ccdc37261fcaf0b0e3cd58a
+    - https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-beta/google-chrome-beta_86.0.4240.53-1_amd64.deb : 901d18879c5a3a0f09cdcad129e02633dca026fd1024d9881da73bbcd024cb24
 homepage   : https://www.google.com/chrome/
 license    : EULA
 strip      : no

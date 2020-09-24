@@ -122,9 +122,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="16">
-            <Date>2020-06-26</Date>
-            <Version>83.0.4103.116</Version>
+        <Update release="19">
+            <Date>2020-09-24</Date>
+            <Version>85.0.4183.121</Version>
             <Comment>Packaging update</Comment>
             <Name>cantalupo555</Name>
             <Email>cantalupo@protonmail.com</Email>
