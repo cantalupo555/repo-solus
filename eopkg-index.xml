@@ -2407,6 +2407,39 @@
         </Source>
     </Package>
     <Package>
+        <Name>libssl-devel</Name>
+        <Summary xml:lang="en">Development files for libssl</Summary>
+        <Description xml:lang="en">Secure Sockets Layer toolkit - development files. This package is part of the OpenSSL project&apos;s implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.</Description>
+        <PartOf>programming.devel</PartOf>
+        <License>GPL-3.0</License>
+        <History>
+            <Update release="1">
+                <Date>2020-09-26</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>6431915</InstalledSize>
+        <PackageSize>1574136</PackageSize>
+        <PackageHash>57a37efe4e00ff42f0f0cc2a1b8263ba36bd1e90</PackageHash>
+        <PackageURI>lib/libssl-devel-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libssl</Name>
+            <Homepage>https://www.openssl.org/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>teamviewer</Name>
         <Summary xml:lang="en">Remote control and meeting solution.</Summary>
         <Description xml:lang="en">TeamViewer provides easy, fast and secure remote access and meeting solutions to Linux, Windows PCs, Apple PCs and various other platforms, including Android and iPhone.</Description>
