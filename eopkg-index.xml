@@ -1549,19 +1549,25 @@
         </Source>
     </Package>
     <Package>
-        <Name>libssl1.1</Name>
-        <Summary xml:lang="en">Secure Sockets Layer toolkit - shared libraries This package is part of the OpenSSL project&apos;s implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.</Summary>
-        <Description xml:lang="en">Secure Sockets Layer toolkit - shared libraries This package is part of the OpenSSL project&apos;s implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.</Description>
-        <PartOf>xorg.library</PartOf>
-        <License>GPL-3.0</License>
+        <Name>filebot-o</Name>
+        <Summary xml:lang="en">FileBot-old</Summary>
+        <Description xml:lang="en">FileBot is the ultimate tool for organizing and renaming your Movies, TV Shows and Anime as well as fetching subtitles and artwork. It&apos;s smart and just works.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>EULA</License>
         <RuntimeDependencies>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
+            <Dependency releaseFrom="65">glib2</Dependency>
             <Dependency>binutils</Dependency>
+            <Dependency>libglvnd</Dependency>
+            <Dependency>openjdk-11</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="1">
-                <Date>2020-04-05</Date>
-                <Version>1</Version>
+                <Date>2020-09-27</Date>
+                <Version>4.7.9</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1571,14 +1577,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>3638048</InstalledSize>
-        <PackageSize>1366414</PackageSize>
-        <PackageHash>05d334d380471500778a42916bf6b95b23b22a2d</PackageHash>
-        <PackageURI>lib/libssl1.1-1-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>99046864</InstalledSize>
+        <PackageSize>27038170</PackageSize>
+        <PackageHash>41d10aca42602439f4c9e1fbd9d97e5eeb28d0db</PackageHash>
+        <PackageURI>filebot-o-4.7.9-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>libssl1.1</Name>
-            <Homepage>https://www.openssl.org/</Homepage>
+            <Name>filebot-o</Name>
+            <Homepage>https://www.filebot.net</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2236,6 +2242,43 @@
         <Source>
             <Name>google-chrome-stable</Name>
             <Homepage>https://www.google.com/chrome/</Homepage>
+            <Packager>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>libssl1.1</Name>
+        <Summary xml:lang="en">Secure Sockets Layer toolkit - shared libraries This package is part of the OpenSSL project&apos;s implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.</Summary>
+        <Description xml:lang="en">Secure Sockets Layer toolkit - shared libraries This package is part of the OpenSSL project&apos;s implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>GPL-3.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-04-05</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>3638048</InstalledSize>
+        <PackageSize>1366414</PackageSize>
+        <PackageHash>05d334d380471500778a42916bf6b95b23b22a2d</PackageHash>
+        <PackageURI>lib/libssl1.1-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libssl1.1</Name>
+            <Homepage>https://www.openssl.org/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>

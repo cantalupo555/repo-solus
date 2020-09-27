@@ -1,0 +1,30 @@
+name       : filebot-o
+version    : 4.7.9
+release    : 1
+source     :
+    - https://ufpr.dl.sourceforge.net/project/filebot/filebot/FileBot_4.7.9/filebot_4.7.9_amd64.deb : 892723dcec8fe5385ec6665db9960e7c1a88e459a60525c02afb7f1195a50523
+homepage   : https://www.filebot.net
+license    : EULA
+strip      : no
+component  : system.utils
+summary    : FileBot-old
+description: |
+    FileBot is the ultimate tool for organizing and renaming your Movies, TV Shows and Anime as well as fetching subtitles and artwork. It's smart and just works.
+builddeps  :
+  - binutils
+  - libglvnd
+rundeps    :
+  - binutils
+  - libglvnd
+  - openjdk-11
+setup      : |
+    ar xf $sources/filebot_${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R usr $installdir/usr/
+    rm $installdir/usr/share/filebot/filebot.sh
+    rm $installdir/usr/share/applications/filebot.desktop
+    install -D -m 00664 $pkgfiles/filebot.sh $installdir/usr/share/filebot/filebot.sh
+    install -D -m 00644 $pkgfiles/filebot.desktop $installdir/usr/share/applications/filebot.desktop
+    install -D -m 00644 $pkgfiles/filebot.svg $installdir/usr/share/filebot/filebot.svg

@@ -1,0 +1,50 @@
+<PISI>
+    <Source>
+        <Name>filebot-o</Name>
+        <Homepage>https://www.filebot.net</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>EULA</License>
+        <PartOf>system.utils</PartOf>
+        <Summary xml:lang="en">FileBot-old</Summary>
+        <Description xml:lang="en">FileBot is the ultimate tool for organizing and renaming your Movies, TV Shows and Anime as well as fetching subtitles and artwork. It&apos;s smart and just works.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>filebot-o</Name>
+        <Summary xml:lang="en">FileBot-old</Summary>
+        <Description xml:lang="en">FileBot is the ultimate tool for organizing and renaming your Movies, TV Shows and Anime as well as fetching subtitles and artwork. It&apos;s smart and just works.
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/applications/filebot.desktop</Path>
+            <Path fileType="data">/usr/share/file-manager/actions/filebot-checksum.desktop</Path>
+            <Path fileType="data">/usr/share/file-manager/actions/filebot-import.desktop</Path>
+            <Path fileType="data">/usr/share/file-manager/actions/filebot-rename.desktop</Path>
+            <Path fileType="data">/usr/share/file-manager/actions/filebot-subtitles.desktop</Path>
+            <Path fileType="data">/usr/share/file-manager/actions/menu-filebot.desktop</Path>
+            <Path fileType="data">/usr/share/filebot/FileBot.jar</Path>
+            <Path fileType="data">/usr/share/filebot/filebot.sh</Path>
+            <Path fileType="data">/usr/share/filebot/filebot.svg</Path>
+            <Path fileType="data">/usr/share/filebot/fpcalc</Path>
+            <Path fileType="data">/usr/share/filebot/lib7-Zip-JBinding.so</Path>
+            <Path fileType="data">/usr/share/filebot/libjnidispatch.so</Path>
+            <Path fileType="data">/usr/share/filebot/libmediainfo.so</Path>
+            <Path fileType="data">/usr/share/filebot/libzen.so</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/filebot.svg</Path>
+            <Path fileType="data">/usr/share/kservices5/ServiceMenus/filebot.desktop</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-09-27</Date>
+            <Version>4.7.9</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -72,13 +72,14 @@ sudo eopkg install package
 | 55 | mscorefonts | 1.3 | 06/04/2020 | |
 | 56 | zoom | compiling | compiling | |
 | 57 | filebot | 4.9.1 | 30/05/2020 | |
-| 58 | rar | 5.91 | 24/07/2020 | |
-| 59 | rescuetime | 2.16.0.1 | 24/07/2020 | |
-| 60 | jellyfin | compiling | compiling | |
-| 61 | ibus-avro | 1.1 | 24/07/2020 | |
-| 62 | teams | compiling | compiling | Microsoft Teams |
-| 63 | dart | compiling | compiling | |
-| 64 | xmind | compiling | compiling | |
+| 58 | filebot-o | 4.7.9 | 27/09/2020 | |
+| 59 | rar | 5.91 | 24/07/2020 | |
+| 60 | rescuetime | 2.16.0.1 | 24/07/2020 | |
+| 61 | jellyfin | compiling | compiling | |
+| 62 | ibus-avro | 1.1 | 24/07/2020 | |
+| 63 | teams | compiling | compiling | Microsoft Teams |
+| 64 | dart | compiling | compiling | |
+| 65 | RenameMyTVSeries | compiling | compiling | |
 
 ## Lib List
 
