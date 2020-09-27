@@ -79,7 +79,7 @@ sudo eopkg install package
 | 62 | ibus-avro | 1.1 | 24/07/2020 | |
 | 63 | teams | compiling | compiling | Microsoft Teams |
 | 64 | dart | compiling | compiling | |
-| 65 | RenameMyTVSeries | compiling | compiling | |
+| 65 | renamemytvseries | compiling | compiling | [RenameMyTVSeries](https://www.tweaking4all.com/home-theatre/rename-my-tv-series-v2/) |
 
 ## Lib List
 
