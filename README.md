@@ -20,7 +20,7 @@ sudo eopkg install package
 |-|-|-|-|
 | android-studio | 4.0.1 | 25/07/2020 |  |
 | anydesk | 6.0.1 | 28/08/2020 |  |
-| bitwig-studio | 3.2.7 | 15/08/2020 |  |
+| bitwig-studio | 3.2.8 | 08/10/2020 |  |
 | [breaktimer](https://breaktimer.app/) | 0.7.5 | 30/07/2020 |  |
 | clion | 2020.1.1 | 11/05/2020 |  |
 | dart | compiling | compiling |  |

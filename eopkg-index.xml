@@ -1329,41 +1329,59 @@
         </Source>
     </Package>
     <Package>
-        <Name>xmacro</Name>
-        <Summary xml:lang="en">xmacro</Summary>
-        <Description xml:lang="en">Record / Play keystrokes and mouse movements in X displays.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>GPL-2.0-or-later</License>
+        <Name>bitwig-studio</Name>
+        <Summary xml:lang="en">Music production system for production, remixing and performance.</Summary>
+        <Description xml:lang="en">Music production system for production, remixing and performance.</Description>
+        <PartOf>multimedia.audio</PartOf>
+        <License>© Bitwig GmbH 2018. All rights reserved.</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="47">libstdc++</Dependency>
-            <Dependency releaseFrom="56">glibc</Dependency>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
+            <Dependency releaseFrom="94">libgtk-3</Dependency>
+            <Dependency releaseFrom="9">libglvnd</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="9">libxkbcommon</Dependency>
+            <Dependency releaseFrom="22">alsa-lib</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="24">libx11</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="65">glib2</Dependency>
+            <Dependency releaseFrom="10">pixman</Dependency>
+            <Dependency>jack-audio-connection-kit</Dependency>
+            <Dependency>libbsd</Dependency>
+            <Dependency>openjdk-8</Dependency>
+            <Dependency>xcb-util-wm</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>zenity</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-02-04</Date>
-                <Version>0.3</Version>
+            <Update release="6">
+                <Date>2020-10-08</Date>
+                <Version>3.2.8</Version>
                 <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>81470</InstalledSize>
-        <PackageSize>21235</PackageSize>
-        <PackageHash>df2a06490c7e7bc719b38cdd15960624504d7531</PackageHash>
-        <PackageURI>xmacro-0.3-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>399297007</InstalledSize>
+        <PackageSize>206191831</PackageSize>
+        <PackageHash>12a91d607d06b363a73a4ee62cccc2bbccd79eeb</PackageHash>
+        <PackageURI>bitwig-studio-3.2.8-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>xmacro</Name>
-            <Homepage>https://sourceforge.net/projects/xmacro/</Homepage>
+            <Name>bitwig-studio</Name>
+            <Homepage>https://bitwig.com</Homepage>
             <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Packager>
         </Source>
     </Package>
@@ -1433,39 +1451,21 @@
         </Source>
     </Package>
     <Package>
-        <Name>bitwig-studio</Name>
-        <Summary xml:lang="en">Music production system for production, remixing and performance.</Summary>
-        <Description xml:lang="en">Music production system for production, remixing and performance.</Description>
-        <PartOf>multimedia.audio</PartOf>
-        <License>© Bitwig GmbH 2018. All rights reserved.</License>
+        <Name>xmacro</Name>
+        <Summary xml:lang="en">xmacro</Summary>
+        <Description xml:lang="en">Record / Play keystrokes and mouse movements in X displays.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>GPL-2.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="50">libstdc++</Dependency>
+            <Dependency releaseFrom="47">libstdc++</Dependency>
+            <Dependency releaseFrom="56">glibc</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="50">libgcc</Dependency>
-            <Dependency releaseFrom="94">libgtk-3</Dependency>
-            <Dependency releaseFrom="9">libglvnd</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="9">libxkbcommon</Dependency>
-            <Dependency releaseFrom="22">alsa-lib</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="23">libx11</Dependency>
-            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="65">glib2</Dependency>
-            <Dependency releaseFrom="10">pixman</Dependency>
-            <Dependency>jack-audio-connection-kit</Dependency>
-            <Dependency>libbsd</Dependency>
-            <Dependency>openjdk-8</Dependency>
-            <Dependency>xcb-util-wm</Dependency>
-            <Dependency>xdg-utils</Dependency>
-            <Dependency>zenity</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-08-15</Date>
-                <Version>3.2.7</Version>
+            <Update release="2">
+                <Date>2020-02-04</Date>
+                <Version>0.3</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1475,14 +1475,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>398941578</InstalledSize>
-        <PackageSize>206224090</PackageSize>
-        <PackageHash>844bd0527a7a51f25367adeb949a57fbfcffeaa0</PackageHash>
-        <PackageURI>bitwig-studio-3.2.7-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>81470</InstalledSize>
+        <PackageSize>21235</PackageSize>
+        <PackageHash>df2a06490c7e7bc719b38cdd15960624504d7531</PackageHash>
+        <PackageURI>xmacro-0.3-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>bitwig-studio</Name>
-            <Homepage>https://bitwig.com</Homepage>
+            <Name>xmacro</Name>
+            <Homepage>https://sourceforge.net/projects/xmacro/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>

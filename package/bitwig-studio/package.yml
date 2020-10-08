@@ -1,0 +1,35 @@
+name       : bitwig-studio
+version    : 3.2.8
+release    : 6
+source     :
+    - https://downloads.bitwig.com/stable/3.2.8/bitwig-studio-3.2.8.deb : f24227ce350ea725f3691cd2cae3a56a29e2ae9c0821c82a592faeb36d7d8da2
+homepage   : https://bitwig.com
+license    : © Bitwig GmbH 2018. All rights reserved.
+strip      : no
+component  : multimedia.audio
+summary    : Music production system for production, remixing and performance.
+description: |
+    Music production system for production, remixing and performance.
+builddeps  :
+  - alsa-lib
+  - jack-audio-connection-kit
+  - libbsd
+  - openjdk-8
+  - xcb-util-wm
+  - xdg-utils
+  - zenity
+rundeps    :
+  - alsa-lib
+  - jack-audio-connection-kit
+  - libbsd
+  - openjdk-8
+  - xcb-util-wm
+  - xdg-utils
+  - zenity
+setup      : |
+    ar xf $sources/bitwig-studio-${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R opt $installdir/opt/
+    cp -R usr $installdir/usr/
