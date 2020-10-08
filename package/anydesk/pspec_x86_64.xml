@@ -1,0 +1,48 @@
+<PISI>
+    <Source>
+        <Name>anydesk</Name>
+        <Homepage>https://anydesk.com</Homepage>
+        <Packager>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
+        </Packager>
+        <License>© 2020 AnyDesk Software GmbH</License>
+        <PartOf>network.remote</PartOf>
+        <Summary xml:lang="en">AnyDesk</Summary>
+        <Description xml:lang="en">AnyDesk is the fastest remote desktop software on the market. It allows for new usage scenarios and applications that have not been possible with current remote desktop software.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>anydesk</Name>
+        <Summary xml:lang="en">AnyDesk</Summary>
+        <Description xml:lang="en">AnyDesk is the fastest remote desktop software on the market. It allows for new usage scenarios and applications that have not been possible with current remote desktop software.
+</Description>
+        <PartOf>network.remote</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/anydesk</Path>
+            <Path fileType="executable">/usr/bin/anydesk-global-settings</Path>
+            <Path fileType="data">/usr/share/anydesk/files/init/anydesk</Path>
+            <Path fileType="data">/usr/share/anydesk/files/systemd/anydesk.service</Path>
+            <Path fileType="data">/usr/share/applications/anydesk.desktop</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/anydesk.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/anydesk.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/anydesk.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/anydesk.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/anydesk.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/anydesk.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/anydesk.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/anydesk.xpm</Path>
+            <Path fileType="data">/usr/share/polkit-1/actions/com.philandro.anydesk.policy</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="5">
+            <Date>2020-10-08</Date>
+            <Version>6.0.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

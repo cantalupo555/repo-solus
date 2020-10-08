@@ -1,0 +1,50 @@
+name       : anydesk
+version    : 6.0.1
+release    : 5
+source     :
+    - https://download.anydesk.com/linux/anydesk_6.0.1-1_amd64.deb : d1a576d6e757a7f82b10e6e3c27d19cb84c25e4add8fe50545d23ea1688df485
+homepage   : https://anydesk.com
+license    : © 2020 AnyDesk Software GmbH
+strip      : no
+component  : network.remote
+summary    : AnyDesk
+description: |
+    AnyDesk is the fastest remote desktop software on the market. It allows for new usage scenarios and applications that have not been possible with current remote desktop software.
+builddeps  :
+    - gconf
+    - gtkglext
+    - libxscrnsaver
+    - glibc
+    - libgtk-2
+    - libstdc++
+    - libx11
+    - libxcb
+    - libcairo
+    - libxrandr
+    - libxtst
+    - libxfixes
+    - libxdamage
+    - libxkbfile
+    - xdg-utils
+rundeps    :
+    - gconf
+    - gtkglext
+    - libxscrnsaver
+    - glibc
+    - libgtk-2
+    - libstdc++
+    - libx11
+    - libxcb
+    - libcairo
+    - libxrandr
+    - libxtst
+    - libxfixes
+    - libxdamage
+    - libxkbfile
+    - xdg-utils
+setup      : |
+    ar xf $sources/anydesk_${version}*
+    tar xf data.tar.gz
+install    : |
+    mkdir -p $installdir/usr/
+    cp -R usr/{bin,share} $installdir/usr/
