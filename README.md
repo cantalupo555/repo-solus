@@ -3,7 +3,10 @@
 ## Adding the Repository
 
 `sudo eopkg add-repo Cantalupo https://solus.cantalupo.com.br/eopkg-index.xml.xz`
+
+## Disclaimer :notebook:
  
+**These packages are not official**, they are neither supported nor endorsed by the official *Solus* devs. Do not ask for help in *Solus's* help forum, instead create an [issue](https://github.com/cantalupo555/repo-solus/issues/new). 
 
 ## Install
 
