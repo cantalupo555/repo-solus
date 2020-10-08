@@ -1,0 +1,125 @@
+<PISI>
+    <Source>
+        <Name>skype-preview</Name>
+        <Homepage>https://www.skype.com/</Homepage>
+        <Packager>
+            <Name>Moriel Yitzhak Ever</Name>
+            <Email>emoriel17@yahoo.com</Email>
+        </Packager>
+        <License>Copyright (c) 2019 Skype and/or Microsoft</License>
+        <PartOf>network.im</PartOf>
+        <Summary xml:lang="en">Skype</Summary>
+        <Description xml:lang="en">Skype keeps you together. Call, message and share with others.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>skype-preview</Name>
+        <Summary xml:lang="en">Skype</Summary>
+        <Description xml:lang="en">Skype keeps you together. Call, message and share with others.
+</Description>
+        <PartOf>network.im</PartOf>
+        <Files>
+            <Path fileType="data">/opt/skypeforlinux/skypeforlinux</Path>
+            <Path fileType="executable">/usr/bin/skypeforlinux</Path>
+            <Path fileType="data">/usr/share/applications/skypeforlinux-share.desktop</Path>
+            <Path fileType="data">/usr/share/applications/skypeforlinux.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/skypeforlinux/third-party_attributions.html</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/1024x1024/apps/skypeforlinux.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/skypeforlinux.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/skypeforlinux.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/skypeforlinux.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/512x512/apps/skypeforlinux.png</Path>
+            <Path fileType="data">/usr/share/kservices5/ServiceMenus/skypeforlinux.desktop</Path>
+            <Path fileType="data">/usr/share/pixmaps/skypeforlinux.png</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/LICENSES.chromium.html</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/chrome-sandbox</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/chrome_100_percent.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/chrome_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/crashpad_handler</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/icudtl.dat</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/libEGL.so</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/libGLESv2.so</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/libffmpeg.so</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/libvk_swiftshader.so</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/am.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/ar.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/bg.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/bn.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/ca.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/cs.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/da.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/de.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/el.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/en-GB.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/en-US.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/es-419.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/es.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/et.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/fa.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/fi.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/fil.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/fr.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/gu.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/he.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/hi.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/hr.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/hu.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/id.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/it.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/ja.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/kn.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/ko.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/lt.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/lv.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/ml.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/mr.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/ms.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/nb.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/nl.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/pl.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/pt-BR.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/pt-PT.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/ro.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/ru.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/sk.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/sl.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/sr.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/sv.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/sw.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/ta.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/te.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/th.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/tr.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/uk.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/vi.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/zh-CN.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/locales/zh-TW.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/resources.pak</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/resources/app.asar</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/resources/app.asar.unpacked/modules/electron_utility.node</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/resources/app.asar.unpacked/modules/keytar.node</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/resources/app.asar.unpacked/modules/platform.node</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/resources/app.asar.unpacked/modules/sharing-indicator.node</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/resources/app.asar.unpacked/modules/slimcore.node</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/resources/app.asar.unpacked/modules/trouter-client.node</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/resources/default_app.asar</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/skypeforlinux</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/snapshot_blob.bin</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/swiftshader/libEGL.so</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/swiftshader/libGLESv2.so</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/v8_context_snapshot.bin</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/version</Path>
+            <Path fileType="data">/usr/share/skypeforlinux/vk_swiftshader_icd.json</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-10-05</Date>
+            <Version>8.66.76.21</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Moriel Yitzhak Ever</Name>
+            <Email>emoriel17@yahoo.com</Email>
+        </Update>
+    </History>
+</PISI>
