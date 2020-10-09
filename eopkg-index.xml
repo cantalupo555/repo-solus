@@ -2482,6 +2482,43 @@
         </Source>
     </Package>
     <Package>
+        <Name>libqt5x11extras5</Name>
+        <Summary xml:lang="en">Qt 5 X11 extras</Summary>
+        <Description xml:lang="en">Qt is a cross-platform C++ application framework. Qt&apos;s primary feature is its rich set of widgets that provide standard GUI functionality.</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>GPL-3.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-10-09</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>22978</InstalledSize>
+        <PackageSize>6805</PackageSize>
+        <PackageHash>ba8d0f0d0ec8440b54086b160c6fc67dd9f79ef2</PackageHash>
+        <PackageURI>lib/libqt5x11extras5-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libqt5x11extras5</Name>
+            <Homepage>https://doc.qt.io/qt-5/qtx11extras-index.html</Homepage>
+            <Packager>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>teamviewer</Name>
         <Summary xml:lang="en">Remote control and meeting solution.</Summary>
         <Description xml:lang="en">TeamViewer provides easy, fast and secure remote access and meeting solutions to Linux, Windows PCs, Apple PCs and various other platforms, including Android and iPhone.</Description>
@@ -2592,53 +2629,48 @@
         <PartOf>network.clients</PartOf>
         <License>© MEGA 2020 All rights reserved</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="21">zlib</Dependency>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
-            <Dependency releaseFrom="20">libpng</Dependency>
-            <Dependency releaseFrom="30">libdrm</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="5">c-ares</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
+            <Dependency releaseFrom="2">openssl-11</Dependency>
+            <Dependency releaseFrom="50">qt5-base</Dependency>
             <Dependency releaseFrom="5">libzen</Dependency>
-            <Dependency releaseFrom="9">libxkbcommon</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="33">fontconfig</Dependency>
-            <Dependency releaseFrom="23">qt5-declarative</Dependency>
-            <Dependency releaseFrom="36">sqlite3</Dependency>
             <Dependency releaseFrom="17">libmediainfo</Dependency>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="39">sqlite3</Dependency>
+            <Dependency releaseFrom="5">c-ares</Dependency>
+            <Dependency releaseFrom="19">qt5-svg</Dependency>
             <Dependency>libcrypto++6</Dependency>
             <Dependency>libraw16</Dependency>
             <Dependency>libc-ares2</Dependency>
             <Dependency>libssl1.1</Dependency>
             <Dependency>cryptopp-devel</Dependency>
             <Dependency>libsodium</Dependency>
+            <Dependency>libqt5x11extras5</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-04-26</Date>
-                <Version>4.3.1</Version>
+            <Update release="2">
+                <Date>2020-10-09</Date>
+                <Version>4.3.3</Version>
                 <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>63523417</InstalledSize>
-        <PackageSize>22358302</PackageSize>
-        <PackageHash>d2c101dec96a1d8a53a89b517bcdc7ff3f97b0cd</PackageHash>
-        <PackageURI>megasync-4.3.1-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>38746163</InstalledSize>
+        <PackageSize>13703096</PackageSize>
+        <PackageHash>23c78b93db70f1edaa6ec94a42bc703c0ba0fbda</PackageHash>
+        <PackageURI>megasync-4.3.3-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>megasync</Name>
             <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Packager>
         </Source>
     </Package>

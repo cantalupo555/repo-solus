@@ -46,7 +46,7 @@ sudo eopkg install package
 | jellyfin | compiling | compiling |  |
 | master-pdf-editor | 5.6.49 | 09/10/2020 |  |
 | master-pdf-editor-v4 | 4.3.89 | 31/01/2020 |  |
-| megasync | 4.3.1 | 26/04/2020 |  |
+| megasync | 4.3.3 | 09/10/2020 |  |
 | mscorefonts | 1.3 | 06/04/2020 |  |
 | nordvpn | 3.6.1 | 13/07/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-NordVPN-on-Solus) |
 | ocenaudio | 3.8.1 | 29/08/2020 |  |

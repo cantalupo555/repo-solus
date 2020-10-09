@@ -1,0 +1,42 @@
+name       : megasync
+version    : 4.3.3
+release    : 2
+source     :
+    - https://mega.nz/linux/MEGAsync/xUbuntu_20.04/amd64/megasync-xUbuntu_20.04_amd64.deb : 4b56432bc806646efb93e67fcf3e44b5a86599f4e552aed765baa04fed13cae9
+    - https://mega.nz/linux/MEGAsync/xUbuntu_20.04/amd64/nautilus-megasync-xUbuntu_20.04_amd64.deb : fc081e777811c743bff70a16cc62b12a6329e465576d12c4be31a3fa6aee2543
+    - https://mega.nz/linux/MEGAsync/xUbuntu_20.04/amd64/dolphin-megasync-xUbuntu_20.04_amd64.deb : fe0c59ccb91806aeab7b033eb71209a99c66bfb6de27167bb714eda9e503354e
+license    : © MEGA 2020 All rights reserved
+strip      : no
+component  : network.clients
+summary    : Sync your files to your Mega account.
+description: |
+    Easy automated syncing between your computers and your MEGA cloud drive
+builddeps  :
+    - pkgconfig(gl)
+    - pkgconfig(libcares)
+    - pkgconfig(libcurl)
+    - pkgconfig(libmediainfo)
+    - pkgconfig(libnautilus-extension)
+    - pkgconfig(libsodium)
+    - pkgconfig(libuv)
+    - pkgconfig(Qt5Core)
+    - pkgconfig(Qt5Svg)
+    - pkgconfig(Qt5UiTools)
+    - pkgconfig(sqlite3)
+    - pkgconfig(zlib)
+    - cryptopp-devel
+rundeps    :
+    - libcrypto++6
+    - libraw16
+    - libc-ares2
+    - libssl1.1
+    - cryptopp-devel
+    - libsodium
+    - libqt5x11extras5
+setup      : |
+    ar xf $sources/megasync*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R etc $installdir/etc/
+    cp -R usr $installdir/usr/

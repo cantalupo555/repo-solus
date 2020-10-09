@@ -1,0 +1,57 @@
+<PISI>
+    <Source>
+        <Name>megasync</Name>
+        <Packager>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
+        </Packager>
+        <License>© MEGA 2020 All rights reserved</License>
+        <PartOf>network.clients</PartOf>
+        <Summary xml:lang="en">Sync your files to your Mega account.</Summary>
+        <Description xml:lang="en">Easy automated syncing between your computers and your MEGA cloud drive
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>megasync</Name>
+        <Summary xml:lang="en">Sync your files to your Mega account.</Summary>
+        <Description xml:lang="en">Easy automated syncing between your computers and your MEGA cloud drive
+</Description>
+        <PartOf>network.clients</PartOf>
+        <Files>
+            <Path fileType="config">/etc/sysctl.d/100-megasync-inotify-limit.conf</Path>
+            <Path fileType="executable">/usr/bin/megasync</Path>
+            <Path fileType="data">/usr/share/applications/megasync.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/megasync/changelog.Debian.gz</Path>
+            <Path fileType="doc">/usr/share/doc/megasync/copyright</Path>
+            <Path fileType="doc">/usr/share/doc/megasync/distro</Path>
+            <Path fileType="doc">/usr/share/doc/megasync/version</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/mega.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/mega.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/mega.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/mega.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/mega.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/status/megaalert.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/status/megalogging.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/status/megapaused.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/status/megasynching.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/status/megauptodate.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/status/megawarning.svg</Path>
+            <Path fileType="data">/usr/share/icons/ubuntu-mono-dark/status/24/megaalert.svg</Path>
+            <Path fileType="data">/usr/share/icons/ubuntu-mono-dark/status/24/megalogging.svg</Path>
+            <Path fileType="data">/usr/share/icons/ubuntu-mono-dark/status/24/megapaused.svg</Path>
+            <Path fileType="data">/usr/share/icons/ubuntu-mono-dark/status/24/megasynching.svg</Path>
+            <Path fileType="data">/usr/share/icons/ubuntu-mono-dark/status/24/megauptodate.svg</Path>
+            <Path fileType="data">/usr/share/icons/ubuntu-mono-dark/status/24/megawarning.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="2">
+            <Date>2020-10-09</Date>
+            <Version>4.3.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>
