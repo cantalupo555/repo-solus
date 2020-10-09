@@ -3,8 +3,8 @@
         <Name>softmaker-office-2021</Name>
         <Homepage>https://www.softmaker.com/</Homepage>
         <Packager>
-            <Name>cantalupo555</Name>
-            <Email>cantalupo@protonmail.com</Email>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
         </Packager>
         <License>Copyright © 2020 SoftMaker</License>
         <PartOf>office</PartOf>
@@ -26,7 +26,6 @@
             <Path fileType="library">/usr/lib/mime/packages/softmaker-office-2021</Path>
             <Path fileType="data">/usr/share/applications/planmaker-2021.desktop</Path>
             <Path fileType="data">/usr/share/applications/presentations-2021.desktop</Path>
-            <Path fileType="data">/usr/share/applications/textmaker-2021.desktop</Path>
             <Path fileType="doc">/usr/share/doc/softmaker-office-2021/copyright</Path>
             <Path fileType="data">/usr/share/lintian/overrides/softmaker-office-2021</Path>
             <Path fileType="data">/usr/share/mime/packages/softmaker-office-2021.xml</Path>
@@ -644,12 +643,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2020-06-28</Date>
-            <Version>1016</Version>
+        <Update release="3">
+            <Date>2020-10-09</Date>
+            <Version>1020</Version>
             <Comment>Packaging update</Comment>
-            <Name>cantalupo555</Name>
-            <Email>cantalupo@protonmail.com</Email>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
         </Update>
     </History>
 </PISI>

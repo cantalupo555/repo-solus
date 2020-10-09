@@ -1,8 +1,8 @@
 name       : softmaker-office-2021
-version    : 1018
-release    : 2
+version    : 1020
+release    : 3
 source     :
-    - https://www.softmaker.net/down/softmaker-office-2021_1018-01_amd64.deb : ee496b0be791c79ff36a3e1cd4dac9908daa88c91294e78bd7d54954a79664c4
+    - https://www.softmaker.net/down/softmaker-office-2021_1020-01_amd64.deb : 85db610e912538a3085bf594d8d2829f7a687af69f7846e9dbb18326672feaf4
 homepage   : https://www.softmaker.com/
 license    : Copyright © 2020 SoftMaker
 strip      : no
