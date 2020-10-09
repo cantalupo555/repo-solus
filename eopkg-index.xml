@@ -1804,29 +1804,29 @@
             <Dependency>binutils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-07-02</Date>
-                <Version>4.4.3.0</Version>
+            <Update release="5">
+                <Date>2020-10-09</Date>
+                <Version>4.5.0.50</Version>
                 <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>267890341</InstalledSize>
-        <PackageSize>79228582</PackageSize>
-        <PackageHash>5bfbd181b681af5619ae828cc38f2a388607a099</PackageHash>
-        <PackageURI>emby-server-4.4.3.0-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>271804997</InstalledSize>
+        <PackageSize>83653683</PackageSize>
+        <PackageHash>c17ccb763c72440d541b9509dfd33dba66c38d7b</PackageHash>
+        <PackageURI>emby-server-4.5.0.50-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>emby-server</Name>
             <Homepage>https://emby.media</Homepage>
             <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Packager>
         </Source>
     </Package>

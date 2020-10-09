@@ -26,7 +26,7 @@ sudo eopkg install package
 | dart | compiling | compiling |  |
 | datagrip | 2020.1.4 | 02/06/2020 |  |
 | dkms | 2.8.1 | 09/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-dkms-on-Solus) |
-| emby-server | 4.4.3.0 | 02/07/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-Emby-Server-on-Solus) |
+| emby-server | 4.5.0.50 | 09/10/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-Emby-Server-on-Solus) |
 | enpass | 6.4.1.643 | 19/04/2020 |  |
 | [eradio](https://github.com/DreamDevel/eRadio) | 2.0.4 | 31/01/2020 |  |
 | filebot | 4.9.1 | 30/05/2020 |  |

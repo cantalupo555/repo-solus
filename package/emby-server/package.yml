@@ -1,0 +1,24 @@
+name       : emby-server
+version    : 4.5.0.50
+release    : 5
+source     :
+    - https://github.com/MediaBrowser/Emby.Releases/releases/download/4.5.0.50/emby-server-deb_4.5.0.50_amd64.deb : d41ccb3208e75929c8ef507eba7fa23612b4c152fe24f86cc51c543469aee4b8
+homepage   : https://emby.media
+license    : © 2019 Emby LLC
+strip      : no
+component  : multimedia.video
+summary    : Emby Server
+description: |
+    Emby Server is a personal media server with apps on just about every device.
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/emby-server-deb_${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R etc $installdir/etc/
+    cp -R opt $installdir/opt/
+    cp -R usr $installdir/usr/
