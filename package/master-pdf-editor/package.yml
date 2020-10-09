@@ -1,0 +1,39 @@
+name       : master-pdf-editor
+version    : 5.6.49
+release    : 3
+source     :
+    - https://code-industry.net/public/master-pdf-editor-5.6.49-qt5.x86_64.deb : 140164a214d5d60d43533132f4e7d6d2a294e76f856417690f1c5117fe5ddc36
+homepage   : https://code-industry.net/
+license    : Copyright © Code Industry Ltd
+component  : office.viewers
+summary    : Master PDF Editor
+description: |
+    Master PDF Editor is the complete solution for viewing, printing and editing PDF files.
+builddeps    :
+    - libstdc++
+    - libgcc
+    - libnss
+    - glibc
+    - libglvnd
+    - libnspr
+    - qt5-svg
+    - qt5-networkauth
+    - qt5-base
+rundeps    :
+    - libstdc++
+    - libgcc
+    - libnss
+    - glibc
+    - libglvnd
+    - libnspr
+    - qt5-svg
+    - qt5-networkauth
+    - qt5-base
+setup      : |
+    ar xf $sources/master-pdf-editor-${version}*
+    tar xf data.tar.xz
+install    : |
+    mkdir -p $installdir/usr/share
+    mkdir -p $installdir/opt/master-pdf-editor-5
+    cp -R usr/share/{applications,icons} $installdir/usr/share/
+    cp -R opt/master-pdf-editor-5/ $installdir/opt/

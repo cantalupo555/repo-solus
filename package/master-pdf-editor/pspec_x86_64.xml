@@ -1,0 +1,212 @@
+<PISI>
+    <Source>
+        <Name>master-pdf-editor</Name>
+        <Homepage>https://code-industry.net/</Homepage>
+        <Packager>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
+        </Packager>
+        <License>Copyright © Code Industry Ltd</License>
+        <PartOf>office.viewers</PartOf>
+        <Summary xml:lang="en">Master PDF Editor</Summary>
+        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>master-pdf-editor</Name>
+        <Summary xml:lang="en">Master PDF Editor</Summary>
+        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files.
+</Description>
+        <PartOf>office.viewers</PartOf>
+        <Files>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/cursive/BadScript-Regular.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/cursive/Caveat-Regular.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/cursive/MarckScript-Regular.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/cursive/OFL.txt</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/cursive/Pacifico-Regular.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/standard/Courier-Bold.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/standard/Courier-BoldOblique.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/standard/Courier-Oblique.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/standard/Courier.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/standard/Helvetica-Bold.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/standard/Helvetica-BoldOblique.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/standard/Helvetica-Oblique.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/standard/Helvetica.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/standard/Times-Bold.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/standard/Times-BoldItalic.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/standard/Times-Italic.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/fonts/standard/Times-Roman.ttf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/ar_ae.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/ar_ae.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/bg_bg.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/bg_bg.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/ca_es.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/ca_es.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/cz_cz.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/cz_cz.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/da_dk.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/da_dk.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/de_de.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/de_de.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/el_gr.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/el_gr.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/en_en.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/en_en.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/es_es.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/es_es.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/et_ee.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/et_ee.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/fa_ir.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/fa_ir.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/fi_fi.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/fi_fi.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/fr_fr.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/fr_fr.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/ga_ie.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/ga_ie.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/gl_es.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/gl_es.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/he_il.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/he_il.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/hu_hu.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/hu_hu.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/hy_am.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/hy_am.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/it_it.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/it_it.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/jp_jp.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/jp_jp.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/ko_kr.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/ko_kr.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/lt_lt.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/lt_lt.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/lv_lv.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/lv_lv.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/nb_no.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/nb_no.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/nl_nl.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/nl_nl.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/nn_no.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/nn_no.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/pl_pl.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/pl_pl.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/pt_br.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/pt_br.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/pt_pt.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/pt_pt.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_de_de.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_de_de.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_el_gr.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_el_gr.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_es_es.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_es_es.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_fi_fi.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_fi_fi.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_fr_fr.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_fr_fr.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_hu_hu.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_hu_hu.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_it_it.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_it_it.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_ko_kr.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_ko_kr.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_nl_nl.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_nl_nl.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_pl_pl.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_pl_pl.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_pt_br.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_pt_br.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_ru_ru.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_ru_ru.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_sl_si.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_sl_si.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_sv_se.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/qt/qt_sv_se.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/ro_ro.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/ro_ro.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/ru_ru.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/ru_ru.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/sk_sk.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/sk_sk.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/sl_si.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/sl_si.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/sr_rs.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/sr_rs.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/sv_se.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/sv_se.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/th_th.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/th_th.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/tr_tr.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/tr_tr.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/tw_cn.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/tw_cn.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/uk_ua.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/uk_ua.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/va_es.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/va_es.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/vi_vn.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/vi_vn.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/zh_cn.qm</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/lang/zh_cn.ts</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/license.txt</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/masterpdfeditor5</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/masterpdfeditor5.png</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Accepted.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Approved.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Completed.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Confidential.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Draft.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Emergency.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Expired.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Final.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Initial.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Received.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Reviewed.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Revised.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Verified.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Void.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Dynamic/Witness.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Accepted.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Approved.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Completed.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Confidential.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Draft.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Emergency.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Expired.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Final.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Initial.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Received.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Reviewed.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Revised.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Verified.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Void.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/stamps/Standard/Witness.pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/templates/stamps/Arrow Stamp(blue).pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/templates/stamps/Arrow Stamp(green).pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/templates/stamps/Arrow Stamp(red).pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/templates/stamps/Rectangle Stamp(blue).pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/templates/stamps/Rectangle Stamp(green).pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/templates/stamps/Rectangle Stamp(red).pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/templates/stamps/Square Stamp(blue).pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/templates/stamps/Square Stamp(green).pdf</Path>
+            <Path fileType="data">/opt/master-pdf-editor-5/templates/stamps/Square Stamp(red).pdf</Path>
+            <Path fileType="data">/usr/share/applications/masterpdfeditor5.desktop</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/masterpdfeditor5.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/masterpdfeditor5.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/masterpdfeditor5.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/masterpdfeditor5.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/masterpdfeditor5.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/96x96/apps/masterpdfeditor5.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="3">
+            <Date>2020-10-09</Date>
+            <Version>5.6.49</Version>
+            <Comment>Packaging update</Comment>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>
