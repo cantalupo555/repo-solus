@@ -1,0 +1,30 @@
+name       : gitkraken
+version    : 7.3.2
+release    : 7
+source     :
+    - https://release.gitkraken.com/linux/gitkraken-amd64.deb : 87633bbbf7677703536e59dd3b781477462fcc771bef3557d0c3e6d68999b06c
+homepage   : https://www.gitkraken.com
+license    : EULA
+strip      : no
+component  : programming
+summary    : GitKraken
+description: |
+    The downright luxurious Git client, for Windows, Mac and Linux.
+builddeps  :
+  - curl-gnutls
+  - gconf
+  - libgnome-keyring
+  - libxscrnsaver
+  - nodejs
+rundeps    :
+  - curl-gnutls
+  - gconf
+  - libgnome-keyring
+  - libxscrnsaver
+  - nodejs
+setup      : |
+    ar xf $sources/gitkraken*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R usr $installdir/usr/

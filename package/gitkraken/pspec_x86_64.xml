@@ -1,0 +1,138 @@
+<PISI>
+    <Source>
+        <Name>gitkraken</Name>
+        <Homepage>https://www.gitkraken.com</Homepage>
+        <Packager>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
+        </Packager>
+        <License>EULA</License>
+        <PartOf>programming</PartOf>
+        <Summary xml:lang="en">GitKraken</Summary>
+        <Description xml:lang="en">The downright luxurious Git client, for Windows, Mac and Linux.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>gitkraken</Name>
+        <Summary xml:lang="en">GitKraken</Summary>
+        <Description xml:lang="en">The downright luxurious Git client, for Windows, Mac and Linux.
+</Description>
+        <PartOf>programming</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/gitkraken</Path>
+            <Path fileType="data">/usr/share/applications/gitkraken-url-handler.desktop</Path>
+            <Path fileType="data">/usr/share/applications/gitkraken.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/gitkraken/copyright</Path>
+            <Path fileType="data">/usr/share/gitkraken/LICENSE</Path>
+            <Path fileType="data">/usr/share/gitkraken/LICENSE.electron</Path>
+            <Path fileType="data">/usr/share/gitkraken/LICENSES.chromium.html</Path>
+            <Path fileType="data">/usr/share/gitkraken/chrome-sandbox</Path>
+            <Path fileType="data">/usr/share/gitkraken/chrome_100_percent.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/chrome_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/gitkraken</Path>
+            <Path fileType="data">/usr/share/gitkraken/gitkraken.png</Path>
+            <Path fileType="data">/usr/share/gitkraken/icudtl.dat</Path>
+            <Path fileType="data">/usr/share/gitkraken/libEGL.so</Path>
+            <Path fileType="data">/usr/share/gitkraken/libGLESv2.so</Path>
+            <Path fileType="data">/usr/share/gitkraken/libffmpeg.so</Path>
+            <Path fileType="data">/usr/share/gitkraken/libvk_swiftshader.so</Path>
+            <Path fileType="data">/usr/share/gitkraken/libvulkan.so</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/am.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/ar.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/bg.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/bn.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/ca.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/cs.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/da.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/de.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/el.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/en-GB.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/en-US.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/es-419.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/es.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/et.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/fa.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/fi.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/fil.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/fr.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/gu.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/he.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/hi.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/hr.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/hu.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/id.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/it.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/ja.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/kn.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/ko.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/lt.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/lv.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/ml.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/mr.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/ms.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/nb.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/nl.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/pl.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/pt-BR.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/pt-PT.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/ro.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/ru.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/sk.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/sl.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/sr.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/sv.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/sw.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/ta.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/te.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/th.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/tr.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/uk.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/vi.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/zh-CN.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/locales/zh-TW.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources.pak</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/@axosoft/cld/build/Release/cld.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/@axosoft/keytar/build/Release/keytar.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/@axosoft/nodegit/build/Release/acquireOpenSSL.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/@axosoft/nodegit/build/Release/configureLibssh2.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/@axosoft/nodegit/build/Release/nodegit-centos-7.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/@axosoft/nodegit/build/Release/nodegit-debian-8.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/@axosoft/nodegit/build/Release/nodegit-fedora-28.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/@axosoft/nodegit/build/Release/nodegit-ubuntu-18.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/@axosoft/nodegit/build/Release/nodegit.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/@axosoft/spellchecker/build/Release/spellchecker.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/find-git-repositories/build/Release/findGitRepos.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/font-scanner/build/Release/fontmanager.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/keyboard-layout/build/Release/keyboard-layout-manager.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/nodegit-large-file-storage/askpass.sh</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/nodegit-large-file-storage/build/src/utils/GitAskPass.js</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/nsfw/build/Release/nsfw.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/pathwatcher/build/Release/pathwatcher.node</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/node_modules/spawn-rx/vendor/jobber/Jobber.exe</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/src/THIRD-PARTY-LICENSES.txt</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/src/js/redux/domain/AskPass/AskPass.sh</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/src/js/redux/domain/AskPass/AskPassClient.js</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/app.asar.unpacked/src/strings.json</Path>
+            <Path fileType="data">/usr/share/gitkraken/resources/default_app.asar</Path>
+            <Path fileType="data">/usr/share/gitkraken/snapshot_blob.bin</Path>
+            <Path fileType="data">/usr/share/gitkraken/swiftshader/libEGL.so</Path>
+            <Path fileType="data">/usr/share/gitkraken/swiftshader/libGLESv2.so</Path>
+            <Path fileType="data">/usr/share/gitkraken/v8_context_snapshot.bin</Path>
+            <Path fileType="data">/usr/share/gitkraken/version</Path>
+            <Path fileType="data">/usr/share/gitkraken/vk_swiftshader_icd.json</Path>
+            <Path fileType="data">/usr/share/lintian/overrides/gitkraken</Path>
+            <Path fileType="data">/usr/share/pixmaps/gitkraken.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="7">
+            <Date>2020-10-09</Date>
+            <Version>7.3.2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>
