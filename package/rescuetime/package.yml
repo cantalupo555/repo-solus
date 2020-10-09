@@ -1,0 +1,40 @@
+name       : rescuetime
+version    : 2.16.0.1
+release    : 1
+source     :
+    - https://www.rescuetime.com/installers/rescuetime_current_amd64.deb : fbc90eed51686fa2d88c1fc24eea2fb675d315f98a76def75b6d8461a78196b1
+homepage   : https://www.rescuetime.com
+license    : EULA
+strip      : no
+component  : system.utils
+summary    : RescueTime for Linux
+description: |
+    A service that provides the user with the knowledge of how they spend their time while on the computer.
+builddeps  :
+    - sqlite3
+    - libxtst
+    - libxext
+    - libx11
+    - glibc
+    - libstdc++
+    - gdk-pixbuf
+    - xprop
+rundeps    :
+    - sqlite3
+    - libxtst
+    - libxext
+    - libx11
+    - glibc
+    - libstdc++
+    - gdk-pixbuf
+    - xprop
+setup      : |
+    ar xf $sources/rescuetime_current_amd64.deb
+    tar xf data.tar.xz
+install    : |
+    mkdir -p $installdir
+    mkdir -p $installdir/usr/share/applications
+    mkdir -p $installdir/usr/share/rescuetime
+    cp -R usr $installdir/
+    cp $pkgfiles/rescuetime.png $installdir/usr/share/rescuetime/
+    cp $pkgfiles/rescuetime.desktop $installdir/usr/share/applications/

@@ -1,0 +1,24 @@
+name       : rider
+version    : 2020.1.3
+release    : 4
+source     :
+    - https://download.jetbrains.com/rider/JetBrains.Rider-2020.1.3.tar.gz : e759665322639760b4c42ba4eef0bba73247d418bfafb83396060f59d668f3ff
+homepage   : https://www.jetbrains.com/rider/
+license    : GPL-2.0
+strip      : no
+component  : programming
+summary    : Rider
+description: |
+    Rider - A cross-platform .NET IDE based on the IntelliJ platform and ReSharper
+builddeps  :
+    - openjdk-8
+    - libglvnd
+rundeps    :
+    - openjdk-8
+    - libglvnd
+setup      : |
+    tar xf $sources/JetBrains.Rider-${version}*
+install    : |
+    install -D -m 00644 $pkgfiles/rider.desktop $installdir/usr/share/applications/rider.desktop
+    mkdir -p $installdir/opt/rider
+    cp -R JetBrains\ Rider*/* $installdir/opt/rider

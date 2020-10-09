@@ -1,0 +1,81 @@
+<PISI>
+    <Source>
+        <Name>ocenaudio</Name>
+        <Homepage>https://www.ocenaudio.com/</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>Copyright © 2015 ocenaudio</License>
+        <PartOf>network.clients</PartOf>
+        <Summary xml:lang="en">Ocenaudio</Summary>
+        <Description xml:lang="en">Ocenaudio is a fast, cross-platform audio editor.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ocenaudio</Name>
+        <Summary xml:lang="en">Ocenaudio</Summary>
+        <Description xml:lang="en">Ocenaudio is a fast, cross-platform audio editor.
+</Description>
+        <PartOf>network.clients</PartOf>
+        <Files>
+            <Path fileType="data">/opt/ocenaudio/bin/ocenaudio</Path>
+            <Path fileType="data">/opt/ocenaudio/bin/ocenaudio_license.txt</Path>
+            <Path fileType="data">/opt/ocenaudio/bin/ocenvst</Path>
+            <Path fileType="data">/opt/ocenaudio/dics/en_US.aff</Path>
+            <Path fileType="data">/opt/ocenaudio/dics/en_US.dic</Path>
+            <Path fileType="data">/opt/ocenaudio/dics/fr_FR.aff</Path>
+            <Path fileType="data">/opt/ocenaudio/dics/fr_FR.dic</Path>
+            <Path fileType="data">/opt/ocenaudio/dics/pt_BR.aff</Path>
+            <Path fileType="data">/opt/ocenaudio/dics/pt_BR.dic</Path>
+            <Path fileType="data">/opt/ocenaudio/fonts/DoulosSILR.ttf</Path>
+            <Path fileType="data">/opt/ocenaudio/fonts/Forgotbi.ttf</Path>
+            <Path fileType="data">/opt/ocenaudio/fonts/Forgottb.ttf</Path>
+            <Path fileType="data">/opt/ocenaudio/fonts/Forgotte.ttf</Path>
+            <Path fileType="data">/opt/ocenaudio/fonts/Forgotti.ttf</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libbase.so</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libbase.so.3.8</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libbase.so.3.8.1</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libdspb.so</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libdspb.so.3.8</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libdspb.so.3.8.1</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libiaudio.so</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libiaudio.so.3.8</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libiaudio.so.3.8.1</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libocen.so</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libocen.so.3.8</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libocen.so.3.8.1</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libqtocen.so</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libqtocen.so.3.8</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libqtocen.so.3.8.1</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libqtocencore.so</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libqtocencore.so.3.8</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libqtocencore.so.3.8.1</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libqtocenmixer.so</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libqtocenmixer.so.3.8</Path>
+            <Path fileType="data">/opt/ocenaudio/lib/libqtocenmixer.so.3.8.1</Path>
+            <Path fileType="data">/usr/share/applications/ocenaudio.desktop</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/ocenaudio.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/ocenaudio.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/apps/ocenaudio.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/ocenaudio.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/ocenaudio.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/36x36/apps/ocenaudio.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/ocenaudio.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/ocenaudio.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/72x72/apps/ocenaudio.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/96x96/apps/ocenaudio.png</Path>
+            <Path fileType="data">/usr/share/mime/packages/ocenaudio.xml</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="7">
+            <Date>2020-08-29</Date>
+            <Version>3.8.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

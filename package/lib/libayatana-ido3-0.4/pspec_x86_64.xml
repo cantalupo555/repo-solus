@@ -1,0 +1,36 @@
+<PISI>
+    <Source>
+        <Name>libayatana-ido3-0.4</Name>
+        <Homepage>https://github.com/AyatanaIndicators/ayatana-ido</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>xorg.library</PartOf>
+        <Summary xml:lang="en">Widgets and other objects used for Ayatana Indicators Shared library providing extra gtk menu items for display in system Ayatana Indicators.</Summary>
+        <Description xml:lang="en">Widgets and other objects used for Ayatana Indicators Shared library providing extra gtk menu items for display in system Ayatana Indicators.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>libayatana-ido3-0.4</Name>
+        <Summary xml:lang="en">Widgets and other objects used for Ayatana Indicators Shared library providing extra gtk menu items for display in system Ayatana Indicators.</Summary>
+        <Description xml:lang="en">Widgets and other objects used for Ayatana Indicators Shared library providing extra gtk menu items for display in system Ayatana Indicators.
+</Description>
+        <PartOf>xorg.library</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/libayatana-ido3-0.4.so.0</Path>
+            <Path fileType="library">/usr/lib/libayatana-ido3-0.4.so.0.0.0</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-05</Date>
+            <Version>1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

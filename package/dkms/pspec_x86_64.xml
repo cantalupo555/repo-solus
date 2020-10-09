@@ -1,0 +1,80 @@
+<PISI>
+    <Source>
+        <Name>dkms</Name>
+        <Homepage>http://linux.dell.com/dkms</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>system.utils</PartOf>
+        <Summary xml:lang="en">Dynamic Kernel Module Support Framework</Summary>
+        <Description xml:lang="en">DKMS is a framework designed to allow individual kernel modules to be upgraded without changing the whole kernel. It is also very easy to rebuild modules as you upgrade kernels.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>dkms</Name>
+        <Summary xml:lang="en">Dynamic Kernel Module Support Framework</Summary>
+        <Description xml:lang="en">DKMS is a framework designed to allow individual kernel modules to be upgraded without changing the whole kernel. It is also very easy to rebuild modules as you upgrade kernels.
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="config">/etc/dkms/framework.conf</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkbmdeb/Makefile</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkbmdeb/debian/README.Debian</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkbmdeb/debian/changelog</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkbmdeb/debian/compat</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkbmdeb/debian/control</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkbmdeb/debian/copyright</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkbmdeb/debian/rules</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkdeb/Makefile</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkdeb/debian/README.Debian</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkdeb/debian/changelog</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkdeb/debian/compat</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkdeb/debian/control</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkdeb/debian/copyright</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkdeb/debian/dirs</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkdeb/debian/postinst</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkdeb/debian/prerm</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkdeb/debian/rules</Path>
+            <Path fileType="config">/etc/dkms/template-dkms-mkdsc</Path>
+            <Path fileType="config">/etc/kernel/header_postinst.d/dkms</Path>
+            <Path fileType="config">/etc/kernel/postinst.d/dkms</Path>
+            <Path fileType="config">/etc/kernel/prerm.d/dkms</Path>
+            <Path fileType="config">/etc/modprobe.d/dkms.conf</Path>
+            <Path fileType="executable">/usr/bin/dh_dkms</Path>
+            <Path fileType="library">/usr/lib/dkms/common.postinst</Path>
+            <Path fileType="library">/usr/lib/dkms/dkms-autopkgtest</Path>
+            <Path fileType="library">/usr/lib/dkms/dkms_autoinstaller</Path>
+            <Path fileType="executable">/usr/sbin/dkms</Path>
+            <Path fileType="data">/usr/share/apport/package-hooks/dkms_packages.py</Path>
+            <Path fileType="data">/usr/share/bash-completion/completions/dkms</Path>
+            <Path fileType="data">/usr/share/debhelper/autoscripts/postinst-dkms</Path>
+            <Path fileType="data">/usr/share/debhelper/autoscripts/prerm-dkms</Path>
+            <Path fileType="doc">/usr/share/doc/dkms/AUTHORS</Path>
+            <Path fileType="doc">/usr/share/doc/dkms/HOWTO.Debian</Path>
+            <Path fileType="doc">/usr/share/doc/dkms/README.md.gz</Path>
+            <Path fileType="doc">/usr/share/doc/dkms/changelog.Debian.gz</Path>
+            <Path fileType="doc">/usr/share/doc/dkms/copyright</Path>
+            <Path fileType="doc">/usr/share/doc/dkms/examples/sample-suse-10-mkkmp.spec</Path>
+            <Path fileType="doc">/usr/share/doc/dkms/examples/sample-suse-9-mkkmp.spec</Path>
+            <Path fileType="doc">/usr/share/doc/dkms/examples/sample.conf</Path>
+            <Path fileType="doc">/usr/share/doc/dkms/examples/sample.spec</Path>
+            <Path fileType="data">/usr/share/lintian/overrides/dkms</Path>
+            <Path fileType="man">/usr/share/man/man1/dh_dkms.1.gz</Path>
+            <Path fileType="man">/usr/share/man/man8/dkms.8.gz</Path>
+            <Path fileType="data">/usr/share/perl5/Debian/Debhelper/Sequence/dkms.pm</Path>
+            <Path fileType="data">/var/lib/dkms/dkms_dbversion</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="3">
+            <Date>2020-05-09</Date>
+            <Version>2.8.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

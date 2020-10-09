@@ -1,0 +1,34 @@
+name       : rambox
+version    : 0.7.6
+release    : 3
+source     :
+    - https://github.com/ramboxapp/community-edition/releases/download/0.7.6/Rambox-0.7.6-linux-amd64.deb : 5406ce955af4e871f29a2190992780d4ff5564050f9e421021b816d19c2d34ed
+homepage   : https://rambox.pro
+license    : https://rambox.pro/#eula
+component  : system.utils
+summary    : Rambox
+description: |
+    Free and Open Source messaging and emailing app that combines common web applications into one.
+builddeps  :
+  - libgtk-3
+  - libnotify
+  - libnss
+  - libxtst
+  - xdg-utils
+  - libappindicator
+  - libsecret
+rundeps    :
+  - libgtk-3
+  - libnotify
+  - libnss
+  - libxtst
+  - xdg-utils
+  - libappindicator
+  - libsecret
+setup      : |
+    ar xf $sources/Rambox-${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R opt $installdir/opt/
+    cp -R usr $installdir/usr/

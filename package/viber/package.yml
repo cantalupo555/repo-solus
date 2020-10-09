@@ -1,0 +1,29 @@
+name       : viber
+version    : 13.3.1
+release    : 2
+source     :
+    - http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb : 1037a48d74caef33d123b166da2bfb1fe8fa67590b8669ecf25b314f41374267
+homepage   : https://www.viber.com
+license    : Custom
+strip      : no
+component  : network.im
+summary    : An instant messaging and VoIP app for various mobile operating systems.
+description: |
+    An instant messaging and VoIP app for various mobile operating systems.
+builddeps  :
+  - libxscrnsaver
+  - gconf
+  - binutils
+  - libglvnd
+rundeps    :
+  - libxscrnsaver
+  - gconf
+  - binutils
+  - libglvnd
+setup      : |
+    ar xf $sources/viber*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R opt $installdir/opt/
+    cp -R usr $installdir/usr/

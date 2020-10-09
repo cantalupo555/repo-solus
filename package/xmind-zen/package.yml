@@ -1,0 +1,35 @@
+name       : xmind-zen
+version    : 10.2.1
+release    : 3
+source     :
+    - https://www.xmind.net/xmind/downloads/XMind-2020-for-Linux-amd-64bit-10.2.1-202008051959.deb : 3d68dc776aff7d1fa56c8f1b1cf4400ac85d17858dc3764243ff99bfeb7787d5
+homepage   : https://www.xmind.net
+license    : © 2020 XMind Ltd.
+strip      : no
+component  : system.utils
+summary    : XMind
+description: |
+    XMind - The most popular mind mapping software.
+builddeps  :
+  - libgtk-3
+  - libnotify
+  - libnss
+  - libxtst
+  - xdg-utils
+  - libappindicator
+  - libsecret
+rundeps    :
+  - libgtk-3
+  - libnotify
+  - libnss
+  - libxtst
+  - xdg-utils
+  - libappindicator
+  - libsecret
+setup      : |
+    ar xf $sources/XMind-2020-for-Linux-amd-64bit-${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R opt $installdir/opt/
+    cp -R usr $installdir/usr/

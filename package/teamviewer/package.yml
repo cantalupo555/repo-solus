@@ -1,0 +1,82 @@
+name       : teamviewer
+version    : 15.10.5
+release    : 8
+source     :
+    - https://dl.teamviewer.com/download/linux/version_15x/teamviewer_15.10.5_amd64.deb : 2d7fb062cf124190b923e365ec2b6e8a6f6de506d356fadf8af20f30341d3ab9
+homepage   : http://www.teamviewer.com
+license    : https://www.teamviewer.com/en/eula/
+strip      : no
+component  : network.remote
+summary    : Remote control and meeting solution.
+description: |
+    TeamViewer provides easy, fast and secure remote access and meeting solutions to Linux, Windows PCs, Apple PCs and various other platforms, including Android and iPhone.
+builddeps  :
+  - alsa-lib
+  - dbus
+  - fontconfig
+  - freetype2
+  - harfbuzz
+  - libcap2
+  - libgcc
+  - libgcrypt
+  - libjpeg-turbo
+  - libpng12
+  - libsm
+  - libx11
+  - libxau
+  - libxdamage
+  - libxext
+  - libxfixes
+  - libxinerama
+  - libxrandr
+  - libxrender
+  - libxtst
+  - xz
+  - zlib
+  - qt5-webkit
+  - qt5-x11extras
+  - qt5-base
+  - qt5-declarative
+  - qt5-sensors
+  - qt5-multimedia
+  - qt5-webchannel
+  - qt5-quickcontrols
+rundeps    :
+  - alsa-lib
+  - dbus
+  - fontconfig
+  - freetype2
+  - harfbuzz
+  - libcap2
+  - libgcc
+  - libgcrypt
+  - libjpeg-turbo
+  - libpng12
+  - libsm
+  - libx11
+  - libxau
+  - libxdamage
+  - libxext
+  - libxfixes
+  - libxinerama
+  - libxrandr
+  - libxrender
+  - libxtst
+  - xz
+  - zlib
+  - qt5-webkit
+  - qt5-x11extras
+  - qt5-base
+  - qt5-declarative
+  - qt5-sensors
+  - qt5-multimedia
+  - qt5-webchannel
+  - qt5-quickcontrols
+setup      : |
+    ar xf $sources/teamviewer_${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $instaldir/usr
+    install -Dm00644 opt/teamviewer/tv_bin/script/teamviewerd.service $installdir/%libdir%/systemd/system/teamviewerd.service
+    cp -R opt $installdir/opt/
+    cp -R usr/{bin,share} $installdir/usr/

@@ -1,0 +1,24 @@
+name       : datagrip
+version    : 2020.1.4
+release    : 5
+source     :
+    - https://download.jetbrains.com/datagrip/datagrip-2020.1.4.tar.gz : 965c17beab74e58223b0e89719bb6518d19b0bc70536e07c6c116661e14b1142
+homepage   : https://www.jetbrains.com/datagrip/
+license    : GPL-2
+strip      : no
+component  : programming
+summary    : DataGrip
+description: |
+    DataGrip - an IDE for the SQL Language
+builddeps  :
+    - openjdk-8
+    - libglvnd
+rundeps    :
+    - openjdk-8
+    - libglvnd
+setup      : |
+    tar xf $sources/datagrip-${version}*
+install    : |
+    install -D -m 00644 $pkgfiles/datagrip.desktop $installdir/usr/share/applications/datagrip.desktop
+    mkdir -p $installdir/opt/datagrip
+    cp -R DataGrip*/* $installdir/opt/datagrip

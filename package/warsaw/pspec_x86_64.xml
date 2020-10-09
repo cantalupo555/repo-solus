@@ -1,0 +1,63 @@
+<PISI>
+    <Source>
+        <Name>warsaw</Name>
+        <Homepage>https://www.dieboldnixdorf.com.br</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>EULA</License>
+        <PartOf>security</PartOf>
+        <Summary xml:lang="en">warsaw</Summary>
+        <Description xml:lang="en">Package warsaw provides the needed software to use some banking services. The package warsaw will easily add the required software to let you use some of the internet banking services of popular financial organizations in South America. If you are unsure if you need this package please call your service desk and ask them for instructions.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>warsaw</Name>
+        <Summary xml:lang="en">warsaw</Summary>
+        <Description xml:lang="en">Package warsaw provides the needed software to use some banking services. The package warsaw will easily add the required software to let you use some of the internet banking services of popular financial organizations in South America. If you are unsure if you need this package please call your service desk and ask them for instructions.
+</Description>
+        <PartOf>security</PartOf>
+        <Files>
+            <Path fileType="config">/etc/init.d/warsaw</Path>
+            <Path fileType="config">/etc/init/warsaw.conf</Path>
+            <Path fileType="config">/etc/xdg/autostart/warsaw.desktop</Path>
+            <Path fileType="executable">/usr/bin/warsaw</Path>
+            <Path fileType="library">/usr/lib/systemd/system/warsaw.service</Path>
+            <Path fileType="library">/usr/lib/systemd/systemd-sysv-install</Path>
+            <Path fileType="data">/usr/local/bin/warsaw/core</Path>
+            <Path fileType="data">/usr/local/bin/warsaw/uninstall.sh</Path>
+            <Path fileType="data">/usr/local/bin/warsaw/wsatspi</Path>
+            <Path fileType="data">/usr/local/bin/warsaw/wsupdsl</Path>
+            <Path fileType="data">/usr/local/etc/warsaw/config.cfgc</Path>
+            <Path fileType="data">/usr/local/etc/warsaw/features.datc</Path>
+            <Path fileType="data">/usr/local/etc/warsaw/gas.dbd</Path>
+            <Path fileType="data">/usr/local/etc/warsaw/uninstall.dat</Path>
+            <Path fileType="data">/usr/local/lib/warsaw/wsbrmu.so</Path>
+            <Path fileType="data">/usr/local/lib/warsaw/wsftbco.so</Path>
+            <Path fileType="data">/usr/local/lib/warsaw/wsftbid.so</Path>
+            <Path fileType="data">/usr/local/lib/warsaw/wsftbmo.so</Path>
+            <Path fileType="data">/usr/local/lib/warsaw/wsftdl.so</Path>
+            <Path fileType="data">/usr/local/lib/warsaw/wsftui.so</Path>
+            <Path fileType="data">/usr/local/lib/warsaw/wsftup.so</Path>
+            <Path fileType="data">/usr/local/lib/warsaw/wslblsei.so</Path>
+            <Path fileType="data">/usr/local/lib/warsaw/wslbmid.so</Path>
+            <Path fileType="data">/usr/local/lib/warsaw/wslbuan.so</Path>
+            <Path fileType="data">/usr/local/share/fonts/truetype/dbldwrsw.ttf</Path>
+            <Path fileType="doc">/usr/share/doc/warsaw/changelog.Debian.gz</Path>
+            <Path fileType="doc">/usr/share/doc/warsaw/copyright</Path>
+            <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/warsaw.mo</Path>
+            <Path fileType="man">/usr/share/man/man1/warsaw.1.gz</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="3">
+            <Date>2020-05-08</Date>
+            <Version>1.14.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

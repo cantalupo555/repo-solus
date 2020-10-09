@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=RescueTime
+Comment=A service that provides the user with the knowledge of how they spend their time while on the computer.
+Exec=/usr/bin/rescuetime
+Terminal=false
+Categories=Application;Utility;
+Version=1.0
+Icon=/usr/share/rescuetime/rescuetime.png

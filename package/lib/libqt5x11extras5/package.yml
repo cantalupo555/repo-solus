@@ -1,0 +1,24 @@
+name       : libqt5x11extras5
+version    : 1
+release    : 1
+source     :
+    - http://mirrors.kernel.org/ubuntu/pool/universe/q/qtx11extras-opensource-src/libqt5x11extras5_5.12.8-0ubuntu1_amd64.deb : 31f78c3b3e386bb351728635de42f18459a94ebfd41607a061c313b4924dc36e
+homepage   : https://doc.qt.io/qt-5/qtx11extras-index.html
+license    : GPL-3.0
+component  : xorg.library
+summary    : Qt 5 X11 extras
+description: |
+    Qt is a cross-platform C++ application framework. Qt's primary feature is its rich set of widgets that provide standard GUI functionality.
+# https://packages.ubuntu.com/focal/amd64/libqt5x11extras5/download
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/libqt5x11extras5*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr/lib
+    cp -R usr/lib/x86_64-linux-gnu/libQt5X11Extras.so.5 $installdir/usr/lib
+    cp -R usr/lib/x86_64-linux-gnu/libQt5X11Extras.so.5.12 $installdir/usr/lib
+    cp -R usr/lib/x86_64-linux-gnu/libQt5X11Extras.so.5.12.8 $installdir/usr/lib

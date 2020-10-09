@@ -1,0 +1,36 @@
+<PISI>
+    <Source>
+        <Name>libc-ares2</Name>
+        <Homepage>http://c-ares.haxx.se/</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>xorg.library</PartOf>
+        <Summary xml:lang="en">c-ares</Summary>
+        <Description xml:lang="en">c-ares is a C library that performs DNS requests and name resolution asynchronously.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>libc-ares2</Name>
+        <Summary xml:lang="en">c-ares</Summary>
+        <Description xml:lang="en">c-ares is a C library that performs DNS requests and name resolution asynchronously.
+</Description>
+        <PartOf>xorg.library</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/libcares.so.2</Path>
+            <Path fileType="library">/usr/lib/libcares.so.2.2.0</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-16</Date>
+            <Version>1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

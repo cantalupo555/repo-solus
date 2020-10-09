@@ -1,0 +1,36 @@
+<PISI>
+    <Source>
+        <Name>libjsoncpp1</Name>
+        <Homepage>https://github.com/open-source-parsers/jsoncpp</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>xorg.library</PartOf>
+        <Summary xml:lang="en">Library for reading and writing JSON for C++ jsoncpp is an implementation of a JSON reader and writer in C++. JSON (JavaScript Object Notation) is a lightweight data-interchange format that it is easy to parse and redeable for human. It is useful for building config files, network communications protocols, etc.</Summary>
+        <Description xml:lang="en">Library for reading and writing JSON for C++ jsoncpp is an implementation of a JSON reader and writer in C++. JSON (JavaScript Object Notation) is a lightweight data-interchange format that it is easy to parse and redeable for human. It is useful for building config files, network communications protocols, etc.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>libjsoncpp1</Name>
+        <Summary xml:lang="en">Library for reading and writing JSON for C++ jsoncpp is an implementation of a JSON reader and writer in C++. JSON (JavaScript Object Notation) is a lightweight data-interchange format that it is easy to parse and redeable for human. It is useful for building config files, network communications protocols, etc.</Summary>
+        <Description xml:lang="en">Library for reading and writing JSON for C++ jsoncpp is an implementation of a JSON reader and writer in C++. JSON (JavaScript Object Notation) is a lightweight data-interchange format that it is easy to parse and redeable for human. It is useful for building config files, network communications protocols, etc.
+</Description>
+        <PartOf>xorg.library</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/libjsoncpp.so.1</Path>
+            <Path fileType="library">/usr/lib/libjsoncpp.so.1.7.4</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-05</Date>
+            <Version>1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

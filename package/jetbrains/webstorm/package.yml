@@ -1,0 +1,24 @@
+name       : webstorm
+version    : 2020.1.1
+release    : 3
+source     :
+    - https://download.jetbrains.com/webstorm/WebStorm-2020.1.1.tar.gz : 6f42ea183fd17668b8c57ae825afde1ac3757bde75a7700526fcf665c01ba434
+homepage   : https://www.jetbrains.com/webstorm/
+license    : GPL-2.0
+strip      : no
+component  : programming
+summary    : WebStorm
+description: |
+    WebStorm - an IDE for the Web
+builddeps  :
+    - openjdk-8
+    - libglvnd
+rundeps    :
+    - openjdk-8
+    - libglvnd
+setup      : |
+    tar xf $sources/WebStorm-${version}*
+install    : |
+    install -D -m 00644 $pkgfiles/webstorm.desktop $installdir/usr/share/applications/webstorm.desktop
+    mkdir -p $installdir/opt/webstorm
+    cp -R WebStorm*/* $installdir/opt/webstorm

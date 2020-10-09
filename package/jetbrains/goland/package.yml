@@ -1,0 +1,24 @@
+name       : goland
+version    : 2020.1.2
+release    : 4
+source     :
+    - https://download.jetbrains.com/go/goland-2020.1.2.tar.gz : db3b424ffcd613a91374d8c30fb0d9f3136010acfe94a1cbd39f3b92aa89db6c
+homepage   : https://www.jetbrains.com/go/
+license    : GPL-2.0
+strip      : no
+component  : programming
+summary    : Goland
+description: |
+    Goland - an IDE for the Go Language
+builddeps  :
+    - openjdk-8
+    - libglvnd
+rundeps    :
+    - openjdk-8
+    - libglvnd
+setup      : |
+    tar xf $sources/goland-${version}*
+install    : |
+    install -D -m 00644 $pkgfiles/goland.desktop $installdir/usr/share/applications/goland.desktop
+    mkdir -p $installdir/opt/goland
+    cp -R GoLand*/* $installdir/opt/goland

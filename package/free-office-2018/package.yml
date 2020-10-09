@@ -1,0 +1,42 @@
+name       : free-office-2018
+version    : 976
+release    : 3
+source     :
+    - https://www.softmaker.net/down/softmaker-freeoffice-2018_976-01_amd64.deb : 9623cbdd34c73b10d4503523ef0e900dff211547d72bd8fe12a6ca69e20f7261
+homepage   : https://www.softmaker.com/
+license    : Copyright © 2020 SoftMaker
+strip      : no
+component  : office
+summary    : FreeOffice 2018
+description: |
+    SoftMaker FreeOffice is a complete office suite.
+builddeps  :
+    - libnih
+    - libx11
+    - libxmu
+    - libxext
+    - libxrender
+    - libxrandr
+    - python-pycurl
+    - libstdc++
+    - libglu
+rundeps    :
+    - libnih
+    - libx11
+    - libxmu
+    - libxext
+    - libxrender
+    - libxrandr
+    - python-pycurl
+    - libstdc++
+    - libglu
+setup      : |
+    ar xf $sources/softmaker-freeoffice-2018_${version}-01_amd64.deb
+    tar xf data.tar.xz
+install    : |
+    mkdir -p $installdir/usr/bin
+    mkdir -p $installdir/usr/lib
+    mkdir -p $installdir/usr/share
+    cp -R usr/bin $installdir/usr/
+    cp -R usr/lib $installdir/usr/
+    cp -R usr/share/{applications,doc,freeoffice2018,lintian,mime,pixmaps} $installdir/usr/share/

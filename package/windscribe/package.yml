@@ -1,0 +1,35 @@
+name       : windscribe
+version    : 1.4
+release    : 1
+source     :
+    - https://assets.staticnetcontent.com/desktop/linux/windscribe-cli_1.4-51_amd64.deb : ee4b8a574445ae1e2f83e6ae0b3fec91272fcd798d4130717ff229583a82d473
+homepage   : https://windscribe.com/
+license    : © 2021 Windscribe Limited
+component  : network.clients
+summary    : Windscribe command line interface
+description: |
+    Windscribe command line interface
+builddeps  :
+  - procps-ng
+  - iproute2
+  - ipset
+  - iptables
+  - gawk
+  - openvpn
+rundeps    :
+  - procps-ng
+  - iproute2
+  - ipset
+  - iptables
+  - gawk
+  - openvpn
+setup      : |
+    ar xf $sources/windscribe-cli_${version}*
+    tar xf data.tar*
+install    : |
+    install -D -m 00644 $pkgfiles/windscribe-cli.service $installdir/%libdir%/systemd/system/windscribe-cli.service
+    mkdir -p $installdir
+    mkdir -p $installdir/usr
+    cp -R usr/{bin,share} $installdir/usr/
+    cp -R etc $installdir/etc/
+    mv $installdir/etc/init.d/windscribe-cli $installdir/etc/init.d/windscribe

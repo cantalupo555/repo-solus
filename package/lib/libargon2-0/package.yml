@@ -1,0 +1,22 @@
+name       : libargon2-0
+version    : 1
+release    : 1
+source     :
+    - http://ftp.us.debian.org/debian/pool/main/a/argon2/libargon2-0_0~20160821-1+b1_amd64.deb : 087079b9757711bd2d648eee5dbd2fee9290dc8f90ce751aea5df0f5bff6f5f1
+homepage   : https://github.com/P-H-C/phc-winner-argon2
+license    : GPL-3.0
+component  : xorg.library
+summary    : Argon2 is a password-hashing function that can be used to hash passwords for credential storage, key derivation, or other applications.
+description: |
+    Argon2 is a password-hashing function that can be used to hash passwords for credential storage, key derivation, or other applications.
+# https://packages.debian.org/stretch/amd64/libargon2-0/download
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/libargon2-0*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libargon2.so.0 $installdir/usr/lib

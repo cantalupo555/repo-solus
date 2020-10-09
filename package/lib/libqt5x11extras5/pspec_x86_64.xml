@@ -1,0 +1,37 @@
+<PISI>
+    <Source>
+        <Name>libqt5x11extras5</Name>
+        <Homepage>https://doc.qt.io/qt-5/qtx11extras-index.html</Homepage>
+        <Packager>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>xorg.library</PartOf>
+        <Summary xml:lang="en">Qt 5 X11 extras</Summary>
+        <Description xml:lang="en">Qt is a cross-platform C++ application framework. Qt&apos;s primary feature is its rich set of widgets that provide standard GUI functionality.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>libqt5x11extras5</Name>
+        <Summary xml:lang="en">Qt 5 X11 extras</Summary>
+        <Description xml:lang="en">Qt is a cross-platform C++ application framework. Qt&apos;s primary feature is its rich set of widgets that provide standard GUI functionality.
+</Description>
+        <PartOf>xorg.library</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/libQt5X11Extras.so.5</Path>
+            <Path fileType="library">/usr/lib/libQt5X11Extras.so.5.12</Path>
+            <Path fileType="library">/usr/lib/libQt5X11Extras.so.5.12.8</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-10-09</Date>
+            <Version>1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

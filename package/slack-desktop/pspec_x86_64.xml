@@ -1,0 +1,207 @@
+<PISI>
+    <Source>
+        <Name>slack-desktop</Name>
+        <Homepage>https://slack.com</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>© Copyright 2020 Slack Technologies, Inc.</License>
+        <PartOf>network.im</PartOf>
+        <Summary xml:lang="en">Slack Desktop</Summary>
+        <Description xml:lang="en">Slack Desktop
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>slack-desktop</Name>
+        <Summary xml:lang="en">Slack Desktop</Summary>
+        <Description xml:lang="en">Slack Desktop
+</Description>
+        <PartOf>network.im</PartOf>
+        <Files>
+            <Path fileType="config">/etc/cron.daily/slack</Path>
+            <Path fileType="executable">/usr/bin/slack</Path>
+            <Path fileType="library">/usr/lib/slack/LICENSE</Path>
+            <Path fileType="library">/usr/lib/slack/LICENSES-linux.json</Path>
+            <Path fileType="library">/usr/lib/slack/chrome-sandbox</Path>
+            <Path fileType="library">/usr/lib/slack/chrome_100_percent.pak</Path>
+            <Path fileType="library">/usr/lib/slack/chrome_200_percent.pak</Path>
+            <Path fileType="library">/usr/lib/slack/icudtl.dat</Path>
+            <Path fileType="library">/usr/lib/slack/libEGL.so</Path>
+            <Path fileType="library">/usr/lib/slack/libGLESv2.so</Path>
+            <Path fileType="library">/usr/lib/slack/libffmpeg.so</Path>
+            <Path fileType="library">/usr/lib/slack/locales/am.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/ar.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/bg.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/bn.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/ca.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/cs.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/da.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/de.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/el.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/en-GB.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/en-US.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/es-419.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/es.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/et.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/fa.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/fi.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/fil.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/fr.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/gu.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/he.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/hi.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/hr.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/hu.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/id.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/it.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/ja.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/kn.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/ko.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/lt.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/lv.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/ml.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/mr.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/ms.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/nb.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/nl.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/pl.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/pt-BR.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/pt-PT.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/ro.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/ru.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/sk.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/sl.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/sr.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/sv.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/sw.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/ta.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/te.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/th.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/tr.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/uk.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/vi.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/zh-CN.pak</Path>
+            <Path fileType="library">/usr/lib/slack/locales/zh-TW.pak</Path>
+            <Path fileType="library">/usr/lib/slack/natives_blob.bin</Path>
+            <Path fileType="library">/usr/lib/slack/resources.pak</Path>
+            <Path fileType="library">/usr/lib/slack/resources/animal_stick.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/app-beta.ico</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/app-release.ico</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/_metadata/verified_contents.json</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/build/background.js</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/build/contentScript.js</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/build/injectGlobalHook.js</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/build/main.js</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/build/panel.js</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/build/react_devtools_backend.js</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/build/renderer.js</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/128-deadcode.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/128-development.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/128-disabled.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/128-outdated.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/128-production.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/128-unminified.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/16-deadcode.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/16-development.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/16-disabled.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/16-outdated.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/16-production.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/16-unminified.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/32-deadcode.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/32-development.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/32-disabled.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/32-outdated.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/32-production.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/32-unminified.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/48-deadcode.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/48-development.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/48-disabled.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/48-outdated.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/48-production.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/48-unminified.png</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/deadcode.svg</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/development.svg</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/disabled.svg</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/outdated.svg</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/icons/production.svg</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/main.html</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/manifest.json</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/panel.html</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/popups/deadcode.html</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/popups/development.html</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/popups/disabled.html</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/popups/outdated.html</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/popups/production.html</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/popups/shared.js</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/extensions/react-devtools/popups/unminified.html</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/fonts/slack-icons-v2.woff2</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/fonts/woff2/NotoSansJP-Bold.min.woff2</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/fonts/woff2/NotoSansJP-Regular.min.woff2</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/fonts/woff2/lato-black.woff2</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/fonts/woff2/lato-bold.woff2</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/fonts/woff2/lato-italic-black.woff2</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/fonts/woff2/lato-italic-bold.woff2</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/fonts/woff2/lato-italic-light.woff2</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/fonts/woff2/lato-italic.woff2</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/fonts/woff2/lato-light.woff2</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/fonts/woff2/lato-regular.woff2</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/slack-taskbar-highlight.ico</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/slack-taskbar-rest.ico</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/dist/static/slack-taskbar-unread.ico</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.applicationmodel/build/Release/binding.node</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.data.xml.dom/build/Release/binding.node</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.foundation/build/Release/binding.node</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.ui.notifications/build/Release/binding.node</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/node_modules/@nodert-win10-au/windows.ui.startscreen/build/Release/binding.node</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/node_modules/macos-notification-state/build/Release/notificationstate.node</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/node_modules/native-keymap/build/Release/keymapping.node</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-active-process/build/Release/processname.node</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-focus-assist/build/Release/focus-assist.node</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-notification-state/build/Release/notificationstate.node</Path>
+            <Path fileType="library">/usr/lib/slack/resources/app.asar.unpacked/node_modules/windows-quiet-hours/build/Release/quiethours.node</Path>
+            <Path fileType="library">/usr/lib/slack/resources/b2.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/been_tree.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/calls_alert_v2.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/calls_confirmation_v2.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/calls_incoming_ring_v2.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/calls_outgoing_ring_v2.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/calls_pop_v2.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/calls_they_joined_call_v2.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/calls_they_left_call_v2.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/calls_you_joined_call_v2.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/calls_you_left_call_v2.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/complete_quest_requirement.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/confirm_delivery.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/flitterbug.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/here_you_go_lighter.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/hi_flowers_hit.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/hummus.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/item_pickup.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/knock_brush.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/resources/save_and_checkout.mp3</Path>
+            <Path fileType="library">/usr/lib/slack/slack</Path>
+            <Path fileType="library">/usr/lib/slack/snapshot_blob.bin</Path>
+            <Path fileType="library">/usr/lib/slack/swiftshader/libEGL.so</Path>
+            <Path fileType="library">/usr/lib/slack/swiftshader/libGLESv2.so</Path>
+            <Path fileType="library">/usr/lib/slack/swiftshader/libvk_swiftshader.so</Path>
+            <Path fileType="library">/usr/lib/slack/v8_context_snapshot.bin</Path>
+            <Path fileType="library">/usr/lib/slack/version</Path>
+            <Path fileType="data">/usr/share/applications/slack.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/slack-desktop/copyright</Path>
+            <Path fileType="data">/usr/share/lintian/overrides/slack</Path>
+            <Path fileType="data">/usr/share/pixmaps/slack.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="2">
+            <Date>2020-04-12</Date>
+            <Version>4.4.2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

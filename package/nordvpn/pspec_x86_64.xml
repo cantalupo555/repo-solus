@@ -1,0 +1,50 @@
+<PISI>
+    <Source>
+        <Name>nordvpn</Name>
+        <Homepage>https://nordvpn.com</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>Copyright © 2012–2020 NordVPN</License>
+        <PartOf>network.clients</PartOf>
+        <Summary xml:lang="en">NordVPN</Summary>
+        <Description xml:lang="en">Protect your privacy online and access media content with no regional restrictions. Strong encryption and no-log policy with 3000+ servers in 60+ countries.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>nordvpn</Name>
+        <Summary xml:lang="en">NordVPN</Summary>
+        <Description xml:lang="en">Protect your privacy online and access media content with no regional restrictions. Strong encryption and no-log policy with 3000+ servers in 60+ countries.
+</Description>
+        <PartOf>network.clients</PartOf>
+        <Files>
+            <Path fileType="config">/etc/init.d/nordvpn</Path>
+            <Path fileType="executable">/usr/bin/nordvpn</Path>
+            <Path fileType="library">/usr/lib64/systemd/system/nordvpnd.service</Path>
+            <Path fileType="library">/usr/lib64/systemd/system/nordvpnd.socket</Path>
+            <Path fileType="executable">/usr/sbin/nordvpnd</Path>
+            <Path fileType="data">/usr/share/bash-completion/completions/nordvpn</Path>
+            <Path fileType="doc">/usr/share/doc/nordvpn/changelog.gz</Path>
+            <Path fileType="man">/usr/share/man/man1/nordvpn.1.gz</Path>
+            <Path fileType="data">/usr/share/zsh/functions/Completion/Unix/_nordvpn_auto_complete</Path>
+            <Path fileType="data">/var/lib/nordvpn/data/cybersec.dat</Path>
+            <Path fileType="data">/var/lib/nordvpn/data/insights.dat</Path>
+            <Path fileType="data">/var/lib/nordvpn/data/ovpn_template.xslt</Path>
+            <Path fileType="data">/var/lib/nordvpn/data/ovpn_xor_template.xslt</Path>
+            <Path fileType="data">/var/lib/nordvpn/data/servers.dat</Path>
+            <Path fileType="data">/var/lib/nordvpn/icon.svg</Path>
+            <Path fileType="data">/var/lib/nordvpn/openvpn</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="5">
+            <Date>2020-07-13</Date>
+            <Version>3.6.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

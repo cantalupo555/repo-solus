@@ -1,0 +1,38 @@
+<PISI>
+    <Source>
+        <Name>rescuetime</Name>
+        <Homepage>https://www.rescuetime.com</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>EULA</License>
+        <PartOf>system.utils</PartOf>
+        <Summary xml:lang="en">RescueTime for Linux</Summary>
+        <Description xml:lang="en">A service that provides the user with the knowledge of how they spend their time while on the computer.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>rescuetime</Name>
+        <Summary xml:lang="en">RescueTime for Linux</Summary>
+        <Description xml:lang="en">A service that provides the user with the knowledge of how they spend their time while on the computer.
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/rescuetime</Path>
+            <Path fileType="data">/usr/share/applications/rescuetime.desktop</Path>
+            <Path fileType="data">/usr/share/rescuetime/curl-ca-bundle.crt</Path>
+            <Path fileType="data">/usr/share/rescuetime/rescuetime.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-07-24</Date>
+            <Version>2.16.0.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,25 @@
+name       : ocenaudio
+version    : 3.9.0
+release    : 8
+source     :
+    - https://www.ocenaudio.com/downloads/index.php/ocenaudio_debian64.deb : ddc0e5f5f5a0a76b71ddceb76f733f659e22e9a0d7738ba5a1613c0f5d52e640
+homepage   : https://www.ocenaudio.com/
+license    : Copyright © 2015 ocenaudio
+strip      : no
+component  : network.clients
+summary    : Ocenaudio
+description: |
+    Ocenaudio is a fast, cross-platform audio editor.
+builddeps  :
+  - gconf
+  - jack-audio-connection-kit
+rundeps    :
+  - gconf
+  - jack-audio-connection-kit
+setup      : |
+    ar xf $sources/ocenaudio*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R usr $installdir/usr/
+    cp -R opt $installdir/opt/

@@ -1,0 +1,22 @@
+name       : libnatpmp1
+version    : 1
+release    : 1
+source     :
+    - http://ftp.us.debian.org/debian/pool/main/libn/libnatpmp/libnatpmp1_20110808-4+b1_amd64.deb : 99ef2e7c334d153adb21f0c2e31341703cea8e02758e12a0a0c05e4b8fdeadb2
+homepage   : http://miniupnp.free.fr/
+license    : GPL-3.0
+component  : xorg.library
+summary    : Portable and fully compliant implementation of NAT-PMP NAT-PMP is the direct concurrent to the UPnP IGD specification.
+description: |
+    Portable and fully compliant implementation of NAT-PMP NAT-PMP is the direct concurrent to the UPnP IGD specification.
+# https://packages.debian.org/stretch/amd64/libnatpmp1/download
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/libnatpmp1*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libnatpmp.so.1 $installdir/usr/lib

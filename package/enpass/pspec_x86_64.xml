@@ -1,0 +1,60 @@
+<PISI>
+    <Source>
+        <Name>enpass</Name>
+        <Homepage>https://enpass.io</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>Custom</License>
+        <PartOf>security</PartOf>
+        <Summary xml:lang="en">A multiplatform password manager</Summary>
+        <Description xml:lang="en">A multiplatform password manager
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>enpass</Name>
+        <Summary xml:lang="en">A multiplatform password manager</Summary>
+        <Description xml:lang="en">A multiplatform password manager
+</Description>
+        <PartOf>security</PartOf>
+        <Files>
+            <Path fileType="data">/opt/enpass/Enpass</Path>
+            <Path fileType="data">/opt/enpass/importer_enpass</Path>
+            <Path fileType="data">/opt/enpass/qt.conf</Path>
+            <Path fileType="data">/usr/share/applications/enpass.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/enpass/changelog.gz</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/enpass.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/enpass.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/status/enpass-status-dark.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/status/enpass-status.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/status/enpass-status-dark.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/status/enpass-status.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/enpass.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/status/enpass-status-dark.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/status/enpass-status.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/enpass.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/enpass.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/status/enpass-status-dark.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/status/enpass-status.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/44x44/status/enpass-status-dark.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/44x44/status/enpass-status.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/enpass.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/status/enpass-status-dark.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/status/enpass-status.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/enpass.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/96x96/apps/enpass.png</Path>
+            <Path fileType="data">/usr/share/mime/packages/application-enpass.xml</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="2">
+            <Date>2020-04-19</Date>
+            <Version>6.4.1.643</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

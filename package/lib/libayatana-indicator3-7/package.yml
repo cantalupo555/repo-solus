@@ -1,0 +1,23 @@
+name       : libayatana-indicator3-7
+version    : 1
+release    : 1
+source     :
+    - http://ftp.us.debian.org/debian/pool/main/liba/libayatana-indicator/libayatana-indicator3-7_0.6.2-3~bpo9+1_amd64.deb : f0675a93349a724cc8d1de58a9888cc32e7605594808055c7b47e404d6dc99ca
+homepage   : https://github.com/AyatanaIndicators/libayatana-indicator
+license    : GPL-3.0
+component  : xorg.library
+summary    : Panel indicator applet - shared library (GTK-3+ variant) The Ayatana Indicators library contains information to build indicators to go into modern desktops' indicator applets.
+description: |
+    Panel indicator applet - shared library (GTK-3+ variant) The Ayatana Indicators library contains information to build indicators to go into modern desktops' indicator applets.
+# https://packages.debian.org/stretch-backports/amd64/libayatana-indicator3-7/download
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/libayatana-indicator3-7*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libayatana-indicator3.so.7 $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libayatana-indicator3.so.7.0.0 $installdir/usr/lib

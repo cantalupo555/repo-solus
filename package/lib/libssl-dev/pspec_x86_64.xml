@@ -1,0 +1,38 @@
+<PISI>
+    <Source>
+        <Name>libssl</Name>
+        <Homepage>https://www.openssl.org/</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>programming.devel</PartOf>
+        <Summary xml:lang="en">Secure Sockets Layer toolkit - development files. This package is part of the OpenSSL project&apos;s implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.</Summary>
+        <Description xml:lang="en">Secure Sockets Layer toolkit - development files. This package is part of the OpenSSL project&apos;s implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>libssl-devel</Name>
+        <Summary xml:lang="en">Development files for libssl</Summary>
+        <Description xml:lang="en">Secure Sockets Layer toolkit - development files. This package is part of the OpenSSL project&apos;s implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/libcrypto.a</Path>
+            <Path fileType="library">/usr/lib/libcrypto.so</Path>
+            <Path fileType="library">/usr/lib/libssl.a</Path>
+            <Path fileType="library">/usr/lib/libssl.so</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-09-26</Date>
+            <Version>1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

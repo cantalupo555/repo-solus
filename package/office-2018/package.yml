@@ -1,0 +1,42 @@
+name       : office-2018
+version    : 976
+release    : 3
+source     :
+    - https://www.softmaker.net/down/softmaker-office-2018_976-01_amd64.deb : 91685841e690d76be53110b0f619cf4ece40843da32d21bea15f793147fee5b5
+homepage   : https://www.softmaker.com/
+license    : Copyright © 2020 SoftMaker
+strip      : no
+component  : office
+summary    : Office 2018
+description: |
+    SoftMaker Office is a complete office suite.
+builddeps  :
+    - libnih
+    - libx11
+    - libxmu
+    - libxext
+    - libxrender
+    - libxrandr
+    - python-pycurl
+    - libstdc++
+    - libglu
+rundeps    :
+    - libnih
+    - libx11
+    - libxmu
+    - libxext
+    - libxrender
+    - libxrandr
+    - python-pycurl
+    - libstdc++
+    - libglu
+setup      : |
+    ar xf $sources/softmaker-office-2018_${version}-01_amd64.deb
+    tar xf data.tar.xz
+install    : |
+    mkdir -p $installdir/usr/bin
+    mkdir -p $installdir/usr/lib
+    mkdir -p $installdir/usr/share
+    cp -R usr/bin $installdir/usr/
+    cp -R usr/lib $installdir/usr/
+    cp -R usr/share/{applications,doc,office2018,lintian,mime,pixmaps} $installdir/usr/share/

@@ -1,0 +1,40 @@
+<PISI>
+    <Source>
+        <Name>windscribe</Name>
+        <Homepage>https://windscribe.com/</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>© 2021 Windscribe Limited</License>
+        <PartOf>network.clients</PartOf>
+        <Summary xml:lang="en">Windscribe command line interface</Summary>
+        <Description xml:lang="en">Windscribe command line interface
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>windscribe</Name>
+        <Summary xml:lang="en">Windscribe command line interface</Summary>
+        <Description xml:lang="en">Windscribe command line interface
+</Description>
+        <PartOf>network.clients</PartOf>
+        <Files>
+            <Path fileType="config">/etc/bash_completion.d/windscribe_complete</Path>
+            <Path fileType="config">/etc/init.d/windscribe</Path>
+            <Path fileType="executable">/usr/bin/windscribe</Path>
+            <Path fileType="library">/usr/lib64/systemd/system/windscribe-cli.service</Path>
+            <Path fileType="doc">/usr/share/doc/windscribe-cli/changelog.Debian.gz</Path>
+            <Path fileType="doc">/usr/share/doc/windscribe-cli/copyright</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-04</Date>
+            <Version>1.4</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

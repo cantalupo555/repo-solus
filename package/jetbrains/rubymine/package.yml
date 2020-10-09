@@ -1,0 +1,24 @@
+name       : rubymine
+version    : 2020.1.1
+release    : 3
+source     :
+    - https://download.jetbrains.com/ruby/RubyMine-2020.1.1.tar.gz : e8e50981d09e01580fe429885992144e4213d4733e36783a0613ccd6851d1d76
+homepage   : https://www.jetbrains.com/rubymine/
+license    : GPL-2.0
+strip      : no
+component  : programming
+summary    : RubyMine
+description: |
+    RubyMine - an IDE for the Ruby Language
+builddeps  :
+    - openjdk-8
+    - libglvnd
+rundeps    :
+    - openjdk-8
+    - libglvnd
+setup      : |
+    tar xf $sources/RubyMine-${version}*
+install    : |
+    install -D -m 00644 $pkgfiles/rubymine.desktop $installdir/usr/share/applications/rubymine.desktop
+    mkdir -p $installdir/opt/rubymine
+    cp -R RubyMine*/* $installdir/opt/rubymine

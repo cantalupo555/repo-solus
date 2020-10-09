@@ -1,0 +1,55 @@
+<PISI>
+    <Source>
+        <Name>ibus-avro</Name>
+        <Homepage>https://github.com/sarim/ibus-avro</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>MPL-1.1</License>
+        <PartOf>system.utils</PartOf>
+        <Summary xml:lang="en">Avro phonetic implementation for Linux in IBus.</Summary>
+        <Description xml:lang="en">IBus engine for Avro Phonetic ibus-avro is a port of the popular Avro Phonetic Bangla typing method to Linux. This software works as an Engine (plugin) of IBus and lets users type in English and on-the-fly transliterate them phonetically to Bangla.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ibus-avro</Name>
+        <Summary xml:lang="en">Avro phonetic implementation for Linux in IBus.</Summary>
+        <Description xml:lang="en">IBus engine for Avro Phonetic ibus-avro is a port of the popular Avro Phonetic Bangla typing method to Linux. This software works as an Engine (plugin) of IBus and lets users type in English and on-the-fly transliterate them phonetically to Bangla.
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/applications/ibus-setup-ibus-avro.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/ibus-avro/changelog.Debian.gz</Path>
+            <Path fileType="doc">/usr/share/doc/ibus-avro/copyright</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/com.omicronlab.avro.gschema.xml</Path>
+            <Path fileType="data">/usr/share/ibus-avro/autocorrect.js</Path>
+            <Path fileType="data">/usr/share/ibus-avro/avro-bangla.png</Path>
+            <Path fileType="data">/usr/share/ibus-avro/avrodict.js</Path>
+            <Path fileType="data">/usr/share/ibus-avro/avrolib.js</Path>
+            <Path fileType="data">/usr/share/ibus-avro/avropref.ui</Path>
+            <Path fileType="data">/usr/share/ibus-avro/avroregexlib.js</Path>
+            <Path fileType="data">/usr/share/ibus-avro/dbsearch.js</Path>
+            <Path fileType="data">/usr/share/ibus-avro/evars.js</Path>
+            <Path fileType="data">/usr/share/ibus-avro/levenshtein.js</Path>
+            <Path fileType="data">/usr/share/ibus-avro/main-gjs.js</Path>
+            <Path fileType="data">/usr/share/ibus-avro/pref.js</Path>
+            <Path fileType="data">/usr/share/ibus-avro/suffixdict.js</Path>
+            <Path fileType="data">/usr/share/ibus-avro/suggestionbuilder.js</Path>
+            <Path fileType="data">/usr/share/ibus-avro/utf8.js</Path>
+            <Path fileType="data">/usr/share/ibus/component/ibus-avro.xml</Path>
+            <Path fileType="data">/usr/share/lintian/overrides/ibus-avro</Path>
+            <Path fileType="data">/usr/share/metainfo/com.github.sarim.ibus.avro.metainfo.xml</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-07-24</Date>
+            <Version>1.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

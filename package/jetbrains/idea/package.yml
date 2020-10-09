@@ -1,0 +1,24 @@
+name       : idea
+version    : 2020.1.1
+release    : 5
+source     :
+    - https://download.jetbrains.com/idea/ideaIU-2020.1.1.tar.gz : ca485decf8b91549a1c8e20309a7a7b6a7e032ff96e10fde2ff5dbae9e0108e3
+homepage   : https://www.jetbrains.com/idea/
+license    : GPL-2.0
+strip      : no
+component  : programming
+summary    : Idea
+description: |
+    Idea - an IDE for the JVM Languages
+builddeps  :
+    - openjdk-8
+    - libglvnd
+rundeps    :
+    - openjdk-8
+    - libglvnd
+setup      : |
+    tar xf $sources/ideaIU-${version}*
+install    : |
+    install -D -m 00644 $pkgfiles/idea.desktop $installdir/usr/share/applications/idea.desktop
+    mkdir -p $installdir/opt/idea
+    cp -R idea*/* $installdir/opt/idea

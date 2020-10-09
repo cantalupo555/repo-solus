@@ -1,0 +1,22 @@
+name       : speedtest
+version    : 1.0.0
+release    : 1
+source     :
+    - http://localhost/ookla-speedtest-1.0.0-x86_64-linux.deb : 177f00849d8a22ab593860d6245c8bfe72cad12a19ab8f3edb382b440dd86d8f
+homepage   : https://www.speedtest.net/apps/cli
+license    : https://www.speedtest.net/about/eula
+strip      : no
+component  : network.util
+summary    : Speedtest
+description: |
+    Official Ookla Speedtest CLI for personal, non-commercial use.
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/ookla-speedtest-${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R usr $installdir/usr/

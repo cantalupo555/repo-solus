@@ -1,0 +1,153 @@
+<PISI>
+    <Source>
+        <Name>stacer</Name>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>system.utils</PartOf>
+        <Summary xml:lang="en">Stacer</Summary>
+        <Description xml:lang="en">Linux System Optimizer and Monitoring.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>stacer</Name>
+        <Summary xml:lang="en">Stacer</Summary>
+        <Description xml:lang="en">Linux System Optimizer and Monitoring.
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/stacer</Path>
+            <Path fileType="data">/usr/share/applications/stacer.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/stacer/changelog.Debian.gz</Path>
+            <Path fileType="doc">/usr/share/doc/stacer/copyright</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/stacer.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/stacer.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/stacer.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/stacer.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/stacer.png</Path>
+            <Path fileType="data">/usr/share/stacer/AppRun</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libQt5Charts.so.5</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libQt5Core.so.5</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libQt5DBus.so.5</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libQt5Gui.so.5</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libQt5Network.so.5</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libQt5Svg.so.5</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libQt5Widgets.so.5</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libQt5XcbQpa.so.5</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libX11-xcb.so.1</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libXau.so.6</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libXcomposite.so.1</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libXcursor.so.1</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libXdamage.so.1</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libXdmcp.so.6</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libXext.so.6</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libXfixes.so.3</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libXi.so.6</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libXinerama.so.1</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libXrandr.so.2</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libXrender.so.1</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libatk-1.0.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libcairo.so.2</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libdatrie.so.1</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libdbus-1.so.3</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libffi.so.6</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libgcrypt.so.20</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libgdk-x11-2.0.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libgmodule-2.0.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libgraphite2.so.3</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libgtk-x11-2.0.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libicudata.so.55</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libicui18n.so.55</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libicuuc.so.55</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libjasper.so.1</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libjbig.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libjpeg.so.8</Path>
+            <Path fileType="data">/usr/share/stacer/lib/liblcms2.so.2</Path>
+            <Path fileType="data">/usr/share/stacer/lib/liblzma.so.5</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libmng.so.2</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libpcre.so.3</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libpixman-1.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libpng12.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libselinux.so.1</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libstacer-core.a</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libsystemd.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libtiff.so.5</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libwebp.so.5</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libwebpdemux.so.1</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxcb-glx.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxcb-icccm.so.4</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxcb-image.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxcb-keysyms.so.1</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxcb-randr.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxcb-render-util.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxcb-render.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxcb-shape.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxcb-shm.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxcb-sync.so.1</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxcb-util.so.1</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxcb-xfixes.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxcb-xinerama.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxcb-xkb.so.1</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxkbcommon-x11.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/lib/libxkbcommon.so.0</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/bearer/libqconnmanbearer.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/bearer/libqgenericbearer.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/bearer/libqnmbearer.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/iconengines/libqsvgicon.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/imageformats/libqgif.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/imageformats/libqicns.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/imageformats/libqico.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/imageformats/libqjp2.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/imageformats/libqjpeg.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/imageformats/libqmng.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/imageformats/libqsvg.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/imageformats/libqtga.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/imageformats/libqtiff.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/imageformats/libqwbmp.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/imageformats/libqwebp.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/platforms/libqxcb.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/platformthemes/libqgtk2.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/styles/libqgtk2style.so</Path>
+            <Path fileType="data">/usr/share/stacer/plugins/xcbglintegrations/libqxcb-glx-integration.so</Path>
+            <Path fileType="data">/usr/share/stacer/qt.conf</Path>
+            <Path fileType="data">/usr/share/stacer/stacer</Path>
+            <Path fileType="data">/usr/share/stacer/stacer.desktop</Path>
+            <Path fileType="data">/usr/share/stacer/stacer.png</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_ar.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_ca-es.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_de.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_en.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_es.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_fr.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_hi.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_it.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_kn.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_ml.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_nl.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_oc.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_pl.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_pt.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_ru.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_sv.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_tr.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_ua.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_vn.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_zh-cn.qm</Path>
+            <Path fileType="data">/usr/share/stacer/translations/stacer_zh-tw.qm</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-02-11</Date>
+            <Version>1.1.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,33 @@
+name       : slack-desktop
+version    : 4.9.1
+release    : 3
+source     :
+    - https://downloads.slack-edge.com/linux_releases/slack-desktop-4.9.1-amd64.deb : 919c7da48f52ffa41699cc24adbde2a6d5b98887471c53d11ac1594677c90bd9
+homepage   : https://slack.com
+license    : © Copyright 2020 Slack Technologies, Inc.
+strip      : no
+component  : network.im
+summary    : Slack Desktop
+description: |
+    Slack Desktop
+builddeps  :
+    - gconf
+    - gvfs
+    - hunspell-en
+    - libgnome-keyring
+    - libgtk-2
+    - libxscrnsaver
+rundeps    :
+    - gconf
+    - gvfs
+    - hunspell-en
+    - libgnome-keyring
+    - libgtk-2
+    - libxscrnsaver
+setup      : |
+    ar xf $sources/slack-desktop-${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr/
+    cp -R etc $installdir/etc/
+    cp -R usr/{bin,lib,share} $installdir/usr/

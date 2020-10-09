@@ -1,0 +1,62 @@
+name        : jellyfin-server
+version     : 10.6.3
+release     : 1
+source      :
+  - git|https://github.com/jellyfin/jellyfin : v10.6.3
+homepage    : https://jellyfin.org/
+license     : GPL-3.0-or-later
+component   : desktop.multimedia
+summary     : Jellyfin
+description : |
+  Jellyfin is the Free Software Media System.
+networking  : yes
+builddeps   :
+  - pkgconfig(librsvg-2.0)
+  - pkgconfig(openssl)
+  - pkgconfig(Qt5Core)
+  - pkgconfig(Qt5WebEngine)
+  - pkgconfig(mpv)
+  - gcc
+  - g++
+  - glibc-devel
+  - binutils
+  - libtool-devel
+  - linux-headers
+  - nodejs
+  - wget
+  - make
+  - zlib-minizip
+  - kirigami2
+  - qt5-quickcontrols
+  - qt5-quickcontrols2
+  - qt5-declarative 
+  - qt5-location
+  - qt5-webchannel
+  - qt5-webengine
+  - qt5-graphicaleffects
+  - libraw
+rundeps     :
+  - gcc
+  - g++
+  - glibc-devel
+  - binutils
+  - libtool-devel
+  - linux-headers
+  - nodejs
+  - wget
+  - make
+  - zlib-minizip
+  - kirigami2
+  - qt5-quickcontrols
+  - qt5-quickcontrols2
+  - qt5-declarative 
+  - qt5-location
+  - qt5-webchannel
+  - qt5-webengine
+  - qt5-graphicaleffects
+  - libraw
+build         : |
+  export DOTNET_CLI_TELEMETRY_OPTOUT=1
+  dotnet build --configuration Release Jellyfin.Server
+install       : |
+  ls

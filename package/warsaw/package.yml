@@ -1,0 +1,44 @@
+name       : warsaw
+version    : 1.14.1
+release    : 3
+source     :
+    - https://cloud.gastecnologia.com.br/bb/downloads/ws/warsaw_setup64.deb : 729a5ca9c84a09816b7c03be89bfe6fa0706ae020c79dee04064959cc032740f
+homepage   : https://www.dieboldnixdorf.com.br
+license    : EULA
+strip      : no
+component  : security
+summary    : warsaw
+description: |
+    Package warsaw provides the needed software to use some banking services. The package warsaw will easily add the required software to let you use some of the internet banking services of popular financial organizations in South America. If you are unsure if you need this package please call your service desk and ask them for instructions.
+builddeps  :
+  - libdbusmenu
+  - libdbusmenu-qt
+  - procps-ng
+  - zenity
+  - libgtk-2
+  - libnss
+  - libxi
+  - libgcc
+  - libstdc++
+  - libx11
+rundeps    :
+  - libdbusmenu
+  - libdbusmenu-qt
+  - procps-ng
+  - zenity
+  - libgtk-2
+  - libnss
+  - libxi
+  - libgcc
+  - libstdc++
+  - libx11
+setup      : |
+    ar xf $sources/warsaw_setup64.deb
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr
+    mkdir -p $installdir/usr/lib/systemd/
+    install -Dm00775 $pkgfiles/systemd-sysv-install $installdir/usr/lib/systemd/systemd-sysv-install
+    install -Dm00644 lib/systemd/system/warsaw.service $installdir/usr/lib/systemd/system/warsaw.service
+    cp -R etc $installdir/etc/
+    cp -R usr/{bin,local,share} $installdir/usr/

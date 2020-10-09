@@ -1,0 +1,26 @@
+name       : sublime-text-3
+version    : 3211
+release    : 2
+source     :
+    - https://download.sublimetext.com/sublime-text_build-3211_amd64.deb : 8b2c6dc1178b1f0aa861e76b21719747c1587482c014e12db10ca4424b539c34
+homepage   : https://www.sublimetext.com/
+license    : Proprietary
+component  : programming
+summary    : Sublime Text
+description: |
+    Sublime Text is a sophisticated text editor for code, markup and prose.
+builddeps  :
+    - libxscrnsaver
+    - gconf
+    - binutils
+rundeps    :
+    - libxscrnsaver
+    - gconf
+    - binutils
+setup      : |
+    ar xf $sources/sublime-text_build-${version}_amd64.deb
+    tar xf data.tar.xz
+install    : |
+    mkdir -p $installdir/usr
+    cp -R opt $installdir/opt/
+    cp -R usr/{bin,share} $installdir/usr/

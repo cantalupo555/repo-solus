@@ -1,0 +1,35 @@
+name       : breaktimer
+version    : 0.7.5
+release    : 8
+source     :
+    - https://github.com/tom-james-watson/breaktimer-app/releases/download/v0.7.5/BreakTimer.deb : bf53c5f67393507a4bf522ffe3a9545be33e778703bf7e9c9d745dc9a382cb1b
+homepage   : https://breaktimer.app/
+license    : GPL-3.0-or-later
+strip      : no
+component  : system.utils
+summary    : BreakTimer
+description: |
+    Manage periodic breaks.
+builddeps  :
+    - libgtk-3
+    - libnotify
+    - libnss
+    - libxtst
+    - xdg-utils
+    - libappindicator
+    - libsecret
+rundeps    :
+    - libgtk-3
+    - libnotify
+    - libnss
+    - libxtst
+    - xdg-utils
+    - libappindicator
+    - libsecret
+setup      : |
+    ar xf $sources/BreakTimer.deb
+    tar xf data.tar.xz
+install    : |
+    mkdir -p $installdir
+    cp -R opt $installdir/opt/
+    cp -R usr $installdir/usr/

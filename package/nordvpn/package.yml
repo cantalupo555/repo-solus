@@ -1,0 +1,35 @@
+name       : nordvpn
+version    : 3.6.1
+release    : 5
+source     :
+    - https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn_3.6.1-1_amd64.deb : 52bcea0a60920838246bf28f464a0c5cb20c19405288f0f117cbcfbefe3b515f
+homepage   : https://nordvpn.com
+license    : Copyright © 2012–2020 NordVPN
+strip      : no
+component  : network.clients
+summary    : NordVPN
+description: |
+    Protect your privacy online and access media content with no regional restrictions. Strong encryption and no-log policy with 3000+ servers in 60+ countries.
+builddeps  :
+  - procps-ng
+  - iproute2
+  - ipset
+  - iptables
+  - gawk
+rundeps    :
+  - procps-ng
+  - iproute2
+  - ipset
+  - iptables
+  - gawk
+setup      : |
+    ar xf $sources/nordvpn_${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    mkdir -p $installdir/usr
+    install -Dm00644 usr/lib/systemd/system/nordvpnd.service $installdir/%libdir%/systemd/system/nordvpnd.service
+    install -Dm00644 usr/lib/systemd/system/nordvpnd.socket $installdir/%libdir%/systemd/system/nordvpnd.socket
+    cp -R usr/{bin,sbin,share} $installdir/usr/
+    cp -R etc $installdir/etc/
+    cp -R var $installdir/var/

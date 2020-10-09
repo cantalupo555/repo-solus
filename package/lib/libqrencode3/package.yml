@@ -1,0 +1,23 @@
+name       : libqrencode3
+version    : 1
+release    : 1
+source     :
+    - http://ftp.us.debian.org/debian/pool/main/q/qrencode/libqrencode3_3.4.3-1_amd64.deb : 207012dbabcbf1237f9b22f48b994c19eed3f3adce261667c09e53d982bd3c37
+homepage   : http://megaui.net/fukuchi/works/qrencode/index.en.html
+license    : GPL-3.0
+component  : xorg.library
+summary    : QR Code encoding library Libqrencode is a library for encoding data in a QR Code symbol, a kind of 2D symbology that can be scanned by handy terminals such as a mobile phone with CCD. The capacity of QR Code is up to 7000 digits or 4000 characters, and has high robustness.
+description: |
+    QR Code encoding library Libqrencode is a library for encoding data in a QR Code symbol, a kind of 2D symbology that can be scanned by handy terminals such as a mobile phone with CCD. The capacity of QR Code is up to 7000 digits or 4000 characters, and has high robustness.
+# https://packages.debian.org/jessie/amd64/libqrencode3/download
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/libqrencode3*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libqrencode.so.3 $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libqrencode.so.3.4.3 $installdir/usr/lib

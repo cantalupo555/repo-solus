@@ -1,0 +1,24 @@
+name       : clion
+version    : 2020.1.1
+release    : 3
+source     :
+    - https://download.jetbrains.com/cpp/CLion-2020.1.1.tar.gz : b476b1217d3e9d7bd7af655748c215e04d3350c0f9e3fefc7a3af76967856604
+homepage   : https://www.jetbrains.com/clion/
+license    : GPL-2.0
+strip      : no
+component  : programming
+summary    : CLion
+description: |
+    CLion - an IDE for the C Language
+builddeps  :
+    - openjdk-8
+    - libglvnd
+rundeps    :
+    - openjdk-8
+    - libglvnd
+setup      : |
+    tar xf $sources/CLion-${version}*
+install    : |
+    install -D -m 00644 $pkgfiles/clion.desktop $installdir/usr/share/applications/clion.desktop
+    mkdir -p $installdir/opt/clion
+    cp -R clion*/* $installdir/opt/clion

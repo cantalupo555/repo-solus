@@ -1,0 +1,24 @@
+name       : pycharm
+version    : 2020.1.1
+release    : 3
+source     :
+    - https://download.jetbrains.com/python/pycharm-professional-2020.1.1.tar.gz : 440c6b6a65329b50c4357cb6295af34f8001a946911fce07226faf68b13a09d3
+homepage   : https://www.jetbrains.com/pycharm/
+license    : GPL-2.0
+strip      : no
+component  : programming
+summary    : PyCharm
+description: |
+    PyCharm - an IDE for the Python Language
+builddeps  :
+    - openjdk-8
+    - libglvnd
+rundeps    :
+    - openjdk-8
+    - libglvnd
+setup      : |
+    tar xf $sources/pycharm-professional-${version}*
+install    : |
+    install -D -m 00644 $pkgfiles/pycharm.desktop $installdir/usr/share/applications/pycharm.desktop
+    mkdir -p $installdir/opt/pycharm
+    cp -R pycharm*/* $installdir/opt/pycharm

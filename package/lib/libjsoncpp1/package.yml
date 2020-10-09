@@ -1,0 +1,23 @@
+name       : libjsoncpp1
+version    : 1
+release    : 1
+source     :
+    - http://ftp.us.debian.org/debian/pool/main/libj/libjsoncpp/libjsoncpp1_1.7.4-3.1_amd64.deb : 2f8a000aa12ac4e6d73eeb4aa16608039dff9cde26616d5e9fb65d4c9294b0f3
+homepage   : https://github.com/open-source-parsers/jsoncpp
+license    : GPL-3.0
+component  : xorg.library
+summary    : Library for reading and writing JSON for C++ jsoncpp is an implementation of a JSON reader and writer in C++. JSON (JavaScript Object Notation) is a lightweight data-interchange format that it is easy to parse and redeable for human. It is useful for building config files, network communications protocols, etc.
+description: |
+    Library for reading and writing JSON for C++ jsoncpp is an implementation of a JSON reader and writer in C++. JSON (JavaScript Object Notation) is a lightweight data-interchange format that it is easy to parse and redeable for human. It is useful for building config files, network communications protocols, etc.
+# https://packages.debian.org/sid/amd64/libjsoncpp1/download
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/libjsoncpp1*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libjsoncpp.so.1 $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.7.4 $installdir/usr/lib

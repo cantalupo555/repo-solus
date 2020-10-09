@@ -1,0 +1,24 @@
+name       : phpstorm
+version    : 2020.1.1
+release    : 3
+source     :
+    - https://download.jetbrains.com/webide/PhpStorm-2020.1.1.tar.gz : bce141cccd847d2d6cf030ba82f65b842fb0a717ab034f2fc49fa5f6d9a2ec99
+homepage   : https://www.jetbrains.com/phpstorm/
+license    : GPL-2.0
+strip      : no
+component  : programming
+summary    : PHPStorm
+description: |
+    PHPStorm - an IDE for the PHP Language
+builddeps  :
+    - openjdk-8
+    - libglvnd
+rundeps    :
+    - openjdk-8
+    - libglvnd
+setup      : |
+    tar xf $sources/PhpStorm-${version}*
+install    : |
+    install -D -m 00644 $pkgfiles/phpstorm.desktop $installdir/usr/share/applications/phpstorm.desktop
+    mkdir -p $installdir/opt/phpstorm
+    cp -R PhpStorm*/* $installdir/opt/phpstorm

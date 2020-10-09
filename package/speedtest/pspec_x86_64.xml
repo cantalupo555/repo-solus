@@ -1,0 +1,37 @@
+<PISI>
+    <Source>
+        <Name>speedtest</Name>
+        <Homepage>https://www.speedtest.net/apps/cli</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>https://www.speedtest.net/about/eula</License>
+        <PartOf>network.util</PartOf>
+        <Summary xml:lang="en">Speedtest</Summary>
+        <Description xml:lang="en">Official Ookla Speedtest CLI for personal, non-commercial use.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>speedtest</Name>
+        <Summary xml:lang="en">Speedtest</Summary>
+        <Description xml:lang="en">Official Ookla Speedtest CLI for personal, non-commercial use.
+</Description>
+        <PartOf>network.util</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/speedtest</Path>
+            <Path fileType="doc">/usr/share/doc/speedtest/changelog.gz</Path>
+            <Path fileType="man">/usr/share/man/man5/speedtest.5</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-26</Date>
+            <Version>1.0.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,25 @@
+name       : libssl
+version    : 1
+release    : 1
+source     :
+    - http://ftp.us.debian.org/debian/pool/main/o/openssl/libssl-dev_1.1.1g-1_amd64.deb : 1649969745fea1fd0ee2cd57503c18df36e8fb12b850cc68f776ede27ebf711b
+homepage   : https://www.openssl.org/
+license    : GPL-3.0
+component  : xorg.library
+summary    : Secure Sockets Layer toolkit - development files. This package is part of the OpenSSL project's implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.
+description: |
+    Secure Sockets Layer toolkit - development files. This package is part of the OpenSSL project's implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.
+# https://packages.debian.org/en/sid/amd64/libssl-dev/download
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/libssl-dev*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr/lib
+    cp -R usr/lib/x86_64-linux-gnu/libcrypto.a $installdir/usr/lib
+    cp -R usr/lib/x86_64-linux-gnu/libcrypto.so $installdir/usr/lib
+    cp -R usr/lib/x86_64-linux-gnu/libssl.a $installdir/usr/lib
+    cp -R usr/lib/x86_64-linux-gnu/libssl.so $installdir/usr/lib

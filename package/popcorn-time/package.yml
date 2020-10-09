@@ -1,0 +1,29 @@
+name       : popcorn-time
+version    : 0.4.4
+release    : 5
+source     :
+    - https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.4.4/Popcorn-Time-0.4.4-linux64.zip : fdfabf8800c385bafec4bf162dd26f7df6d8c4c24671dce0aa23997716c5a314
+    - https://upload.wikimedia.org/wikipedia/commons/d/df/Pctlogo.png : f1bbcfac3b4744f54ec57ada1551754d7599e49ad1cd408389c08d46fe7b1ea2
+homepage   : https://popcorntime.app
+license    : GPL-3.0
+strip      : no
+component  : desktop.multimedia
+summary    : Popcorn Time
+description: |
+    Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player.
+builddeps  :
+    - libcanberra
+    - wget
+    - unzip
+rundeps    :
+    - libcanberra
+    - gconf
+    - binutils
+    - flex
+setup      : |
+    mkdir -p $installdir/opt/popcorn-time
+    unzip $sources/Popcorn-Time-${version}* -d $installdir/opt/popcorn-time
+install    : |
+    mkdir -p $installdir/usr/share/applications/
+    echo -e '[Desktop Entry]\nVersion=1.0\nType=Application\nName=Popcorn Time\nIcon=/opt/popcorn-time/Pctlogo.png\nExec=/opt/popcorn-time/Popcorn-Time\nComment=Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player.\nCategories=Application;\nTerminal=false' | tee $installdir/usr/share/applications/popcorn-time.desktop
+    cp -R $sources/Pctlogo.png $installdir/opt/popcorn-time

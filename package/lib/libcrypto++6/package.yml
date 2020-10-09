@@ -1,0 +1,25 @@
+name       : libcrypto++6
+version    : 1
+release    : 1
+source     :
+    - http://ftp.us.debian.org/debian/pool/main/libc/libcrypto++/libcrypto++6_5.6.4-9_amd64.deb : bd247573b9951b506613052641a81b0aca161733198442212a2e418930ac45dd
+homepage   : http://www.cryptopp.com
+license    : Copyright (c) 1995-2013 by Wei Dai.  All rights reserved.
+strip      : no
+component  : xorg.library
+summary    : General purpose cryptographic library - shared library.
+description: |
+    General purpose cryptographic library for C++. This package contains the shared libraries and should only be installed if other packages depend on it.
+# https://packages.debian.org/sid/amd64/libcrypto++6/download
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/libcrypto++6*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libcrypto++.so.6 $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libcrypto++.so.6.0.0 $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libcryptopp.so.6 $installdir/usr/lib

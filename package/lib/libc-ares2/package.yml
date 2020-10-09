@@ -1,0 +1,24 @@
+name       : libc-ares2
+version    : 1
+release    : 1
+source     :
+    - http://ftp.us.debian.org/debian/pool/main/c/c-ares/libc-ares2_1.12.0-1+deb9u1_amd64.deb : 3e6de7d302403332140980abd95a59796d893cf8171d912a67934e6591dfe959
+homepage   : http://c-ares.haxx.se/
+license    : MIT
+strip      : no
+component  : xorg.library
+summary    : c-ares
+description: |
+    c-ares is a C library that performs DNS requests and name resolution asynchronously.
+# https://packages.debian.org/stretch/amd64/libc-ares2/download
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/libc-ares2*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libcares.so.2 $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libcares.so.2.2.0 $installdir/usr/lib

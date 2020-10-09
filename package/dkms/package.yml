@@ -1,0 +1,30 @@
+name       : dkms
+version    : 2.8.1
+release    : 3
+source     :
+    - http://mirrors.kernel.org/ubuntu/pool/main/d/dkms/dkms_2.8.1-5ubuntu1_all.deb : f9d460f186b0b41b3d544e45f9b87b865fcaa84023fec16dd2b50af46c523138
+homepage   : http://linux.dell.com/dkms
+license    : GPL-2.0
+strip      : no
+component  : system.utils
+summary    : Dynamic Kernel Module Support Framework
+description: |
+    DKMS is a framework designed to allow individual kernel modules to be upgraded without changing the whole kernel. It is also very easy to rebuild modules as you upgrade kernels.
+builddeps  :
+  - kmod
+  - gcc
+  - make
+  - coreutils
+rundeps    :
+  - kmod
+  - gcc
+  - make
+  - coreutils
+setup      : |
+    ar xf $sources/dkms_${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R etc $installdir/etc/
+    cp -R var $installdir/var/
+    cp -R usr $installdir/usr/

@@ -1,0 +1,27 @@
+name       : enpass
+version    : 6.4.1.643
+release    : 2
+source     :
+    - http://repo.sinew.in/pool/main/e/enpass/enpass_6.4.1.643_amd64.deb : c44ec92302775d86ccde48d91f0f0e7c0228b720be61e54299e1be4bc0c06268
+homepage   : https://enpass.io
+license    : Custom
+strip      : no
+component  : security
+summary    : A multiplatform password manager
+description: |
+    A multiplatform password manager
+builddeps  :
+    - libxscrnsaver
+    - lsof
+    - libglvnd
+rundeps    :
+    - libxscrnsaver
+    - lsof
+    - libglvnd
+setup      : |
+    ar xf $sources/enpass_${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R opt $installdir/opt/
+    cp -R usr $installdir/usr/

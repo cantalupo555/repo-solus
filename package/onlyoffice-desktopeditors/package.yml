@@ -1,0 +1,48 @@
+name       : onlyoffice-desktopeditors
+version    : 5.5.1
+release    : 3
+source     :
+    - https://github.com/ONLYOFFICE/DesktopEditors/releases/download/ONLYOFFICE-DesktopEditors-5.5.1/onlyoffice-desktopeditors_amd64.deb : 2e56595cebd0b2d248c4e52b96c8167c56ab52bb1ac6e9d8aaf3f99a31f97fff
+homepage   : https://www.onlyoffice.com
+license    : GPL-3.0
+strip      : no
+component  : office
+summary    : ONLYOFFICE DesktopEditors
+description: |
+    ONLYOFFICE DesktopEditors is an application for editing office documents (text documents, spreadsheets and presentations) from onlyoffice cloud portal on local computer without browser using.
+# fonts-dejavu | ttf-dejavu, fonts-opensymbol, fonts-liberation, fonts-crosextra-carlito, fonts-takao-gothic
+builddeps  :
+    - libglvnd
+    - libx11
+    - gsound
+    - curl
+    - wget
+    - libatk
+    - libcairo
+    - libgtk-2
+    - xdg-utils
+    - gconf
+    - libstdc++
+rundeps    :
+    - libglvnd
+    - libx11
+    - gsound
+    - curl
+    - wget
+    - libatk
+    - libcairo
+    - libgtk-2
+    - xdg-utils
+    - gconf
+    - libstdc++
+    - mscorefonts
+setup      : |
+    ar xf $sources/onlyoffice*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    mkdir -p $installdir/usr/share/applications
+    cp -R opt $installdir/opt/
+    cp -R usr/bin $installdir/usr/
+    rm -rf $installdir/usr/share/applications/onlyoffice-desktopeditors.desktop
+    cp $pkgfiles/desktopeditors.desktop $installdir/usr/share/applications/

@@ -1,0 +1,116 @@
+<PISI>
+    <Source>
+        <Name>rambox</Name>
+        <Homepage>https://rambox.pro</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>https://rambox.pro/#eula</License>
+        <PartOf>system.utils</PartOf>
+        <Summary xml:lang="en">Rambox</Summary>
+        <Description xml:lang="en">Free and Open Source messaging and emailing app that combines common web applications into one.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>rambox</Name>
+        <Summary xml:lang="en">Rambox</Summary>
+        <Description xml:lang="en">Free and Open Source messaging and emailing app that combines common web applications into one.
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="data">/opt/Rambox/LICENSE.electron.txt</Path>
+            <Path fileType="data">/opt/Rambox/LICENSES.chromium.html</Path>
+            <Path fileType="data">/opt/Rambox/chrome-sandbox</Path>
+            <Path fileType="data">/opt/Rambox/chrome_100_percent.pak</Path>
+            <Path fileType="data">/opt/Rambox/chrome_200_percent.pak</Path>
+            <Path fileType="data">/opt/Rambox/icudtl.dat</Path>
+            <Path fileType="data">/opt/Rambox/libEGL.so</Path>
+            <Path fileType="data">/opt/Rambox/libGLESv2.so</Path>
+            <Path fileType="data">/opt/Rambox/libffmpeg.so</Path>
+            <Path fileType="data">/opt/Rambox/locales/am.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/ar.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/bg.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/bn.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/ca.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/cs.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/da.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/de.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/el.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/en-GB.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/en-US.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/es-419.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/es.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/et.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/fa.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/fi.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/fil.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/fr.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/gu.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/he.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/hi.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/hr.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/hu.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/id.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/it.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/ja.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/kn.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/ko.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/lt.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/lv.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/ml.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/mr.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/ms.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/nb.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/nl.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/pl.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/pt-BR.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/pt-PT.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/ro.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/ru.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/sk.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/sl.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/sr.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/sv.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/sw.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/ta.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/te.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/th.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/tr.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/uk.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/vi.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/zh-CN.pak</Path>
+            <Path fileType="data">/opt/Rambox/locales/zh-TW.pak</Path>
+            <Path fileType="data">/opt/Rambox/natives_blob.bin</Path>
+            <Path fileType="data">/opt/Rambox/rambox</Path>
+            <Path fileType="data">/opt/Rambox/resources.pak</Path>
+            <Path fileType="data">/opt/Rambox/resources/app.asar</Path>
+            <Path fileType="data">/opt/Rambox/snapshot_blob.bin</Path>
+            <Path fileType="data">/opt/Rambox/swiftshader/libEGL.so</Path>
+            <Path fileType="data">/opt/Rambox/swiftshader/libGLESv2.so</Path>
+            <Path fileType="data">/opt/Rambox/swiftshader/libvk_swiftshader.so</Path>
+            <Path fileType="data">/opt/Rambox/v8_context_snapshot.bin</Path>
+            <Path fileType="data">/usr/share/applications/rambox.desktop</Path>
+            <Path fileType="doc">/usr/share/doc/rambox/changelog.gz</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/rambox.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/rambox.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/rambox.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/rambox.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/rambox.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/rambox.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/512x512/apps/rambox.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/rambox.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/96x96/apps/rambox.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="2">
+            <Date>2020-04-02</Date>
+            <Version>0.7.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

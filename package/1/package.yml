@@ -1,0 +1,17 @@
+name       : libqt5x11extras5_5.12.8
+version    : 
+release    : 1
+source     :
+    - http://mirrors.kernel.org/ubuntu/pool/universe/q/qtx11extras-opensource-src/libqt5x11extras5_5.12.8-0ubuntu1_amd64.deb : 31f78c3b3e386bb351728635de42f18459a94ebfd41607a061c313b4924dc36e
+license    : GPL-2.0-or-later # CHECK ME
+component  : PLEASE FILL ME IN
+summary    : PLEASE FILL ME IN
+description: |
+    PLEASE FILL ME IN
+builddeps  :
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install

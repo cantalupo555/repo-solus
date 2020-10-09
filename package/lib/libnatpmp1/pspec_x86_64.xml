@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>libnatpmp1</Name>
+        <Homepage>http://miniupnp.free.fr/</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>xorg.library</PartOf>
+        <Summary xml:lang="en">Portable and fully compliant implementation of NAT-PMP NAT-PMP is the direct concurrent to the UPnP IGD specification.</Summary>
+        <Description xml:lang="en">Portable and fully compliant implementation of NAT-PMP NAT-PMP is the direct concurrent to the UPnP IGD specification.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>libnatpmp1</Name>
+        <Summary xml:lang="en">Portable and fully compliant implementation of NAT-PMP NAT-PMP is the direct concurrent to the UPnP IGD specification.</Summary>
+        <Description xml:lang="en">Portable and fully compliant implementation of NAT-PMP NAT-PMP is the direct concurrent to the UPnP IGD specification.
+</Description>
+        <PartOf>xorg.library</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/libnatpmp.so.1</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-05</Date>
+            <Version>1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

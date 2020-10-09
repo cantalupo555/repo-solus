@@ -1,0 +1,136 @@
+<PISI>
+    <Source>
+        <Name>teamviewer</Name>
+        <Homepage>http://www.teamviewer.com</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>https://www.teamviewer.com/en/eula/</License>
+        <PartOf>network.remote</PartOf>
+        <Summary xml:lang="en">Remote control and meeting solution.</Summary>
+        <Description xml:lang="en">TeamViewer provides easy, fast and secure remote access and meeting solutions to Linux, Windows PCs, Apple PCs and various other platforms, including Android and iPhone.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>teamviewer</Name>
+        <Summary xml:lang="en">Remote control and meeting solution.</Summary>
+        <Description xml:lang="en">TeamViewer provides easy, fast and secure remote access and meeting solutions to Linux, Windows PCs, Apple PCs and various other platforms, including Android and iPhone.
+</Description>
+        <PartOf>network.remote</PartOf>
+        <Files>
+            <Path fileType="data">/opt/teamviewer/config</Path>
+            <Path fileType="data">/opt/teamviewer/doc/CopyRights_DE.txt</Path>
+            <Path fileType="data">/opt/teamviewer/doc/CopyRights_EN.txt</Path>
+            <Path fileType="data">/opt/teamviewer/doc/License.txt</Path>
+            <Path fileType="data">/opt/teamviewer/doc/License_Full.txt</Path>
+            <Path fileType="data">/opt/teamviewer/doc/Lizenz.txt</Path>
+            <Path fileType="data">/opt/teamviewer/doc/Lizenz_Full.txt</Path>
+            <Path fileType="data">/opt/teamviewer/doc/license_foss.txt</Path>
+            <Path fileType="data">/opt/teamviewer/logfiles</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/TeamViewer</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/TeamViewer_Desktop</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/desktop/com.teamviewer.TeamViewer.desktop</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/desktop/teamviewer_16.png</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/desktop/teamviewer_20.png</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/desktop/teamviewer_24.png</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/desktop/teamviewer_256.png</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/desktop/teamviewer_32.png</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/desktop/teamviewer_48.png</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_ar.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_bg.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_cs.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_da.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_de.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_el.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_en.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_es.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_fi.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_fr.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_he.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_hr.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_hu.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_id.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_it.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_ja.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_ko.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_lt.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_nl.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_no.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_pl.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_pt.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_ro.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_ru.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_sk.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_sr.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_sv.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_th.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_tr.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_uk.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_vi.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_zhCN.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/resources/TVResource_zhTW.so</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/TeamViewer2017.asc</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/TeamViewer2020.asc</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/com.teamviewer.TeamViewer.Desktop.service</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/com.teamviewer.TeamViewer.policy</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/com.teamviewer.TeamViewer.service</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/execscript</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/fonts_portable.conf</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/fonts_quick.conf</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/libdepend</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/teamviewer</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/teamviewer.list</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/teamviewer_setup</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/teamviewerd.DEB.conf</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/teamviewerd.RHEL.conf</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/teamviewerd.RPM.conf</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/teamviewerd.pp</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/teamviewerd.service</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/teamviewerd.sysv</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/tv-delayed-start.sh</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/tvw_aux</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/tvw_config</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/tvw_daemon</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/tvw_exec</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/tvw_extra</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/tvw_main</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/tvw_profile</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/script/tvw_update</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/teamviewer-config</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/teamviewerd</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/xdg-utils/LICENSE</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/xdg-utils/README</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/xdg-utils/xdg-desktop-icon</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/xdg-utils/xdg-desktop-menu</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/xdg-utils/xdg-email</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/xdg-utils/xdg-icon-resource</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/xdg-utils/xdg-mime</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/xdg-utils/xdg-open</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/xdg-utils/xdg-screensaver</Path>
+            <Path fileType="data">/opt/teamviewer/tv_bin/xdg-utils/xdg-settings</Path>
+            <Path fileType="executable">/usr/bin/teamviewer</Path>
+            <Path fileType="library">/usr/lib64/systemd/system/teamviewerd.service</Path>
+            <Path fileType="data">/usr/share/applications/com.teamviewer.TeamViewer.desktop</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.teamviewer.TeamViewer.Desktop.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/com.teamviewer.TeamViewer.service</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/TeamViewer.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/20x20/apps/TeamViewer.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/TeamViewer.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/TeamViewer.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/TeamViewer.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/TeamViewer.png</Path>
+            <Path fileType="data">/usr/share/polkit-1/actions/com.teamviewer.TeamViewer.policy</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="8">
+            <Date>2020-09-24</Date>
+            <Version>15.10.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

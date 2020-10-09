@@ -1,0 +1,65 @@
+<PISI>
+    <Source>
+        <Name>mscorefonts</Name>
+        <Homepage>https://sourceforge.net/projects/corefonts/</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>Custom</License>
+        <PartOf>desktop.font</PartOf>
+        <Summary xml:lang="en">Microsoft Core Fonts</Summary>
+        <Description xml:lang="en">Microsoft Core Fonts
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>mscorefonts</Name>
+        <Summary xml:lang="en">Microsoft Core Fonts</Summary>
+        <Description xml:lang="en">Microsoft Core Fonts
+</Description>
+        <PartOf>desktop.font</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/AndaleMo.TTF</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/andalemo.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/arial.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/arialbd.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/arialbi.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/ariali.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/ariblk.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/comic.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/comicbd.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/cour.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/courbd.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/courbi.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/couri.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/georgia.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/georgiab.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/georgiai.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/georgiaz.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/impact.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/times.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/timesbd.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/timesbi.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/timesi.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/trebuc.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/trebucbd.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/trebucbi.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/trebucit.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/verdana.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/verdanab.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/verdanai.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/verdanaz.ttf</Path>
+            <Path fileType="data">/usr/share/fonts/truetype/mscorefonts/webdings.ttf</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-06</Date>
+            <Version>1.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

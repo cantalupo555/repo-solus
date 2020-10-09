@@ -1,0 +1,37 @@
+<PISI>
+    <Source>
+        <Name>libcrypto++6</Name>
+        <Homepage>http://www.cryptopp.com</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>Copyright (c) 1995-2013 by Wei Dai.  All rights reserved.</License>
+        <PartOf>xorg.library</PartOf>
+        <Summary xml:lang="en">General purpose cryptographic library - shared library.</Summary>
+        <Description xml:lang="en">General purpose cryptographic library for C++. This package contains the shared libraries and should only be installed if other packages depend on it.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>libcrypto++6</Name>
+        <Summary xml:lang="en">General purpose cryptographic library - shared library.</Summary>
+        <Description xml:lang="en">General purpose cryptographic library for C++. This package contains the shared libraries and should only be installed if other packages depend on it.
+</Description>
+        <PartOf>xorg.library</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/libcrypto++.so.6</Path>
+            <Path fileType="library">/usr/lib/libcrypto++.so.6.0.0</Path>
+            <Path fileType="library">/usr/lib/libcryptopp.so.6</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-16</Date>
+            <Version>1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

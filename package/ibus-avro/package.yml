@@ -1,0 +1,27 @@
+name       : ibus-avro
+version    : 1.1
+release    : 1
+source     :
+    - http://mirrors.kernel.org/ubuntu/pool/universe/i/ibus-avro/ibus-avro_1.1-3_all.deb : 20d1f4e635160bf3be6b7d1b83b1e136b293dadf1d8cf6d53b404627120abbdc
+homepage   : https://github.com/sarim/ibus-avro
+license    : MPL-1.1
+strip      : no
+component  : system.utils
+summary    : Avro phonetic implementation for Linux in IBus.
+description: |
+    IBus engine for Avro Phonetic ibus-avro is a port of the popular Avro Phonetic Bangla typing method to Linux. This software works as an Engine (plugin) of IBus and lets users type in English and on-the-fly transliterate them phonetically to Bangla.
+# ibus-gtk, ibus-gtk3, ibus-clutter
+builddeps  :
+    - dconf
+    - gjs
+    - ibus
+rundeps    :
+    - dconf
+    - gjs
+    - ibus
+setup      : |
+    ar xf $sources/ibus-avro_${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R usr $installdir/usr/

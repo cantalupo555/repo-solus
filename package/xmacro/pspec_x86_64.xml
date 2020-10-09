@@ -1,0 +1,43 @@
+<PISI>
+    <Source>
+        <Name>xmacro</Name>
+        <Homepage>https://sourceforge.net/projects/xmacro/</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>GPL-2.0-or-later</License>
+        <PartOf>system.utils</PartOf>
+        <Summary xml:lang="en">xmacro</Summary>
+        <Description xml:lang="en">Record / Play keystrokes and mouse movements in X displays.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>xmacro</Name>
+        <Summary xml:lang="en">xmacro</Summary>
+        <Description xml:lang="en">Record / Play keystrokes and mouse movements in X displays.
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/xmacroplay</Path>
+            <Path fileType="executable">/usr/bin/xmacroplay-keys</Path>
+            <Path fileType="executable">/usr/bin/xmacrorec</Path>
+            <Path fileType="executable">/usr/bin/xmacrorec2</Path>
+            <Path fileType="doc">/usr/share/doc/xmacro/README</Path>
+            <Path fileType="doc">/usr/share/doc/xmacro/changelog.Debian.gz</Path>
+            <Path fileType="doc">/usr/share/doc/xmacro/copyright</Path>
+            <Path fileType="doc">/usr/share/doc/xmacro/examples/run</Path>
+            <Path fileType="doc">/usr/share/doc/xmacro/examples/test.icewm</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="2">
+            <Date>2020-02-04</Date>
+            <Version>0.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

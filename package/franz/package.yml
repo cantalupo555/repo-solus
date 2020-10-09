@@ -1,0 +1,29 @@
+name       : franz
+version    : 5.5.0
+release    : 2
+source     :
+    - https://github.com/meetfranz/franz/releases/download/v5.5.0/franz_5.5.0_amd64.deb : 9583941485ef4fe2357b7ec8a0415753e47f145c70d8aafbba0ffc0ba292ee4d
+homepage   : https://meetfranz.com
+license    : Custom
+strip      : no
+component  : network.im
+summary    : A free messaging app that combines chat and messaging services into one application
+description: |
+    Franz is a free messaging app / former Emperor of Austria and combines chat and messaging services into one application. Franz currently supports Slack, WhatsApp, WeChat, HipChat, Facebook Messenger, Telegram, Google Hangouts, GroupMe, Skype and many more.
+builddeps  :
+  - libxscrnsaver
+  - gconf
+  - binutils
+  - libgtk-2
+rundeps    :
+  - libxscrnsaver
+  - gconf
+  - binutils
+  - libgtk-2
+setup      : |
+    ar xf $sources/franz_${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R opt $installdir/opt/
+    cp -R usr $installdir/usr/

@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>libargon2-0</Name>
+        <Homepage>https://github.com/P-H-C/phc-winner-argon2</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>xorg.library</PartOf>
+        <Summary xml:lang="en">Argon2 is a password-hashing function that can be used to hash passwords for credential storage, key derivation, or other applications.</Summary>
+        <Description xml:lang="en">Argon2 is a password-hashing function that can be used to hash passwords for credential storage, key derivation, or other applications.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>libargon2-0</Name>
+        <Summary xml:lang="en">Argon2 is a password-hashing function that can be used to hash passwords for credential storage, key derivation, or other applications.</Summary>
+        <Description xml:lang="en">Argon2 is a password-hashing function that can be used to hash passwords for credential storage, key derivation, or other applications.
+</Description>
+        <PartOf>xorg.library</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/libargon2.so.0</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-04-05</Date>
+            <Version>1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

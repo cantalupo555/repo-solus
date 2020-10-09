@@ -1,0 +1,23 @@
+name       : libayatana-appindicator3-1
+version    : 1
+release    : 1
+source     :
+    - http://ftp.us.debian.org/debian/pool/main/liba/libayatana-appindicator/libayatana-appindicator3-1_0.5.4-2_amd64.deb : 3fd87b874effb17cbd3dbaeb6337cea0df5ac5ec9735badda2650a3c85e40b38
+homepage   : https://github.com/AyatanaIndicators/libayatana-appindicator
+license    : GPL-3.0
+component  : xorg.library
+summary    : Ayatana Application Indicators (GTK-3+ version) A library and indicator to take menus from applications and place them in the panel.
+description: |
+    Ayatana Application Indicators (GTK-3+ version) A library and indicator to take menus from applications and place them in the panel.
+# https://packages.debian.org/sid/amd64/libayatana-appindicator3-1/download
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/libayatana-appindicator3-1*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libayatana-appindicator3.so.1 $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libayatana-appindicator3.so.1.0.0 $installdir/usr/lib

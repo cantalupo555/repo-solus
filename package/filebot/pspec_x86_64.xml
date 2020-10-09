@@ -1,0 +1,192 @@
+<PISI>
+    <Source>
+        <Name>filebot</Name>
+        <Homepage>https://www.filebot.net</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>EULA</License>
+        <PartOf>system.utils</PartOf>
+        <Summary xml:lang="en">FileBot</Summary>
+        <Description xml:lang="en">FileBot is the ultimate tool for organizing and renaming your Movies, TV Shows and Anime as well as fetching subtitles and artwork. It&apos;s smart and just works.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>filebot</Name>
+        <Summary xml:lang="en">FileBot</Summary>
+        <Description xml:lang="en">FileBot is the ultimate tool for organizing and renaming your Movies, TV Shows and Anime as well as fetching subtitles and artwork. It&apos;s smart and just works.
+</Description>
+        <PartOf>system.utils</PartOf>
+        <Files>
+            <Path fileType="config">/etc/bash_completion.d/filebot</Path>
+            <Path fileType="data">/usr/share/applications/filebot.desktop</Path>
+            <Path fileType="data">/usr/share/file-manager/actions/filebot-checksum.desktop</Path>
+            <Path fileType="data">/usr/share/file-manager/actions/filebot-import.desktop</Path>
+            <Path fileType="data">/usr/share/file-manager/actions/filebot-license.desktop</Path>
+            <Path fileType="data">/usr/share/file-manager/actions/filebot-rename.desktop</Path>
+            <Path fileType="data">/usr/share/file-manager/actions/filebot-subtitles.desktop</Path>
+            <Path fileType="data">/usr/share/file-manager/actions/menu-filebot.desktop</Path>
+            <Path fileType="data">/usr/share/filebot/bin/filebot.sh</Path>
+            <Path fileType="data">/usr/share/filebot/filebot.svg</Path>
+            <Path fileType="data">/usr/share/filebot/jar/activation.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/args4j.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/bcpg.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/bcpkix.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/bcprov.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/bencode.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/caffeine.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/commons-email.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/commons-io.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/commons-logging.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/commons-net.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/commons-vfs2.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/controlsfx.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/darcula.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/ehcache.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/failureaccess.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/filebot.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/glazedlists.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/groovy-datetime.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/groovy-dateutil.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/groovy-json.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/groovy-jsr223.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/groovy-nio.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/groovy-swing.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/groovy-templates.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/groovy-xml.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/groovy.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/guava.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/icu4j.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/imgscalr.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/ivy.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/javax.mail.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/jaxb-api.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/jaxb-impl.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/jna-platform.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/jna.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/json-io.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/jsoup.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/junrar.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/language-detector.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/lanterna.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/metadata-extractor.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/miglayout-core.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/miglayout-swing.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/objcbridge.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/rsyntaxtextarea.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/sevenzipjbinding.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/simmetrics-core.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/slf4j-api.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/slf4j-jdk14.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/streamex.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/xmlrpc.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/xmpcore.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jar/xz.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jre/bin/java</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/logging.properties</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/management/jmxremote.access</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/management/jmxremote.password.template</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/management/management.properties</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/net.properties</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/sdp/sdp.conf.template</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/security/java.policy</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/security/java.security</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/security/policy/README.txt</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/security/policy/limited/default_US_export.policy</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/security/policy/limited/default_local.policy</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/security/policy/limited/exempt_local.policy</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/security/policy/unlimited/default_US_export.policy</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/security/policy/unlimited/default_local.policy</Path>
+            <Path fileType="data">/usr/share/filebot/jre/conf/sound.properties</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/javafx.base.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/javafx.controls.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/javafx.graphics.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/javafx.properties</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/javafx.swing.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/libdecora_sse.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/libglass.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/libglassgtk2.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/libglassgtk3.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/libjavafx_font.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/libjavafx_font_freetype.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/libjavafx_font_pango.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/libjavafx_iio.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/libprism_common.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/libprism_es2.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/ext/modules/lib/libprism_sw.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/classlist</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/ct.sym</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/jexec</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/jfr/default.jfc</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/jfr/profile.jfc</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/jrt-fs.jar</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/jspawnhelper</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/jvm.cfg</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libattach.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libawt.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libawt_headless.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libawt_xawt.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libdt_socket.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libextnet.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libfontmanager.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libinstrument.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libj2gss.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libj2pcsc.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libj2pkcs11.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libjaas.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libjava.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libjavajpeg.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libjawt.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libjdwp.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libjimage.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libjli.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libjsig.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libjsound.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/liblcms.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libmanagement.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libmanagement_agent.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libmanagement_ext.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libmlib_image.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libnet.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libnio.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libprefs.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/librmi.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libsaproc.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libsctp.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libsplashscreen.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libsunec.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libverify.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/libzip.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/modules</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/psfont.properties.ja</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/psfontj2d.properties</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/security/blacklisted.certs</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/security/cacerts</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/security/default.policy</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/security/public_suffix_list.dat</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/server/classes.jsa</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/server/libjsig.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/server/libjvm.so</Path>
+            <Path fileType="data">/usr/share/filebot/jre/lib/tzdb.dat</Path>
+            <Path fileType="data">/usr/share/filebot/lib/fpcalc</Path>
+            <Path fileType="data">/usr/share/filebot/lib/lib7-Zip-JBinding.so</Path>
+            <Path fileType="data">/usr/share/filebot/lib/libjnidispatch.so</Path>
+            <Path fileType="data">/usr/share/filebot/lib/libmediainfo.so</Path>
+            <Path fileType="data">/usr/share/filebot/lib/libzen.so</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/filebot.svg</Path>
+            <Path fileType="data">/usr/share/kservices5/ServiceMenus/filebot.desktop</Path>
+            <Path fileType="data">/usr/share/mime/packages/filebot.xml</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-05-30</Date>
+            <Version>4.9.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

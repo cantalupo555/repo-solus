@@ -1,0 +1,25 @@
+name       : stacer
+version    : 1.1.0
+release    : 1
+source     :
+    - https://github.com/oguzhaninan/Stacer/releases/download/v1.1.0/stacer_1.1.0_amd64.deb : f87c9cd27fb1e562540b66bc061108e2b71d6209a7e3e34c9d3438eb17c1e67c
+Homepage   : https://github.com/oguzhaninan/Stacer
+license    : GPL-3.0
+component  : system.utils
+summary    : Stacer
+description: |
+    Linux System Optimizer and Monitoring.
+builddeps  :
+  - curl
+  - libglvnd
+rundeps    :
+  - curl
+  - libglvnd
+setup      : |
+    ar xf $sources/stacer_${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    mkdir -p $installdir/usr/bin
+    cp -R usr/share $installdir/usr/
+    ln -sv /usr/share/stacer/stacer $installdir/usr/bin/stacer

@@ -1,0 +1,27 @@
+name       : xmacro
+version    : 0.3
+release    : 2
+source     :
+    - http://mirrors.kernel.org/ubuntu/pool/universe/x/xmacro/xmacro_0.3pre-20000911-7_amd64.deb : 9b54d3b0045163332530c393a096a75a05ded3669a2e9bfb8935cadd7c2744a2
+homepage   : https://sourceforge.net/projects/xmacro/
+license    : GPL-2.0-or-later
+component  : system.utils
+summary    : xmacro
+description: |
+    Record / Play keystrokes and mouse movements in X displays.
+builddeps  :
+    - libstdc++
+    - libx11
+    - libxtst
+rundeps    :
+    - libstdc++
+    - libx11
+    - libxtst
+setup      : |
+    ar xf $sources/xmacro_${version}pre-20000911-7_amd64.deb
+    tar xf data.tar.xz
+install    : |
+    mkdir -p $installdir/usr/bin
+    mkdir -p $installdir/usr/share
+    cp -R usr/bin $installdir/usr/
+    cp -R usr/share $installdir/usr/

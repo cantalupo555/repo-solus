@@ -1,0 +1,186 @@
+<PISI>
+    <Source>
+        <Name>jami</Name>
+        <Homepage>https://jami.net/</Homepage>
+        <Packager>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Packager>
+        <License>Copyright (C) 2016-2020 Savoir-faire Linux Inc.</License>
+        <PartOf>network.im</PartOf>
+        <Summary xml:lang="en">Secure and distributed voice, video and chat platform - all in one package Jami (jami.net) is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.</Summary>
+        <Description xml:lang="en">Secure and distributed voice, video and chat platform - all in one package Jami (jami.net) is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>jami</Name>
+        <Summary xml:lang="en">Secure and distributed voice, video and chat platform - all in one package Jami (jami.net) is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.</Summary>
+        <Description xml:lang="en">Secure and distributed voice, video and chat platform - all in one package Jami (jami.net) is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.
+</Description>
+        <PartOf>network.im</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/jami</Path>
+            <Path fileType="executable">/usr/bin/jami-gnome</Path>
+            <Path fileType="executable">/usr/bin/ring.cx</Path>
+            <Path fileType="library">/usr/lib/libringclient.so.1.0.0</Path>
+            <Path fileType="library">/usr/lib/ring/dring</Path>
+            <Path fileType="data">/usr/share/applications/jami-gnome.desktop</Path>
+            <Path fileType="data">/usr/share/dbus-1/interfaces/cx.ring.Ring.CallManager.xml</Path>
+            <Path fileType="data">/usr/share/dbus-1/interfaces/cx.ring.Ring.ConfigurationManager.xml</Path>
+            <Path fileType="data">/usr/share/dbus-1/interfaces/cx.ring.Ring.Instance.xml</Path>
+            <Path fileType="data">/usr/share/dbus-1/interfaces/cx.ring.Ring.PluginManagerInterface.xml</Path>
+            <Path fileType="data">/usr/share/dbus-1/interfaces/cx.ring.Ring.PresenceManager.xml</Path>
+            <Path fileType="data">/usr/share/dbus-1/interfaces/cx.ring.Ring.VideoManager.xml</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/cx.ring.Ring.service</Path>
+            <Path fileType="doc">/usr/share/doc/jami-all/README.Debian</Path>
+            <Path fileType="doc">/usr/share/doc/jami-all/changelog.Debian.gz</Path>
+            <Path fileType="doc">/usr/share/doc/jami-all/copyright</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/net.jami.Jami.gschema.xml</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/jami.svg</Path>
+            <Path fileType="data">/usr/share/jami-gnome/jami-gnome.desktop</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_ar.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_bg.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_ca.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_cs_CZ.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_da.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_da_DK.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_de.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_de_DE.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_el.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_en_GB.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_eo.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_es.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_es_AR.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_et_EE.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_eu.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_fa_IR.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_fi.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_fr.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_fr_BE.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_fr_CA.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_fr_CH.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_fr_FR.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_he.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_hi_IN.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_hr.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_hu.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_id.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_it.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_it_IT.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_ja.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_ko_KR.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_lt.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_ms.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_nb.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_nl.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_nl_BE.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_nl_NL.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_pa.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_pl.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_pl_PL.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_pt.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_pt_BR.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_pt_PT.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_ro.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_ru.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_ru_RU.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_sk_SK.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_sl.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_sq_AL.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_sv.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_tr.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_uk.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_zh.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_zh_CN.qm</Path>
+            <Path fileType="data">/usr/share/libringclient/translations/lrc_zh_TW.qm</Path>
+            <Path fileType="data">/usr/share/lintian/overrides/jami-all</Path>
+            <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/bg/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ca/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/cs_CZ/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/da/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/da_DK/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de_DE/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/el/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_GB/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eo/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es_AR/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es_MX/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/et/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/et_EE/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fa_IR/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fi/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr_BE/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr_CA/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr_CH/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr_FR/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/gl/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/he/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hi_IN/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hr/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hu/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/id/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/it_IT/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ko_KR/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lt/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ms/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nl/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nl_BE/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nl_NL/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nn/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/oc/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pa/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pl/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pl_PL/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt_PT/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ro_RO/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ru_RU/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sk_SK/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sl/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sq_AL/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sv/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ta/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/tr/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/uk/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/jami-client-gnome.mo</Path>
+            <Path fileType="man">/usr/share/man/man1/dring.1.gz</Path>
+            <Path fileType="man">/usr/share/man/man8/jami-gnome.8.gz</Path>
+            <Path fileType="data">/usr/share/metainfo/jami-gnome.appdata.xml</Path>
+            <Path fileType="data">/usr/share/ring/ringtones/01_AfroNigeria.opus</Path>
+            <Path fileType="data">/usr/share/ring/ringtones/02_AfroNigeria.opus</Path>
+            <Path fileType="data">/usr/share/ring/ringtones/03_AcousticGuitar.opus</Path>
+            <Path fileType="data">/usr/share/ring/ringtones/04_ElectricGuitar.opus</Path>
+            <Path fileType="data">/usr/share/ring/ringtones/05_AcousticIndia.opus</Path>
+            <Path fileType="data">/usr/share/ring/ringtones/06_RingSoft.opus</Path>
+            <Path fileType="data">/usr/share/ring/ringtones/07_RingTribal.opus</Path>
+            <Path fileType="data">/usr/share/ring/ringtones/08_RingFirefly.opus</Path>
+            <Path fileType="data">/usr/share/ring/ringtones/09_ElectroCloud.opus</Path>
+            <Path fileType="data">/usr/share/ring/ringtones/10_UrbanTrap.opus</Path>
+            <Path fileType="data">/usr/share/ring/ringtones/default.opus</Path>
+            <Path fileType="data">/usr/share/sounds/jami-gnome/ringtone_notify.wav</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="3">
+            <Date>2020-07-13</Date>
+            <Version>20200630.1.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>cantalupo555</Name>
+            <Email>cantalupo@protonmail.com</Email>
+        </Update>
+    </History>
+</PISI>

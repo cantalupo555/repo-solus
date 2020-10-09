@@ -1,0 +1,23 @@
+name       : libayatana-ido3-0.4
+version    : 1
+release    : 1
+source     :
+    - http://ftp.us.debian.org/debian/pool/main/a/ayatana-ido/libayatana-ido3-0.4-0_0.4.90-1_amd64.deb : 611d28af4f8e07d918f59982a02fbb8e71d8fb7ca37e056d5162648cc8dc6d5d
+homepage   : https://github.com/AyatanaIndicators/ayatana-ido
+license    : GPL-3.0
+component  : xorg.library
+summary    : Widgets and other objects used for Ayatana Indicators Shared library providing extra gtk menu items for display in system Ayatana Indicators.
+description: |
+    Widgets and other objects used for Ayatana Indicators Shared library providing extra gtk menu items for display in system Ayatana Indicators.
+# https://packages.debian.org/sid/amd64/libayatana-ido3-0.4-0/download
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/libayatana-ido3-0.4*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libayatana-ido3-0.4.so.0 $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libayatana-ido3-0.4.so.0.0.0 $installdir/usr/lib

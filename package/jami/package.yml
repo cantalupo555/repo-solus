@@ -1,0 +1,85 @@
+name       : jami
+version    : 20200630.1.5
+release    : 3
+source     :
+    - https://dl.jami.net/nightly/ubuntu_20.04/pool/main/j/jami/jami-all_20200630.1.5c91b4a~dfsg1-1_amd64.deb : 692e6ff6bd9d9dd086aca903671d973c6eea9360c22280d0494534e20e963a11
+homepage   : https://jami.net/
+license    : Copyright (C) 2016-2020 Savoir-faire Linux Inc.
+strip      : no
+component  : network.im
+summary    : Secure and distributed voice, video and chat platform - all in one package Jami (jami.net) is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.
+description: |
+    Secure and distributed voice, video and chat platform - all in one package Jami (jami.net) is a secure and distributed voice, video and chat communication platform that requires no centralized server and leaves the power of privacy in the hands of the user.
+# libqt5core5a (>= 5.9.0~beta), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.0.2), libqt5sql5 (>= 5.0.2)
+builddeps  :
+  - clutter
+  - clutter-gtk
+  - gnupg
+  - gsound
+  - libxcb
+  - zlib
+  - libdbusmenu
+  - glibc
+  - libcairo
+  - libcanberra
+  - libgcc
+  - gdk-pixbuf
+  - python-pulsectl
+  - libx11
+  - libspeex
+  - libvdpau
+  - libgtk-3
+  - libnotify
+  - glib2
+  - opus
+  - libnma
+  - libgudev
+  - pango
+  - libstdc++
+  - qt5-webkit
+  - libwebkit-gtk-devel
+  - libva
+  - qrencode-devel
+rundeps    :
+  - clutter
+  - clutter-gtk
+  - gnupg
+  - gsound
+  - libxcb
+  - zlib
+  - libdbusmenu
+  - glibc
+  - libcairo
+  - libcanberra
+  - libgcc
+  - gdk-pixbuf
+  - python-pulsectl
+  - libx11
+  - libspeex
+  - libvdpau
+  - libgtk-3
+  - libnotify
+  - glib2
+  - opus
+  - libnma
+  - libgudev
+  - pango
+  - libstdc++
+  - qt5-webkit
+  - libwebkit-gtk-devel
+  - libva
+  - libssl1.1
+  - libnatpmp1
+  - libqrencode3
+  - libjsoncpp1
+  - libayatana-indicator3-7
+  - libayatana-ido3-0.4
+  - libayatana-appindicator3-1
+  - libargon2-0
+  - qrencode-devel
+setup      : |
+    ar xf $sources/jami-all_${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R usr $installdir/usr/

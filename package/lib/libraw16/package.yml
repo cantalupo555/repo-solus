@@ -1,0 +1,24 @@
+name       : libraw16
+version    : 1
+release    : 1
+source     :
+    - http://security.ubuntu.com/ubuntu/pool/main/libr/libraw/libraw16_0.18.8-1ubuntu0.3_amd64.deb : 4540291b2b785d4f8d360532c108932eb189ad8dcfe10f75dab185333e391bcf
+homepage   : http://www.libraw.org/
+license    : LGPL 2.1 and CDDL 1.0
+strip      : no
+component  : xorg.library
+summary    : LibRaw
+description: |
+    LibRaw is a library for reading RAW files obtained from digital photo cameras
+# https://packages.ubuntu.com/bionic/amd64/libraw16/download
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/libraw16*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libraw.so.16 $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libraw.so.16.0.0 $installdir/usr/lib

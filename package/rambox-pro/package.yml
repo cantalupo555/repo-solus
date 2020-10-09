@@ -1,0 +1,35 @@
+name       : rambox-pro
+version    : 1.3.2
+release    : 4
+source     :
+    - https://github.com/ramboxapp/download/releases/download/v1.3.2/RamboxPro-1.3.2-linux-x64.deb : 2b68ef6d5dc295dd1391172bbfe78491eb9b4e094789b83f37e04f6fd02bd2d3
+homepage   : https://rambox.pro
+license    : https://rambox.pro/#eula
+strip      : no
+component  : system.utils
+summary    : Rambox
+description: |
+    The all-in-one workspace browser.
+builddeps  :
+  - libgtk-3
+  - libnotify
+  - libnss
+  - libxtst
+  - xdg-utils
+  - libappindicator
+  - libsecret
+rundeps    :
+  - libgtk-3
+  - libnotify
+  - libnss
+  - libxtst
+  - xdg-utils
+  - libappindicator
+  - libsecret
+setup      : |
+    ar xf $sources/RamboxPro-${version}*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir
+    cp -R opt $installdir/opt/
+    cp -R usr $installdir/usr/

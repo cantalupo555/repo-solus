@@ -1,0 +1,11 @@
+[Unit]
+Description=windscribe
+
+[Service]
+User=root
+ExecStart=/usr/bin/windscribe start
+ExecStop=/usr/bin/windscribe stop
+ExecReload=/usr/bin/windscribe status
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,24 @@
+name       : pycharm-c
+version    : 2020.1.1
+release    : 3
+source     :
+    - https://download.jetbrains.com/python/pycharm-community-2020.1.1.tar.gz : 715a6a1fc1638078a36b5b45e36e3dbe1ce097aa974555023b4b3d957d00585c
+homepage   : https://www.jetbrains.com/pycharm/
+license    : GPL-2.0
+strip      : no
+component  : programming
+summary    : PyCharm Community Edition
+description: |
+    PyCharm Community Edition - an IDE for the Python
+builddeps  :
+    - openjdk-8
+    - libglvnd
+rundeps    :
+    - openjdk-8
+    - libglvnd
+setup      : |
+    tar xf $sources/pycharm-community-${version}*
+install    : |
+    install -D -m 00644 $pkgfiles/pycharm-c.desktop $installdir/usr/share/applications/pycharm-c.desktop
+    mkdir -p $installdir/opt/pycharm-c
+    cp -R pycharm*/* $installdir/opt/pycharm-c
