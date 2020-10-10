@@ -681,54 +681,6 @@
         </Source>
     </Package>
     <Package>
-        <Name>free-office-2018</Name>
-        <Summary xml:lang="en">FreeOffice 2018</Summary>
-        <Description xml:lang="en">SoftMaker FreeOffice is a complete office suite.</Description>
-        <PartOf>office</PartOf>
-        <License>Copyright © 2020 SoftMaker</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="8">libxmu</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="57">curl</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
-            <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency>libnih</Dependency>
-            <Dependency>python-pycurl</Dependency>
-            <Dependency>libglu</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="3">
-                <Date>2020-04-15</Date>
-                <Version>976</Version>
-                <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>213391674</InstalledSize>
-        <PackageSize>134724735</PackageSize>
-        <PackageHash>134d01ff041aafac92ec2da12eef0c828488cdd8</PackageHash>
-        <PackageURI>free-office-2018-976-3-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>free-office-2018</Name>
-            <Homepage>https://www.softmaker.com/</Homepage>
-            <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
         <Name>genymotion</Name>
         <Summary xml:lang="en">Genymotion Android Emulator</Summary>
         <Description xml:lang="en">Genymotion Android Emulator</Description>
@@ -1894,54 +1846,6 @@
         <Source>
             <Name>plexmediaserver</Name>
             <Homepage>https://plex.tv</Homepage>
-            <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>office-2018</Name>
-        <Summary xml:lang="en">Office 2018</Summary>
-        <Description xml:lang="en">SoftMaker Office is a complete office suite.</Description>
-        <PartOf>office</PartOf>
-        <License>Copyright © 2020 SoftMaker</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="8">libxmu</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="57">curl</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
-            <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency>libnih</Dependency>
-            <Dependency>python-pycurl</Dependency>
-            <Dependency>libglu</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="3">
-                <Date>2020-04-15</Date>
-                <Version>976</Version>
-                <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>653811733</InstalledSize>
-        <PackageSize>350430505</PackageSize>
-        <PackageHash>b709e9ebaaae788fbd75f53a8d49a0a556f6c518</PackageHash>
-        <PackageURI>office-2018-976-3-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>office-2018</Name>
-            <Homepage>https://www.softmaker.com/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>

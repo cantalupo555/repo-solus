@@ -50,7 +50,6 @@ sudo eopkg install package
 | mscorefonts | 1.3 | 06/04/2020 |  |
 | nordvpn | 3.6.1 | 13/07/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-NordVPN-on-Solus) |
 | ocenaudio | 3.8.1 | 29/08/2020 |  |
-| [office-2018](http://www.softmaker.com/go/officenxheise) | 976 | 15/04/2020 |  |
 | onlyoffice-desktopeditors | 5.5.1 | 19/04/2020 |  |
 | phpstorm | 2020.1.1 | 11/05/2020 |  |
 | plexmediaserver | 1.20.1.3252 | 29/08/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-Plex-Media-Server-on-Solus) |
