@@ -2668,11 +2668,12 @@
             <Dependency releaseFrom="19">qt5-svg</Dependency>
             <Dependency>cryptopp-devel</Dependency>
             <Dependency>libsodium</Dependency>
-            <Dependency>libqt5x11extras5</Dependency>
-            <Dependency>libraw19</Dependency>
+            <Dependency>libraw</Dependency>
+            <Dependency>libraw-utils</Dependency>
+            <Dependency>qt5-x11extras</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
+            <Update release="6">
                 <Date>2020-10-17</Date>
                 <Version>4.3.5</Version>
                 <Comment>Packaging update</Comment>
@@ -2685,9 +2686,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>39303306</InstalledSize>
-        <PackageSize>14151180</PackageSize>
-        <PackageHash>eea55aff4627d0b45daee4a2fbeba1d5f0b61bb0</PackageHash>
-        <PackageURI>megasync-4.3.5-5-1-x86_64.eopkg</PackageURI>
+        <PackageSize>14151181</PackageSize>
+        <PackageHash>64f302c759bb9a6268cfc9d8bbdc8a53a7f162e9</PackageHash>
+        <PackageURI>megasync-4.3.5-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>megasync</Name>
