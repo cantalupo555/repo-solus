@@ -3041,7 +3041,7 @@
         <RuntimeDependencies>
             <Dependency releaseFrom="30">dbus</Dependency>
             <Dependency releaseFrom="12">libxcomposite</Dependency>
-            <Dependency releaseFrom="17">expat</Dependency>
+            <Dependency releaseFrom="18">expat</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
             <Dependency releaseFrom="17">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
@@ -3049,10 +3049,9 @@
             <Dependency releaseFrom="24">cups</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="23">at-spi2</Dependency>
-            <Dependency releaseFrom="65">glib2</Dependency>
             <Dependency releaseFrom="94">libgtk-3</Dependency>
             <Dependency releaseFrom="46">libnss</Dependency>
-            <Dependency releaseFrom="21">wayland</Dependency>
+            <Dependency releaseFrom="65">glib2</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="24">libx11</Dependency>
             <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
@@ -3078,29 +3077,29 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="24">
-                <Date>2020-09-24</Date>
-                <Version>87.0.4270.0</Version>
+            <Update release="25">
+                <Date>2020-10-17</Date>
+                <Version>88.0.4292.2</Version>
                 <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>240843203</InstalledSize>
-        <PackageSize>83348364</PackageSize>
-        <PackageHash>9b225548ac1a965f3a384374280aabbf7e27e9bf</PackageHash>
-        <PackageURI>google-chrome-unstable-87.0.4270.0-24-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>238774445</InstalledSize>
+        <PackageSize>84264883</PackageSize>
+        <PackageHash>72925b7bd166daf72cf126d75ee4470926603504</PackageHash>
+        <PackageURI>google-chrome-unstable-88.0.4292.2-25-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-unstable</Name>
             <Homepage>https://www.google.com/chrome/</Homepage>
             <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Packager>
         </Source>
     </Package>
