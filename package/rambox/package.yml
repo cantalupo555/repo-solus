@@ -1,8 +1,8 @@
 name       : rambox
-version    : 0.7.6
+version    : 0.7.7
 release    : 3
 source     :
-    - https://github.com/ramboxapp/community-edition/releases/download/0.7.6/Rambox-0.7.6-linux-amd64.deb : 5406ce955af4e871f29a2190992780d4ff5564050f9e421021b816d19c2d34ed
+    - https://github.com/ramboxapp/community-edition/releases/download/0.7.7/Rambox-0.7.7-linux-amd64.deb : a99bf982ba01925a60b5d5b6ea05e39bfd52bdf3261f7c117b24bdb98223322e
 homepage   : https://rambox.pro
 license    : https://rambox.pro/#eula
 component  : system.utils

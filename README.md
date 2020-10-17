@@ -57,7 +57,7 @@ sudo eopkg install package
 | popcorn-time | 0.4.4 | 15/04/2020 |  |
 | pycharm | 2020.1.1 | 10/05/2020 |  |
 | pycharm-c | 2020.1.1 | 10/05/2020 |  |
-| rambox | 0.7.5 | 02/04/2020 |  |
+| rambox | 0.7.7 | 17/10/2020 |  |
 | rambox-pro | 1.3.2 | 27/06/2020 |  |
 | rar | 5.91 | 24/07/2020 |  |
 | renamemytvseries | compiling | compiling | [RenameMyTVSeries](https://www.tweaking4all.com/home-theatre/rename-my-tv-series-v2/) |
