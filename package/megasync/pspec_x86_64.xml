@@ -46,7 +46,7 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
+        <Update release="5">
             <Date>2020-10-17</Date>
             <Version>4.3.5</Version>
             <Comment>Packaging update</Comment>

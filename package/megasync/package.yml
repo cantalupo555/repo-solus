@@ -1,6 +1,6 @@
 name       : megasync
 version    : 4.3.5
-release    : 4
+release    : 5
 source     :
     - https://mega.nz/linux/MEGAsync/xUbuntu_20.04/amd64/megasync-xUbuntu_20.04_amd64.deb : 4ab22ae955b0af41873e68fdb84cd199e0a20940fb1a37165c58a2d3c73fe5e0
     - https://mega.nz/linux/MEGAsync/xUbuntu_20.04/amd64/nautilus-megasync-xUbuntu_20.04_amd64.deb : e23af051fa50febc2f49ae4bd61ece059e7b6c6f11adfe119cdc20bc1a1ac75a
@@ -29,6 +29,7 @@ rundeps    :
     - cryptopp-devel
     - libsodium
     - libqt5x11extras5
+    - libraw19
 setup      : |
     ar xf $sources/megasync*
     tar xf data.tar*

@@ -2669,9 +2669,10 @@
             <Dependency>cryptopp-devel</Dependency>
             <Dependency>libsodium</Dependency>
             <Dependency>libqt5x11extras5</Dependency>
+            <Dependency>libraw19</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
+            <Update release="5">
                 <Date>2020-10-17</Date>
                 <Version>4.3.5</Version>
                 <Comment>Packaging update</Comment>
@@ -2684,9 +2685,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>39303306</InstalledSize>
-        <PackageSize>14151175</PackageSize>
-        <PackageHash>c6c90255b8713986f97b98c59d458f7134434ac8</PackageHash>
-        <PackageURI>megasync-4.3.5-4-1-x86_64.eopkg</PackageURI>
+        <PackageSize>14151180</PackageSize>
+        <PackageHash>eea55aff4627d0b45daee4a2fbeba1d5f0b61bb0</PackageHash>
+        <PackageURI>megasync-4.3.5-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>megasync</Name>
