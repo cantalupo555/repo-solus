@@ -2680,15 +2680,12 @@
             <Dependency releaseFrom="39">sqlite3</Dependency>
             <Dependency releaseFrom="5">c-ares</Dependency>
             <Dependency releaseFrom="19">qt5-svg</Dependency>
-            <Dependency>libraw19</Dependency>
-            <Dependency>libc-ares2</Dependency>
-            <Dependency>libssl1.1</Dependency>
             <Dependency>cryptopp-devel</Dependency>
             <Dependency>libsodium</Dependency>
             <Dependency>libqt5x11extras5</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="3">
+            <Update release="4">
                 <Date>2020-10-17</Date>
                 <Version>4.3.5</Version>
                 <Comment>Packaging update</Comment>
@@ -2701,9 +2698,9 @@
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
         <InstalledSize>39303306</InstalledSize>
-        <PackageSize>14151185</PackageSize>
-        <PackageHash>f8f6673144d2b461d88b2a22f15e0b4af04c5da1</PackageHash>
-        <PackageURI>megasync-4.3.5-3-1-x86_64.eopkg</PackageURI>
+        <PackageSize>14151175</PackageSize>
+        <PackageHash>c6c90255b8713986f97b98c59d458f7134434ac8</PackageHash>
+        <PackageURI>megasync-4.3.5-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>megasync</Name>

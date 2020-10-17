@@ -1,8 +1,8 @@
-name       : libssl1.1_1.1.1f
+name       : google-chrome-unstable_87.0.4270.0
 version    : 
 release    : 1
 source     :
-    - http://mirrors.kernel.org/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb : 09ee28588a1fb5613ddc6c26a992d5a76931b3cf22c022930da413a5e580599e
+    - https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-unstable/google-chrome-unstable_87.0.4270.0-1_amd64.deb : 1f8523798667984494b2150dd127724f5db37a3a06b686546f8582e8f390489f
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN
