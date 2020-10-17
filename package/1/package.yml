@@ -1,8 +1,8 @@
-name       : libqt5x11extras5_5.12.8
-version    : 
+name       : 
+version    : skypeforlinux_8.65.0
 release    : 1
 source     :
-    - http://mirrors.kernel.org/ubuntu/pool/universe/q/qtx11extras-opensource-src/libqt5x11extras5_5.12.8-0ubuntu1_amd64.deb : 31f78c3b3e386bb351728635de42f18459a94ebfd41607a061c313b4924dc36e
+    - https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_8.65.0.78_amd64.deb : 9026f043697d7d0783e7232701a868229d9a91e91dc0ae86509732c1c7bf0c13
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN
