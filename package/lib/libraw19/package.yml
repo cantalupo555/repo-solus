@@ -1,0 +1,26 @@
+name       : libraw19
+version    : 1
+release    : 1
+source     :
+    - http://mirrors.kernel.org/ubuntu/pool/main/libr/libraw/libraw19_0.19.5-1ubuntu1_amd64.deb : 7dd1a6027a7adbf65f692113a44df20b84e911cba2735ca709c376a9979e30e7
+homepage   : http://www.libraw.org/
+license    : LGPL 2.1 and CDDL 1.0
+strip      : no
+component  : xorg.library
+summary    : LibRaw
+description: |
+    LibRaw is a library for reading RAW files obtained from digital photo cameras
+# https://packages.ubuntu.com/focal/amd64/libraw19/download
+builddeps  :
+  - binutils
+rundeps    :
+  - binutils
+setup      : |
+    ar xf $sources/libraw19*
+    tar xf data.tar*
+install    : |
+    mkdir -p $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libraw.so.19 $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libraw.so.19.0.2 $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libraw_r.so.19 $installdir/usr/lib
+    cp usr/lib/x86_64-linux-gnu/libraw_r.so.19.0.2 $installdir/usr/lib

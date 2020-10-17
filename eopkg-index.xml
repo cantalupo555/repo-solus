@@ -1081,6 +1081,46 @@
         </Source>
     </Package>
     <Package>
+        <Name>libraw19</Name>
+        <Summary xml:lang="en">LibRaw</Summary>
+        <Description xml:lang="en">LibRaw is a library for reading RAW files obtained from digital photo cameras</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>LGPL 2.1 and CDDL 1.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
+            <Dependency releaseFrom="50">libgomp</Dependency>
+            <Dependency>binutils</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2020-10-17</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>3645984</InstalledSize>
+        <PackageSize>256374</PackageSize>
+        <PackageHash>35178a460080a5f78e9c00bdeea332d2c481da6d</PackageHash>
+        <PackageURI>lib/libraw19-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libraw19</Name>
+            <Homepage>http://www.libraw.org/</Homepage>
+            <Packager>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>enpass</Name>
         <Summary xml:lang="en">A multiplatform password manager</Summary>
         <Description xml:lang="en">A multiplatform password manager</Description>
