@@ -2293,29 +2293,29 @@
             <Dependency>binutils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-04-05</Date>
+            <Update release="2">
+                <Date>2020-10-17</Date>
                 <Version>1</Version>
                 <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>3638048</InstalledSize>
-        <PackageSize>1366414</PackageSize>
-        <PackageHash>05d334d380471500778a42916bf6b95b23b22a2d</PackageHash>
-        <PackageURI>lib/libssl1.1-1-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>3476288</InstalledSize>
+        <PackageSize>1342201</PackageSize>
+        <PackageHash>58f734927434f2f4d66af30dc4842aa5598c6dd8</PackageHash>
+        <PackageURI>lib/libssl1.1-1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>libssl1.1</Name>
             <Homepage>https://www.openssl.org/</Homepage>
             <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Packager>
         </Source>
     </Package>

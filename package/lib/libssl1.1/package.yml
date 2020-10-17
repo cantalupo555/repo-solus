@@ -1,15 +1,15 @@
 name       : libssl1.1
 version    : 1
-release    : 1
+release    : 2
 source     :
-    - http://ftp.us.debian.org/debian/pool/main/o/openssl/libssl1.1_1.1.1f-1_amd64.deb : dfae77cad0def9883ca467eaa0ce6f494f6f6b76c9d934518ab2b3f44b888982
+    - http://mirrors.kernel.org/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb : 09ee28588a1fb5613ddc6c26a992d5a76931b3cf22c022930da413a5e580599e
 homepage   : https://www.openssl.org/
 license    : GPL-3.0
 component  : xorg.library
 summary    : Secure Sockets Layer toolkit - shared libraries This package is part of the OpenSSL project's implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.
 description: |
     Secure Sockets Layer toolkit - shared libraries This package is part of the OpenSSL project's implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.
-# https://packages.debian.org/sid/amd64/libssl1.1/download
+# https://packages.ubuntu.com/focal/amd64/libssl1.1/download
 builddeps  :
   - binutils
 rundeps    :
@@ -19,5 +19,4 @@ setup      : |
     tar xf data.tar*
 install    : |
     mkdir -p $installdir/usr/lib
-    cp usr/lib/x86_64-linux-gnu/libcrypto.so.1.1 $installdir/usr/lib
-    cp usr/lib/x86_64-linux-gnu/libssl.so.1.1 $installdir/usr/lib
+    cp $pkgfiles/* $installdir/usr/lib
