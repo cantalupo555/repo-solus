@@ -18,7 +18,7 @@ sudo eopkg install package
 
 | Package Name | Version | Last Updated | How-to |
 |-|-|-|-|
-| android-studio | 4.0.1 | 25/07/2020 |  |
+| android-studio | 4.1.0.19 | 17/10/2020 |  |
 | anydesk | 6.0.1 | 28/08/2020 |  |
 | bitwig-studio | 3.2.8 | 08/10/2020 |  |
 | [breaktimer](https://breaktimer.app/) | 0.7.5 | 30/07/2020 |  |

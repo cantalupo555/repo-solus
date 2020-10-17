@@ -1,8 +1,8 @@
 name       : android-studio
-version    : 4.0.1
-release    : 8
+version    : 4.1.0.19
+release    : 9
 source     :
-    - https://dl.google.com/dl/android/studio/ide-zips/4.0.1.0/android-studio-ide-193.6626763-linux.tar.gz : f2f82744e735eae43fa018a77254c398a3bab5371f09973a37483014b73b7597
+    - https://dl.google.com/dl/android/studio/ide-zips/4.1.0.19/android-studio-ide-201.6858069-linux.tar.gz : 4b9521fc4a6313ad65ff3e14b0f3fb50427d464fe14227555565f46e0ffad202
 homepage   : https://developer.android.com/studio/
 license    : Apache-2.0
 strip      : no
