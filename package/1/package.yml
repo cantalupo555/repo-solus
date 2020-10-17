@@ -1,8 +1,8 @@
-name       : rambox-0.7.7-linux
+name       : ramboxpro-1.4.0-linux
 version    : 
 release    : 1
 source     :
-    - https://github.com/ramboxapp/community-edition/releases/download/0.7.7/Rambox-0.7.7-linux-amd64.deb : a99bf982ba01925a60b5d5b6ea05e39bfd52bdf3261f7c117b24bdb98223322e
+    - https://github.com/ramboxapp/download/releases/download/v1.4.0/RamboxPro-1.4.0-linux-x64.deb : 468713c8e1437722c9b2b2fbc6fc7d81bc6a85be5326bddd995a02393c7b6b26
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN

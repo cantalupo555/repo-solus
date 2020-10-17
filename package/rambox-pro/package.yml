@@ -1,8 +1,8 @@
 name       : rambox-pro
-version    : 1.3.2
-release    : 4
+version    : 1.4.0
+release    : 5
 source     :
-    - https://github.com/ramboxapp/download/releases/download/v1.3.2/RamboxPro-1.3.2-linux-x64.deb : 2b68ef6d5dc295dd1391172bbfe78491eb9b4e094789b83f37e04f6fd02bd2d3
+    - https://github.com/ramboxapp/download/releases/download/v1.4.0/RamboxPro-1.4.0-linux-x64.deb : 468713c8e1437722c9b2b2fbc6fc7d81bc6a85be5326bddd995a02393c7b6b26
 homepage   : https://rambox.pro
 license    : https://rambox.pro/#eula
 strip      : no
