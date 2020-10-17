@@ -26,6 +26,7 @@
             <Path fileType="library">/usr/lib/mime/packages/softmaker-office-2021</Path>
             <Path fileType="data">/usr/share/applications/planmaker-2021.desktop</Path>
             <Path fileType="data">/usr/share/applications/presentations-2021.desktop</Path>
+            <Path fileType="data">/usr/share/applications/textmaker-2021.desktop</Path>
             <Path fileType="doc">/usr/share/doc/softmaker-office-2021/copyright</Path>
             <Path fileType="data">/usr/share/lintian/overrides/softmaker-office-2021</Path>
             <Path fileType="data">/usr/share/mime/packages/softmaker-office-2021.xml</Path>
@@ -643,8 +644,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2020-10-09</Date>
+        <Update release="4">
+            <Date>2020-10-17</Date>
             <Version>1020</Version>
             <Comment>Packaging update</Comment>
             <Name>community-solus</Name>

@@ -1836,8 +1836,8 @@
             <Dependency>libglu</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="3">
-                <Date>2020-10-09</Date>
+            <Update release="4">
+                <Date>2020-10-17</Date>
                 <Version>1020</Version>
                 <Comment>Packaging update</Comment>
                 <Name>community-solus</Name>
@@ -1848,10 +1848,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>865615032</InstalledSize>
-        <PackageSize>574656467</PackageSize>
-        <PackageHash>e40718840950ed762ec4e5e9e1687cc42cca3ca8</PackageHash>
-        <PackageURI>softmaker-office-2021-1020-3-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>865618764</InstalledSize>
+        <PackageSize>574657559</PackageSize>
+        <PackageHash>af60edffaae3e62ee4e6dd7cbf43efaf7ec04269</PackageHash>
+        <PackageURI>softmaker-office-2021-1020-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>softmaker-office-2021</Name>
