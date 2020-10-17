@@ -234,14 +234,14 @@
         <PartOf>desktop.multimedia</PartOf>
         <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="76">mpv-libs</Dependency>
-            <Dependency releaseFrom="24">qt5-declarative</Dependency>
-            <Dependency releaseFrom="48">qt5-base</Dependency>
+            <Dependency releaseFrom="78">mpv-libs</Dependency>
+            <Dependency releaseFrom="25">qt5-declarative</Dependency>
+            <Dependency releaseFrom="2">openssl-11</Dependency>
+            <Dependency releaseFrom="50">qt5-base</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="37">openssl</Dependency>
-            <Dependency releaseFrom="33">qt5-webengine</Dependency>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="34">qt5-webengine</Dependency>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
             <Dependency>gcc</Dependency>
             <Dependency>g++</Dependency>
             <Dependency>glibc-devel</Dependency>
@@ -261,29 +261,29 @@
             <Dependency>libraw</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-06-25</Date>
-                <Version>4.4.107</Version>
+            <Update release="5">
+                <Date>2020-10-17</Date>
+                <Version>4.4.120</Version>
                 <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>9756959</InstalledSize>
-        <PackageSize>2072651</PackageSize>
-        <PackageHash>f90ef10d87172d574d15b4086ec16c501428bb2d</PackageHash>
-        <PackageURI>stremio-4.4.107-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>9757497</InstalledSize>
+        <PackageSize>2072597</PackageSize>
+        <PackageHash>7c5355649d38aa3721076a1e0c32d1e05404c4b8</PackageHash>
+        <PackageURI>stremio-4.4.120-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>stremio</Name>
             <Homepage>https://www.stremio.com</Homepage>
             <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Packager>
         </Source>
     </Package>

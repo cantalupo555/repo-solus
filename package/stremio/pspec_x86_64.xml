@@ -3,8 +3,8 @@
         <Name>stremio</Name>
         <Homepage>https://www.stremio.com</Homepage>
         <Packager>
-            <Name>cantalupo555</Name>
-            <Email>cantalupo@protonmail.com</Email>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>desktop.multimedia</PartOf>
@@ -54,12 +54,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2020-06-25</Date>
-            <Version>4.4.107</Version>
+        <Update release="5">
+            <Date>2020-10-17</Date>
+            <Version>4.4.120</Version>
             <Comment>Packaging update</Comment>
-            <Name>cantalupo555</Name>
-            <Email>cantalupo@protonmail.com</Email>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
         </Update>
     </History>
 </PISI>

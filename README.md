@@ -70,7 +70,7 @@ sudo eopkg install package
 | speedtest | 1.0.0 | 26/04/2020 |  |
 | spotify | 1.1.42.622 | 24/09/2020 |  |
 | stacer | 1.1.0 | 11/02/2020 |  |
-| stremio | 4.4.107 | 25/06/2020 |  |
+| stremio | 4.4.120 | 17/10/2020 |  |
 | sublime-text-3 | 3211 | 31/01/2020 |  |
 | teams | compiling | compiling | Microsoft Teams |
 | teamviewer | 15.10.5 | 24/09/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-TeamViewer-on-Solus) |
