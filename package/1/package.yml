@@ -1,8 +1,8 @@
-name       : 
-version    : skypeforlinux_8.65.0
+name       : libraw19_0.19.5
+version    : 
 release    : 1
 source     :
-    - https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_8.65.0.78_amd64.deb : 9026f043697d7d0783e7232701a868229d9a91e91dc0ae86509732c1c7bf0c13
+    - http://mirrors.kernel.org/ubuntu/pool/main/libr/libraw/libraw19_0.19.5-1ubuntu1_amd64.deb : 7dd1a6027a7adbf65f692113a44df20b84e911cba2735ca709c376a9979e30e7
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN

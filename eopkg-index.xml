@@ -2680,8 +2680,7 @@
             <Dependency releaseFrom="39">sqlite3</Dependency>
             <Dependency releaseFrom="5">c-ares</Dependency>
             <Dependency releaseFrom="19">qt5-svg</Dependency>
-            <Dependency>libcrypto++6</Dependency>
-            <Dependency>libraw16</Dependency>
+            <Dependency>libraw19</Dependency>
             <Dependency>libc-ares2</Dependency>
             <Dependency>libssl1.1</Dependency>
             <Dependency>cryptopp-devel</Dependency>
@@ -2689,9 +2688,9 @@
             <Dependency>libqt5x11extras5</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-10-09</Date>
-                <Version>4.3.3</Version>
+            <Update release="3">
+                <Date>2020-10-17</Date>
+                <Version>4.3.5</Version>
                 <Comment>Packaging update</Comment>
                 <Name>community-solus</Name>
                 <Email>community-solus@protonmail.com</Email>
@@ -2701,10 +2700,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>38746163</InstalledSize>
-        <PackageSize>13703096</PackageSize>
-        <PackageHash>23c78b93db70f1edaa6ec94a42bc703c0ba0fbda</PackageHash>
-        <PackageURI>megasync-4.3.3-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>39303306</InstalledSize>
+        <PackageSize>14151185</PackageSize>
+        <PackageHash>f8f6673144d2b461d88b2a22f15e0b4af04c5da1</PackageHash>
+        <PackageURI>megasync-4.3.5-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>megasync</Name>

@@ -1,10 +1,10 @@
 name       : megasync
-version    : 4.3.3
-release    : 2
+version    : 4.3.5
+release    : 3
 source     :
-    - https://mega.nz/linux/MEGAsync/xUbuntu_20.04/amd64/megasync-xUbuntu_20.04_amd64.deb : 4b56432bc806646efb93e67fcf3e44b5a86599f4e552aed765baa04fed13cae9
-    - https://mega.nz/linux/MEGAsync/xUbuntu_20.04/amd64/nautilus-megasync-xUbuntu_20.04_amd64.deb : fc081e777811c743bff70a16cc62b12a6329e465576d12c4be31a3fa6aee2543
-    - https://mega.nz/linux/MEGAsync/xUbuntu_20.04/amd64/dolphin-megasync-xUbuntu_20.04_amd64.deb : fe0c59ccb91806aeab7b033eb71209a99c66bfb6de27167bb714eda9e503354e
+    - https://mega.nz/linux/MEGAsync/xUbuntu_20.04/amd64/megasync-xUbuntu_20.04_amd64.deb : 4ab22ae955b0af41873e68fdb84cd199e0a20940fb1a37165c58a2d3c73fe5e0
+    - https://mega.nz/linux/MEGAsync/xUbuntu_20.04/amd64/nautilus-megasync-xUbuntu_20.04_amd64.deb : e23af051fa50febc2f49ae4bd61ece059e7b6c6f11adfe119cdc20bc1a1ac75a
+    - https://mega.nz/linux/MEGAsync/xUbuntu_20.04/amd64/dolphin-megasync-xUbuntu_20.04_amd64.deb : 2db5996d51b8b6b7b3b44e53c10b3da5a2c8348f456a0133dbc1175beb8dea8a
 license    : © MEGA 2020 All rights reserved
 strip      : no
 component  : network.clients
@@ -26,8 +26,7 @@ builddeps  :
     - pkgconfig(zlib)
     - cryptopp-devel
 rundeps    :
-    - libcrypto++6
-    - libraw16
+    - libraw19
     - libc-ares2
     - libssl1.1
     - cryptopp-devel
