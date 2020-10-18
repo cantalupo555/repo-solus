@@ -1,8 +1,8 @@
-name       : ramboxpro-1.4.0-linux
+name       : google-chrome-stable_86.0.4240.75
 version    : 
 release    : 1
 source     :
-    - https://github.com/ramboxapp/download/releases/download/v1.4.0/RamboxPro-1.4.0-linux-x64.deb : 468713c8e1437722c9b2b2fbc6fc7d81bc6a85be5326bddd995a02393c7b6b26
+    - https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_86.0.4240.75-1_amd64.deb : 1fbead737a5f46086b0e5736333516257bc23702f4ff686ac48c6580daec3a9e
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN
