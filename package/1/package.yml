@@ -1,8 +1,8 @@
-name       : emby-server
-version    : deb_4.5.2
+name       : 
+version    : enpass_6.5.1
 release    : 1
 source     :
-    - https://github.com/MediaBrowser/Emby.Releases/releases/download/4.5.2.0/emby-server-deb_4.5.2.0_amd64.deb : 54df3e695a5444de7708aeaac4a28a78c093edb62c66b0b6b9d67e2da01197a2
+    - http://repo.sinew.in/pool/main/e/enpass/enpass_6.5.1.723_amd64.deb : d9bb408fa2253ce44ab5396898f7db13291ce23ae58964f4a27ade38bd5067bf
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN

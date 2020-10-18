@@ -27,7 +27,7 @@ sudo eopkg install package
 | datagrip | 2020.1.4 | 02/06/2020 |  |
 | dkms | 2.8.1 | 09/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-dkms-on-Solus) |
 | emby-server | 4.5.2.0 | 18/10/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-Emby-Server-on-Solus) |
-| enpass | 6.4.1.643 | 19/04/2020 |  |
+| enpass | 6.5.1.723 | 18/10/2020 |  |
 | [eradio](https://github.com/DreamDevel/eRadio) | 2.0.4 | 31/01/2020 |  |
 | filebot | 4.9.1 | 30/05/2020 |  |
 | filebot-o | 4.7.9 | 27/09/2020 |  |

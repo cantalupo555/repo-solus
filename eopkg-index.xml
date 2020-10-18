@@ -567,9 +567,9 @@
         </Source>
     </Package>
     <Package>
-        <Name>goland</Name>
-        <Summary xml:lang="en">Goland</Summary>
-        <Description xml:lang="en">Goland - an IDE for the Go Language</Description>
+        <Name>phpstorm</Name>
+        <Summary xml:lang="en">PHPStorm</Summary>
+        <Description xml:lang="en">PHPStorm - an IDE for the PHP Language</Description>
         <PartOf>programming</PartOf>
         <License>GPL-2.0</License>
         <RuntimeDependencies>
@@ -589,9 +589,9 @@
             <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="4">
-                <Date>2020-05-10</Date>
-                <Version>2020.1.2</Version>
+            <Update release="3">
+                <Date>2020-05-11</Date>
+                <Version>2020.1.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -601,14 +601,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>865724395</InstalledSize>
-        <PackageSize>333691353</PackageSize>
-        <PackageHash>5028b7cf286ca1d149ec1ea25922e54c79c55434</PackageHash>
-        <PackageURI>goland-2020.1.2-4-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>889103997</InstalledSize>
+        <PackageSize>339793966</PackageSize>
+        <PackageHash>d790622ae350bbe7c30716737c3eda3f76b3baa5</PackageHash>
+        <PackageURI>phpstorm-2020.1.1-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>goland</Name>
-            <Homepage>https://www.jetbrains.com/go/</Homepage>
+            <Name>phpstorm</Name>
+            <Homepage>https://www.jetbrains.com/phpstorm/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1155,42 +1155,42 @@
         <PartOf>security</PartOf>
         <License>Custom</License>
         <RuntimeDependencies>
+            <Dependency releaseFrom="24">libx11</Dependency>
+            <Dependency releaseFrom="65">glib2</Dependency>
+            <Dependency releaseFrom="30">dbus</Dependency>
             <Dependency releaseFrom="21">zlib</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="29">dbus</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
             <Dependency releaseFrom="11">libxscrnsaver</Dependency>
+            <Dependency releaseFrom="25">xz</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="57">curl</Dependency>
             <Dependency releaseFrom="27">util-linux</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="9">libglvnd</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency>lsof</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-04-19</Date>
-                <Version>6.4.1.643</Version>
+            <Update release="3">
+                <Date>2020-10-18</Date>
+                <Version>6.5.1.723</Version>
                 <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>68366870</InstalledSize>
-        <PackageSize>30186585</PackageSize>
-        <PackageHash>afab6d641babc2f59b9f5e0bb532083bc60063dc</PackageHash>
-        <PackageURI>enpass-6.4.1.643-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>70609909</InstalledSize>
+        <PackageSize>31065826</PackageSize>
+        <PackageHash>7ed5d1c17c84e5603f685d1aa394cd0e5ff55be4</PackageHash>
+        <PackageURI>enpass-6.5.1.723-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>enpass</Name>
             <Homepage>https://enpass.io</Homepage>
             <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Packager>
         </Source>
     </Package>
@@ -3283,9 +3283,9 @@
         </Source>
     </Package>
     <Package>
-        <Name>phpstorm</Name>
-        <Summary xml:lang="en">PHPStorm</Summary>
-        <Description xml:lang="en">PHPStorm - an IDE for the PHP Language</Description>
+        <Name>goland</Name>
+        <Summary xml:lang="en">Goland</Summary>
+        <Description xml:lang="en">Goland - an IDE for the Go Language</Description>
         <PartOf>programming</PartOf>
         <License>GPL-2.0</License>
         <RuntimeDependencies>
@@ -3305,9 +3305,9 @@
             <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="3">
-                <Date>2020-05-11</Date>
-                <Version>2020.1.1</Version>
+            <Update release="4">
+                <Date>2020-05-10</Date>
+                <Version>2020.1.2</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -3317,14 +3317,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>889103997</InstalledSize>
-        <PackageSize>339793966</PackageSize>
-        <PackageHash>d790622ae350bbe7c30716737c3eda3f76b3baa5</PackageHash>
-        <PackageURI>phpstorm-2020.1.1-3-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>865724395</InstalledSize>
+        <PackageSize>333691353</PackageSize>
+        <PackageHash>5028b7cf286ca1d149ec1ea25922e54c79c55434</PackageHash>
+        <PackageURI>goland-2020.1.2-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>phpstorm</Name>
-            <Homepage>https://www.jetbrains.com/phpstorm/</Homepage>
+            <Name>goland</Name>
+            <Homepage>https://www.jetbrains.com/go/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>

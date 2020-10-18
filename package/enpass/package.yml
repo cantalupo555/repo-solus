@@ -1,8 +1,8 @@
 name       : enpass
-version    : 6.4.1.643
-release    : 2
+version    : 6.5.1.723
+release    : 3
 source     :
-    - http://repo.sinew.in/pool/main/e/enpass/enpass_6.4.1.643_amd64.deb : c44ec92302775d86ccde48d91f0f0e7c0228b720be61e54299e1be4bc0c06268
+    - http://repo.sinew.in/pool/main/e/enpass/enpass_6.5.1.723_amd64.deb : d9bb408fa2253ce44ab5396898f7db13291ce23ae58964f4a27ade38bd5067bf
 homepage   : https://enpass.io
 license    : Custom
 strip      : no

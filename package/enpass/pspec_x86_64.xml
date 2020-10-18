@@ -3,8 +3,8 @@
         <Name>enpass</Name>
         <Homepage>https://enpass.io</Homepage>
         <Packager>
-            <Name>cantalupo555</Name>
-            <Email>cantalupo@protonmail.com</Email>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
         </Packager>
         <License>Custom</License>
         <PartOf>security</PartOf>
@@ -49,12 +49,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2020-04-19</Date>
-            <Version>6.4.1.643</Version>
+        <Update release="3">
+            <Date>2020-10-18</Date>
+            <Version>6.5.1.723</Version>
             <Comment>Packaging update</Comment>
-            <Name>cantalupo555</Name>
-            <Email>cantalupo@protonmail.com</Email>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
         </Update>
     </History>
 </PISI>
