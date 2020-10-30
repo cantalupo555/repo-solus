@@ -1,8 +1,8 @@
 name       : teamviewer
-version    : 15.10.5
-release    : 8
+version    : 15.11.6
+release    : 9
 source     :
-    - https://dl.teamviewer.com/download/linux/version_15x/teamviewer_15.10.5_amd64.deb : 2d7fb062cf124190b923e365ec2b6e8a6f6de506d356fadf8af20f30341d3ab9
+    - https://dl.teamviewer.com/download/linux/version_15x/teamviewer_15.11.6_amd64.deb : 896a52eacfb0ad691273e90d65ad4e2fb76fe958826b97207000e7ba879d8560
 homepage   : http://www.teamviewer.com
 license    : https://www.teamviewer.com/en/eula/
 strip      : no

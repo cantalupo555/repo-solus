@@ -1,8 +1,8 @@
-name       : plexmediaserver_1.20.3.3483
-version    : 
+name       : 
+version    : teamviewer_15.11
 release    : 1
 source     :
-    - https://downloads.plex.tv/plex-media-server-new/1.20.3.3483-211702a9f/debian/plexmediaserver_1.20.3.3483-211702a9f_amd64.deb : 01ca5417d286d3a24a9095926e89fef54b0ddee4bf375b36636f8dbe0a5eaa77
+    - https://dl.teamviewer.com/download/linux/version_15x/teamviewer_15.11.6_amd64.deb : 896a52eacfb0ad691273e90d65ad4e2fb76fe958826b97207000e7ba879d8560
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN

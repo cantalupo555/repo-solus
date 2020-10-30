@@ -73,7 +73,7 @@ sudo eopkg install package
 | stremio | 4.4.120 | 17/10/2020 |  |
 | sublime-text-3 | 3211 | 31/01/2020 |  |
 | teams | compiling | compiling | Microsoft Teams |
-| teamviewer | 15.10.5 | 24/09/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-TeamViewer-on-Solus) |
+| teamviewer | 15.11.6 | 30/10/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-TeamViewer-on-Solus) |
 | viber | 13.3.1 | 15/08/2020 |  |
 | warsaw | 1.14.1 | 06/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-warsaw-on-Solus-%5BBrazil%5D)  - [Brazil](https://www.dieboldnixdorf.com.br/warsaw) |
 | webstorm | 2020.1.1 | 11/05/2020 |  |

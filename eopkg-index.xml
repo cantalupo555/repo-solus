@@ -2580,7 +2580,7 @@
         <License>https://www.teamviewer.com/en/eula/</License>
         <RuntimeDependencies>
             <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency releaseFrom="27">freetype2</Dependency>
+            <Dependency releaseFrom="28">freetype2</Dependency>
             <Dependency releaseFrom="50">qt5-base</Dependency>
             <Dependency releaseFrom="28">qt5-webkit</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
@@ -2612,29 +2612,29 @@
             <Dependency>qt5-quickcontrols</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="8">
-                <Date>2020-09-24</Date>
-                <Version>15.10.5</Version>
+            <Update release="9">
+                <Date>2020-10-30</Date>
+                <Version>15.11.6</Version>
                 <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>72379539</InstalledSize>
-        <PackageSize>21290838</PackageSize>
-        <PackageHash>506f5ccaaf3bca593e89a5e08ea1c33239259f29</PackageHash>
-        <PackageURI>teamviewer-15.10.5-8-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>72987959</InstalledSize>
+        <PackageSize>21479572</PackageSize>
+        <PackageHash>48d980d0565bb86268e90781d20cf9cc7d0bd723</PackageHash>
+        <PackageURI>teamviewer-15.11.6-9-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>teamviewer</Name>
             <Homepage>http://www.teamviewer.com</Homepage>
             <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Packager>
         </Source>
     </Package>
