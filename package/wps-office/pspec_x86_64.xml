@@ -3,8 +3,8 @@
         <Name>wps-office</Name>
         <Homepage>https://www.wps.com/</Homepage>
         <Packager>
-            <Name>cantalupo555</Name>
-            <Email>cantalupo@protonmail.com</Email>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
         </Packager>
         <License>http://wps-community.org/license.md</License>
         <PartOf>office</PartOf>
@@ -31,7 +31,13 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/cef/cef_extensions.pak</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/cef/devtools_resources.pak</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/cef/icudtl.dat</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/cef/libcairo.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/cef/libcairo.so.2</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/cef/libcairo.so.2.11400.8</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/cef/libcef.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/cef/libpng16.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/cef/libpng16.so.16</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/cef/libpng16.so.16.28.0</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/cef/locales/en-GB.pak</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/cef/locales/en-US.pak</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/cef/locales/zh-CN.pak</Path>
@@ -75,6 +81,8 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/khelp/mui/default/html/static/css/app.css</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/khelp/mui/default/html/static/js/app.js</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/khelp/mui/zh_CN/khelp.qm</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kjsapipage/libkjsapipage.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kjsapipage/mui/zh_CN/kjsapipage.qm</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/knewdocs/libknewdocs.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/knewdocs/mui/default/icons_svg.data</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/knewdocs/mui/zh_CN/knewdocs.qm</Path>
@@ -179,6 +187,9 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kpromebrowser/mui/zh_TW/kpromebrowser.qm</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kpromeprocesson/libkpromeprocesson.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kpromeprocesson/mui/zh_CN/kpromeprocesson.qm</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kpromeprocessonlocal/libkpromeprocessonlocal.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kpromeprocessonlocal/mui/default/loading.html</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kpromeprocessonlocal/mui/zh_CN/kpromeprocesson.qm</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kpromeworkarea/libkpromeworkarea.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kpromeworkarea/mui/default/html/index.html</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kpromeworkarea/mui/default/html/static/css/app.css</Path>
@@ -203,6 +214,11 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kskincenter/mui/default/html/static/js/app.js</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kskincenter/mui/default/html/static/js/manifest.js</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kskincenter/mui/default/html/static/js/vendor.js</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/ksoformatproof/libksoformatproof.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/ksoformatproof/mui/zh_CN/ksoformatproof.qm</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/ksoformatproof/templates/GB9704-2012</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/ksplitmerge/libksplitmergeapp.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/ksplitmerge/mui/zh_CN/ksplitmergeapp.qm</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kstartpage/libkstartpage.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kstartpage/mui/default/htmlep/index.html</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/addons/kstartpage/mui/default/htmlep/static/css/app.css</Path>
@@ -1484,17 +1500,17 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libaeocenter.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libauth.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libavcodec.so</Path>
-            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavcodec.so.57</Path>
-            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavcodec.so.57.24.102</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavcodec.so.58</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavcodec.so.58.54.100</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libavdevice.so</Path>
-            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavdevice.so.57</Path>
-            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavdevice.so.57.0.101</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavdevice.so.58</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavdevice.so.58.8.100</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libavformat.so</Path>
-            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavformat.so.57</Path>
-            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavformat.so.57.25.100</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavformat.so.58</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavformat.so.58.29.100</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libavutil.so</Path>
-            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavutil.so.55</Path>
-            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavutil.so.55.17.103</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavutil.so.56</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libavutil.so.56.31.100</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libbz2.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libbz2.so.1</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libbz2.so.1.0</Path>
@@ -1514,6 +1530,7 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libethtmrw.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libetmain.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libetsolver.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libetuofrw.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libetxmlrw.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libexcel2003htmlrw.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libexcelrw.so</Path>
@@ -1527,6 +1544,7 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libjpeg.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libjpeg.so.8</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libjpeg.so.8.0.2</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libjsapiservice.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libjscefservice.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libjsetapi.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libjswppapi.so</Path>
@@ -1567,11 +1585,14 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libqpdfpaint.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/librpcetapi.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/librpcetapi_sysqt5.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/librpcetapi_wpsqt.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/librpcserver.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/librpcwppapi.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/librpcwppapi_sysqt5.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/librpcwppapi_wpsqt.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/librpcwpsapi.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/librpcwpsapi_sysqt5.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/librpcwpsapi_wpsqt.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/librtfreader.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libsearchcore.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libsoftokn3.so</Path>
@@ -1580,15 +1601,16 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libssl.so.1.1</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libswfplayer.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libswresample.so</Path>
-            <Path fileType="data">/opt/kingsoft/wps-office/office6/libswresample.so.2</Path>
-            <Path fileType="data">/opt/kingsoft/wps-office/office6/libswresample.so.2.0.101</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libswresample.so.3</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libswresample.so.3.5.100</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libswscale.so</Path>
-            <Path fileType="data">/opt/kingsoft/wps-office/office6/libswscale.so.4</Path>
-            <Path fileType="data">/opt/kingsoft/wps-office/office6/libswscale.so.4.0.100</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libswscale.so.5</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libswscale.so.5.5.100</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libtcmalloc.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libtcmalloc.so.4</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libtcmalloc.so.4.5.3</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libtxtrw.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libuof.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libvbeapi.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libwordconvert.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libwordml12w.so</Path>
@@ -1597,6 +1619,7 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libwpphtmlrw.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libwppmain.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libwppoutline.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libwppuofrw.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libwpsapi.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libwpsapiex.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libwpscloudsvrimp.so</Path>
@@ -1605,14 +1628,16 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libwpsio.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libwpsmain.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libwpstablestyle.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/libwpsuofrw.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libwpswordtool.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libwpsxmlrw.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libxercesc3.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libxlsbrw.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/libxlsxrw.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/2016white_highdpi_res.rcc</Path>
-            <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/EULA_linux.txt</Path>
-            <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/Privacy_Linux.txt</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/DesignScience.png</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/EULA_linux.html</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/Privacy_Linux.html</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/config/controldatetimeformat.cfg</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/config/datetimeformat.cfg</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/config/downloadIrmUrl.cfg</Path>
@@ -1635,6 +1660,7 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/l10n/et.cfg</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/l10n/wpp.cfg</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/l10n/wps.cfg</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/linux_fonts/Kingsoft Extra.ttf</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/mso_builtin_icons.rcc</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/ongmani_res.rcc</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/prometheus_kso_res.rcc</Path>
@@ -2697,6 +2723,7 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/templates/predefch.et</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/wpptips.qm</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/default/wpstips.qm</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/DesignScience.png</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/config/numberformat.cfg</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/config/replace_as_you_type.cfg</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/config/wpsfieldnumber.cfg</Path>
@@ -2720,6 +2747,9 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/qing.qm</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/background_pro_2019_loading.png</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/ent_background_2019_et_linux.png</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/ent_background_2019_flow_linux.png</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/ent_background_2019_mind_linux.png</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/ent_background_2019_ofd_linux.png</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/ent_background_2019_pdf_linux.png</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/ent_background_2019_wpp_linux.png</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/ent_background_2019_wps_linux.png</Path>
@@ -2731,6 +2761,7 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/hdpi/2x/ent_background_2019_wpsoffice_linux.png</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/hdpi/background_pro_2019_loading.png</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/hdpi/ent_background_2019_et_linux.png</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/hdpi/ent_background_2019_ofd_linux.png</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/hdpi/ent_background_2019_pdf_linux.png</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/hdpi/ent_background_2019_wpp_linux.png</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/en_US/resource/splash/hdpi/ent_background_2019_wps_linux.png</Path>
@@ -2843,13 +2874,21 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/ug_CN/lang.conf</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/ug_CN/templates/Normal.dotm</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/mui/ug_CN/templates/builtin.wpt</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/oa/ssl/localhost.crt</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/oa/ssl/localhost.key</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/oa/wpsoaassist.sh</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/parsecloudfiletool</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/promecefpluginhost</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/qt.conf</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/qt/icc/FOGRA39L_coated.icc</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/qt/icc/sRGB.icc</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/qt/plugins/codecs/libqcncodecs.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/qt/plugins/codecs/libqjpcodecs.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/qt/plugins/codecs/libqkrcodecs.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/qt/plugins/codecs/libqtwcodecs.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/qt/plugins/inputmethods/libqim-fcitx.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/qt/plugins/inputmethods/libqim-ibus.so</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/qt/plugins/inputmethods/libqimsw-multi.so</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/res/attributes.kuip</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/res/commands/et/PopupMenu.kuip</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/res/commands/et/classics/3DSettings.kuip</Path>
@@ -2998,6 +3037,7 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/res/commands/pdf_classics/ongmani/CT_File.kuip</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/res/commands/pdf_classics/ongmani/CT_Font.kuip</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/res/commands/pdf_classics/ongmani/CT_Home.kuip</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/res/commands/pdf_classics/ongmani/CT_PageManage.kuip</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/res/commands/pdf_classics/ongmani/CT_Protect.kuip</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/res/commands/pdf_classics/ongmani/CT_ShapeStyle.kuip</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/res/commands/pdf_classics/ongmani/CT_Tools.kuip</Path>
@@ -3255,6 +3295,16 @@
             <Path fileType="data">/opt/kingsoft/wps-office/office6/res/wpscommon.kuip</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/res/wpsongmani.kui</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/res/wpsrainbow.kui</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/skins/2019gov/common.kuip</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/skins/2019gov/common_common.kuip</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/skins/2019gov/default/prometheus_wpsoffice_res.rcc</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/skins/2019gov/et.kuip</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/skins/2019gov/pdf.kuip</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/skins/2019gov/skin.ini</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/skins/2019gov/theme.kuip</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/skins/2019gov/wpp.kuip</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/skins/2019gov/wps.kuip</Path>
+            <Path fileType="data">/opt/kingsoft/wps-office/office6/skins/2019gov/wpsoffice.kuip</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/skins/2019white/common.kuip</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/skins/2019white/common_common.kuip</Path>
             <Path fileType="data">/opt/kingsoft/wps-office/office6/skins/2019white/default/prometheus_wpsoffice_res.rcc</Path>
@@ -3616,7 +3666,6 @@
             <Path fileType="data">/usr/share/fonts/symbol.ttf</Path>
             <Path fileType="data">/usr/share/fonts/wingding.ttf</Path>
             <Path fileType="data">/usr/share/fonts/wps-office/DejaVuMathTeXGyre.ttf</Path>
-            <Path fileType="data">/usr/share/fonts/wps-office/mtextra.ttf</Path>
             <Path fileType="data">/usr/share/icons/hicolor/128x128/mimetypes/wps-office-doc.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/128x128/mimetypes/wps-office-dot.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/128x128/mimetypes/wps-office-dps.png</Path>
@@ -3836,12 +3885,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2020-04-15</Date>
-            <Version>11.1.0.9505</Version>
+        <Update release="6">
+            <Date>2020-10-30</Date>
+            <Version>11.1.0.9719</Version>
             <Comment>Packaging update</Comment>
-            <Name>cantalupo555</Name>
-            <Email>cantalupo@protonmail.com</Email>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
         </Update>
     </History>
 </PISI>

@@ -78,7 +78,7 @@ sudo eopkg install package
 | warsaw | 1.14.1 | 06/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-warsaw-on-Solus-%5BBrazil%5D)  - [Brazil](https://www.dieboldnixdorf.com.br/warsaw) |
 | webstorm | 2020.1.1 | 11/05/2020 |  |
 | windscribe | 1.4 | 04/04/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-windscribe-on-Solus) |
-| wps-office | 11.1.0.9615 | 29/08/2020 |  |
+| wps-office | 11.1.0.9719 | 30/10/2020 |  |
 | [xdm](https://github.com/subhra74/xdm) | 7.2.11 | 01/09/2020 |  |
 | xmacro | 0.3 | 31/01/2020 |  |
 | xmind-zen | 10.2.1 | 24/09/2020 |  |
