@@ -478,25 +478,25 @@
         </Source>
     </Package>
     <Package>
-        <Name>insync</Name>
-        <Summary xml:lang="en">The most powerful Google Drive client ever built</Summary>
-        <Description xml:lang="en">Insync extends Drive&apos;s web functionality to your desktop by integrating tightly with Windows, Mac and Linux so you can get work done.</Description>
-        <PartOf>network.download</PartOf>
-        <License>Custom</License>
+        <Name>windscribe</Name>
+        <Summary xml:lang="en">Windscribe command line interface</Summary>
+        <Description xml:lang="en">Windscribe command line interface</Description>
+        <PartOf>network.clients</PartOf>
+        <License>© 2021 Windscribe Limited</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="21">wayland</Dependency>
-            <Dependency releaseFrom="46">libnss</Dependency>
-            <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="9">libglvnd</Dependency>
-            <Dependency releaseFrom="17">libnspr</Dependency>
-            <Dependency>binutils</Dependency>
-            <Dependency>nautilus-python</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency>procps-ng</Dependency>
+            <Dependency>iproute2</Dependency>
+            <Dependency>ipset</Dependency>
+            <Dependency>iptables</Dependency>
+            <Dependency>gawk</Dependency>
+            <Dependency>openvpn</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="9">
-                <Date>2020-09-24</Date>
-                <Version>3.2.7.40868</Version>
+            <Update release="1">
+                <Date>2020-04-04</Date>
+                <Version>1.4</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -506,14 +506,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>379565938</InstalledSize>
-        <PackageSize>115145003</PackageSize>
-        <PackageHash>66467149812e377053dcc86ff795650de053686c</PackageHash>
-        <PackageURI>insync-3.2.7.40868-9-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>9996846</InstalledSize>
+        <PackageSize>9664031</PackageSize>
+        <PackageHash>4cc8d85cbe69178a64641bdc8f52c22646e7d116</PackageHash>
+        <PackageURI>windscribe-1.4-1-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>insync</Name>
-            <Homepage>https://enpass.io</Homepage>
+            <Name>windscribe</Name>
+            <Homepage>https://windscribe.com/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -2334,45 +2334,45 @@
         </Source>
     </Package>
     <Package>
-        <Name>windscribe</Name>
-        <Summary xml:lang="en">Windscribe command line interface</Summary>
-        <Description xml:lang="en">Windscribe command line interface</Description>
-        <PartOf>network.clients</PartOf>
-        <License>© 2021 Windscribe Limited</License>
+        <Name>insync</Name>
+        <Summary xml:lang="en">The most powerful Google Drive client ever built</Summary>
+        <Description xml:lang="en">Insync extends Drive&apos;s web functionality to your desktop by integrating tightly with Windows, Mac and Linux so you can get work done.</Description>
+        <PartOf>network.download</PartOf>
+        <License>Custom</License>
         <RuntimeDependencies>
+            <Dependency releaseFrom="21">wayland</Dependency>
+            <Dependency releaseFrom="46">libnss</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="21">zlib</Dependency>
-            <Dependency>procps-ng</Dependency>
-            <Dependency>iproute2</Dependency>
-            <Dependency>ipset</Dependency>
-            <Dependency>iptables</Dependency>
-            <Dependency>gawk</Dependency>
-            <Dependency>openvpn</Dependency>
+            <Dependency releaseFrom="9">libglvnd</Dependency>
+            <Dependency releaseFrom="17">libnspr</Dependency>
+            <Dependency>binutils</Dependency>
+            <Dependency>nautilus-python</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-04-04</Date>
-                <Version>1.4</Version>
+            <Update release="9">
+                <Date>2020-10-30</Date>
+                <Version>3.3.0.40894</Version>
                 <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>9996846</InstalledSize>
-        <PackageSize>9664031</PackageSize>
-        <PackageHash>4cc8d85cbe69178a64641bdc8f52c22646e7d116</PackageHash>
-        <PackageURI>windscribe-1.4-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>379574501</InstalledSize>
+        <PackageSize>115148294</PackageSize>
+        <PackageHash>737ac23033a583e8b307d33283aeb0d910e56a93</PackageHash>
+        <PackageURI>insync-3.3.0.40894-9-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>windscribe</Name>
-            <Homepage>https://windscribe.com/</Homepage>
+            <Name>insync</Name>
+            <Homepage>https://enpass.io</Homepage>
             <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Packager>
         </Source>
     </Package>
