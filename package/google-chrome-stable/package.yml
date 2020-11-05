@@ -1,8 +1,8 @@
 name       : google-chrome-stable
-version    : 86.0.4240.75
-release    : 20
+version    : 86.0.4240.183
+release    : 21
 source     :
-    - https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_86.0.4240.75-1_amd64.deb : 1fbead737a5f46086b0e5736333516257bc23702f4ff686ac48c6580daec3a9e
+    - https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_86.0.4240.183-1_amd64.deb : c9d37f91449ea3563d518b13164c5aefb42d166d5aec91f9832948d335ee0de4
 homepage   : https://www.google.com/chrome/
 license    : EULA
 strip      : no
