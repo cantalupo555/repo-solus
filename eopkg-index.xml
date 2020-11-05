@@ -2853,7 +2853,7 @@
             <Dependency releaseFrom="24">cups</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
             <Dependency releaseFrom="65">glib2</Dependency>
-            <Dependency releaseFrom="94">libgtk-3</Dependency>
+            <Dependency releaseFrom="95">libgtk-3</Dependency>
             <Dependency releaseFrom="46">libnss</Dependency>
             <Dependency releaseFrom="45">libcairo</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
@@ -2873,9 +2873,9 @@
             <Dependency>gnome-keyring</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="11">
-                <Date>2020-10-17</Date>
-                <Version>8.65.0.78</Version>
+            <Update release="12">
+                <Date>2020-11-05</Date>
+                <Version>8.66.0.74</Version>
                 <Comment>Packaging update</Comment>
                 <Name>community-solus</Name>
                 <Email>community-solus@protonmail.com</Email>
@@ -2885,10 +2885,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>303961890</InstalledSize>
-        <PackageSize>96446706</PackageSize>
-        <PackageHash>1a3a095e9f3f34a836df54fbf73862292a4a0924</PackageHash>
-        <PackageURI>skype-8.65.0.78-11-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>303258616</InstalledSize>
+        <PackageSize>96439457</PackageSize>
+        <PackageHash>4b020f99b40651e1140073243bcda68a865ad952</PackageHash>
+        <PackageURI>skype-8.66.0.74-12-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>skype</Name>

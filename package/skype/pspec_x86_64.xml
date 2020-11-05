@@ -97,7 +97,6 @@
             <Path fileType="data">/usr/share/skypeforlinux/locales/zh-TW.pak</Path>
             <Path fileType="data">/usr/share/skypeforlinux/resources.pak</Path>
             <Path fileType="data">/usr/share/skypeforlinux/resources/app.asar</Path>
-            <Path fileType="data">/usr/share/skypeforlinux/resources/app.asar.unpacked/modules/electron-ssid.node</Path>
             <Path fileType="data">/usr/share/skypeforlinux/resources/app.asar.unpacked/modules/electron_utility.node</Path>
             <Path fileType="data">/usr/share/skypeforlinux/resources/app.asar.unpacked/modules/keytar.node</Path>
             <Path fileType="data">/usr/share/skypeforlinux/resources/app.asar.unpacked/modules/platform.node</Path>
@@ -115,9 +114,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="11">
-            <Date>2020-10-17</Date>
-            <Version>8.65.0.78</Version>
+        <Update release="12">
+            <Date>2020-11-05</Date>
+            <Version>8.66.0.74</Version>
             <Comment>Packaging update</Comment>
             <Name>community-solus</Name>
             <Email>community-solus@protonmail.com</Email>
