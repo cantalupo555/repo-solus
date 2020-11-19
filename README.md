@@ -30,7 +30,7 @@ sudo eopkg install package
 | enpass | 6.5.1.723 | 18/10/2020 |  |
 | [eradio](https://github.com/DreamDevel/eRadio) | 2.0.4 | 31/01/2020 |  |
 | filebot | 4.9.1 | 30/05/2020 |  |
-| filebot-o | 4.7.9 | 27/09/2020 |  |
+| filebot-o | 4.7.9 | 18/11/2020 |  |
 | franz | 5.5.0 | 08/05/2020 |  |
 | free-office-2018 | 976 | 15/04/2020 |  |
 | genymotion | 3.1.1 | 01/09/2020 | Only .current kernel |

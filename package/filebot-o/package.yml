@@ -1,6 +1,6 @@
 name       : filebot-o
 version    : 4.7.9
-release    : 1
+release    : 3
 source     :
     - https://ufpr.dl.sourceforge.net/project/filebot/filebot/FileBot_4.7.9/filebot_4.7.9_amd64.deb : 892723dcec8fe5385ec6665db9960e7c1a88e459a60525c02afb7f1195a50523
 homepage   : https://www.filebot.net
@@ -16,7 +16,8 @@ builddeps  :
 rundeps    :
   - binutils
   - libglvnd
-  - openjdk-11
+  - openjdk-8
+  - openjfx-8
 setup      : |
     ar xf $sources/filebot_${version}*
     tar xf data.tar*

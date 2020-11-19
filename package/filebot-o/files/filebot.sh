@@ -1,6 +1,6 @@
 #!/bin/sh
 APP_ROOT=/usr/share/filebot
-FILEBOT_HOME="/usr/lib64/openjdk-11/bin/java"
+FILEBOT_HOME="/usr/lib64/openjdk-8/bin/java"
 
 if [ -z "$HOME" ]; then
 	echo '$HOME must be set'

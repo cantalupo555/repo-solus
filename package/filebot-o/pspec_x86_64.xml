@@ -3,8 +3,8 @@
         <Name>filebot-o</Name>
         <Homepage>https://www.filebot.net</Homepage>
         <Packager>
-            <Name>cantalupo555</Name>
-            <Email>cantalupo@protonmail.com</Email>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
         </Packager>
         <License>EULA</License>
         <PartOf>system.utils</PartOf>
@@ -39,12 +39,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2020-09-27</Date>
+        <Update release="3">
+            <Date>2020-11-18</Date>
             <Version>4.7.9</Version>
             <Comment>Packaging update</Comment>
-            <Name>cantalupo555</Name>
-            <Email>cantalupo@protonmail.com</Email>
+            <Name>community-solus</Name>
+            <Email>community-solus@protonmail.com</Email>
         </Update>
     </History>
 </PISI>
