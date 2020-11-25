@@ -1,8 +1,8 @@
-name       : google-chrome-stable_86.0.4240.183
-version    : 
+name       : 
+version    : teamviewer_15.12
 release    : 1
 source     :
-    - https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_86.0.4240.183-1_amd64.deb : c9d37f91449ea3563d518b13164c5aefb42d166d5aec91f9832948d335ee0de4
+    - https://dl.teamviewer.com/download/linux/version_15x/teamviewer_15.12.4_amd64.deb : 92cd229707a04cb877ab082667216b5f072f456f6ae0f8fd9fbfa458b69f171b
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN

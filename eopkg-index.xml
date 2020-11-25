@@ -2234,28 +2234,29 @@
         <PartOf>network.web.browser</PartOf>
         <License>EULA</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="24">libx11</Dependency>
             <Dependency releaseFrom="30">dbus</Dependency>
             <Dependency releaseFrom="12">libxcomposite</Dependency>
             <Dependency releaseFrom="18">expat</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
-            <Dependency releaseFrom="17">libnspr</Dependency>
+            <Dependency releaseFrom="18">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="34">pango</Dependency>
+            <Dependency releaseFrom="35">pango</Dependency>
             <Dependency releaseFrom="24">cups</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="95">libgtk-3</Dependency>
-            <Dependency releaseFrom="46">libnss</Dependency>
-            <Dependency releaseFrom="65">glib2</Dependency>
+            <Dependency releaseFrom="24">at-spi2</Dependency>
+            <Dependency releaseFrom="96">libgtk-3</Dependency>
+            <Dependency releaseFrom="47">libnss</Dependency>
+            <Dependency releaseFrom="67">glib2</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="45">libcairo</Dependency>
+            <Dependency releaseFrom="24">libx11</Dependency>
             <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="46">libcairo</Dependency>
             <Dependency releaseFrom="24">libatk</Dependency>
             <Dependency releaseFrom="13">libxdamage</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
             <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency releaseFrom="21">at-spi2-atk</Dependency>
-            <Dependency releaseFrom="23">at-spi2</Dependency>
+            <Dependency releaseFrom="22">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="9">libxkbcommon</Dependency>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
             <Dependency>binutils</Dependency>
@@ -2271,9 +2272,9 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="21">
-                <Date>2020-11-05</Date>
-                <Version>86.0.4240.183</Version>
+            <Update release="22">
+                <Date>2020-11-25</Date>
+                <Version>87.0.4280.66</Version>
                 <Comment>Packaging update</Comment>
                 <Name>community-solus</Name>
                 <Email>community-solus@protonmail.com</Email>
@@ -2283,10 +2284,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>239008585</InstalledSize>
-        <PackageSize>82493827</PackageSize>
-        <PackageHash>c3d2b7b036aac5d37d038c91df92183dbacffff6</PackageHash>
-        <PackageURI>google-chrome-stable-86.0.4240.183-21-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>238571561</InstalledSize>
+        <PackageSize>84158794</PackageSize>
+        <PackageHash>b717574a8eed20b69cdca44e649ddb050c4810db</PackageHash>
+        <PackageURI>google-chrome-stable-87.0.4280.66-22-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-stable</Name>
