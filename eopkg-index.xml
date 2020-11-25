@@ -2583,12 +2583,12 @@
         <RuntimeDependencies>
             <Dependency releaseFrom="12">libxrandr</Dependency>
             <Dependency releaseFrom="28">freetype2</Dependency>
-            <Dependency releaseFrom="50">qt5-base</Dependency>
-            <Dependency releaseFrom="28">qt5-webkit</Dependency>
+            <Dependency releaseFrom="52">qt5-base</Dependency>
+            <Dependency releaseFrom="32">qt5-webkit</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="19">qt5-x11extras</Dependency>
+            <Dependency releaseFrom="21">qt5-x11extras</Dependency>
             <Dependency releaseFrom="33">fontconfig</Dependency>
-            <Dependency releaseFrom="25">qt5-declarative</Dependency>
+            <Dependency releaseFrom="27">qt5-declarative</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="13">libxrender</Dependency>
             <Dependency releaseFrom="13">libxdamage</Dependency>
@@ -2614,9 +2614,9 @@
             <Dependency>qt5-quickcontrols</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="9">
-                <Date>2020-10-30</Date>
-                <Version>15.11.6</Version>
+            <Update release="10">
+                <Date>2020-11-25</Date>
+                <Version>15.12.4</Version>
                 <Comment>Packaging update</Comment>
                 <Name>community-solus</Name>
                 <Email>community-solus@protonmail.com</Email>
@@ -2626,10 +2626,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>72987959</InstalledSize>
-        <PackageSize>21479572</PackageSize>
-        <PackageHash>48d980d0565bb86268e90781d20cf9cc7d0bd723</PackageHash>
-        <PackageURI>teamviewer-15.11.6-9-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>72161172</InstalledSize>
+        <PackageSize>21348629</PackageSize>
+        <PackageHash>0ea000d83efcd3d6fd222c6bb5dca44107964292</PackageHash>
+        <PackageURI>teamviewer-15.12.4-10-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>teamviewer</Name>
