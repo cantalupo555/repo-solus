@@ -1,8 +1,8 @@
-name       : insync_3.3.2.40903
-version    : 
+name       : android-studio-ide-201.6953283
+version    : linux
 release    : 1
 source     :
-    - http://s.insynchq.com/builds/insync_3.3.2.40903-bionic_amd64.deb : e1e802da67610a5fc6028e7e259676b9e0a95e2ecb5b563138b4203a5541a794
+    - https://dl.google.com/dl/android/studio/ide-zips/4.1.1.0/android-studio-ide-201.6953283-linux.tar.gz : 68032184959c54576f119b7c7c8ded175d848374f3954fa450530d78260dd68b
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN
@@ -10,7 +10,7 @@ description: |
     PLEASE FILL ME IN
 builddeps  :
 setup      : |
-    %configure
+    %qmake
 build      : |
     %make
 install    : |
