@@ -1,8 +1,8 @@
-name       : 
-version    : teamviewer_15.12
+name       : insync_3.3.2.40903
+version    : 
 release    : 1
 source     :
-    - https://dl.teamviewer.com/download/linux/version_15x/teamviewer_15.12.4_amd64.deb : 92cd229707a04cb877ab082667216b5f072f456f6ae0f8fd9fbfa458b69f171b
+    - http://s.insynchq.com/builds/insync_3.3.2.40903-bionic_amd64.deb : e1e802da67610a5fc6028e7e259676b9e0a95e2ecb5b563138b4203a5541a794
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN

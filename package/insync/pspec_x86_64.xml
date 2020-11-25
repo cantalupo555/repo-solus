@@ -891,26 +891,26 @@
             <Path fileType="library">/usr/lib/insync/grp.cpython-37m-x86_64-linux-gnu.so</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/asset-manifest.json</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/index.html</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/precache-manifest.55b5acb10c807290fcd6d99b7286a932.js</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/precache-manifest.0b69320cceff2663643e17052e00c4c7.js</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/service-worker.js</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/css/main.da2feedc.chunk.css</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/css/main.da2feedc.chunk.css.map</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/0.0aa49694.chunk.js</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/0.0aa49694.chunk.js.map</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/0.1e73a9a3.chunk.js</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/0.1e73a9a3.chunk.js.map</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/1.4f1e1534.chunk.js</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/1.4f1e1534.chunk.js.LICENSE.txt</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/1.4f1e1534.chunk.js.map</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/4.a64a4499.chunk.js</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/4.a64a4499.chunk.js.LICENSE.txt</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/4.a64a4499.chunk.js.map</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/5.66b7d424.chunk.js</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/5.66b7d424.chunk.js.map</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/6.bb951e3b.chunk.js</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/6.bb951e3b.chunk.js.map</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/main.f94f81ca.chunk.js</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/main.f94f81ca.chunk.js.map</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/runtime-main.116e5a70.js</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/runtime-main.116e5a70.js.map</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/4.d2e5b3f8.chunk.js</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/4.d2e5b3f8.chunk.js.LICENSE.txt</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/4.d2e5b3f8.chunk.js.map</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/5.71a3ae3d.chunk.js</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/5.71a3ae3d.chunk.js.map</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/6.bb12a256.chunk.js</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/6.bb12a256.chunk.js.map</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/main.9ba341a3.chunk.js</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/main.9ba341a3.chunk.js.map</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/runtime-main.f9eae000.js</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/runtime-main.f9eae000.js.map</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/media/Lato-Black.77d35374.ttf</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/media/Lato-Bold.44dfe8cc.ttf</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/media/Lato-Light.5b761f2d.ttf</Path>
@@ -1184,6 +1184,7 @@
             <Path fileType="data">/usr/share/icons/hicolor/scalable/emblems</Path>
             <Path fileType="man">/usr/share/man/man1/insync-hide.1.gz</Path>
             <Path fileType="man">/usr/share/man/man1/insync-open-cloud.1.gz</Path>
+            <Path fileType="man">/usr/share/man/man1/insync-open-share-dialog.1.gz</Path>
             <Path fileType="man">/usr/share/man/man1/insync-quit.1.gz</Path>
             <Path fileType="man">/usr/share/man/man1/insync-show.1.gz</Path>
             <Path fileType="man">/usr/share/man/man1/insync-start.1.gz</Path>
@@ -1193,9 +1194,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="9">
-            <Date>2020-10-30</Date>
-            <Version>3.3.0.40894</Version>
+        <Update release="10">
+            <Date>2020-11-25</Date>
+            <Version>3.3.2.40903</Version>
             <Comment>Packaging update</Comment>
             <Name>community-solus</Name>
             <Email>community-solus@protonmail.com</Email>
