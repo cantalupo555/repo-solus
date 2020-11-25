@@ -53,7 +53,7 @@ sudo eopkg install package
 | [office-2018](http://www.softmaker.com/go/officenxheise) | 976 | 15/04/2020 |  |
 | onlyoffice-desktopeditors | 5.5.1 | 19/04/2020 |  |
 | phpstorm | 2020.1.1 | 11/05/2020 |  |
-| plexmediaserver | 1.20.3.3483 | 30/10/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-Plex-Media-Server-on-Solus) |
+| plexmediaserver | 1.20.5.3600 | 25/11/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-Plex-Media-Server-on-Solus) |
 | popcorn-time | 0.4.4 | 15/04/2020 |  |
 | pycharm | 2020.1.1 | 10/05/2020 |  |
 | pycharm-c | 2020.1.1 | 10/05/2020 |  |

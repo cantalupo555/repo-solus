@@ -1,8 +1,8 @@
-name       : android-studio-ide-201.6953283
-version    : linux
+name       : plexmediaserver_1.20.5.3600
+version    : 
 release    : 1
 source     :
-    - https://dl.google.com/dl/android/studio/ide-zips/4.1.1.0/android-studio-ide-201.6953283-linux.tar.gz : 68032184959c54576f119b7c7c8ded175d848374f3954fa450530d78260dd68b
+    - https://downloads.plex.tv/plex-media-server-new/1.20.5.3600-47c0d9038/debian/plexmediaserver_1.20.5.3600-47c0d9038_amd64.deb : be1068dcc439e727df18e8cec61d4185b46a7752a26979b4b55bcbad0c163807
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN
@@ -10,7 +10,7 @@ description: |
     PLEASE FILL ME IN
 builddeps  :
 setup      : |
-    %qmake
+    %configure
 build      : |
     %make
 install    : |
