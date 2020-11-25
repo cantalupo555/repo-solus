@@ -75,7 +75,7 @@ sudo eopkg install package
 | teams | compiling | compiling | Microsoft Teams |
 | teamviewer | 15.12.4 | 25/11/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-TeamViewer-on-Solus) |
 | viber | 13.3.1 | 15/08/2020 |  |
-| warsaw | 1.14.1 | 06/05/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-warsaw-on-Solus-%5BBrazil%5D)  - [Brazil](https://www.dieboldnixdorf.com.br/warsaw) |
+| warsaw | 1.15.2 | 25/11/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-warsaw-on-Solus-%5BBrazil%5D)  - [Brazil](https://www.dieboldnixdorf.com.br/warsaw) |
 | webstorm | 2020.1.1 | 11/05/2020 |  |
 | windscribe | 1.4 | 04/04/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-windscribe-on-Solus) |
 | wps-office | 11.1.0.9719 | 30/10/2020 |  |

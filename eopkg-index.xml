@@ -1692,16 +1692,16 @@
         <RuntimeDependencies>
             <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="21">zlib</Dependency>
-            <Dependency releaseFrom="42">libnss</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="47">libnss</Dependency>
+            <Dependency releaseFrom="67">glib2</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="29">dbus</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
+            <Dependency releaseFrom="30">dbus</Dependency>
+            <Dependency releaseFrom="24">libx11</Dependency>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
             <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="34">pango</Dependency>
-            <Dependency releaseFrom="23">at-spi2</Dependency>
+            <Dependency releaseFrom="50">libgcc</Dependency>
+            <Dependency releaseFrom="35">pango</Dependency>
+            <Dependency releaseFrom="24">at-spi2</Dependency>
             <Dependency releaseFrom="24">libgtk-2</Dependency>
             <Dependency>libdbusmenu</Dependency>
             <Dependency>libdbusmenu-qt</Dependency>
@@ -1709,29 +1709,29 @@
             <Dependency>zenity</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="3">
-                <Date>2020-05-08</Date>
-                <Version>1.14.1</Version>
+            <Update release="4">
+                <Date>2020-11-25</Date>
+                <Version>1.15.2</Version>
                 <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>29076115</InstalledSize>
-        <PackageSize>9622342</PackageSize>
-        <PackageHash>27e652f3a865415d2189896a75c4c80d71ecb146</PackageHash>
-        <PackageURI>warsaw-1.14.1-3-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>28110599</InstalledSize>
+        <PackageSize>9379720</PackageSize>
+        <PackageHash>a9eb6791fb89b20073894b4de79bfe1937c024aa</PackageHash>
+        <PackageURI>warsaw-1.15.2-4-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>warsaw</Name>
             <Homepage>https://www.dieboldnixdorf.com.br</Homepage>
             <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Packager>
         </Source>
     </Package>
