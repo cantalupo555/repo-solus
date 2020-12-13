@@ -1922,9 +1922,9 @@
             <Dependency>binutils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="19">
-                <Date>2020-11-25</Date>
-                <Version>1.20.5.3600</Version>
+            <Update release="20">
+                <Date>2020-12-13</Date>
+                <Version>1.21.0.3711</Version>
                 <Comment>Packaging update</Comment>
                 <Name>community-solus</Name>
                 <Email>community-solus@protonmail.com</Email>
@@ -1934,10 +1934,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>243619525</InstalledSize>
-        <PackageSize>91839540</PackageSize>
-        <PackageHash>447a2ccdf33d0835d779e02a42c091eae6c6c4a9</PackageHash>
-        <PackageURI>plexmediaserver-1.20.5.3600-19-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>245092074</InstalledSize>
+        <PackageSize>92155381</PackageSize>
+        <PackageHash>6b7f98e48554b7d6e9f8db32c63b5f9a9975abc6</PackageHash>
+        <PackageURI>plexmediaserver-1.21.0.3711-20-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>plexmediaserver</Name>

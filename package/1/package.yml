@@ -1,8 +1,8 @@
-name       : insync_3.3.3.40905
+name       : plexmediaserver_1.21.0.3711
 version    : 
 release    : 1
 source     :
-    - http://s.insynchq.com/builds/insync_3.3.3.40905-bionic_amd64.deb : ab1c2e07eb0c45e9f01b4eef25aafe9c08f9f82064167510065907ccd8224a0b
+    - https://downloads.plex.tv/plex-media-server-new/1.21.0.3711-b509cc236/debian/plexmediaserver_1.21.0.3711-b509cc236_amd64.deb : cb7aa879e1a7df7ff1207acde1bbeffa24a0d1c9da611bfe54ea9e3118abfa47
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN

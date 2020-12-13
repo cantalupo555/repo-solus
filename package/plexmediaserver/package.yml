@@ -1,8 +1,8 @@
 name       : plexmediaserver
-version    : 1.20.5.3600
-release    : 19
+version    : 1.21.0.3711
+release    : 20
 source     :
-    - https://downloads.plex.tv/plex-media-server-new/1.20.5.3600-47c0d9038/debian/plexmediaserver_1.20.5.3600-47c0d9038_amd64.deb : be1068dcc439e727df18e8cec61d4185b46a7752a26979b4b55bcbad0c163807
+    - https://downloads.plex.tv/plex-media-server-new/1.21.0.3711-b509cc236/debian/plexmediaserver_1.21.0.3711-b509cc236_amd64.deb : cb7aa879e1a7df7ff1207acde1bbeffa24a0d1c9da611bfe54ea9e3118abfa47
 homepage   : https://plex.tv
 license    : https://plex.tv/legal
 strip      : no
