@@ -1,8 +1,8 @@
 name       : 
-version    : 
+version    : skypeforlinux_8.67.0
 release    : 1
 source     :
-    - https://www.ocenaudio.com/downloads/index.php/ocenaudio_debian64.deb : 0e01452661ab1cee66d772dc58237bff568dd79071368a3368bc34b94a73c656
+    - https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_8.67.0.87_amd64.deb : 2039f381e8264be073f45ab0608c29f4751e7aa383608623ee6e4f18dcafda02
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN
