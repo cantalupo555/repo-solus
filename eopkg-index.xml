@@ -3103,24 +3103,24 @@
             <Dependency releaseFrom="12">libxcomposite</Dependency>
             <Dependency releaseFrom="18">expat</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
-            <Dependency releaseFrom="17">libnspr</Dependency>
+            <Dependency releaseFrom="18">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="34">pango</Dependency>
+            <Dependency releaseFrom="35">pango</Dependency>
             <Dependency releaseFrom="24">cups</Dependency>
             <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="23">at-spi2</Dependency>
-            <Dependency releaseFrom="94">libgtk-3</Dependency>
-            <Dependency releaseFrom="46">libnss</Dependency>
-            <Dependency releaseFrom="65">glib2</Dependency>
+            <Dependency releaseFrom="24">at-spi2</Dependency>
+            <Dependency releaseFrom="96">libgtk-3</Dependency>
+            <Dependency releaseFrom="47">libnss</Dependency>
+            <Dependency releaseFrom="67">glib2</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="24">libx11</Dependency>
             <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="45">libcairo</Dependency>
+            <Dependency releaseFrom="46">libcairo</Dependency>
             <Dependency releaseFrom="24">libatk</Dependency>
             <Dependency releaseFrom="13">libxdamage</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
             <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency releaseFrom="21">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="22">at-spi2-atk</Dependency>
             <Dependency releaseFrom="9">libxkbcommon</Dependency>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -3137,9 +3137,9 @@
             <Dependency>xdg-utils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="25">
-                <Date>2020-10-17</Date>
-                <Version>88.0.4292.2</Version>
+            <Update release="26">
+                <Date>2020-12-13</Date>
+                <Version>89.0.4350.4</Version>
                 <Comment>Packaging update</Comment>
                 <Name>community-solus</Name>
                 <Email>community-solus@protonmail.com</Email>
@@ -3149,10 +3149,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>238774445</InstalledSize>
-        <PackageSize>84264883</PackageSize>
-        <PackageHash>72925b7bd166daf72cf126d75ee4470926603504</PackageHash>
-        <PackageURI>google-chrome-unstable-88.0.4292.2-25-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>258870924</InstalledSize>
+        <PackageSize>90442787</PackageSize>
+        <PackageHash>2df4ede3232ad8f51a8784671a32c6ab041572b9</PackageHash>
+        <PackageURI>google-chrome-unstable-89.0.4350.4-26-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>google-chrome-unstable</Name>
