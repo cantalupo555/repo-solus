@@ -58,7 +58,7 @@ sudo eopkg install package
 | pycharm | 2020.1.1 | 10/05/2020 |  |
 | pycharm-c | 2020.1.1 | 10/05/2020 |  |
 | rambox | 0.7.7 | 17/10/2020 |  |
-| rambox-pro | 1.4.0 | 17/10/2020 |  |
+| rambox-pro | 1.4.1 | 13/12/2020 |  |
 | rar | 5.91 | 24/07/2020 |  |
 | renamemytvseries | compiling | compiling | [RenameMyTVSeries](https://www.tweaking4all.com/home-theatre/rename-my-tv-series-v2/) |
 | rescuetime | 2.16.0.1 | 24/07/2020 |  |

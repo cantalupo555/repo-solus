@@ -3421,53 +3421,48 @@
         </Source>
     </Package>
     <Package>
-        <Name>wps-office</Name>
-        <Summary xml:lang="en">WPS Office, is an office productivity suite.</Summary>
-        <Description xml:lang="en">WPS Office including Writer, Presentation and Spreadsheets, is a powerful office suite, which is able to process word file, produce wonderful slides, and analyze data as well. It is deeply compatible with all of the latest Microsoft Office file formats. It can easily open and read the documents created with Microsoft Office. This is the Linux version, and it&apos;s now a TESTING package.</Description>
-        <PartOf>office</PartOf>
-        <License>http://wps-community.org/license.md</License>
+        <Name>rambox-pro</Name>
+        <Summary xml:lang="en">Rambox</Summary>
+        <Description xml:lang="en">The all-in-one workspace browser.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>https://rambox.pro/#eula</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="24">libx11</Dependency>
+            <Dependency releaseFrom="30">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
             <Dependency releaseFrom="18">expat</Dependency>
             <Dependency releaseFrom="14">libxcursor</Dependency>
             <Dependency releaseFrom="50">libstdc++</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
-            <Dependency releaseFrom="17">libnspr</Dependency>
+            <Dependency releaseFrom="18">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="9">libglvnd</Dependency>
-            <Dependency releaseFrom="24">libgtk-2</Dependency>
-            <Dependency releaseFrom="46">libnss</Dependency>
+            <Dependency releaseFrom="35">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="67">glib2</Dependency>
+            <Dependency releaseFrom="96">libgtk-3</Dependency>
+            <Dependency releaseFrom="47">libnss</Dependency>
+            <Dependency releaseFrom="46">libcairo</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="33">fontconfig</Dependency>
-            <Dependency releaseFrom="9">libice</Dependency>
+            <Dependency releaseFrom="24">libx11</Dependency>
             <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
             <Dependency releaseFrom="24">libatk</Dependency>
-            <Dependency releaseFrom="39">sqlite3</Dependency>
             <Dependency releaseFrom="13">libxdamage</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
             <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency releaseFrom="10">pixman</Dependency>
-            <Dependency releaseFrom="8">libtool</Dependency>
-            <Dependency releaseFrom="34">pango</Dependency>
-            <Dependency releaseFrom="27">util-linux</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="25">xz</Dependency>
-            <Dependency releaseFrom="28">freetype2</Dependency>
-            <Dependency releaseFrom="30">dbus</Dependency>
-            <Dependency releaseFrom="21">zlib</Dependency>
-            <Dependency releaseFrom="12">libxcomposite</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="65">glib2</Dependency>
-            <Dependency releaseFrom="9">libsm</Dependency>
-            <Dependency>pycups</Dependency>
-            <Dependency>libglu</Dependency>
-            <Dependency>libfontenc</Dependency>
+            <Dependency releaseFrom="22">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="24">at-spi2</Dependency>
+            <Dependency>libnotify</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>libappindicator</Dependency>
+            <Dependency>libsecret</Dependency>
         </RuntimeDependencies>
         <History>
             <Update release="6">
-                <Date>2020-10-30</Date>
-                <Version>11.1.0.9719</Version>
+                <Date>2020-12-13</Date>
+                <Version>1.4.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>community-solus</Name>
                 <Email>community-solus@protonmail.com</Email>
@@ -3477,14 +3472,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>1032573919</InstalledSize>
-        <PackageSize>279005540</PackageSize>
-        <PackageHash>507056765e3cc4e16f8bc4f546228cfff6ce990a</PackageHash>
-        <PackageURI>wps-office-11.1.0.9719-6-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>582727327</InstalledSize>
+        <PackageSize>157092526</PackageSize>
+        <PackageHash>924a76f34df97724e19c35df05d3813dec3bb415</PackageHash>
+        <PackageURI>rambox-pro-1.4.1-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>wps-office</Name>
-            <Homepage>https://www.wps.com/</Homepage>
+            <Name>rambox-pro</Name>
+            <Homepage>https://rambox.pro</Homepage>
             <Packager>
                 <Name>community-solus</Name>
                 <Email>community-solus@protonmail.com</Email>
@@ -3622,48 +3617,53 @@
         </Source>
     </Package>
     <Package>
-        <Name>rambox-pro</Name>
-        <Summary xml:lang="en">Rambox</Summary>
-        <Description xml:lang="en">The all-in-one workspace browser.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>https://rambox.pro/#eula</License>
+        <Name>wps-office</Name>
+        <Summary xml:lang="en">WPS Office, is an office productivity suite.</Summary>
+        <Description xml:lang="en">WPS Office including Writer, Presentation and Spreadsheets, is a powerful office suite, which is able to process word file, produce wonderful slides, and analyze data as well. It is deeply compatible with all of the latest Microsoft Office file formats. It can easily open and read the documents created with Microsoft Office. This is the Linux version, and it&apos;s now a TESTING package.</Description>
+        <PartOf>office</PartOf>
+        <License>http://wps-community.org/license.md</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="30">dbus</Dependency>
-            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="24">libx11</Dependency>
             <Dependency releaseFrom="18">expat</Dependency>
             <Dependency releaseFrom="14">libxcursor</Dependency>
             <Dependency releaseFrom="50">libstdc++</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
             <Dependency releaseFrom="17">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="34">pango</Dependency>
-            <Dependency releaseFrom="24">cups</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="65">glib2</Dependency>
-            <Dependency releaseFrom="94">libgtk-3</Dependency>
+            <Dependency releaseFrom="9">libglvnd</Dependency>
+            <Dependency releaseFrom="24">libgtk-2</Dependency>
             <Dependency releaseFrom="46">libnss</Dependency>
-            <Dependency releaseFrom="45">libcairo</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="24">libx11</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="9">libice</Dependency>
             <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
             <Dependency releaseFrom="24">libatk</Dependency>
+            <Dependency releaseFrom="39">sqlite3</Dependency>
             <Dependency releaseFrom="13">libxdamage</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
             <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency releaseFrom="21">at-spi2-atk</Dependency>
-            <Dependency releaseFrom="23">at-spi2</Dependency>
-            <Dependency>libnotify</Dependency>
-            <Dependency>xdg-utils</Dependency>
-            <Dependency>libappindicator</Dependency>
-            <Dependency>libsecret</Dependency>
+            <Dependency releaseFrom="10">pixman</Dependency>
+            <Dependency releaseFrom="8">libtool</Dependency>
+            <Dependency releaseFrom="34">pango</Dependency>
+            <Dependency releaseFrom="27">util-linux</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="25">xz</Dependency>
+            <Dependency releaseFrom="28">freetype2</Dependency>
+            <Dependency releaseFrom="30">dbus</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="65">glib2</Dependency>
+            <Dependency releaseFrom="9">libsm</Dependency>
+            <Dependency>pycups</Dependency>
+            <Dependency>libglu</Dependency>
+            <Dependency>libfontenc</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-10-17</Date>
-                <Version>1.4.0</Version>
+            <Update release="6">
+                <Date>2020-10-30</Date>
+                <Version>11.1.0.9719</Version>
                 <Comment>Packaging update</Comment>
                 <Name>community-solus</Name>
                 <Email>community-solus@protonmail.com</Email>
@@ -3673,14 +3673,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>582857490</InstalledSize>
-        <PackageSize>157117336</PackageSize>
-        <PackageHash>0ad58f510d5c7e31a31dce06e71a540f67dfd340</PackageHash>
-        <PackageURI>rambox-pro-1.4.0-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>1032573919</InstalledSize>
+        <PackageSize>279005540</PackageSize>
+        <PackageHash>507056765e3cc4e16f8bc4f546228cfff6ce990a</PackageHash>
+        <PackageURI>wps-office-11.1.0.9719-6-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>rambox-pro</Name>
-            <Homepage>https://rambox.pro</Homepage>
+            <Name>wps-office</Name>
+            <Homepage>https://www.wps.com/</Homepage>
             <Packager>
                 <Name>community-solus</Name>
                 <Email>community-solus@protonmail.com</Email>

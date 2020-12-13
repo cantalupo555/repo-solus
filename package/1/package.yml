@@ -1,8 +1,8 @@
-name       : 
+name       : ramboxpro-1.4.1-linux
 version    : 
 release    : 1
 source     :
-    - https://github.com/tom-james-watson/breaktimer-app/releases/download/v0.7.7/BreakTimer.deb : 98e9714521bbee6ae4d2b5166a4f79b40fd43d116ad6994d9fbb49cdf2692c04
+    - https://github.com/ramboxapp/download/releases/download/v1.4.1/RamboxPro-1.4.1-linux-x64.deb : d1dd2a250d8cf7d309b727128187712839575d33461f49f8a9d35e9d4ecc99e5
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN
