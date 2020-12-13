@@ -1,8 +1,8 @@
 name       : breaktimer
-version    : 0.7.5
-release    : 8
+version    : 0.7.7
+release    : 9
 source     :
-    - https://github.com/tom-james-watson/breaktimer-app/releases/download/v0.7.5/BreakTimer.deb : bf53c5f67393507a4bf522ffe3a9545be33e778703bf7e9c9d745dc9a382cb1b
+    - https://github.com/tom-james-watson/breaktimer-app/releases/download/v0.7.7/BreakTimer.deb : 98e9714521bbee6ae4d2b5166a4f79b40fd43d116ad6994d9fbb49cdf2692c04
 homepage   : https://breaktimer.app/
 license    : GPL-3.0-or-later
 strip      : no

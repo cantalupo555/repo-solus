@@ -184,26 +184,47 @@
         </Source>
     </Package>
     <Package>
-        <Name>master-pdf-editor</Name>
-        <Summary xml:lang="en">Master PDF Editor</Summary>
-        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files.</Description>
-        <PartOf>office.viewers</PartOf>
-        <License>Copyright © Code Industry Ltd</License>
+        <Name>breaktimer</Name>
+        <Summary xml:lang="en">BreakTimer</Summary>
+        <Description xml:lang="en">Manage periodic breaks.</Description>
+        <PartOf>system.utils</PartOf>
+        <License>GPL-3.0-or-later</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="50">libstdc++</Dependency>
+            <Dependency releaseFrom="24">libx11</Dependency>
+            <Dependency releaseFrom="30">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="18">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
-            <Dependency releaseFrom="46">libnss</Dependency>
-            <Dependency releaseFrom="50">qt5-base</Dependency>
+            <Dependency releaseFrom="18">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="35">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="96">libgtk-3</Dependency>
+            <Dependency releaseFrom="47">libnss</Dependency>
+            <Dependency releaseFrom="67">glib2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="17">libnspr</Dependency>
-            <Dependency>libglvnd</Dependency>
-            <Dependency>qt5-svg</Dependency>
-            <Dependency>qt5-networkauth</Dependency>
+            <Dependency releaseFrom="46">libcairo</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="24">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="22">at-spi2-atk</Dependency>
+            <Dependency releaseFrom="24">at-spi2</Dependency>
+            <Dependency>libnotify</Dependency>
+            <Dependency>xdg-utils</Dependency>
+            <Dependency>libappindicator</Dependency>
+            <Dependency>libsecret</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="3">
-                <Date>2020-10-09</Date>
-                <Version>5.6.49</Version>
+            <Update release="9">
+                <Date>2020-12-13</Date>
+                <Version>0.7.7</Version>
                 <Comment>Packaging update</Comment>
                 <Name>community-solus</Name>
                 <Email>community-solus@protonmail.com</Email>
@@ -213,14 +234,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>51649732</InstalledSize>
-        <PackageSize>12596287</PackageSize>
-        <PackageHash>2db5fcd15f48b026b54705b4e32730063a2dd224</PackageHash>
-        <PackageURI>master-pdf-editor-5.6.49-3-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>266501342</InstalledSize>
+        <PackageSize>74232120</PackageSize>
+        <PackageHash>0d4e0026b6912c6230041c8da617160625176228</PackageHash>
+        <PackageURI>breaktimer-0.7.7-9-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>master-pdf-editor</Name>
-            <Homepage>https://code-industry.net/</Homepage>
+            <Name>breaktimer</Name>
+            <Homepage>https://breaktimer.app/</Homepage>
             <Packager>
                 <Name>community-solus</Name>
                 <Email>community-solus@protonmail.com</Email>
@@ -2373,67 +2394,46 @@
         </Source>
     </Package>
     <Package>
-        <Name>breaktimer</Name>
-        <Summary xml:lang="en">BreakTimer</Summary>
-        <Description xml:lang="en">Manage periodic breaks.</Description>
-        <PartOf>system.utils</PartOf>
-        <License>GPL-3.0-or-later</License>
+        <Name>master-pdf-editor</Name>
+        <Summary xml:lang="en">Master PDF Editor</Summary>
+        <Description xml:lang="en">Master PDF Editor is the complete solution for viewing, printing and editing PDF files.</Description>
+        <PartOf>office.viewers</PartOf>
+        <License>Copyright © Code Industry Ltd</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="30">dbus</Dependency>
-            <Dependency releaseFrom="12">libxcomposite</Dependency>
-            <Dependency releaseFrom="17">expat</Dependency>
-            <Dependency releaseFrom="14">libxcursor</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
-            <Dependency releaseFrom="16">libnspr</Dependency>
-            <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="34">pango</Dependency>
-            <Dependency releaseFrom="24">cups</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="93">libgtk-3</Dependency>
-            <Dependency releaseFrom="45">libnss</Dependency>
-            <Dependency releaseFrom="65">glib2</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="46">libnss</Dependency>
+            <Dependency releaseFrom="50">qt5-base</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="45">libcairo</Dependency>
-            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="24">libatk</Dependency>
-            <Dependency releaseFrom="13">libxdamage</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency releaseFrom="21">at-spi2-atk</Dependency>
-            <Dependency releaseFrom="23">at-spi2</Dependency>
-            <Dependency>libnotify</Dependency>
-            <Dependency>xdg-utils</Dependency>
-            <Dependency>libappindicator</Dependency>
-            <Dependency>libsecret</Dependency>
+            <Dependency releaseFrom="17">libnspr</Dependency>
+            <Dependency>libglvnd</Dependency>
+            <Dependency>qt5-svg</Dependency>
+            <Dependency>qt5-networkauth</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="8">
-                <Date>2020-07-30</Date>
-                <Version>0.7.5</Version>
+            <Update release="3">
+                <Date>2020-10-09</Date>
+                <Version>5.6.49</Version>
                 <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>263243483</InstalledSize>
-        <PackageSize>72617656</PackageSize>
-        <PackageHash>4b27ebc218f0c840667f6d19f3835352564dd186</PackageHash>
-        <PackageURI>breaktimer-0.7.5-8-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>51649732</InstalledSize>
+        <PackageSize>12596287</PackageSize>
+        <PackageHash>2db5fcd15f48b026b54705b4e32730063a2dd224</PackageHash>
+        <PackageURI>master-pdf-editor-5.6.49-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>breaktimer</Name>
-            <Homepage>https://breaktimer.app/</Homepage>
+            <Name>master-pdf-editor</Name>
+            <Homepage>https://code-industry.net/</Homepage>
             <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Packager>
         </Source>
     </Package>
