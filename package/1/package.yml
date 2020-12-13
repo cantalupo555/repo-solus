@@ -1,8 +1,8 @@
-name       : google-chrome-unstable_89.0.4350.4
+name       : insync_3.3.3.40905
 version    : 
 release    : 1
 source     :
-    - https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-unstable/google-chrome-unstable_89.0.4350.4-1_amd64.deb : 7969e47afed1f0ae12719f02a1a7dbaa1ae9f07f1cd8c7a9dc89f5a04e1e2619
+    - http://s.insynchq.com/builds/insync_3.3.3.40905-bionic_amd64.deb : ab1c2e07eb0c45e9f01b4eef25aafe9c08f9f82064167510065907ccd8224a0b
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN

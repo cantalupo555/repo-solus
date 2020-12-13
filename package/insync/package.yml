@@ -1,8 +1,8 @@
 name       : insync
-version    : 3.3.2.40903
-release    : 10
+version    : 3.3.3.40905
+release    : 11
 source     :
-    - http://s.insynchq.com/builds/insync_3.3.2.40903-bionic_amd64.deb : e1e802da67610a5fc6028e7e259676b9e0a95e2ecb5b563138b4203a5541a794
+    - http://s.insynchq.com/builds/insync_3.3.3.40905-bionic_amd64.deb : ab1c2e07eb0c45e9f01b4eef25aafe9c08f9f82064167510065907ccd8224a0b
     - http://s.insynchq.com/builds/insync-nautilus_3.1.4.40795_all.deb : 36468827e7b2bdc09d92b28763be275e2d0374d67749333fdaf169b99681ff52
 homepage   : https://enpass.io
 license    : Custom

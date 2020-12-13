@@ -891,7 +891,7 @@
             <Path fileType="library">/usr/lib/insync/grp.cpython-37m-x86_64-linux-gnu.so</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/asset-manifest.json</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/index.html</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/precache-manifest.0b69320cceff2663643e17052e00c4c7.js</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/precache-manifest.898e42e88f6686a75987ccd57a5ea705.js</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/service-worker.js</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/css/main.da2feedc.chunk.css</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/css/main.da2feedc.chunk.css.map</Path>
@@ -905,12 +905,12 @@
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/4.d2e5b3f8.chunk.js.map</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/5.71a3ae3d.chunk.js</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/5.71a3ae3d.chunk.js.map</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/6.bb12a256.chunk.js</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/6.bb12a256.chunk.js.map</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/6.5875b727.chunk.js</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/6.5875b727.chunk.js.map</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/main.9ba341a3.chunk.js</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/main.9ba341a3.chunk.js.map</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/runtime-main.f9eae000.js</Path>
-            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/runtime-main.f9eae000.js.map</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/runtime-main.07018115.js</Path>
+            <Path fileType="library">/usr/lib/insync/ideskui/build/static/js/runtime-main.07018115.js.map</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/media/Lato-Black.77d35374.ttf</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/media/Lato-Bold.44dfe8cc.ttf</Path>
             <Path fileType="library">/usr/lib/insync/ideskui/build/static/media/Lato-Light.5b761f2d.ttf</Path>
@@ -1194,9 +1194,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2020-11-25</Date>
-            <Version>3.3.2.40903</Version>
+        <Update release="11">
+            <Date>2020-12-13</Date>
+            <Version>3.3.3.40905</Version>
             <Comment>Packaging update</Comment>
             <Name>community-solus</Name>
             <Email>community-solus@protonmail.com</Email>
