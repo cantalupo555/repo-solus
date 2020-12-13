@@ -122,7 +122,7 @@
         </Files>
     </Package>
     <History>
-        <Update release="22">
+        <Update release="23">
             <Date>2020-11-25</Date>
             <Version>87.0.4280.66</Version>
             <Comment>Packaging update</Comment>

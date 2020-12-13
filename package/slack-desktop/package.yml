@@ -1,8 +1,8 @@
 name       : slack-desktop
-version    : 4.9.1
-release    : 3
+version    : 4.11.3
+release    : 4
 source     :
-    - https://downloads.slack-edge.com/linux_releases/slack-desktop-4.9.1-amd64.deb : 919c7da48f52ffa41699cc24adbde2a6d5b98887471c53d11ac1594677c90bd9
+    - https://downloads.slack-edge.com/linux_releases/slack-desktop-4.11.3-amd64.deb : 03b7fbc8d2f3cdc70be8533dfb09a6fd3e7c2f428e97df27830b0712f479a67c
 homepage   : https://slack.com
 license    : © Copyright 2020 Slack Technologies, Inc.
 strip      : no

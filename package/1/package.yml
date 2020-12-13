@@ -1,8 +1,8 @@
-name       : 
+name       : slack-desktop-4.11.3
 version    : 
 release    : 1
 source     :
-    - https://cloud.gastecnologia.com.br/bb/downloads/ws/warsaw_setup64.deb : 06c5e19a845cd2e980dc64d16e03592602616395f9ddda956ca576bba01a0bfc
+    - https://downloads.slack-edge.com/linux_releases/slack-desktop-4.11.3-amd64.deb : 03b7fbc8d2f3cdc70be8533dfb09a6fd3e7c2f428e97df27830b0712f479a67c
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN

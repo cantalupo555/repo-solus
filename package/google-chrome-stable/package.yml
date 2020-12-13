@@ -1,6 +1,6 @@
 name       : google-chrome-stable
 version    : 87.0.4280.66
-release    : 22
+release    : 23
 source     :
     - https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_87.0.4280.66-1_amd64.deb : e7e4c6a2108140c572562867f522d0311a25ce03ea36c5452cb8431865871226
 homepage   : https://www.google.com/chrome/
