@@ -49,7 +49,7 @@ sudo eopkg install package
 | megasync | 4.3.5 | 17/10/2020 |  |
 | mscorefonts | 1.3 | 06/04/2020 |  |
 | nordvpn | 3.6.1 | 13/07/2020 | [Tutorial](https://github.com/cantalupo555/repo-solus/wiki/How-Install-NordVPN-on-Solus) |
-| ocenaudio | 3.8.1 | 29/08/2020 |  |
+| ocenaudio | 3.9.7 | 13/12/2020 |  |
 | [office-2018](http://www.softmaker.com/go/officenxheise) | 976 | 15/04/2020 |  |
 | onlyoffice-desktopeditors | 5.5.1 | 19/04/2020 |  |
 | phpstorm | 2020.1.1 | 11/05/2020 |  |

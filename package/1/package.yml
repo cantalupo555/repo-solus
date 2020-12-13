@@ -1,8 +1,8 @@
-name       : gitkraken
+name       : 
 version    : 
 release    : 1
 source     :
-    - https://release.gitkraken.com/linux/gitkraken-amd64.deb : 9ba07a4b089767fe3bf553a2788b97ea1909a724f67d8410b18048e845eec3e8
+    - https://www.ocenaudio.com/downloads/index.php/ocenaudio_debian64.deb : 0e01452661ab1cee66d772dc58237bff568dd79071368a3368bc34b94a73c656
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN

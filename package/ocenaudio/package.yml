@@ -1,8 +1,8 @@
 name       : ocenaudio
-version    : 3.9.0
+version    : 3.9.7
 release    : 8
 source     :
-    - https://www.ocenaudio.com/downloads/index.php/ocenaudio_debian64.deb : ddc0e5f5f5a0a76b71ddceb76f733f659e22e9a0d7738ba5a1613c0f5d52e640
+    - https://www.ocenaudio.com/downloads/index.php/ocenaudio_debian64.deb : 0e01452661ab1cee66d772dc58237bff568dd79071368a3368bc34b94a73c656
 homepage   : https://www.ocenaudio.com/
 license    : Copyright © 2015 ocenaudio
 strip      : no

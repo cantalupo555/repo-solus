@@ -757,38 +757,87 @@
         </Source>
     </Package>
     <Package>
-        <Name>genymotion</Name>
-        <Summary xml:lang="en">Genymotion Android Emulator</Summary>
-        <Description xml:lang="en">Genymotion Android Emulator</Description>
-        <PartOf>virt</PartOf>
-        <License>https://www.genymotion.com/legal-notices/</License>
+        <Name>libraw19</Name>
+        <Summary xml:lang="en">LibRaw</Summary>
+        <Description xml:lang="en">LibRaw is a library for reading RAW files obtained from digital photo cameras</Description>
+        <PartOf>xorg.library</PartOf>
+        <License>LGPL 2.1 and CDDL 1.0</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="24">libx11</Dependency>
-            <Dependency releaseFrom="27">freetype2</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="21">zlib</Dependency>
-            <Dependency releaseFrom="33">fontconfig</Dependency>
             <Dependency releaseFrom="50">libstdc++</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
-            <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="65">glib2</Dependency>
-            <Dependency releaseFrom="8">libxmu</Dependency>
-            <Dependency releaseFrom="9">libglvnd</Dependency>
+            <Dependency releaseFrom="50">libgomp</Dependency>
             <Dependency>binutils</Dependency>
-            <Dependency>virtualbox-current</Dependency>
-            <Dependency>virtualbox-guest-common</Dependency>
-            <Dependency>virtualbox-common</Dependency>
-            <Dependency>linux-current-headers</Dependency>
-            <Dependency>gcc</Dependency>
-            <Dependency>make</Dependency>
-            <Dependency>autoconf</Dependency>
-            <Dependency>xorg-server-devel</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="2">
-                <Date>2020-09-02</Date>
-                <Version>3.1.1</Version>
+            <Update release="1">
+                <Date>2020-10-17</Date>
+                <Version>1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>3645984</InstalledSize>
+        <PackageSize>256374</PackageSize>
+        <PackageHash>35178a460080a5f78e9c00bdeea332d2c481da6d</PackageHash>
+        <PackageURI>lib/libraw19-1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>libraw19</Name>
+            <Homepage>http://www.libraw.org/</Homepage>
+            <Packager>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
+        <Name>popcorn-time</Name>
+        <Summary xml:lang="en">Popcorn Time</Summary>
+        <Description xml:lang="en">Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player.</Description>
+        <PartOf>desktop.multimedia</PartOf>
+        <License>GPL-3.0</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="29">dbus</Dependency>
+            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
+            <Dependency releaseFrom="17">expat</Dependency>
+            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="10">libxtst</Dependency>
+            <Dependency releaseFrom="49">libgcc</Dependency>
+            <Dependency releaseFrom="16">libnspr</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="34">pango</Dependency>
+            <Dependency releaseFrom="24">cups</Dependency>
+            <Dependency releaseFrom="11">libxfixes</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="91">libgtk-3</Dependency>
+            <Dependency releaseFrom="41">libnss</Dependency>
+            <Dependency releaseFrom="44">libcairo</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
+            <Dependency releaseFrom="13">libxrender</Dependency>
+            <Dependency releaseFrom="23">libatk</Dependency>
+            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="13">libxext</Dependency>
+            <Dependency releaseFrom="12">libxrandr</Dependency>
+            <Dependency releaseFrom="23">at-spi2</Dependency>
+            <Dependency>libcanberra</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+            <Dependency>flex</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="5">
+                <Date>2020-04-15</Date>
+                <Version>0.4.4</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -798,14 +847,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>140041606</InstalledSize>
-        <PackageSize>37532093</PackageSize>
-        <PackageHash>32513168c92f5daabf059a2716f83c2601d912ac</PackageHash>
-        <PackageURI>genymotion-3.1.1-2-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>435168610</InstalledSize>
+        <PackageSize>116089003</PackageSize>
+        <PackageHash>cc5a1b688303e1f9abaade97cb8dc0ba50c157cb</PackageHash>
+        <PackageURI>popcorn-time-0.4.4-5-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>genymotion</Name>
-            <Homepage>https://www.genymotion.com/</Homepage>
+            <Name>popcorn-time</Name>
+            <Homepage>https://popcorntime.app</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1105,42 +1154,58 @@
         </Source>
     </Package>
     <Package>
-        <Name>libraw19</Name>
-        <Summary xml:lang="en">LibRaw</Summary>
-        <Description xml:lang="en">LibRaw is a library for reading RAW files obtained from digital photo cameras</Description>
-        <PartOf>xorg.library</PartOf>
-        <License>LGPL 2.1 and CDDL 1.0</License>
+        <Name>genymotion</Name>
+        <Summary xml:lang="en">Genymotion Android Emulator</Summary>
+        <Description xml:lang="en">Genymotion Android Emulator</Description>
+        <PartOf>virt</PartOf>
+        <License>https://www.genymotion.com/legal-notices/</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="50">libstdc++</Dependency>
+            <Dependency releaseFrom="24">libx11</Dependency>
+            <Dependency releaseFrom="27">freetype2</Dependency>
+            <Dependency releaseFrom="14">libxi</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="50">libstdc++</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
-            <Dependency releaseFrom="50">libgomp</Dependency>
+            <Dependency releaseFrom="22">libxcb</Dependency>
+            <Dependency releaseFrom="65">glib2</Dependency>
+            <Dependency releaseFrom="8">libxmu</Dependency>
+            <Dependency releaseFrom="9">libglvnd</Dependency>
             <Dependency>binutils</Dependency>
+            <Dependency>virtualbox-current</Dependency>
+            <Dependency>virtualbox-guest-common</Dependency>
+            <Dependency>virtualbox-common</Dependency>
+            <Dependency>linux-current-headers</Dependency>
+            <Dependency>gcc</Dependency>
+            <Dependency>make</Dependency>
+            <Dependency>autoconf</Dependency>
+            <Dependency>xorg-server-devel</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="1">
-                <Date>2020-10-17</Date>
-                <Version>1</Version>
+            <Update release="2">
+                <Date>2020-09-02</Date>
+                <Version>3.1.1</Version>
                 <Comment>Packaging update</Comment>
-                <Name>community-solus</Name>
-                <Email>community-solus@protonmail.com</Email>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>3645984</InstalledSize>
-        <PackageSize>256374</PackageSize>
-        <PackageHash>35178a460080a5f78e9c00bdeea332d2c481da6d</PackageHash>
-        <PackageURI>lib/libraw19-1-1-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>140041606</InstalledSize>
+        <PackageSize>37532093</PackageSize>
+        <PackageHash>32513168c92f5daabf059a2716f83c2601d912ac</PackageHash>
+        <PackageURI>genymotion-3.1.1-2-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>libraw19</Name>
-            <Homepage>http://www.libraw.org/</Homepage>
+            <Name>genymotion</Name>
+            <Homepage>https://www.genymotion.com/</Homepage>
             <Packager>
-                <Name>community-solus</Name>
-                <Email>community-solus@protonmail.com</Email>
+                <Name>cantalupo555</Name>
+                <Email>cantalupo@protonmail.com</Email>
             </Packager>
         </Source>
     </Package>
@@ -1238,88 +1303,38 @@
             <Dependency releaseFrom="21">zlib</Dependency>
             <Dependency releaseFrom="22">libxml2</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="11">jack-audio-connection-kit</Dependency>
-            <Dependency releaseFrom="38">openssl</Dependency>
+            <Dependency releaseFrom="12">jack-audio-connection-kit</Dependency>
+            <Dependency releaseFrom="90">systemd</Dependency>
             <Dependency releaseFrom="25">xz</Dependency>
-            <Dependency releaseFrom="88">systemd</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
             <Dependency releaseFrom="22">alsa-lib</Dependency>
             <Dependency releaseFrom="27">util-linux</Dependency>
             <Dependency>gconf</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="7">
-                <Date>2020-08-29</Date>
-                <Version>3.8.1</Version>
+            <Update release="8">
+                <Date>2020-12-13</Date>
+                <Version>3.9.7</Version>
                 <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Update>
         </History>
         <BuildHost>solus</BuildHost>
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>45925690</InstalledSize>
-        <PackageSize>16747222</PackageSize>
-        <PackageHash>a1ab2d88af2ea300026076db9c7c94af6d963d8a</PackageHash>
-        <PackageURI>ocenaudio-3.8.1-7-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>50026338</InstalledSize>
+        <PackageSize>18270877</PackageSize>
+        <PackageHash>5a7a42d62db847c172dfb7159e4e804ae8909890</PackageHash>
+        <PackageURI>ocenaudio-3.9.7-8-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>ocenaudio</Name>
             <Homepage>https://www.ocenaudio.com/</Homepage>
             <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Packager>
-        </Source>
-    </Package>
-    <Package>
-        <Name>pycharm-c</Name>
-        <Summary xml:lang="en">PyCharm Community Edition</Summary>
-        <Description xml:lang="en">PyCharm Community Edition - an IDE for the Python</Description>
-        <PartOf>programming</PartOf>
-        <License>GPL-2.0</License>
-        <RuntimeDependencies>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="26">freetype2</Dependency>
-            <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="21">zlib</Dependency>
-            <Dependency releaseFrom="49">libstdc++</Dependency>
-            <Dependency releaseFrom="10">libxtst</Dependency>
-            <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="21">alsa-lib</Dependency>
-            <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="8">libglvnd</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency>openjdk-8</Dependency>
-        </RuntimeDependencies>
-        <History>
-            <Update release="3">
-                <Date>2020-05-10</Date>
-                <Version>2020.1.1</Version>
-                <Comment>Packaging update</Comment>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
-            </Update>
-        </History>
-        <BuildHost>solus</BuildHost>
-        <Distribution>Solus</Distribution>
-        <DistributionRelease>1</DistributionRelease>
-        <Architecture>x86_64</Architecture>
-        <InstalledSize>737933670</InstalledSize>
-        <PackageSize>342817377</PackageSize>
-        <PackageHash>58f2017998b3ecf470610b9aa4caa9cc0ae8290f</PackageHash>
-        <PackageURI>pycharm-c-2020.1.1-3-1-x86_64.eopkg</PackageURI>
-        <PackageFormat>1.2</PackageFormat>
-        <Source>
-            <Name>pycharm-c</Name>
-            <Homepage>https://www.jetbrains.com/pycharm/</Homepage>
-            <Packager>
-                <Name>cantalupo555</Name>
-                <Email>cantalupo@protonmail.com</Email>
+                <Name>community-solus</Name>
+                <Email>community-solus@protonmail.com</Email>
             </Packager>
         </Source>
     </Package>
@@ -1433,47 +1448,31 @@
         </Source>
     </Package>
     <Package>
-        <Name>popcorn-time</Name>
-        <Summary xml:lang="en">Popcorn Time</Summary>
-        <Description xml:lang="en">Popcorn Time is a multi-platform, free software BitTorrent client that includes an integrated media player.</Description>
-        <PartOf>desktop.multimedia</PartOf>
-        <License>GPL-3.0</License>
+        <Name>pycharm-c</Name>
+        <Summary xml:lang="en">PyCharm Community Edition</Summary>
+        <Description xml:lang="en">PyCharm Community Edition - an IDE for the Python</Description>
+        <PartOf>programming</PartOf>
+        <License>GPL-2.0</License>
         <RuntimeDependencies>
-            <Dependency releaseFrom="29">dbus</Dependency>
-            <Dependency releaseFrom="12">libxcomposite</Dependency>
+            <Dependency releaseFrom="61">glib2</Dependency>
+            <Dependency releaseFrom="26">freetype2</Dependency>
             <Dependency releaseFrom="14">libxi</Dependency>
-            <Dependency releaseFrom="17">expat</Dependency>
-            <Dependency releaseFrom="14">libxcursor</Dependency>
+            <Dependency releaseFrom="62">glibc</Dependency>
+            <Dependency releaseFrom="21">zlib</Dependency>
+            <Dependency releaseFrom="49">libstdc++</Dependency>
             <Dependency releaseFrom="10">libxtst</Dependency>
             <Dependency releaseFrom="49">libgcc</Dependency>
-            <Dependency releaseFrom="16">libnspr</Dependency>
-            <Dependency releaseFrom="22">libxcb</Dependency>
-            <Dependency releaseFrom="34">pango</Dependency>
-            <Dependency releaseFrom="24">cups</Dependency>
-            <Dependency releaseFrom="11">libxfixes</Dependency>
-            <Dependency releaseFrom="61">glib2</Dependency>
-            <Dependency releaseFrom="91">libgtk-3</Dependency>
-            <Dependency releaseFrom="41">libnss</Dependency>
-            <Dependency releaseFrom="44">libcairo</Dependency>
-            <Dependency releaseFrom="21">alsa-lib</Dependency>
-            <Dependency releaseFrom="62">glibc</Dependency>
-            <Dependency releaseFrom="22">libx11</Dependency>
-            <Dependency releaseFrom="40">gdk-pixbuf</Dependency>
             <Dependency releaseFrom="13">libxrender</Dependency>
-            <Dependency releaseFrom="23">libatk</Dependency>
-            <Dependency releaseFrom="13">libxdamage</Dependency>
+            <Dependency releaseFrom="21">alsa-lib</Dependency>
             <Dependency releaseFrom="13">libxext</Dependency>
-            <Dependency releaseFrom="12">libxrandr</Dependency>
-            <Dependency releaseFrom="23">at-spi2</Dependency>
-            <Dependency>libcanberra</Dependency>
-            <Dependency>gconf</Dependency>
-            <Dependency>binutils</Dependency>
-            <Dependency>flex</Dependency>
+            <Dependency releaseFrom="8">libglvnd</Dependency>
+            <Dependency releaseFrom="22">libx11</Dependency>
+            <Dependency>openjdk-8</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="5">
-                <Date>2020-04-15</Date>
-                <Version>0.4.4</Version>
+            <Update release="3">
+                <Date>2020-05-10</Date>
+                <Version>2020.1.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
@@ -1483,14 +1482,14 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>435168610</InstalledSize>
-        <PackageSize>116089003</PackageSize>
-        <PackageHash>cc5a1b688303e1f9abaade97cb8dc0ba50c157cb</PackageHash>
-        <PackageURI>popcorn-time-0.4.4-5-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>737933670</InstalledSize>
+        <PackageSize>342817377</PackageSize>
+        <PackageHash>58f2017998b3ecf470610b9aa4caa9cc0ae8290f</PackageHash>
+        <PackageURI>pycharm-c-2020.1.1-3-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
-            <Name>popcorn-time</Name>
-            <Homepage>https://popcorntime.app</Homepage>
+            <Name>pycharm-c</Name>
+            <Homepage>https://www.jetbrains.com/pycharm/</Homepage>
             <Packager>
                 <Name>cantalupo555</Name>
                 <Email>cantalupo@protonmail.com</Email>
