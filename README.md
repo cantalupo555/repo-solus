@@ -36,7 +36,7 @@ sudo eopkg install package
 | genymotion | 3.1.1 | 01/09/2020 | Only .current kernel |
 | gitkraken | 7.4.1 | 13/12/2020 |  |
 | goland | 2020.1.2 | 10/05/2020 |  |
-| google-chrome-beta | 87.0.4280.20 | 17/10/2020 |  |
+| google-chrome-beta | 88.0.4324.41 | 13/12/2020 |  |
 | google-chrome-stable | 87.0.4280.88 | 13/12/2020 |  |
 | google-chrome-unstable | 88.0.4292.2 | 17/10/2020 |  |
 | ibus-avro | 1.1 | 24/07/2020 |  |
