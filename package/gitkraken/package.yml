@@ -1,8 +1,8 @@
 name       : gitkraken
-version    : 7.3.2
-release    : 7
+version    : 7.4.1
+release    : 8
 source     :
-    - https://release.gitkraken.com/linux/gitkraken-amd64.deb : 87633bbbf7677703536e59dd3b781477462fcc771bef3557d0c3e6d68999b06c
+    - https://release.gitkraken.com/linux/gitkraken-amd64.deb : 9ba07a4b089767fe3bf553a2788b97ea1909a724f67d8410b18048e845eec3e8
 homepage   : https://www.gitkraken.com
 license    : EULA
 strip      : no

@@ -85,12 +85,12 @@
             <Dependency releaseFrom="18">expat</Dependency>
             <Dependency releaseFrom="50">libstdc++</Dependency>
             <Dependency releaseFrom="50">libgcc</Dependency>
-            <Dependency releaseFrom="17">libnspr</Dependency>
+            <Dependency releaseFrom="18">libnspr</Dependency>
             <Dependency releaseFrom="22">libxcb</Dependency>
             <Dependency releaseFrom="11">libxscrnsaver</Dependency>
-            <Dependency releaseFrom="2">openssl-11</Dependency>
-            <Dependency releaseFrom="46">libnss</Dependency>
-            <Dependency releaseFrom="65">glib2</Dependency>
+            <Dependency releaseFrom="3">openssl-11</Dependency>
+            <Dependency releaseFrom="47">libnss</Dependency>
+            <Dependency releaseFrom="67">glib2</Dependency>
             <Dependency releaseFrom="62">glibc</Dependency>
             <Dependency releaseFrom="24">libx11</Dependency>
             <Dependency releaseFrom="38">openssl</Dependency>
@@ -103,9 +103,9 @@
             <Dependency>nodejs</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="7">
-                <Date>2020-10-09</Date>
-                <Version>7.3.2</Version>
+            <Update release="8">
+                <Date>2020-12-13</Date>
+                <Version>7.4.1</Version>
                 <Comment>Packaging update</Comment>
                 <Name>community-solus</Name>
                 <Email>community-solus@protonmail.com</Email>
@@ -115,10 +115,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>309577121</InstalledSize>
-        <PackageSize>92222953</PackageSize>
-        <PackageHash>d940d411725af478c319eb20d9b7e2ac4fef6596</PackageHash>
-        <PackageURI>gitkraken-7.3.2-7-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>309633060</InstalledSize>
+        <PackageSize>92281836</PackageSize>
+        <PackageHash>6af6bd6fc55030e765588fb77fa5585c475f910f</PackageHash>
+        <PackageURI>gitkraken-7.4.1-8-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>gitkraken</Name>

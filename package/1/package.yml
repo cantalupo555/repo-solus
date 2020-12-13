@@ -1,8 +1,8 @@
-name       : bitwig-studio
-version    : 3
+name       : gitkraken
+version    : 
 release    : 1
 source     :
-    - https://downloads.bitwig.com/stable/3.3/bitwig-studio-3.3.deb : 9baaf783c7d8ab28ccec29115d95df56a3722f642713688f0224751d3bda9d04
+    - https://release.gitkraken.com/linux/gitkraken-amd64.deb : 9ba07a4b089767fe3bf553a2788b97ea1909a724f67d8410b18048e845eec3e8
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN

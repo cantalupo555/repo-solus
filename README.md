@@ -34,7 +34,7 @@ sudo eopkg install package
 | franz | 5.5.0 | 08/05/2020 |  |
 | free-office-2018 | 976 | 15/04/2020 |  |
 | genymotion | 3.1.1 | 01/09/2020 | Only .current kernel |
-| gitkraken | 7.3.2 | 09/10/2020 |  |
+| gitkraken | 7.4.1 | 13/12/2020 |  |
 | goland | 2020.1.2 | 10/05/2020 |  |
 | google-chrome-beta | 87.0.4280.20 | 17/10/2020 |  |
 | google-chrome-stable | 87.0.4280.66 | 25/11/2020 |  |

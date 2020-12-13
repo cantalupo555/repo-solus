@@ -127,9 +127,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="7">
-            <Date>2020-10-09</Date>
-            <Version>7.3.2</Version>
+        <Update release="8">
+            <Date>2020-12-13</Date>
+            <Version>7.4.1</Version>
             <Comment>Packaging update</Comment>
             <Name>community-solus</Name>
             <Email>community-solus@protonmail.com</Email>
