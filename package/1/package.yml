@@ -1,8 +1,8 @@
-name       : plexmediaserver_1.21.0.3711
-version    : 
+name       : emby-server
+version    : deb_4.5.3
 release    : 1
 source     :
-    - https://downloads.plex.tv/plex-media-server-new/1.21.0.3711-b509cc236/debian/plexmediaserver_1.21.0.3711-b509cc236_amd64.deb : cb7aa879e1a7df7ff1207acde1bbeffa24a0d1c9da611bfe54ea9e3118abfa47
+    - https://github.com/MediaBrowser/Emby.Releases/releases/download/4.5.3.0/emby-server-deb_4.5.3.0_amd64.deb : 0334f6c68bcd8a048e5dd0cd98d046159199c55aee67d5bc1621fa9c94648ac0
 license    : GPL-2.0-or-later # CHECK ME
 component  : PLEASE FILL ME IN
 summary    : PLEASE FILL ME IN

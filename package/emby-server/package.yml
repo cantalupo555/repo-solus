@@ -1,8 +1,8 @@
 name       : emby-server
-version    : 4.5.2.0
-release    : 6
+version    : 4.5.3.0
+release    : 7
 source     :
-    - https://github.com/MediaBrowser/Emby.Releases/releases/download/4.5.2.0/emby-server-deb_4.5.2.0_amd64.deb : 54df3e695a5444de7708aeaac4a28a78c093edb62c66b0b6b9d67e2da01197a2
+    - https://github.com/MediaBrowser/Emby.Releases/releases/download/4.5.3.0/emby-server-deb_4.5.3.0_amd64.deb : 0334f6c68bcd8a048e5dd0cd98d046159199c55aee67d5bc1621fa9c94648ac0
 homepage   : https://emby.media
 license    : © 2019 Emby LLC
 strip      : no

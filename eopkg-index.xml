@@ -1836,9 +1836,9 @@
             <Dependency>binutils</Dependency>
         </RuntimeDependencies>
         <History>
-            <Update release="6">
-                <Date>2020-10-18</Date>
-                <Version>4.5.2.0</Version>
+            <Update release="7">
+                <Date>2020-12-13</Date>
+                <Version>4.5.3.0</Version>
                 <Comment>Packaging update</Comment>
                 <Name>community-solus</Name>
                 <Email>community-solus@protonmail.com</Email>
@@ -1848,10 +1848,10 @@
         <Distribution>Solus</Distribution>
         <DistributionRelease>1</DistributionRelease>
         <Architecture>x86_64</Architecture>
-        <InstalledSize>271894681</InstalledSize>
-        <PackageSize>83688871</PackageSize>
-        <PackageHash>19c5be3ea6e3e899034303e8a3c2c5803451b016</PackageHash>
-        <PackageURI>emby-server-4.5.2.0-6-1-x86_64.eopkg</PackageURI>
+        <InstalledSize>258504423</InstalledSize>
+        <PackageSize>79994759</PackageSize>
+        <PackageHash>662c243de866a51e21896ca9b2da03ef6c1198f6</PackageHash>
+        <PackageURI>emby-server-4.5.3.0-7-1-x86_64.eopkg</PackageURI>
         <PackageFormat>1.2</PackageFormat>
         <Source>
             <Name>emby-server</Name>
